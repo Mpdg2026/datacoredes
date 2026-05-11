@@ -53,6 +53,29 @@ export const portalRouter = router({
     }),
 
   /**
+   * Listar TODOS os Municípios do RS (para seletor de comparação)
+   */
+  todosMunicipios: publicProcedure.query(() => {
+    const todosMunicipios: any[] = [];
+    Object.keys(hierarchyData).forEach((rf) => {
+      const rfData = (hierarchyData as any)[rf];
+      Object.keys(rfData).forEach((corede) => {
+        const municipios = rfData[corede];
+        municipios.forEach((mun: any) => {
+          todosMunicipios.push({
+            id: mun[0],
+            codigoIBGE: mun[0],
+            nome: mun[1],
+            corede: corede,
+            regiaoFuncional: rf,
+          });
+        });
+      });
+    });
+    return todosMunicipios.sort((a, b) => a.nome.localeCompare(b.nome));
+  }),
+
+  /**
    * Listar Municípios de um Corede
    */
   municipios: publicProcedure
@@ -258,6 +281,83 @@ export const portalRouter = router({
         id: idx + 1,
         ...item,
       }));
+    }),
+
+  /**
+   * ODS (Objetivos de Desenvolvimento Sustentável) - IDSC 2023-2025
+   * Lê dados do arquivo Excel processado
+   */
+  ods: publicProcedure
+    .input(
+      z.object({
+        municipioId: z.number().optional(),
+        ano: z.number().optional(),
+        odsId: z.number().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const odsPath = path.join(process.cwd(), 'public', 'ods-data.json');
+        const odsData = JSON.parse(fs.readFileSync(odsPath, 'utf-8'));
+        
+        const ano = input.ano?.toString() || '2025';
+        const dados = odsData[ano] || [];
+        
+        if (!dados || dados.length === 0) {
+          return [];
+        }
+        
+        // Retornar dados consolidados de ODS
+        return dados.slice(0, 10).map((d: any, idx: number) => ({
+          id: idx + 1,
+          ano: parseInt(ano),
+          municipio: d['Município'] || 'Desconhecido',
+          pontuacao: d['Pontuação Indice ODS 2025'] || 0,
+          classificacao: d['Classificação 2025'] || 'N/A',
+          goal1: d['Goal 1 Score'] || 0,
+          goal2: d['Goal 2 Score'] || 0,
+          goal3: d['Goal 3 Score'] || 0,
+          goal4: d['Goal 4 Score'] || 0,
+          goal5: d['Goal 5 Score'] || 0,
+        }));
+      } catch (error) {
+        console.error('Erro ao carregar dados ODS:', error);
+        return [];
+      }
+    }),
+
+  /**
+   * Saneamento - Índices de cobertura de água, esgoto e resíduos
+   * Lê dados do arquivo CSV processado
+   */
+  saneamento: publicProcedure
+    .input(
+      z.object({
+        municipioId: z.number().optional(),
+        codigoIBGE: z.number().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const sanPath = path.join(process.cwd(), 'public', 'saneamento-data.json');
+        const sanData = JSON.parse(fs.readFileSync(sanPath, 'utf-8'));
+        
+        // Filtrar por código IBGE se fornecido
+        if (input.codigoIBGE) {
+          const registro = sanData.find((r: any) => parseInt(r['Código IBGE']) === input.codigoIBGE);
+          return registro ? [registro] : [];
+        }
+        
+        // Retornar primeiros 10 registros
+        return sanData.slice(0, 10);
+      } catch (error) {
+        console.error('Erro ao carregar dados Saneamento:', error);
+        return [];
+      }
     }),
 
   /**
