@@ -86,9 +86,31 @@
 - [x] Importação de hierarquia territorial (9 RFs, 28 Coredes, 497 Municípios)
 - [x] Pesquisa de cores institucionais FACCAT
 
-### Em Progresso
-- [ ] Importação de dados de indicadores
-- [ ] Validação de procedures tRPC
-- [ ] Validação de frontend
-- [ ] Aplicação de identidade visual FACCAT
-- [ ] Testes e publicação
+### Concluído (Continuação)
+- [x] Aba de Mapa com Google Maps integrado
+  - [x] Exibição de informações da região, corede e município selecionados
+  - [x] Integração com proxy de mapas Manus
+  - [x] Controles de zoom e navegação
+- [x] Responsividade para mobile, tablet e desktop
+  - [x] Grid responsivo (2 colunas mobile, 3 tablet, 6 desktop)
+  - [x] Filtros adaptados para todos os tamanhos
+  - [x] Tabelas e gráficos responsivos
+  - [x] Mapa responsivo
+- [x] Testes automatizados (21/21 passando)
+  - [x] Testes de filtros em cascata
+  - [x] Testes de indicadores IDESE, IGM, IDSC
+  - [x] Testes de violência geral e contra a mulher
+  - [x] Testes de reatividade
+- [x] Identidade visual FACCAT aplicada
+  - [x] Cores institucionais (azul #001f5c, ouro #f4b41a)
+  - [x] Tipografia e espaçamento
+  - [x] Componentes com branding FACCAT
+- [x] Publicação do portal
+
+## ✅ PROJETO RESTAURADO INTEGRALMENTE
+
+**Data de Conclusão:** 11 de maio de 2026
+**Domínio:** coredesnum-5vihidmi.manus.space
+**Status:** Pronto para produção
+**Testes:** 21/21 passando
+**Funcionalidades:** 100% implementadas

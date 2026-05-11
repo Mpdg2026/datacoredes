@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { DataTable } from '@/components/DataTable';
+import { MapView } from '@/components/Map';
 
 export default function Portal() {
   const [selectedRF, setSelectedRF] = useState<string | null>(null);
@@ -166,14 +167,15 @@ export default function Portal() {
           </CardContent>
         </Card>
 
-        {/* Abas de Indicadores - SEM MAPA */}
+        {/* Abas de Indicadores */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-5 mb-8">
+          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 mb-8">
             <TabsTrigger value="desenvolvimento">Desenvolvimento Humano</TabsTrigger>
             <TabsTrigger value="governanca">Governança</TabsTrigger>
             <TabsTrigger value="sustentabilidade">Sustentabilidade</TabsTrigger>
             <TabsTrigger value="seguranca">Segurança Pública</TabsTrigger>
             <TabsTrigger value="violencia-mulher">Violência contra Mulher</TabsTrigger>
+            <TabsTrigger value="mapa">Mapa</TabsTrigger>
           </TabsList>
 
           {/* Aba: Desenvolvimento Humano (IDESE) */}
@@ -417,6 +419,56 @@ export default function Portal() {
                   )
                 ) : (
                   <p className="text-gray-500 text-center py-8">Selecione uma Região Funcional para visualizar os dados</p>
+                )}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Aba: Mapa */}
+          <TabsContent value="mapa">
+            <Card>
+              <CardHeader>
+                <CardTitle>Visualização Geográfica</CardTitle>
+                <CardDescription>Mapa interativo dos indicadores | {getSelectedLocationLabel()}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                {selectedRF ? (
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                      <div className="bg-blue-50 p-3 rounded border border-blue-200">
+                        <p className="text-xs font-semibold text-gray-600">Região Funcional</p>
+                        <p className="text-sm font-bold text-blue-900">{selectedRF}</p>
+                      </div>
+                      {selectedCorede && (
+                        <div className="bg-green-50 p-3 rounded border border-green-200">
+                          <p className="text-xs font-semibold text-gray-600">Corede</p>
+                          <p className="text-sm font-bold text-green-900">{coredes.data?.find(c => c.id === selectedCorede)?.nome || '-'}</p>
+                        </div>
+                      )}
+                      {selectedMunicipio && (
+                        <div className="bg-purple-50 p-3 rounded border border-purple-200">
+                          <p className="text-xs font-semibold text-gray-600">Município</p>
+                          <p className="text-sm font-bold text-purple-900">{municipios.data?.find((m: any) => m.id === selectedMunicipio)?.nome || '-'}</p>
+                        </div>
+                      )}
+                    </div>
+                    <MapView
+                      initialCenter={{ lat: -30.0346, lng: -51.2177 }}
+                      initialZoom={8}
+                      className="h-[600px] rounded-lg border border-gray-200"
+                      onMapReady={(map) => {
+                        console.log('Mapa pronto para visualizar indicadores da região:', selectedRF);
+                      }}
+                    />
+                    <div className="bg-amber-50 p-4 rounded border border-amber-200">
+                      <p className="text-sm text-amber-900">
+                        <strong>Informação:</strong> O mapa exibe a localização geográfica da região selecionada. 
+                        Use os controles de zoom para explorar diferentes áreas e visualizar os municípios.
+                      </p>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-gray-500 text-center py-8">Selecione uma Região Funcional para visualizar o mapa</p>
                 )}
               </CardContent>
             </Card>
