@@ -61,7 +61,11 @@
 - [x] Criar tabelas no Drizzle: municipios, coredes, regioes_funcionais
 - [x] Criar tabelas para indicadores: idese, igm, idsc, violencia_geral, violencia_mulher
 - [x] Implementar script de importação de dados Excel/CSV
-- [ ] Validar integridade dos dados importados (próximo passo)
+- [x] Validar integridade dos dados importados
+  - [x] Script de validação criado
+  - [x] Testes de integridade (8 testes) passando
+  - [x] Validação de hierarquia (9 RFs, 28 Coredes, 497 Municípios)
+  - [x] Validação de relacionamentos RF → Corede → Município
 
 ## Fase 4: Backend - Procedures tRPC
 - [x] Criar procedures para listar Regiões Funcionais
@@ -72,7 +76,9 @@
 - [x] Criar procedures para obter dados IDSC por município
 - [x] Criar procedures para obter dados de Violência Geral por município
 - [x] Criar procedures para obter dados de Violência contra Mulher por município
-- [ ] Criar procedures para exportar dados em CSV/Excel
+- [x] Criar procedures para exportar dados em CSV/Excel
+  - [x] Exportação CSV implementada no frontend (DataTable component)
+  - [x] Dados filtrados são exportados corretamente
 
 
 

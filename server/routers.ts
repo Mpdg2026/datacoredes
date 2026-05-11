@@ -91,10 +91,12 @@ export const portalRouter = router({
       }
 
       const municipios = rfData[targetCorede];
+      const coredeIndex = coredesArray.indexOf(targetCorede) + 1;
       return municipios.map((mun: any, idx: number) => ({
         id: mun[0], // CODIGO IBGE
         codigoIBGE: mun[0],
         nome: mun[1],
+        coredeId: input.coredeId || coredeIndex,
         corede: targetCorede,
         regiaoFuncional: rf,
       }));
