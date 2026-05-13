@@ -59,9 +59,8 @@ export default function Portal() {
 
   // Queries ODS e Saneamento
   const ods = trpc.portal.ods.useQuery({ 
-    ano: selectedAnoODS,
-    odsId: selectedODS,
-  });
+    codigoIBGE: selectedMunicipio || undefined,
+  }, { enabled: !!selectedMunicipio });
   const saneamento = trpc.portal.saneamento.useQuery({});
 
   // Queries para município de comparação
@@ -422,15 +421,103 @@ export default function Portal() {
             </Card>
           </TabsContent>
 
-          {/* Aba: ODS (Placeholder) */}
+                    {/* Aba: ODS */}
           <TabsContent value="ods">
             <Card>
               <CardHeader>
                 <CardTitle>Objetivos de Desenvolvimento Sustentável (ODS)</CardTitle>
-                <CardDescription>Dados dos 17 ODS | {getSelectedLocationLabel()}</CardDescription>
+                <CardDescription>Série histórica 2023-2025 | {getSelectedLocationLabel()}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-500">Funcionalidade em desenvolvimento...</p>
+                {!selectedMunicipio ? (
+                  <p className="text-gray-500">Selecione um município para visualizar os ODS</p>
+                ) : ods.isLoading ? (
+                  <p className="text-gray-500">Carregando dados ODS...</p>
+                ) : ods.data ? (
+                  <div className="space-y-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3">
+                      {Array.from({ length: 17 }, (_, i) => {
+                        const goalNum = i + 1;
+                        const goal2025 = ods.data?.anos['2025']?.goals[`goal${goalNum}`];
+                        const goal2024 = ods.data?.anos['2024']?.goals[`goal${goalNum}`];
+                        const goal2023 = ods.data?.anos['2023']?.goals[`goal${goalNum}`];
+                        
+                        const valor2025 = goal2025 !== null && goal2025 !== undefined ? goal2025.toFixed(1) : 'S/D';
+                        const valor2024 = goal2024 !== null && goal2024 !== undefined ? goal2024.toFixed(1) : 'S/D';
+                        const valor2023 = goal2023 !== null && goal2023 !== undefined ? goal2023.toFixed(1) : 'S/D';
+                        
+                        const getColorClass = (valor: string) => {
+                          if (valor === 'S/D') return 'bg-gray-100 border-gray-300';
+                          const num = parseFloat(valor);
+                          if (num >= 8) return 'bg-green-100 border-green-500';
+                          if (num >= 6) return 'bg-blue-100 border-blue-500';
+                          if (num >= 4) return 'bg-yellow-100 border-yellow-500';
+                          return 'bg-red-100 border-red-500';
+                        };
+                        
+                        return (
+                          <div
+                            key={goalNum}
+                            className={`p-3 border-2 rounded-lg text-center cursor-help transition-all hover:shadow-lg ${getColorClass(valor2025)}`}
+                            title={`ODS ${goalNum}
+2023: ${valor2023} | 2024: ${valor2024} | 2025: ${valor2025}`}
+                          >
+                            <div className="font-bold text-lg text-[#001f5c]">ODS {goalNum}</div>
+                            <div className="text-2xl font-bold text-[#f4b41a] mt-1">{valor2025}</div>
+                            <div className="text-xs text-gray-600 mt-1">2025</div>
+                            <div className="text-xs text-gray-500 mt-2 border-t pt-1">
+                              {valor2023} → {valor2024} → {valor2025}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                      <Card className="border-2 border-[#001f5c]">
+                        <CardHeader className="pb-2">
+                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2023</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="text-3xl font-bold text-[#f4b41a]">
+                            {ods.data?.anos['2023']?.pontuacao?.toFixed(1) || 'S/D'}
+                          </div>
+                          <p className="text-xs text-gray-500 mt-1">
+                            {ods.data?.anos['2023']?.classificacao || 'S/D'}
+                          </p>
+                        </CardContent>
+                      </Card>
+                      <Card className="border-2 border-[#001f5c]">
+                        <CardHeader className="pb-2">
+                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2024</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="text-3xl font-bold text-[#f4b41a]">
+                            {ods.data?.anos['2024']?.pontuacao?.toFixed(1) || 'S/D'}
+                          </div>
+                          <p className="text-xs text-gray-500 mt-1">
+                            {ods.data?.anos['2024']?.classificacao || 'S/D'}
+                          </p>
+                        </CardContent>
+                      </Card>
+                      <Card className="border-2 border-[#001f5c]">
+                        <CardHeader className="pb-2">
+                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2025</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="text-3xl font-bold text-[#f4b41a]">
+                            {ods.data?.anos['2025']?.pontuacao?.toFixed(1) || 'S/D'}
+                          </div>
+                          <p className="text-xs text-gray-500 mt-1">
+                            {ods.data?.anos['2025']?.classificacao || 'S/D'}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-gray-500">Nenhum dado disponível para este município</p>
+                )}
               </CardContent>
             </Card>
           </TabsContent>

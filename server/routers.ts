@@ -287,44 +287,56 @@ export const portalRouter = router({
    * ODS (Objetivos de Desenvolvimento Sustentável) - IDSC 2023-2025
    * Lê dados do arquivo Excel processado
    */
+  /**
+   * ODS (Objetivos de Desenvolvimento Sustentavel) - Dados consolidados 2023-2025
+   * Busca dados por municipio e retorna os 17 Goals com serie historica
+   */
   ods: publicProcedure
     .input(
       z.object({
-        municipioId: z.number().optional(),
-        ano: z.number().optional(),
-        odsId: z.number().optional(),
+        codigoIBGE: z.number().optional(),
       })
     )
     .query(async ({ input }) => {
       try {
         const fs = await import('fs');
         const path = await import('path');
-        const odsPath = path.join(process.cwd(), 'public', 'ods-data.json');
+        const odsPath = path.join(process.cwd(), 'public', 'ods-consolidado.json');
+        
+        // Fallback para dist se em produção
+        if (!fs.existsSync(odsPath)) {
+          const distPath = path.join(process.cwd(), 'dist', 'public', 'ods-consolidado.json');
+          if (fs.existsSync(distPath)) {
+            if (input.codigoIBGE) {
+              return JSON.parse(fs.readFileSync(distPath, 'utf-8'))[input.codigoIBGE.toString()] || null;
+            }
+          }
+        }
         const odsData = JSON.parse(fs.readFileSync(odsPath, 'utf-8'));
         
-        const ano = input.ano?.toString() || '2025';
-        const dados = odsData[ano] || [];
-        
-        if (!dados || dados.length === 0) {
-          return [];
+        // Se nenhum municipio especificado, retornar vazio
+        if (!input.codigoIBGE) {
+          return null;
         }
         
-        // Retornar dados consolidados de ODS
-        return dados.slice(0, 10).map((d: any, idx: number) => ({
-          id: idx + 1,
-          ano: parseInt(ano),
-          municipio: d['Município'] || 'Desconhecido',
-          pontuacao: d['Pontuação Indice ODS 2025'] || 0,
-          classificacao: d['Classificação 2025'] || 'N/A',
-          goal1: d['Goal 1 Score'] || 0,
-          goal2: d['Goal 2 Score'] || 0,
-          goal3: d['Goal 3 Score'] || 0,
-          goal4: d['Goal 4 Score'] || 0,
-          goal5: d['Goal 5 Score'] || 0,
-        }));
+        // Buscar dados do municipio
+        const municipioData = odsData[input.codigoIBGE.toString()];
+        if (!municipioData) {
+          return null;
+        }
+        
+        // Retornar estrutura com os 17 Goals para cada ano
+        return {
+          municipio: municipioData.municipio,
+          anos: {
+            2023: municipioData.anos['2023'] || { pontuacao: null, classificacao: 'S/D', goals: {} },
+            2024: municipioData.anos['2024'] || { pontuacao: null, classificacao: 'S/D', goals: {} },
+            2025: municipioData.anos['2025'] || { pontuacao: null, classificacao: 'S/D', goals: {} },
+          },
+        };
       } catch (error) {
         console.error('Erro ao carregar dados ODS:', error);
-        return [];
+        return null;
       }
     }),
 
