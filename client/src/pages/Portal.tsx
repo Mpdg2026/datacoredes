@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { trpc } from '@/lib/trpc';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -10,65 +12,49 @@ import { MapView } from '@/components/Map';
 import { X } from 'lucide-react';
 
 export default function Portal() {
+  // ============ ESTADO ============
   const [selectedRF, setSelectedRF] = useState<string | null>(null);
   const [selectedCorede, setSelectedCorede] = useState<number | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<number | null>(null);
   const [selectedMunicipioComparacao, setSelectedMunicipioComparacao] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState('desenvolvimento');
+  const [activeTab, setActiveTab] = useState('igm');
   const [showComparacao, setShowComparacao] = useState(false);
-  const [selectedODS, setSelectedODS] = useState<number>(1);
-  const [selectedAnoODS, setSelectedAnoODS] = useState<number>(2025);
 
-  // Queries - Filtros em Cascata
+  // ============ QUERIES - FILTROS EM CASCATA ============
   const regioesFuncionais = trpc.portal.regioesFuncionais.useQuery();
-  const coredes = trpc.portal.coredes.useQuery({ regiaoFuncionalId: selectedRF || undefined });
+  const coredes = trpc.portal.coredes.useQuery({ 
+    regiaoFuncionalId: selectedRF || undefined 
+  });
   const municipios = trpc.portal.municipios.useQuery({
     coredeId: selectedCorede || undefined,
     regiaoFuncionalId: selectedRF || undefined,
   });
-
-  // Query para buscar todos os municípios (para seletor de comparação)
   const todosMunicipios = trpc.portal.todosMunicipios.useQuery();
 
-  // Queries - Indicadores Temáticos (Reativas)
-  const idese = trpc.portal.idese.useQuery({ 
-    municipioId: selectedMunicipio || undefined,
-    coredeId: selectedCorede || undefined,
-    regiaoFuncionalId: selectedRF || undefined,
-  });
-  const igm = trpc.portal.igm.useQuery({ 
-    municipioId: selectedMunicipio || undefined,
-    coredeId: selectedCorede || undefined,
-    regiaoFuncionalId: selectedRF || undefined,
-  });
-  const idsc = trpc.portal.idsc.useQuery({ 
-    municipioId: selectedMunicipio || undefined,
-    coredeId: selectedCorede || undefined,
-    regiaoFuncionalId: selectedRF || undefined,
-  });
-  const violenciaGeral = trpc.portal.violenciaGeral.useQuery({ 
-    municipioId: selectedMunicipio || undefined,
-    coredeId: selectedCorede || undefined,
-    regiaoFuncionalId: selectedRF || undefined,
-  });
-  const violenciaMulher = trpc.portal.violenciaMulher.useQuery({ 
-    municipioId: selectedMunicipio || undefined,
-    coredeId: selectedCorede || undefined,
-    regiaoFuncionalId: selectedRF || undefined,
-  });
+  // ============ QUERIES - INDICADORES ============
+  // Obter código IBGE do município selecionado
+  const municipioSelecionado = municipios.data?.find((m: any) => m.id === selectedMunicipio);
+  const codigoIBGE = municipioSelecionado?.codigoIBGE;
 
-  // Queries ODS e Saneamento
-  const ods = trpc.portal.ods.useQuery({ 
-    codigoIBGE: selectedMunicipio || undefined,
-  }, { enabled: !!selectedMunicipio });
-  const saneamento = trpc.portal.saneamento.useQuery({});
+  // IGM - Dados reais (Gestão, Desempenho, Finanças)
+  const igm = trpc.portal.igm.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
+  );
 
-  // Queries para município de comparação
-  const ideseComparacao = trpc.portal.idese.useQuery({ 
-    municipioId: selectedMunicipioComparacao || undefined,
-  }, { enabled: !!selectedMunicipioComparacao });
+  // ODS/IDSC - Dados reais
+  const ods = trpc.portal.ods.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
+  );
 
-  // Handlers - Reset de filtros dependentes
+  // Saneamento - Dados reais
+  const saneamento = trpc.portal.saneamento.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
+  );
+
+  // ============ HANDLERS - FILTROS ============
   const handleRFChange = (rfId: string) => {
     setSelectedRF(rfId);
     setSelectedCorede(null);
@@ -80,6 +66,10 @@ export default function Portal() {
     setSelectedMunicipio(null);
   };
 
+  const handleMunicipioChange = (municipioId: number) => {
+    setSelectedMunicipio(municipioId);
+  };
+
   const handleResetFiltros = () => {
     setSelectedRF(null);
     setSelectedCorede(null);
@@ -88,62 +78,35 @@ export default function Portal() {
     setShowComparacao(false);
   };
 
-  // Helper para exibir localidade selecionada
-  const getSelectedLocationLabel = () => {
-    if (selectedMunicipio) {
-      const mun = municipios.data?.find((m: any) => m.id === selectedMunicipio);
-      return mun?.nome || 'Município selecionado';
-    }
-    if (selectedCorede) {
-      const cor = coredes.data?.find(c => c.id === selectedCorede);
-      return cor?.nome || 'Corede selecionado';
-    }
-    if (selectedRF) {
-      return `Região Funcional ${selectedRF}`;
-    }
-    return 'Nenhuma localidade selecionada';
-  };
-
-  const getMunicipioComparacaoLabel = () => {
-    if (selectedMunicipioComparacao) {
-      const mun = todosMunicipios.data?.find((m: any) => m.id === selectedMunicipioComparacao);
-      return mun?.nome || 'Município de comparação';
-    }
-    return 'Nenhum município selecionado';
-  };
-
+  // ============ RENDERIZAÇÃO - FILTROS ============
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Filtros em Cascata */}
-      <div className="container py-8">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-6">
+      <div className="max-w-7xl mx-auto">
+        {/* Cabeçalho */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-[#001f5c] mb-2">Portal Coredes em Números</h1>
+          <p className="text-gray-600">Indicadores Socioeconômicos do Rio Grande do Sul</p>
+        </div>
+
+        {/* Filtros em Cascata */}
         <Card className="mb-8 border-l-4 border-l-[#f4b41a]">
-          <CardHeader className="flex flex-row items-center justify-between">
-            <div>
-              <CardTitle>Filtros em Cascata</CardTitle>
-              <CardDescription>Selecione a Região Funcional, Corede e Município para visualizar os dados</CardDescription>
-            </div>
-            <Button
-              onClick={handleResetFiltros}
-              variant="outline"
-              size="sm"
-              className="text-red-600 border-red-300 hover:bg-red-50"
-            >
-              Limpar Filtros
-            </Button>
+          <CardHeader>
+            <CardTitle className="text-[#001f5c]">Filtros Hierárquicos</CardTitle>
+            <CardDescription>Selecione Região Funcional → Corede → Município</CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               {/* Região Funcional */}
               <div>
-                <label className="text-sm font-semibold text-gray-700 mb-2 block">Região Funcional</label>
-                <Select value={selectedRF || ''} onValueChange={(v) => handleRFChange(v)}>
-                  <SelectTrigger className="border-2 border-gray-200">
-                    <SelectValue placeholder="Selecione uma RF" />
+                <label className="block text-sm font-medium text-gray-700 mb-2">Região Funcional</label>
+                <Select value={selectedRF || ''} onValueChange={handleRFChange}>
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Selecione uma RF..." />
                   </SelectTrigger>
                   <SelectContent>
                     {regioesFuncionais.data?.map((rf) => (
-                      <SelectItem key={rf.id} value={rf.id.toString()}>
-                        {rf.codigo} - {rf.nome}
+                      <SelectItem key={rf.id} value={rf.id}>
+                        {rf.nome}
                       </SelectItem>
                     ))}
                   </SelectContent>
@@ -152,14 +115,14 @@ export default function Portal() {
 
               {/* Corede */}
               <div>
-                <label className="text-sm font-semibold text-gray-700 mb-2 block">Corede</label>
-                <Select
-                  value={selectedCorede?.toString() || ''}
-                  onValueChange={(v) => handleCoredeChange(parseInt(v))}
+                <label className="block text-sm font-medium text-gray-700 mb-2">Corede</label>
+                <Select 
+                  value={selectedCorede?.toString() || ''} 
+                  onValueChange={(val) => handleCoredeChange(Number(val))}
                   disabled={!selectedRF}
                 >
-                  <SelectTrigger className="border-2 border-gray-200">
-                    <SelectValue placeholder={selectedRF ? 'Selecione um Corede' : 'Selecione uma RF primeiro'} />
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Selecione um Corede..." />
                   </SelectTrigger>
                   <SelectContent>
                     {coredes.data?.map((corede) => (
@@ -173,14 +136,14 @@ export default function Portal() {
 
               {/* Município */}
               <div>
-                <label className="text-sm font-semibold text-gray-700 mb-2 block">Município</label>
-                <Select
-                  value={selectedMunicipio?.toString() || ''}
-                  onValueChange={(v) => setSelectedMunicipio(parseInt(v))}
+                <label className="block text-sm font-medium text-gray-700 mb-2">Município</label>
+                <Select 
+                  value={selectedMunicipio?.toString() || ''} 
+                  onValueChange={(val) => handleMunicipioChange(Number(val))}
                   disabled={!selectedCorede}
                 >
-                  <SelectTrigger className="border-2 border-gray-200">
-                    <SelectValue placeholder={selectedCorede ? 'Selecione um Município' : 'Selecione um Corede primeiro'} />
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Selecione um município..." />
                   </SelectTrigger>
                   <SelectContent>
                     {municipios.data?.map((municipio: any) => (
@@ -192,435 +155,269 @@ export default function Portal() {
                 </Select>
               </div>
             </div>
-            <div className="text-sm text-gray-600 bg-blue-50 p-3 rounded">
-              <strong>Localidade Selecionada:</strong> {getSelectedLocationLabel()}
-            </div>
+
+            {/* Botão Reset */}
+            <Button 
+              onClick={handleResetFiltros}
+              variant="outline"
+              className="w-full md:w-auto"
+            >
+              Limpar Filtros
+            </Button>
           </CardContent>
         </Card>
 
-        {/* Comparação de Municípios */}
-        <Card className="mb-8 border-l-4 border-l-[#f4b41a]">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <div>
-                <CardTitle>Comparação de Municípios</CardTitle>
-                <CardDescription>Selecione um segundo município para comparação</CardDescription>
-              </div>
-              <Button
-                onClick={() => setShowComparacao(!showComparacao)}
-                variant="outline"
-                size="sm"
-                className="bg-[#f4b41a] text-[#001f5c] border-[#f4b41a] hover:bg-[#e0a317]"
-              >
-                {showComparacao ? '- Ocultar' : '+ Adicionar'}
-              </Button>
-            </div>
-          </CardHeader>
-          {showComparacao && (
-            <CardContent>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-sm font-semibold text-gray-700 mb-2 block">Município Principal</label>
-                  <div className="p-3 bg-gray-100 rounded border border-gray-300 font-medium">
-                    {municipios.data?.find((m: any) => m.id === selectedMunicipio)?.nome || 'Nenhum selecionado'}
-                  </div>
-                </div>
-                <div>
-                  <label className="text-sm font-semibold text-gray-700 mb-2 block">Município para Comparação</label>
-                  <div className="flex gap-2">
-                    <Select
-                      value={selectedMunicipioComparacao?.toString() || ''}
-                      onValueChange={(v) => setSelectedMunicipioComparacao(parseInt(v))}
-                    >
-                      <SelectTrigger className="border-2 border-gray-200 flex-1">
-                        <SelectValue placeholder="Selecione um município" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        {todosMunicipios.data?.map((municipio: any) => (
-                          <SelectItem key={municipio.id} value={municipio.id.toString()}>
-                            {municipio.nome}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                    {selectedMunicipioComparacao && (
-                      <Button
-                        onClick={() => setSelectedMunicipioComparacao(null)}
-                        variant="outline"
-                        size="sm"
-                        className="text-red-600 border-red-300"
-                      >
-                        <X className="w-4 h-4" />
-                      </Button>
-                    )}
-                  </div>
-                </div>
-              </div>
-              {selectedMunicipioComparacao && (
-                <div className="mt-4 p-3 bg-amber-50 rounded border border-amber-200 text-sm">
-                  <strong>Comparação ativa:</strong> {getMunicipioComparacaoLabel()}
-                </div>
+        {/* Abas Temáticas */}
+        {selectedMunicipio && (
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+            <TabsList className="grid w-full grid-cols-4 mb-8 bg-[#001f5c]">
+              <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Governança (IGM)
+              </TabsTrigger>
+              <TabsTrigger value="ods" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Sustentabilidade (ODS)
+              </TabsTrigger>
+              <TabsTrigger value="saneamento" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Saneamento
+              </TabsTrigger>
+              <TabsTrigger value="mapa" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Mapa
+              </TabsTrigger>
+            </TabsList>
+
+            {/* ============ ABA IGM ============ */}
+            <TabsContent value="igm" className="space-y-6">
+              {igm.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados IGM...</p>
+                  </CardContent>
+                </Card>
               )}
-            </CardContent>
-          )}
-        </Card>
 
-        {/* Abas de Indicadores */}
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 mb-8">
-            <TabsTrigger value="desenvolvimento">Desenvolvimento Humano</TabsTrigger>
-            <TabsTrigger value="governanca">Governança</TabsTrigger>
-            <TabsTrigger value="sustentabilidade">Sustentabilidade</TabsTrigger>
-            <TabsTrigger value="perfil">Perfil Municipal</TabsTrigger>
-            <TabsTrigger value="ods">ODS</TabsTrigger>
-            <TabsTrigger value="saneamento">Saneamento</TabsTrigger>
-            <TabsTrigger value="seguranca">Segurança</TabsTrigger>
-          </TabsList>
+              {igm.data && (
+                <>
+                  {/* Cards de Dimensões */}
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <Card className="border-t-4 border-t-blue-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Gestão</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-blue-600">{igm.data.gestao?.toFixed(2) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Gestão Municipal</p>
+                      </CardContent>
+                    </Card>
 
-          {/* Aba: Desenvolvimento Humano (IDESE) */}
-          <TabsContent value="desenvolvimento">
-            <Card>
-              <CardHeader>
-                <CardTitle>Desenvolvimento Humano - IDESE 2020</CardTitle>
-                <CardDescription>Índice de Desenvolvimento Socioeconômico | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {selectedRF ? (
-                  idese.isLoading ? (
-                    <p className="text-gray-500">Carregando dados...</p>
-                  ) : idese.data && idese.data.length > 0 ? (
-                    <div className="space-y-6">
+                    <Card className="border-t-4 border-t-green-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Desempenho</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-green-600">{igm.data.desempenho?.toFixed(2) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Desempenho</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-yellow-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Finanças</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-yellow-600">{igm.data.financas?.toFixed(2) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Saúde Financeira</p>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  {/* Gráfico de Barras */}
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Comparativo de Dimensões</CardTitle>
+                    </CardHeader>
+                    <CardContent>
                       <ResponsiveContainer width="100%" height={300}>
-                        <BarChart data={idese.data}>
+                        <BarChart data={[
+                          {
+                            dimensao: 'Gestão',
+                            valor: igm.data.gestao || 0,
+                          },
+                          {
+                            dimensao: 'Desempenho',
+                            valor: igm.data.desempenho || 0,
+                          },
+                          {
+                            dimensao: 'Finanças',
+                            valor: igm.data.financas || 0,
+                          },
+                        ]}>
                           <CartesianGrid strokeDasharray="3 3" />
-                          <XAxis dataKey="ano" />
+                          <XAxis dataKey="dimensao" />
                           <YAxis />
                           <Tooltip />
-                          <Legend />
-                          <Bar dataKey="valor" fill="#001f5c" name="IDESE" />
+                          <Bar dataKey="valor" fill="#f4b41a" />
                         </BarChart>
                       </ResponsiveContainer>
-                      <DataTable
-                        columns={[
-                          { key: 'ano', label: 'Ano' },
-                          { key: 'valor', label: 'Valor', render: (value) => Number(value).toFixed(3) },
-                          { key: 'fonte', label: 'Fonte' },
-                        ]}
-                        data={idese.data}
-                        searchableFields={['ano']}
-                      />
-                    </div>
-                  ) : (
-                    <p className="text-gray-500">Nenhum dado disponível</p>
-                  )
-                ) : (
-                  <p className="text-gray-500">Selecione uma Região Funcional para visualizar os dados</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
+                    </CardContent>
+                  </Card>
+                </>
+              )}
 
-          {/* Aba: Governança (IGM) */}
-          <TabsContent value="governanca">
-            <Card>
-              <CardHeader>
-                <CardTitle>Governança Municipal - IGM 2025</CardTitle>
-                <CardDescription>Índice de Gestão Municipal | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {selectedRF ? (
-                  igm.isLoading ? (
-                    <p className="text-gray-500">Carregando dados...</p>
-                  ) : igm.data && igm.data.length > 0 ? (
-                    <div className="space-y-6">
-                      <ResponsiveContainer width="100%" height={300}>
-                        <LineChart data={igm.data}>
-                          <CartesianGrid strokeDasharray="3 3" />
-                          <XAxis dataKey="ano" />
-                          <YAxis />
-                          <Tooltip />
-                          <Legend />
-                          <Line type="monotone" dataKey="dimensao1" stroke="#001f5c" name="Gestão Fiscal" />
-                          <Line type="monotone" dataKey="dimensao2" stroke="#f4b41a" name="Gestão de Pessoas" />
-                          <Line type="monotone" dataKey="dimensao3" stroke="#00a86b" name="Índice Consolidado" />
-                        </LineChart>
-                      </ResponsiveContainer>
-                      <DataTable
-                        columns={[
-                          { key: 'ano', label: 'Ano' },
-                          { key: 'dimensao1', label: 'Gestão Fiscal', render: (value) => Number(value).toFixed(2) },
-                          { key: 'dimensao2', label: 'Gestão de Pessoas', render: (value) => Number(value).toFixed(2) },
-                          { key: 'dimensao3', label: 'Índice Consolidado', render: (value) => Number(value).toFixed(2) },
-                        ]}
-                        data={igm.data}
-                        searchableFields={['ano']}
-                      />
-                    </div>
-                  ) : (
-                    <p className="text-gray-500">Nenhum dado disponível</p>
-                  )
-                ) : (
-                  <p className="text-gray-500">Selecione uma Região Funcional para visualizar os dados</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
+              {igm.error && (
+                <Card className="border-red-500">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-500">Erro ao carregar dados IGM</p>
+                  </CardContent>
+                </Card>
+              )}
+            </TabsContent>
 
-          {/* Aba: Sustentabilidade (IDSC) */}
-          <TabsContent value="sustentabilidade">
-            <Card>
-              <CardHeader>
-                <CardTitle>Sustentabilidade - IDSC 2023-2025</CardTitle>
-                <CardDescription>Índice de Desenvolvimento Sustentável das Cidades | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {selectedRF ? (
-                  idsc.isLoading ? (
-                    <p className="text-gray-500">Carregando dados...</p>
-                  ) : idsc.data && idsc.data.length > 0 ? (
-                    <div className="space-y-6">
-                      <ResponsiveContainer width="100%" height={300}>
-                        <BarChart data={idsc.data}>
-                          <CartesianGrid strokeDasharray="3 3" />
-                          <XAxis dataKey="classificacao" />
-                          <YAxis />
-                          <Tooltip />
-                          <Legend />
-                          <Bar dataKey="quantidade" fill="#001f5c" name="Quantidade de Municípios" />
-                        </BarChart>
-                      </ResponsiveContainer>
-                      <DataTable
-                        columns={[
-                          { key: 'classificacao', label: 'Classificação' },
-                          { key: 'quantidade', label: 'Quantidade' },
-                        ]}
-                        data={idsc.data}
-                        searchableFields={['classificacao']}
-                      />
-                    </div>
-                  ) : (
-                    <p className="text-gray-500">Nenhum dado disponível</p>
-                  )
-                ) : (
-                  <p className="text-gray-500">Selecione uma Região Funcional para visualizar os dados</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
+            {/* ============ ABA ODS ============ */}
+            <TabsContent value="ods" className="space-y-6">
+              {ods.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados ODS...</p>
+                  </CardContent>
+                </Card>
+              )}
 
-          {/* Aba: Perfil Municipal (Placeholder) */}
-          <TabsContent value="perfil">
-            <Card>
-              <CardHeader>
-                <CardTitle>Perfil Municipal</CardTitle>
-                <CardDescription>Dados demográficos e econômicos do IBGE | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-500">Funcionalidade em desenvolvimento...</p>
-              </CardContent>
-            </Card>
-          </TabsContent>
-
-                    {/* Aba: ODS */}
-          <TabsContent value="ods">
-            <Card>
-              <CardHeader>
-                <CardTitle>Objetivos de Desenvolvimento Sustentável (ODS)</CardTitle>
-                <CardDescription>Série histórica 2023-2025 | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {!selectedMunicipio ? (
-                  <p className="text-gray-500">Selecione um município para visualizar os ODS</p>
-                ) : ods.isLoading ? (
-                  <p className="text-gray-500">Carregando dados ODS...</p>
-                ) : ods.data ? (
-                  <div className="space-y-6">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3">
+              {ods.data && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Objetivos de Desenvolvimento Sustentável (ODS)</CardTitle>
+                    <CardDescription>Série histórica 2023-2025</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       {Array.from({ length: 17 }, (_, i) => {
-                        const goalNum = i + 1;
-                        const goal2025 = ods.data?.anos['2025']?.goals[`goal${goalNum}`];
-                        const goal2024 = ods.data?.anos['2024']?.goals[`goal${goalNum}`];
-                        const goal2023 = ods.data?.anos['2023']?.goals[`goal${goalNum}`];
-                        
-                        const valor2025 = goal2025 !== null && goal2025 !== undefined ? goal2025.toFixed(1) : 'S/D';
-                        const valor2024 = goal2024 !== null && goal2024 !== undefined ? goal2024.toFixed(1) : 'S/D';
-                        const valor2023 = goal2023 !== null && goal2023 !== undefined ? goal2023.toFixed(1) : 'S/D';
-                        
-                        const getColorClass = (valor: string) => {
-                          if (valor === 'S/D') return 'bg-gray-100 border-gray-300';
-                          const num = parseFloat(valor);
-                          if (num >= 8) return 'bg-green-100 border-green-500';
-                          if (num >= 6) return 'bg-blue-100 border-blue-500';
-                          if (num >= 4) return 'bg-yellow-100 border-yellow-500';
-                          return 'bg-red-100 border-red-500';
-                        };
-                        
+                        const goalKey = `goal${i + 1}`;
+                        const goal2023 = (ods.data as any)?.[`${goalKey}_2023`] || 0;
+                        const goal2024 = (ods.data as any)?.[`${goalKey}_2024`] || 0;
+                        const goal2025 = (ods.data as any)?.[`${goalKey}_2025`] || 0;
+
                         return (
-                          <div
-                            key={goalNum}
-                            className={`p-3 border-2 rounded-lg text-center cursor-help transition-all hover:shadow-lg ${getColorClass(valor2025)}`}
-                            title={`ODS ${goalNum}
-2023: ${valor2023} | 2024: ${valor2024} | 2025: ${valor2025}`}
-                          >
-                            <div className="font-bold text-lg text-[#001f5c]">ODS {goalNum}</div>
-                            <div className="text-2xl font-bold text-[#f4b41a] mt-1">{valor2025}</div>
-                            <div className="text-xs text-gray-600 mt-1">2025</div>
-                            <div className="text-xs text-gray-500 mt-2 border-t pt-1">
-                              {valor2023} → {valor2024} → {valor2025}
-                            </div>
-                          </div>
+                          <Card key={i + 1} className="border-l-4 border-l-[#f4b41a]">
+                            <CardHeader>
+                              <CardTitle className="text-sm">ODS {i + 1}</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-2xl font-bold text-[#001f5c]">{goal2025?.toFixed(1) || 'S/D'}</p>
+                              <p className="text-xs text-gray-500 mt-1">
+                                2023: {goal2023?.toFixed(1)} | 2024: {goal2024?.toFixed(1)} | 2025: {goal2025?.toFixed(1)}
+                              </p>
+                            </CardContent>
+                          </Card>
                         );
                       })}
                     </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-2">
-                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2023</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {ods.data?.anos['2023']?.pontuacao?.toFixed(1) || 'S/D'}
-                          </div>
-                          <p className="text-xs text-gray-500 mt-1">
-                            {ods.data?.anos['2023']?.classificacao || 'S/D'}
-                          </p>
-                        </CardContent>
-                      </Card>
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-2">
-                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2024</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {ods.data?.anos['2024']?.pontuacao?.toFixed(1) || 'S/D'}
-                          </div>
-                          <p className="text-xs text-gray-500 mt-1">
-                            {ods.data?.anos['2024']?.classificacao || 'S/D'}
-                          </p>
-                        </CardContent>
-                      </Card>
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-2">
-                          <CardTitle className="text-sm text-[#001f5c]">Pontuação 2025</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {ods.data?.anos['2025']?.pontuacao?.toFixed(1) || 'S/D'}
-                          </div>
-                          <p className="text-xs text-gray-500 mt-1">
-                            {ods.data?.anos['2025']?.classificacao || 'S/D'}
-                          </p>
-                        </CardContent>
-                      </Card>
-                    </div>
-                  </div>
-                ) : (
-                  <p className="text-gray-500">Nenhum dado disponível para este município</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
+                  </CardContent>
+                </Card>
+              )}
+            </TabsContent>
 
-          {/* Aba: Saneamento (Placeholder) */}
-          <TabsContent value="saneamento">
-            <Card>
-              <CardHeader>
-                <CardTitle>Saneamento</CardTitle>
-                <CardDescription>Indicadores de água, esgoto e resíduos | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {saneamento.isLoading ? (
-                  <p className="text-gray-500">Carregando dados...</p>
-                ) : saneamento.data && saneamento.data.length > 0 ? (
-                  <div className="space-y-6">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-3">
-                          <CardTitle className="text-sm text-[#001f5c]">Cobertura de Água</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {saneamento.data[0]?.['Índice da População Total Atendida com Abastecimento de Água (%)'] || 'N/A'}%
-                          </div>
-                          <p className="text-xs text-gray-500 mt-2">População total atendida</p>
-                        </CardContent>
-                      </Card>
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-3">
-                          <CardTitle className="text-sm text-[#001f5c]">Cobertura de Esgoto</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {saneamento.data[0]?.['Índice da População Total Atendida com Esgotamento Sanitário (%)'] || 'N/A'}%
-                          </div>
-                          <p className="text-xs text-gray-500 mt-2">População total atendida</p>
-                        </CardContent>
-                      </Card>
-                      <Card className="border-2 border-[#001f5c]">
-                        <CardHeader className="pb-3">
-                          <CardTitle className="text-sm text-[#001f5c]">Coleta de Resíduos</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="text-3xl font-bold text-[#f4b41a]">
-                            {saneamento.data[0]?.['Índice de Cobertura por Coleta de Resíduos Domiciliares (%)'] || 'N/A'}%
-                          </div>
-                          <p className="text-xs text-gray-500 mt-2">População coberta</p>
-                        </CardContent>
-                      </Card>
-                    </div>
-                  </div>
-                ) : (
-                  <p className="text-gray-500">Nenhum dado disponível</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
+            {/* ============ ABA SANEAMENTO ============ */}
+            <TabsContent value="saneamento" className="space-y-6">
+              {saneamento.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados de Saneamento...</p>
+                  </CardContent>
+                </Card>
+              )}
 
-          {/* Aba: Segurança Pública */}
-          <TabsContent value="seguranca">
-            <Card>
-              <CardHeader>
-                <CardTitle>Segurança Pública</CardTitle>
-                <CardDescription>Indicadores de violência e criminalidade | {getSelectedLocationLabel()}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                {selectedRF ? (
-                  violenciaGeral.isLoading ? (
-                    <p className="text-gray-500">Carregando dados...</p>
-                  ) : violenciaGeral.data && violenciaGeral.data.length > 0 ? (
-                    <div className="space-y-6">
+              {saneamento.data && (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <Card className="border-t-4 border-t-blue-400">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Água</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-blue-600">{(saneamento.data as any)?.agua_total?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Cobertura de Água</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-green-400">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Esgoto</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-green-600">{(saneamento.data as any)?.esgoto_total?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Cobertura de Esgoto</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-yellow-400">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Resíduos</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-yellow-600">{(saneamento.data as any)?.residuos_coleta?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Coleta de Resíduos</p>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Indicadores de Saneamento</CardTitle>
+                    </CardHeader>
+                    <CardContent>
                       <ResponsiveContainer width="100%" height={300}>
-                        <BarChart data={violenciaGeral.data}>
+                        <BarChart data={[
+                          {
+                            indicador: 'Água',
+                            valor: (saneamento.data as any)?.agua_total || 0,
+                          },
+                          {
+                            indicador: 'Esgoto',
+                            valor: (saneamento.data as any)?.esgoto_total || 0,
+                          },
+                          {
+                            indicador: 'Resíduos',
+                            valor: (saneamento.data as any)?.residuos_coleta || 0,
+                          },
+                        ]}>
                           <CartesianGrid strokeDasharray="3 3" />
-                          <XAxis dataKey="ano" />
-                          <YAxis />
+                          <XAxis dataKey="indicador" />
+                          <YAxis domain={[0, 100]} />
                           <Tooltip />
-                          <Legend />
-                          <Bar dataKey="cvli" fill="#001f5c" name="CVLI" />
-                          <Bar dataKey="homicidios" fill="#ff6b6b" name="Homicídios" />
+                          <Bar dataKey="valor" fill="#001f5c" />
                         </BarChart>
                       </ResponsiveContainer>
-                      <DataTable
-                        columns={[
-                          { key: 'ano', label: 'Ano' },
-                          { key: 'cvli', label: 'CVLI' },
-                          { key: 'homicidios', label: 'Homicídios' },
-                        ]}
-                        data={violenciaGeral.data}
-                        searchableFields={['ano']}
-                      />
-                    </div>
-                  ) : (
-                    <p className="text-gray-500">Nenhum dado disponível</p>
-                  )
-                ) : (
-                  <p className="text-gray-500">Selecione uma Região Funcional para visualizar os dados</p>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
-        </Tabs>
+                    </CardContent>
+                  </Card>
+                </>
+              )}
+            </TabsContent>
+
+            {/* ============ ABA MAPA ============ */}
+            <TabsContent value="mapa" className="space-y-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Visualização Geográfica</CardTitle>
+                  <CardDescription>
+                    {municipioSelecionado?.nome} - {selectedCorede && coredes.data?.find(c => c.id === selectedCorede)?.nome}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <MapView />
+                </CardContent>
+              </Card>
+            </TabsContent>
+          </Tabs>
+        )}
+
+        {/* Mensagem quando nenhum município é selecionado */}
+        {!selectedMunicipio && (
+          <Card className="border-dashed">
+            <CardContent className="pt-12 pb-12 text-center">
+              <p className="text-lg text-gray-500">Selecione um município para visualizar os indicadores</p>
+            </CardContent>
+          </Card>
+        )}
       </div>
     </div>
   );

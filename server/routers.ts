@@ -162,30 +162,36 @@ export const portalRouter = router({
   igm: publicProcedure
     .input(
       z.object({
-        municipioId: z.number().optional(),
-        coredeId: z.number().optional(),
-        regiaoFuncionalId: z.string().optional(),
+        codigoIBGE: z.number().optional(),
       })
     )
-    .query(({ input }) => {
-      // Dados de exemplo com as 3 dimensões exigidas
-      const baseData = [
-        {
-          ano: 2025,
-          dimensao1: 7.5, // Finanças
-          dimensao2: 6.8, // Gestão
-          dimensao3: 7.2, // Desempenho
-          indiceConsolidado: 7.17,
-        },
-      ];
-
-      // TODO: Conectar ao banco de dados real
-      // SELECT * FROM igm WHERE municipio_id = ? AND ano = 2025
-
-      return baseData.map((item, idx) => ({
-        id: idx + 1,
-        ...item,
-      }));
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const igmPath = path.join(process.cwd(), 'public', 'igm-consolidado.json');
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        const igmData = JSON.parse(fs.readFileSync(igmPath, 'utf-8'));
+        const municipioData = igmData[input.codigoIBGE.toString()];
+        
+        if (!municipioData) {
+          return null;
+        }
+        
+        return {
+          municipio: municipioData.municipio,
+          gestao: municipioData.gestao,
+          desempenho: municipioData.desempenho,
+          financas: municipioData.financas,
+        };
+      } catch (error) {
+        console.error('Erro ao carregar dados IGM:', error);
+        return null;
+      }
     }),
 
   /**

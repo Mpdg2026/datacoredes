@@ -1,0 +1,2984 @@
+{
+  "4300034": {
+    "municipio": "ACEGUA",
+    "gestao": 4.994,
+    "desempenho": 3.781,
+    "financas": 4.595
+  },
+  "4300059": {
+    "municipio": "AGUA SANTA",
+    "gestao": 5.059,
+    "desempenho": 5.293,
+    "financas": 5.836
+  },
+  "4300109": {
+    "municipio": "AGUDO",
+    "gestao": 6.426,
+    "desempenho": 5.133,
+    "financas": 5.614
+  },
+  "4300208": {
+    "municipio": "AJURICABA",
+    "gestao": 6.909,
+    "desempenho": 4.818,
+    "financas": 5.778
+  },
+  "4300307": {
+    "municipio": "ALECRIM",
+    "gestao": 5.231,
+    "desempenho": 5.044,
+    "financas": 5.139
+  },
+  "4300406": {
+    "municipio": "ALEGRETE",
+    "gestao": 6.827,
+    "desempenho": 6.127,
+    "financas": 5.874
+  },
+  "4300455": {
+    "municipio": "ALEGRIA",
+    "gestao": 4.157,
+    "desempenho": 4.367,
+    "financas": 5.078
+  },
+  "4300471": {
+    "municipio": "ALMIRANTE TAMANDARE DO SUL",
+    "gestao": 4.665,
+    "desempenho": 4.923,
+    "financas": 4.698
+  },
+  "4300505": {
+    "municipio": "ALPESTRE",
+    "gestao": 6.668,
+    "desempenho": 6.149,
+    "financas": 6.688
+  },
+  "4300554": {
+    "municipio": "ALTO ALEGRE",
+    "gestao": 2.947,
+    "desempenho": 4.642,
+    "financas": 4.355
+  },
+  "4300570": {
+    "municipio": "ALTO FELIZ",
+    "gestao": 4.834,
+    "desempenho": 5.646,
+    "financas": 6.23
+  },
+  "4300604": {
+    "municipio": "ALVORADA",
+    "gestao": 5.588,
+    "desempenho": 6.413,
+    "financas": 6.162
+  },
+  "4300638": {
+    "municipio": "AMARAL FERRADOR",
+    "gestao": 5.541,
+    "desempenho": 5.162,
+    "financas": 4.834
+  },
+  "4300646": {
+    "municipio": "AMETISTA DO SUL",
+    "gestao": 6.937,
+    "desempenho": 4.542,
+    "financas": 6.144
+  },
+  "4300661": {
+    "municipio": "ANDRE DA ROCHA",
+    "gestao": 3.539,
+    "desempenho": 4.575,
+    "financas": 4.185
+  },
+  "4300703": {
+    "municipio": "ANTA GORDA",
+    "gestao": 5.684,
+    "desempenho": 6.868,
+    "financas": 6.699
+  },
+  "4300802": {
+    "municipio": "ANTONIO PRADO",
+    "gestao": 7.739,
+    "desempenho": 6.94,
+    "financas": 7.493
+  },
+  "4300851": {
+    "municipio": "ARAMBARE",
+    "gestao": 5.432,
+    "desempenho": 2.139,
+    "financas": 4.198
+  },
+  "4300877": {
+    "municipio": "ARARICA",
+    "gestao": 5.206,
+    "desempenho": 4.444,
+    "financas": 5.038
+  },
+  "4300901": {
+    "municipio": "ARATIBA",
+    "gestao": 6.729,
+    "desempenho": 5.204,
+    "financas": 6.619
+  },
+  "4301008": {
+    "municipio": "ARROIO DO MEIO",
+    "gestao": 6.752,
+    "desempenho": 6.045,
+    "financas": 6.893
+  },
+  "4301057": {
+    "municipio": "ARROIO DO SAL",
+    "gestao": 4.315,
+    "desempenho": 6.009,
+    "financas": 5.608
+  },
+  "4301073": {
+    "municipio": "ARROIO DO PADRE",
+    "gestao": 4.594,
+    "desempenho": 3.804,
+    "financas": 4.455
+  },
+  "4301107": {
+    "municipio": "ARROIO DOS RATOS",
+    "gestao": 6.042,
+    "desempenho": 4.296,
+    "financas": 4.783
+  },
+  "4301206": {
+    "municipio": "ARROIO DO TIGRE",
+    "gestao": 7.323,
+    "desempenho": 5.949,
+    "financas": 5.074
+  },
+  "4301305": {
+    "municipio": "ARROIO GRANDE",
+    "gestao": 7.63,
+    "desempenho": 5.32,
+    "financas": 6.241
+  },
+  "4301404": {
+    "municipio": "ARVOREZINHA",
+    "gestao": 5.84,
+    "desempenho": 6.381,
+    "financas": 6.305
+  },
+  "4301503": {
+    "municipio": "AUGUSTO PESTANA",
+    "gestao": 7.232,
+    "desempenho": 5.935,
+    "financas": 6.363
+  },
+  "4301552": {
+    "municipio": "AUREA",
+    "gestao": 5.132,
+    "desempenho": 5.237,
+    "financas": 4.875
+  },
+  "4301602": {
+    "municipio": "BAGE",
+    "gestao": 5.761,
+    "desempenho": 6.748,
+    "financas": 5.026
+  },
+  "4301636": {
+    "municipio": "BALNEARIO PINHAL",
+    "gestao": 6.76,
+    "desempenho": 6.169,
+    "financas": 6.899
+  },
+  "4301651": {
+    "municipio": "BARAO",
+    "gestao": 7.456,
+    "desempenho": 5.791,
+    "financas": 6.96
+  },
+  "4301701": {
+    "municipio": "BARAO DE COTEGIPE",
+    "gestao": 6.579,
+    "desempenho": 7.23,
+    "financas": 6.441
+  },
+  "4301750": {
+    "municipio": "BARAO DO TRIUNFO",
+    "gestao": 5.188,
+    "desempenho": 3.306,
+    "financas": 4.88
+  },
+  "4301800": {
+    "municipio": "BARRACAO",
+    "gestao": 5.139,
+    "desempenho": 5.403,
+    "financas": 5.23
+  },
+  "4301859": {
+    "municipio": "BARRA DO GUARITA",
+    "gestao": 6.32,
+    "desempenho": 6.353,
+    "financas": 6.486
+  },
+  "4301875": {
+    "municipio": "BARRA DO QUARAI",
+    "gestao": 3.703,
+    "desempenho": 4.175,
+    "financas": 3.557
+  },
+  "4301909": {
+    "municipio": "BARRA DO RIBEIRO",
+    "gestao": 6.046,
+    "desempenho": 4.948,
+    "financas": 5.276
+  },
+  "4301925": {
+    "municipio": "BARRA DO RIO AZUL",
+    "gestao": 5.211,
+    "desempenho": 4.52,
+    "financas": 5.649
+  },
+  "4301958": {
+    "municipio": "BARRA FUNDA",
+    "gestao": 5.24,
+    "desempenho": 5.089,
+    "financas": 6.053
+  },
+  "4302006": {
+    "municipio": "BARROS CASSAL",
+    "gestao": 7.458,
+    "desempenho": 6.569,
+    "financas": 7.162
+  },
+  "4302055": {
+    "municipio": "BENJAMIN CONSTANT DO SUL",
+    "gestao": 3.915,
+    "desempenho": 1.945,
+    "financas": 3.607
+  },
+  "4302105": {
+    "municipio": "BENTO GONCALVES",
+    "gestao": 7.107,
+    "desempenho": 5.828,
+    "financas": 6.18
+  },
+  "4302154": {
+    "municipio": "BOA VISTA DAS MISSOES",
+    "gestao": 4.569,
+    "desempenho": 4.367,
+    "financas": 4.948
+  },
+  "4302204": {
+    "municipio": "BOA VISTA DO BURICA",
+    "gestao": 6.644,
+    "desempenho": 5.535,
+    "financas": 6.723
+  },
+  "4302220": {
+    "municipio": "BOA VISTA DO CADEADO",
+    "gestao": 4.052,
+    "desempenho": 5.307,
+    "financas": 4.796
+  },
+  "4302238": {
+    "municipio": "BOA VISTA DO INCRA",
+    "gestao": 4.155,
+    "desempenho": 3.673,
+    "financas": 4.147
+  },
+  "4302253": {
+    "municipio": "BOA VISTA DO SUL",
+    "gestao": 6.26,
+    "desempenho": 5.108,
+    "financas": 6.569
+  },
+  "4302303": {
+    "municipio": "BOM JESUS",
+    "gestao": 6.531,
+    "desempenho": 4.541,
+    "financas": 5.211
+  },
+  "4302352": {
+    "municipio": "BOM PRINCIPIO",
+    "gestao": 6.777,
+    "desempenho": 7.316,
+    "financas": 7.264
+  },
+  "4302378": {
+    "municipio": "BOM PROGRESSO",
+    "gestao": 4.038,
+    "desempenho": 1.998,
+    "financas": 3.329
+  },
+  "4302402": {
+    "municipio": "BOM RETIRO DO SUL",
+    "gestao": 5.515,
+    "desempenho": 6.558,
+    "financas": 5.671
+  },
+  "4302451": {
+    "municipio": "BOQUEIRAO DO LEAO",
+    "gestao": 6.032,
+    "desempenho": 6.312,
+    "financas": 6.376
+  },
+  "4302501": {
+    "municipio": "BOSSOROCA",
+    "gestao": 6.031,
+    "desempenho": 4.973,
+    "financas": 5.801
+  },
+  "4302584": {
+    "municipio": "BOZANO",
+    "gestao": 5.528,
+    "desempenho": 5.145,
+    "financas": 5.094
+  },
+  "4302600": {
+    "municipio": "BRAGA",
+    "gestao": 5.305,
+    "desempenho": 4.755,
+    "financas": 4.711
+  },
+  "4302659": {
+    "municipio": "BROCHIER",
+    "gestao": 5.194,
+    "desempenho": 5.005,
+    "financas": 5.392
+  },
+  "4302709": {
+    "municipio": "BUTIA",
+    "gestao": 6.493,
+    "desempenho": 5.269,
+    "financas": 5.455
+  },
+  "4302808": {
+    "municipio": "CACAPAVA DO SUL",
+    "gestao": 6.684,
+    "desempenho": 5.586,
+    "financas": 5.393
+  },
+  "4302907": {
+    "municipio": "CACEQUI",
+    "gestao": 5.692,
+    "desempenho": 5.006,
+    "financas": 5.558
+  },
+  "4303004": {
+    "municipio": "CACHOEIRA DO SUL",
+    "gestao": 6.543,
+    "desempenho": 5.608,
+    "financas": 5.797
+  },
+  "4303103": {
+    "municipio": "CACHOEIRINHA",
+    "gestao": 5.064,
+    "desempenho": 6.472,
+    "financas": 5.616
+  },
+  "4303202": {
+    "municipio": "CACIQUE DOBLE",
+    "gestao": 4.995,
+    "desempenho": 4.447,
+    "financas": 5.568
+  },
+  "4303301": {
+    "municipio": "CAIBATE",
+    "gestao": 5.838,
+    "desempenho": 5.169,
+    "financas": 5.859
+  },
+  "4303400": {
+    "municipio": "CAICARA",
+    "gestao": 6.906,
+    "desempenho": 4.736,
+    "financas": 5.573
+  },
+  "4303509": {
+    "municipio": "CAMAQUA",
+    "gestao": 6.711,
+    "desempenho": 4.91,
+    "financas": 5.701
+  },
+  "4303558": {
+    "municipio": "CAMARGO",
+    "gestao": 5.923,
+    "desempenho": 5.615,
+    "financas": 5.935
+  },
+  "4303608": {
+    "municipio": "CAMBARA DO SUL",
+    "gestao": 5.661,
+    "desempenho": 4.269,
+    "financas": 5.868
+  },
+  "4303673": {
+    "municipio": "CAMPESTRE DA SERRA",
+    "gestao": 5.357,
+    "desempenho": 5.73,
+    "financas": 5.633
+  },
+  "4303707": {
+    "municipio": "CAMPINA DAS MISSOES",
+    "gestao": 6.321,
+    "desempenho": 6.478,
+    "financas": 6.239
+  },
+  "4303806": {
+    "municipio": "CAMPINAS DO SUL",
+    "gestao": 6.717,
+    "desempenho": 5.832,
+    "financas": 6.21
+  },
+  "4303905": {
+    "municipio": "CAMPO BOM",
+    "gestao": 5.408,
+    "desempenho": 7.603,
+    "financas": 6.708
+  },
+  "4304002": {
+    "municipio": "CAMPO NOVO",
+    "gestao": 6.749,
+    "desempenho": 4.74,
+    "financas": 5.477
+  },
+  "4304101": {
+    "municipio": "CAMPOS BORGES",
+    "gestao": 4.85,
+    "desempenho": 3.627,
+    "financas": 4.897
+  },
+  "4304200": {
+    "municipio": "CANDELARIA",
+    "gestao": 6.457,
+    "desempenho": 4.836,
+    "financas": 5.801
+  },
+  "4304309": {
+    "municipio": "CANDIDO GODOI",
+    "gestao": 5.997,
+    "desempenho": 4.986,
+    "financas": 5.989
+  },
+  "4304358": {
+    "municipio": "CANDIOTA",
+    "gestao": 7.316,
+    "desempenho": 5.031,
+    "financas": 5.824
+  },
+  "4304408": {
+    "municipio": "CANELA",
+    "gestao": 6.118,
+    "desempenho": 6.397,
+    "financas": 6.252
+  },
+  "4304507": {
+    "municipio": "CANGUCU",
+    "gestao": 6.671,
+    "desempenho": 5.444,
+    "financas": 6.132
+  },
+  "4304606": {
+    "municipio": "CANOAS",
+    "gestao": 5.704,
+    "desempenho": 5.114,
+    "financas": 5.875
+  },
+  "4304614": {
+    "municipio": "CANUDOS DO VALE",
+    "gestao": 3.505,
+    "desempenho": 4.516,
+    "financas": 3.987
+  },
+  "4304622": {
+    "municipio": "CAPAO BONITO DO SUL",
+    "gestao": 5.334,
+    "desempenho": 5.962,
+    "financas": 5.971
+  },
+  "4304630": {
+    "municipio": "CAPAO DA CANOA",
+    "gestao": 5.658,
+    "desempenho": 5.534,
+    "financas": 6.299
+  },
+  "4304655": {
+    "municipio": "CAPAO DO CIPO",
+    "gestao": 5.683,
+    "desempenho": 2.718,
+    "financas": 4.927
+  },
+  "4304663": {
+    "municipio": "CAPAO DO LEAO",
+    "gestao": 5.56,
+    "desempenho": 4.617,
+    "financas": 4.446
+  },
+  "4304671": {
+    "municipio": "CAPIVARI DO SUL",
+    "gestao": 5.788,
+    "desempenho": 4.741,
+    "financas": 5.314
+  },
+  "4304689": {
+    "municipio": "CAPELA DE SANTANA",
+    "gestao": 4.469,
+    "desempenho": 4.747,
+    "financas": 4.661
+  },
+  "4304697": {
+    "municipio": "CAPITAO",
+    "gestao": 4.452,
+    "desempenho": 5.299,
+    "financas": 5.348
+  },
+  "4304705": {
+    "municipio": "CARAZINHO",
+    "gestao": 7.012,
+    "desempenho": 5.492,
+    "financas": 6.464
+  },
+  "4304713": {
+    "municipio": "CARAA",
+    "gestao": 6.309,
+    "desempenho": 6.057,
+    "financas": 6.262
+  },
+  "4304804": {
+    "municipio": "CARLOS BARBOSA",
+    "gestao": 6.827,
+    "desempenho": 8.924,
+    "financas": 8.009
+  },
+  "4304853": {
+    "municipio": "CARLOS GOMES",
+    "gestao": 5.511,
+    "desempenho": 4.298,
+    "financas": 4.722
+  },
+  "4304903": {
+    "municipio": "CASCA",
+    "gestao": 6.883,
+    "desempenho": 5.818,
+    "financas": 5.968
+  },
+  "4304952": {
+    "municipio": "CASEIROS",
+    "gestao": 4.756,
+    "desempenho": 4.16,
+    "financas": 5.674
+  },
+  "4305009": {
+    "municipio": "CATUIPE",
+    "gestao": 7.415,
+    "desempenho": 6.128,
+    "financas": 6.347
+  },
+  "4305108": {
+    "municipio": "CAXIAS DO SUL",
+    "gestao": 7.295,
+    "desempenho": 7.291,
+    "financas": 7.25
+  },
+  "4305116": {
+    "municipio": "CENTENARIO",
+    "gestao": 3.862,
+    "desempenho": 5.641,
+    "financas": 4.448
+  },
+  "4305124": {
+    "municipio": "CERRITO",
+    "gestao": 5.684,
+    "desempenho": 3.767,
+    "financas": 4.682
+  },
+  "4305132": {
+    "municipio": "CERRO BRANCO",
+    "gestao": 5.012,
+    "desempenho": 5.85,
+    "financas": 5.872
+  },
+  "4305157": {
+    "municipio": "CERRO GRANDE",
+    "gestao": 4.741,
+    "desempenho": 4.782,
+    "financas": 5.413
+  },
+  "4305173": {
+    "municipio": "CERRO GRANDE DO SUL",
+    "gestao": 6.004,
+    "desempenho": 5.047,
+    "financas": 6.159
+  },
+  "4305207": {
+    "municipio": "CERRO LARGO",
+    "gestao": 5.361,
+    "desempenho": 6.715,
+    "financas": 6.196
+  },
+  "4305306": {
+    "municipio": "CHAPADA",
+    "gestao": 7.604,
+    "desempenho": 6.528,
+    "financas": 7.448
+  },
+  "4305355": {
+    "municipio": "CHARQUEADAS",
+    "gestao": 6.45,
+    "desempenho": 6.688,
+    "financas": 5.956
+  },
+  "4305371": {
+    "municipio": "CHARRUA",
+    "gestao": 4.644,
+    "desempenho": 1.951,
+    "financas": 3.885
+  },
+  "4305405": {
+    "municipio": "CHIAPETTA",
+    "gestao": 5.07,
+    "desempenho": 4.161,
+    "financas": 4.849
+  },
+  "4305439": {
+    "municipio": "CHUI",
+    "gestao": 5.62,
+    "desempenho": 5.203,
+    "financas": 4.942
+  },
+  "4305447": {
+    "municipio": "CHUVISCA",
+    "gestao": 5.621,
+    "desempenho": 3.267,
+    "financas": 4.336
+  },
+  "4305454": {
+    "municipio": "CIDREIRA",
+    "gestao": 6.011,
+    "desempenho": 5.018,
+    "financas": 5.273
+  },
+  "4305504": {
+    "municipio": "CIRIACO",
+    "gestao": 5.68,
+    "desempenho": 5.668,
+    "financas": 6.293
+  },
+  "4305587": {
+    "municipio": "COLINAS",
+    "gestao": 5.632,
+    "desempenho": 4.749,
+    "financas": 5.63
+  },
+  "4305603": {
+    "municipio": "COLORADO",
+    "gestao": 5.546,
+    "desempenho": 5.088,
+    "financas": 5.599
+  },
+  "4305702": {
+    "municipio": "CONDOR",
+    "gestao": 7.339,
+    "desempenho": 6.039,
+    "financas": 6.994
+  },
+  "4305801": {
+    "municipio": "CONSTANTINA",
+    "gestao": 7.216,
+    "desempenho": 6.616,
+    "financas": 6.47
+  },
+  "4305835": {
+    "municipio": "COQUEIRO BAIXO",
+    "gestao": 4.562,
+    "desempenho": 5.577,
+    "financas": 5.453
+  },
+  "4305850": {
+    "municipio": "COQUEIROS DO SUL",
+    "gestao": 4.195,
+    "desempenho": 4.612,
+    "financas": 5.06
+  },
+  "4305871": {
+    "municipio": "CORONEL BARROS",
+    "gestao": 4.723,
+    "desempenho": 5.202,
+    "financas": 5.93
+  },
+  "4305900": {
+    "municipio": "CORONEL BICACO",
+    "gestao": 6.713,
+    "desempenho": 4.802,
+    "financas": 6.163
+  },
+  "4305934": {
+    "municipio": "CORONEL PILAR",
+    "gestao": 4.982,
+    "desempenho": 4.917,
+    "financas": 5.962
+  },
+  "4305959": {
+    "municipio": "COTIPORA",
+    "gestao": 5.905,
+    "desempenho": 7.408,
+    "financas": 6.354
+  },
+  "4305975": {
+    "municipio": "COXILHA",
+    "gestao": 5.483,
+    "desempenho": 4.827,
+    "financas": 5.339
+  },
+  "4306007": {
+    "municipio": "CRISSIUMAL",
+    "gestao": 6.105,
+    "desempenho": 6.386,
+    "financas": 5.797
+  },
+  "4306056": {
+    "municipio": "CRISTAL",
+    "gestao": 5.987,
+    "desempenho": 3.077,
+    "financas": 5.108
+  },
+  "4306072": {
+    "municipio": "CRISTAL DO SUL",
+    "gestao": 5.827,
+    "desempenho": 4.13,
+    "financas": 4.858
+  },
+  "4306106": {
+    "municipio": "CRUZ ALTA",
+    "gestao": 6.916,
+    "desempenho": 5.706,
+    "financas": 5.632
+  },
+  "4306130": {
+    "municipio": "CRUZALTENSE",
+    "gestao": 4.337,
+    "desempenho": 4.982,
+    "financas": 4.691
+  },
+  "4306205": {
+    "municipio": "CRUZEIRO DO SUL",
+    "gestao": 6.86,
+    "desempenho": 6.112,
+    "financas": 6.058
+  },
+  "4306304": {
+    "municipio": "DAVID CANABARRO",
+    "gestao": 6.574,
+    "desempenho": 5.732,
+    "financas": 5.226
+  },
+  "4306320": {
+    "municipio": "DERRUBADAS",
+    "gestao": 6.42,
+    "desempenho": 4.876,
+    "financas": 5.7
+  },
+  "4306353": {
+    "municipio": "DEZESSEIS DE NOVEMBRO",
+    "gestao": 3.26,
+    "desempenho": 2.932,
+    "financas": 3.069
+  },
+  "4306379": {
+    "municipio": "DILERMANDO DE AGUIAR",
+    "gestao": 4.494,
+    "desempenho": 3.304,
+    "financas": 4.609
+  },
+  "4306403": {
+    "municipio": "DOIS IRMAOS",
+    "gestao": 5.897,
+    "desempenho": 6.687,
+    "financas": 6.973
+  },
+  "4306429": {
+    "municipio": "DOIS IRMAOS DAS MISSOES",
+    "gestao": 3.587,
+    "desempenho": 3.903,
+    "financas": 4.023
+  },
+  "4306452": {
+    "municipio": "DOIS LAJEADOS",
+    "gestao": 5.787,
+    "desempenho": 6.077,
+    "financas": 6.46
+  },
+  "4306502": {
+    "municipio": "DOM FELICIANO",
+    "gestao": 7.163,
+    "desempenho": 4.125,
+    "financas": 5.193
+  },
+  "4306551": {
+    "municipio": "DOM PEDRO DE ALCANTARA",
+    "gestao": 4.583,
+    "desempenho": 6.065,
+    "financas": 5.771
+  },
+  "4306601": {
+    "municipio": "DOM PEDRITO",
+    "gestao": 6.78,
+    "desempenho": 5.33,
+    "financas": 6.072
+  },
+  "4306700": {
+    "municipio": "DONA FRANCISCA",
+    "gestao": 5.88,
+    "desempenho": 5.909,
+    "financas": 5.949
+  },
+  "4306734": {
+    "municipio": "DOUTOR MAURICIO CARDOSO",
+    "gestao": 4.98,
+    "desempenho": 4.832,
+    "financas": 5.768
+  },
+  "4306759": {
+    "municipio": "DOUTOR RICARDO",
+    "gestao": 5.612,
+    "desempenho": 5.154,
+    "financas": 5.506
+  },
+  "4306767": {
+    "municipio": "ELDORADO DO SUL",
+    "gestao": 5.134,
+    "desempenho": 4.703,
+    "financas": 4.412
+  },
+  "4306809": {
+    "municipio": "ENCANTADO",
+    "gestao": 6.812,
+    "desempenho": 6.371,
+    "financas": 6.974
+  },
+  "4306908": {
+    "municipio": "ENCRUZILHADA DO SUL",
+    "gestao": 5.969,
+    "desempenho": 4.22,
+    "financas": 5.693
+  },
+  "4306924": {
+    "municipio": "ENGENHO VELHO",
+    "gestao": 3.199,
+    "desempenho": 2.559,
+    "financas": 3.838
+  },
+  "4306932": {
+    "municipio": "ENTRE-IJUIS",
+    "gestao": 6.986,
+    "desempenho": 6.641,
+    "financas": 6.42
+  },
+  "4306957": {
+    "municipio": "ENTRE RIOS DO SUL",
+    "gestao": 4.28,
+    "desempenho": 4.345,
+    "financas": 4.557
+  },
+  "4306973": {
+    "municipio": "EREBANGO",
+    "gestao": 5.175,
+    "desempenho": 3.969,
+    "financas": 4.428
+  },
+  "4307005": {
+    "municipio": "ERECHIM",
+    "gestao": 6.114,
+    "desempenho": 6.88,
+    "financas": 6.623
+  },
+  "4307054": {
+    "municipio": "ERNESTINA",
+    "gestao": 5.998,
+    "desempenho": 5.422,
+    "financas": 6.108
+  },
+  "4307104": {
+    "municipio": "HERVAL",
+    "gestao": 5.684,
+    "desempenho": 3.934,
+    "financas": 5.015
+  },
+  "4307203": {
+    "municipio": "ERVAL GRANDE",
+    "gestao": 4.658,
+    "desempenho": 6.479,
+    "financas": 5.652
+  },
+  "4307302": {
+    "municipio": "ERVAL SECO",
+    "gestao": 7.293,
+    "desempenho": 5.344,
+    "financas": 5.886
+  },
+  "4307401": {
+    "municipio": "ESMERALDA",
+    "gestao": 5.824,
+    "desempenho": 3.907,
+    "financas": 4.795
+  },
+  "4307450": {
+    "municipio": "ESPERANCA DO SUL",
+    "gestao": 4.893,
+    "desempenho": 5.53,
+    "financas": 5.237
+  },
+  "4307500": {
+    "municipio": "ESPUMOSO",
+    "gestao": 6.724,
+    "desempenho": 6.463,
+    "financas": 6.716
+  },
+  "4307559": {
+    "municipio": "ESTACAO",
+    "gestao": 7.317,
+    "desempenho": 4.778,
+    "financas": 6.328
+  },
+  "4307609": {
+    "municipio": "ESTANCIA VELHA",
+    "gestao": 6.198,
+    "desempenho": 7.471,
+    "financas": 6.949
+  },
+  "4307708": {
+    "municipio": "ESTEIO",
+    "gestao": 7.083,
+    "desempenho": 7.151,
+    "financas": 6.918
+  },
+  "4307807": {
+    "municipio": "ESTRELA",
+    "gestao": 6.58,
+    "desempenho": 7.669,
+    "financas": 7.321
+  },
+  "4307815": {
+    "municipio": "ESTRELA VELHA",
+    "gestao": 4.664,
+    "desempenho": 3.774,
+    "financas": 4.878
+  },
+  "4307831": {
+    "municipio": "EUGENIO DE CASTRO",
+    "gestao": 5.272,
+    "desempenho": 3.934,
+    "financas": 5.585
+  },
+  "4307864": {
+    "municipio": "FAGUNDES VARELA",
+    "gestao": 5.699,
+    "desempenho": 6.113,
+    "financas": 6.752
+  },
+  "4307906": {
+    "municipio": "FARROUPILHA",
+    "gestao": 6.279,
+    "desempenho": 7.042,
+    "financas": 7.255
+  },
+  "4308003": {
+    "municipio": "FAXINAL DO SOTURNO",
+    "gestao": 6.756,
+    "desempenho": 5.69,
+    "financas": 6.385
+  },
+  "4308052": {
+    "municipio": "FAXINALZINHO",
+    "gestao": 4.352,
+    "desempenho": 3.778,
+    "financas": 4.351
+  },
+  "4308078": {
+    "municipio": "FAZENDA VILANOVA",
+    "gestao": 6.62,
+    "desempenho": 5.532,
+    "financas": 6.298
+  },
+  "4308102": {
+    "municipio": "FELIZ",
+    "gestao": 6.523,
+    "desempenho": 6.674,
+    "financas": 7.167
+  },
+  "4308201": {
+    "municipio": "FLORES DA CUNHA",
+    "gestao": 6.219,
+    "desempenho": 6.468,
+    "financas": 6.792
+  },
+  "4308250": {
+    "municipio": "FLORIANO PEIXOTO",
+    "gestao": 4.735,
+    "desempenho": 5.46,
+    "financas": 5.89
+  },
+  "4308300": {
+    "municipio": "FONTOURA XAVIER",
+    "gestao": 7.04,
+    "desempenho": 3.606,
+    "financas": 5.473
+  },
+  "4308409": {
+    "municipio": "FORMIGUEIRO",
+    "gestao": 5.678,
+    "desempenho": 3.551,
+    "financas": 5.216
+  },
+  "4308433": {
+    "municipio": "FORQUETINHA",
+    "gestao": 4.181,
+    "desempenho": 5.616,
+    "financas": 5.264
+  },
+  "4308458": {
+    "municipio": "FORTALEZA DOS VALOS",
+    "gestao": 4.7,
+    "desempenho": 4.789,
+    "financas": 5.235
+  },
+  "4308508": {
+    "municipio": "FREDERICO WESTPHALEN",
+    "gestao": 6.972,
+    "desempenho": 6.604,
+    "financas": 6.741
+  },
+  "4308607": {
+    "municipio": "GARIBALDI",
+    "gestao": 6.231,
+    "desempenho": 7.557,
+    "financas": 6.967
+  },
+  "4308656": {
+    "municipio": "GARRUCHOS",
+    "gestao": 5.088,
+    "desempenho": 3.954,
+    "financas": 4.74
+  },
+  "4308706": {
+    "municipio": "GAURAMA",
+    "gestao": 6.074,
+    "desempenho": 6.726,
+    "financas": 6.169
+  },
+  "4308805": {
+    "municipio": "GENERAL CAMARA",
+    "gestao": 5.185,
+    "desempenho": 5.263,
+    "financas": 4.768
+  },
+  "4308854": {
+    "municipio": "GENTIL",
+    "gestao": 4.878,
+    "desempenho": 5.751,
+    "financas": 5.429
+  },
+  "4308904": {
+    "municipio": "GETULIO VARGAS",
+    "gestao": 7.033,
+    "desempenho": 7.151,
+    "financas": 6.695
+  },
+  "4309001": {
+    "municipio": "GIRUA",
+    "gestao": 6.497,
+    "desempenho": 5.758,
+    "financas": 6.387
+  },
+  "4309050": {
+    "municipio": "GLORINHA",
+    "gestao": 5.657,
+    "desempenho": 6.3,
+    "financas": 5.698
+  },
+  "4309100": {
+    "municipio": "GRAMADO",
+    "gestao": 4.121,
+    "desempenho": 7.41,
+    "financas": 5.962
+  },
+  "4309126": {
+    "municipio": "GRAMADO DOS LOUREIROS",
+    "gestao": 3.471,
+    "desempenho": 2.032,
+    "financas": 4.005
+  },
+  "4309159": {
+    "municipio": "GRAMADO XAVIER",
+    "gestao": 4.186,
+    "desempenho": 4.678,
+    "financas": 5.462
+  },
+  "4309209": {
+    "municipio": "GRAVATAI",
+    "gestao": 6.637,
+    "desempenho": 5.985,
+    "financas": 6.529
+  },
+  "4309258": {
+    "municipio": "GUABIJU",
+    "gestao": 4.664,
+    "desempenho": 5.201,
+    "financas": 5.09
+  },
+  "4309308": {
+    "municipio": "GUAIBA",
+    "gestao": 6.93,
+    "desempenho": 5.362,
+    "financas": 5.975
+  },
+  "4309407": {
+    "municipio": "GUAPORE",
+    "gestao": 6.373,
+    "desempenho": 7.615,
+    "financas": 6.971
+  },
+  "4309506": {
+    "municipio": "GUARANI DAS MISSOES",
+    "gestao": 6.42,
+    "desempenho": 5.549,
+    "financas": 5.712
+  },
+  "4309555": {
+    "municipio": "HARMONIA",
+    "gestao": 6.29,
+    "desempenho": 5.365,
+    "financas": 6.237
+  },
+  "4309571": {
+    "municipio": "HERVEIRAS",
+    "gestao": 3.942,
+    "desempenho": 4.004,
+    "financas": 4.122
+  },
+  "4309605": {
+    "municipio": "HORIZONTINA",
+    "gestao": 7.347,
+    "desempenho": 7.33,
+    "financas": 7.512
+  },
+  "4309654": {
+    "municipio": "HULHA NEGRA",
+    "gestao": 6.208,
+    "desempenho": 3.818,
+    "financas": 4.919
+  },
+  "4309704": {
+    "municipio": "HUMAITA",
+    "gestao": 5.496,
+    "desempenho": 6.216,
+    "financas": 6.213
+  },
+  "4309753": {
+    "municipio": "IBARAMA",
+    "gestao": 5.074,
+    "desempenho": 4.772,
+    "financas": 4.41
+  },
+  "4309803": {
+    "municipio": "IBIACA",
+    "gestao": 5.968,
+    "desempenho": 5.632,
+    "financas": 6.357
+  },
+  "4309902": {
+    "municipio": "IBIRAIARAS",
+    "gestao": 5.43,
+    "desempenho": 4.637,
+    "financas": 5.598
+  },
+  "4309951": {
+    "municipio": "IBIRAPUITA",
+    "gestao": 5.719,
+    "desempenho": 4.788,
+    "financas": 4.899
+  },
+  "4310009": {
+    "municipio": "IBIRUBA",
+    "gestao": 7.544,
+    "desempenho": 6.924,
+    "financas": 7.342
+  },
+  "4310108": {
+    "municipio": "IGREJINHA",
+    "gestao": 6.266,
+    "desempenho": 7.019,
+    "financas": 6.798
+  },
+  "4310207": {
+    "municipio": "IJUI",
+    "gestao": 6.876,
+    "desempenho": 7.833,
+    "financas": 6.947
+  },
+  "4310306": {
+    "municipio": "ILOPOLIS",
+    "gestao": 6.261,
+    "desempenho": 6.018,
+    "financas": 6.612
+  },
+  "4310330": {
+    "municipio": "IMBE",
+    "gestao": 4.485,
+    "desempenho": 5.617,
+    "financas": 5.154
+  },
+  "4310363": {
+    "municipio": "IMIGRANTE",
+    "gestao": 5.906,
+    "desempenho": 6.174,
+    "financas": 6.73
+  },
+  "4310405": {
+    "municipio": "INDEPENDENCIA",
+    "gestao": 6.333,
+    "desempenho": 4.686,
+    "financas": 6.18
+  },
+  "4310413": {
+    "municipio": "INHACORA",
+    "gestao": 4.36,
+    "desempenho": 4.095,
+    "financas": 3.972
+  },
+  "4310439": {
+    "municipio": "IPE",
+    "gestao": 6.153,
+    "desempenho": 7.409,
+    "financas": 7.049
+  },
+  "4310462": {
+    "municipio": "IPIRANGA DO SUL",
+    "gestao": 4.521,
+    "desempenho": 4.486,
+    "financas": 4.533
+  },
+  "4310504": {
+    "municipio": "IRAI",
+    "gestao": 7.391,
+    "desempenho": 4.991,
+    "financas": 5.611
+  },
+  "4310538": {
+    "municipio": "ITAARA",
+    "gestao": 4.911,
+    "desempenho": 6.036,
+    "financas": 5.587
+  },
+  "4310553": {
+    "municipio": "ITACURUBI",
+    "gestao": 4.731,
+    "desempenho": 3.332,
+    "financas": 4.126
+  },
+  "4310579": {
+    "municipio": "ITAPUCA",
+    "gestao": 4.035,
+    "desempenho": 4.975,
+    "financas": 4.871
+  },
+  "4310603": {
+    "municipio": "ITAQUI",
+    "gestao": 6.148,
+    "desempenho": 5.964,
+    "financas": 5.698
+  },
+  "4310652": {
+    "municipio": "ITATI",
+    "gestao": 4.117,
+    "desempenho": 3.424,
+    "financas": 4.061
+  },
+  "4310702": {
+    "municipio": "ITATIBA DO SUL",
+    "gestao": 5.32,
+    "desempenho": 4.593,
+    "financas": 6.167
+  },
+  "4310751": {
+    "municipio": "IVORA",
+    "gestao": 5.878,
+    "desempenho": 4.909,
+    "financas": 5.799
+  },
+  "4310801": {
+    "municipio": "IVOTI",
+    "gestao": 5.488,
+    "desempenho": 8.011,
+    "financas": 7.265
+  },
+  "4310850": {
+    "municipio": "JABOTICABA",
+    "gestao": 6.33,
+    "desempenho": 4.782,
+    "financas": 5.286
+  },
+  "4310876": {
+    "municipio": "JACUIZINHO",
+    "gestao": 4.723,
+    "desempenho": 3.066,
+    "financas": 4.182
+  },
+  "4310900": {
+    "municipio": "JACUTINGA",
+    "gestao": 6.401,
+    "desempenho": 6.128,
+    "financas": 5.976
+  },
+  "4311007": {
+    "municipio": "JAGUARAO",
+    "gestao": 5.727,
+    "desempenho": 6.333,
+    "financas": 6.229
+  },
+  "4311106": {
+    "municipio": "JAGUARI",
+    "gestao": 6.369,
+    "desempenho": 5.098,
+    "financas": 5.296
+  },
+  "4311122": {
+    "municipio": "JAQUIRANA",
+    "gestao": 5.098,
+    "desempenho": 4.33,
+    "financas": 5.867
+  },
+  "4311130": {
+    "municipio": "JARI",
+    "gestao": 6.503,
+    "desempenho": 4.783,
+    "financas": 5.592
+  },
+  "4311155": {
+    "municipio": "JOIA",
+    "gestao": 6.842,
+    "desempenho": 6.399,
+    "financas": 6.384
+  },
+  "4311205": {
+    "municipio": "JULIO DE CASTILHOS",
+    "gestao": 6.632,
+    "desempenho": 5.678,
+    "financas": 6.213
+  },
+  "4311239": {
+    "municipio": "LAGOA BONITA DO SUL",
+    "gestao": 4.934,
+    "desempenho": 4.085,
+    "financas": 4.523
+  },
+  "4311254": {
+    "municipio": "LAGOAO",
+    "gestao": 5.811,
+    "desempenho": 3.603,
+    "financas": 5.235
+  },
+  "4311270": {
+    "municipio": "LAGOA DOS TRES CANTOS",
+    "gestao": 4.82,
+    "desempenho": 5.889,
+    "financas": 6.233
+  },
+  "4311304": {
+    "municipio": "LAGOA VERMELHA",
+    "gestao": 7.016,
+    "desempenho": 5.346,
+    "financas": 6.366
+  },
+  "4311403": {
+    "municipio": "LAJEADO",
+    "gestao": 7.455,
+    "desempenho": 6.43,
+    "financas": 7.67
+  },
+  "4311429": {
+    "municipio": "LAJEADO DO BUGRE",
+    "gestao": 3.386,
+    "desempenho": 3.281,
+    "financas": 3.428
+  },
+  "4311502": {
+    "municipio": "LAVRAS DO SUL",
+    "gestao": 6.5,
+    "desempenho": 4.125,
+    "financas": 5.604
+  },
+  "4311601": {
+    "municipio": "LIBERATO SALZANO",
+    "gestao": 6.534,
+    "desempenho": 4.684,
+    "financas": 5.648
+  },
+  "4311627": {
+    "municipio": "LINDOLFO COLLOR",
+    "gestao": 5.143,
+    "desempenho": 5.317,
+    "financas": 6.037
+  },
+  "4311643": {
+    "municipio": "LINHA NOVA",
+    "gestao": 3.777,
+    "desempenho": 5.786,
+    "financas": 5.142
+  },
+  "4311700": {
+    "municipio": "MACHADINHO",
+    "gestao": 6.284,
+    "desempenho": 5.003,
+    "financas": 5.449
+  },
+  "4311718": {
+    "municipio": "MACAMBARA",
+    "gestao": 4.751,
+    "desempenho": 3.125,
+    "financas": 4.159
+  },
+  "4311734": {
+    "municipio": "MAMPITUBA",
+    "gestao": 4.994,
+    "desempenho": 4.294,
+    "financas": 5.042
+  },
+  "4311759": {
+    "municipio": "MANOEL VIANA",
+    "gestao": 6.518,
+    "desempenho": 5.438,
+    "financas": 5.469
+  },
+  "4311775": {
+    "municipio": "MAQUINE",
+    "gestao": 7.002,
+    "desempenho": 4.604,
+    "financas": 5.882
+  },
+  "4311791": {
+    "municipio": "MARATA",
+    "gestao": 5.696,
+    "desempenho": 5.944,
+    "financas": 6.403
+  },
+  "4311809": {
+    "municipio": "MARAU",
+    "gestao": 7.114,
+    "desempenho": 7.864,
+    "financas": 6.845
+  },
+  "4311908": {
+    "municipio": "MARCELINO RAMOS",
+    "gestao": 6.123,
+    "desempenho": 5.111,
+    "financas": 5.606
+  },
+  "4311981": {
+    "municipio": "MARIANA PIMENTEL",
+    "gestao": 5.57,
+    "desempenho": 5.527,
+    "financas": 5.927
+  },
+  "4312005": {
+    "municipio": "MARIANO MORO",
+    "gestao": 4.423,
+    "desempenho": 5.132,
+    "financas": 4.695
+  },
+  "4312054": {
+    "municipio": "MARQUES DE SOUZA",
+    "gestao": 5.812,
+    "desempenho": 4.48,
+    "financas": 5.505
+  },
+  "4312104": {
+    "municipio": "MATA",
+    "gestao": 5.53,
+    "desempenho": 3.647,
+    "financas": 5.198
+  },
+  "4312138": {
+    "municipio": "MATO CASTELHANO",
+    "gestao": 4.424,
+    "desempenho": 4.596,
+    "financas": 4.292
+  },
+  "4312153": {
+    "municipio": "MATO LEITAO",
+    "gestao": 6.631,
+    "desempenho": 6.19,
+    "financas": 6.928
+  },
+  "4312179": {
+    "municipio": "MATO QUEIMADO",
+    "gestao": 4.607,
+    "desempenho": 4.825,
+    "financas": 4.575
+  },
+  "4312203": {
+    "municipio": "MAXIMILIANO DE ALMEIDA",
+    "gestao": 4.949,
+    "desempenho": 5.199,
+    "financas": 5.004
+  },
+  "4312252": {
+    "municipio": "MINAS DO LEAO",
+    "gestao": 4.54,
+    "desempenho": 3.414,
+    "financas": 4.055
+  },
+  "4312302": {
+    "municipio": "MIRAGUAI",
+    "gestao": 5.353,
+    "desempenho": 4.331,
+    "financas": 4.285
+  },
+  "4312351": {
+    "municipio": "MONTAURI",
+    "gestao": 5.121,
+    "desempenho": 4.588,
+    "financas": 5.119
+  },
+  "4312377": {
+    "municipio": "MONTE ALEGRE DOS CAMPOS",
+    "gestao": 4.951,
+    "desempenho": 2.934,
+    "financas": 4.517
+  },
+  "4312385": {
+    "municipio": "MONTE BELO DO SUL",
+    "gestao": 4.825,
+    "desempenho": 4.089,
+    "financas": 4.92
+  },
+  "4312401": {
+    "municipio": "MONTENEGRO",
+    "gestao": 5.983,
+    "desempenho": 5.945,
+    "financas": 6.492
+  },
+  "4312427": {
+    "municipio": "MORMACO",
+    "gestao": 5.459,
+    "desempenho": 3.887,
+    "financas": 5.672
+  },
+  "4312443": {
+    "municipio": "MORRINHOS DO SUL",
+    "gestao": 5.349,
+    "desempenho": 5.465,
+    "financas": 5.509
+  },
+  "4312450": {
+    "municipio": "MORRO REDONDO",
+    "gestao": 5.987,
+    "desempenho": 5.404,
+    "financas": 5.36
+  },
+  "4312476": {
+    "municipio": "MORRO REUTER",
+    "gestao": 5.26,
+    "desempenho": 5.94,
+    "financas": 6.196
+  },
+  "4312500": {
+    "municipio": "MOSTARDAS",
+    "gestao": 7.496,
+    "desempenho": 4.485,
+    "financas": 6.141
+  },
+  "4312609": {
+    "municipio": "MUCUM",
+    "gestao": 5.657,
+    "desempenho": 4.344,
+    "financas": 5.199
+  },
+  "4312617": {
+    "municipio": "MUITOS CAPOES",
+    "gestao": 5.246,
+    "desempenho": 4.074,
+    "financas": 5.927
+  },
+  "4312625": {
+    "municipio": "MULITERNO",
+    "gestao": 4.356,
+    "desempenho": 3.092,
+    "financas": 3.941
+  },
+  "4312658": {
+    "municipio": "NAO-ME-TOQUE",
+    "gestao": 8.05,
+    "desempenho": 7.252,
+    "financas": 7.422
+  },
+  "4312674": {
+    "municipio": "NICOLAU VERGUEIRO",
+    "gestao": 5.782,
+    "desempenho": 4.359,
+    "financas": 5.066
+  },
+  "4312708": {
+    "municipio": "NONOAI",
+    "gestao": 5.532,
+    "desempenho": 5.676,
+    "financas": 5.725
+  },
+  "4312757": {
+    "municipio": "NOVA ALVORADA",
+    "gestao": 6.01,
+    "desempenho": 5.299,
+    "financas": 5.951
+  },
+  "4312807": {
+    "municipio": "NOVA ARACA",
+    "gestao": 6.497,
+    "desempenho": 5.7,
+    "financas": 6.691
+  },
+  "4312906": {
+    "municipio": "NOVA BASSANO",
+    "gestao": 7.121,
+    "desempenho": 6.524,
+    "financas": 6.9
+  },
+  "4312955": {
+    "municipio": "NOVA BOA VISTA",
+    "gestao": 4.513,
+    "desempenho": 5.79,
+    "financas": 5.914
+  },
+  "4313003": {
+    "municipio": "NOVA BRESCIA",
+    "gestao": 6.517,
+    "desempenho": 5.57,
+    "financas": 6.163
+  },
+  "4313011": {
+    "municipio": "NOVA CANDELARIA",
+    "gestao": 5.764,
+    "desempenho": 5.446,
+    "financas": 6.701
+  },
+  "4313037": {
+    "municipio": "NOVA ESPERANCA DO SUL",
+    "gestao": 5.859,
+    "desempenho": 5.568,
+    "financas": 6.419
+  },
+  "4313060": {
+    "municipio": "NOVA HARTZ",
+    "gestao": 4.992,
+    "desempenho": 7.219,
+    "financas": 5.875
+  },
+  "4313086": {
+    "municipio": "NOVA PADUA",
+    "gestao": 5.101,
+    "desempenho": 5.654,
+    "financas": 6.11
+  },
+  "4313102": {
+    "municipio": "NOVA PALMA",
+    "gestao": 7.025,
+    "desempenho": 5.596,
+    "financas": 6.44
+  },
+  "4313201": {
+    "municipio": "NOVA PETROPOLIS",
+    "gestao": 5.197,
+    "desempenho": 7.621,
+    "financas": 6.375
+  },
+  "4313300": {
+    "municipio": "NOVA PRATA",
+    "gestao": 5.834,
+    "desempenho": 6.88,
+    "financas": 6.876
+  },
+  "4313334": {
+    "municipio": "NOVA RAMADA",
+    "gestao": 5.39,
+    "desempenho": 5.508,
+    "financas": 5.236
+  },
+  "4313359": {
+    "municipio": "NOVA ROMA DO SUL",
+    "gestao": 6.413,
+    "desempenho": 4.44,
+    "financas": 6.046
+  },
+  "4313375": {
+    "municipio": "NOVA SANTA RITA",
+    "gestao": 6.284,
+    "desempenho": 4.062,
+    "financas": 5.635
+  },
+  "4313391": {
+    "municipio": "NOVO CABRAIS",
+    "gestao": 4.518,
+    "desempenho": 4.687,
+    "financas": 4.761
+  },
+  "4313409": {
+    "municipio": "NOVO HAMBURGO",
+    "gestao": 6.816,
+    "desempenho": 5.74,
+    "financas": 6.305
+  },
+  "4313425": {
+    "municipio": "NOVO MACHADO",
+    "gestao": 5.631,
+    "desempenho": 4.457,
+    "financas": 5.744
+  },
+  "4313441": {
+    "municipio": "NOVO TIRADENTES",
+    "gestao": 4.28,
+    "desempenho": 5.489,
+    "financas": 5.16
+  },
+  "4313466": {
+    "municipio": "NOVO XINGU",
+    "gestao": 5.31,
+    "desempenho": 5.224,
+    "financas": 5.004
+  },
+  "4313490": {
+    "municipio": "NOVO BARREIRO",
+    "gestao": 5.829,
+    "desempenho": 4.878,
+    "financas": 5.482
+  },
+  "4313508": {
+    "municipio": "OSORIO",
+    "gestao": 5.872,
+    "desempenho": 5.407,
+    "financas": 6.157
+  },
+  "4313607": {
+    "municipio": "PAIM FILHO",
+    "gestao": 4.576,
+    "desempenho": 4.596,
+    "financas": 4.901
+  },
+  "4313656": {
+    "municipio": "PALMARES DO SUL",
+    "gestao": 5.758,
+    "desempenho": 4.017,
+    "financas": 5.31
+  },
+  "4313706": {
+    "municipio": "PALMEIRA DAS MISSOES",
+    "gestao": 7.153,
+    "desempenho": 5.627,
+    "financas": 6.106
+  },
+  "4313805": {
+    "municipio": "PALMITINHO",
+    "gestao": 6.792,
+    "desempenho": 5.571,
+    "financas": 5.844
+  },
+  "4313904": {
+    "municipio": "PANAMBI",
+    "gestao": 6.358,
+    "desempenho": 7.097,
+    "financas": 7.098
+  },
+  "4313953": {
+    "municipio": "PANTANO GRANDE",
+    "gestao": 6.281,
+    "desempenho": 4.903,
+    "financas": 6.058
+  },
+  "4314001": {
+    "municipio": "PARAI",
+    "gestao": 6.702,
+    "desempenho": 5.866,
+    "financas": 6.771
+  },
+  "4314027": {
+    "municipio": "PARAISO DO SUL",
+    "gestao": 6.472,
+    "desempenho": 4.863,
+    "financas": 5.478
+  },
+  "4314035": {
+    "municipio": "PARECI NOVO",
+    "gestao": 4.92,
+    "desempenho": 6.172,
+    "financas": 6.279
+  },
+  "4314050": {
+    "municipio": "PAROBE",
+    "gestao": 6.568,
+    "desempenho": 7.56,
+    "financas": 7.178
+  },
+  "4314068": {
+    "municipio": "PASSA SETE",
+    "gestao": 5.391,
+    "desempenho": 5.021,
+    "financas": 6.175
+  },
+  "4314076": {
+    "municipio": "PASSO DO SOBRADO",
+    "gestao": 4.899,
+    "desempenho": 5.29,
+    "financas": 5.465
+  },
+  "4314100": {
+    "municipio": "PASSO FUNDO",
+    "gestao": 6.172,
+    "desempenho": 5.147,
+    "financas": 5.943
+  },
+  "4314134": {
+    "municipio": "PAULO BENTO",
+    "gestao": 5.185,
+    "desempenho": 5.622,
+    "financas": 5.085
+  },
+  "4314159": {
+    "municipio": "PAVERAMA",
+    "gestao": 6.116,
+    "desempenho": 4.88,
+    "financas": 5.905
+  },
+  "4314175": {
+    "municipio": "PEDRAS ALTAS",
+    "gestao": 5.021,
+    "desempenho": 3.312,
+    "financas": 4.994
+  },
+  "4314209": {
+    "municipio": "PEDRO OSORIO",
+    "gestao": 6.625,
+    "desempenho": 3.678,
+    "financas": 4.802
+  },
+  "4314308": {
+    "municipio": "PEJUCARA",
+    "gestao": 5.024,
+    "desempenho": 5.667,
+    "financas": 6.142
+  },
+  "4314407": {
+    "municipio": "PELOTAS",
+    "gestao": 6.588,
+    "desempenho": 7.425,
+    "financas": 6.687
+  },
+  "4314423": {
+    "municipio": "PICADA CAFE",
+    "gestao": 5.306,
+    "desempenho": 6.22,
+    "financas": 5.906
+  },
+  "4314456": {
+    "municipio": "PINHAL",
+    "gestao": 5.42,
+    "desempenho": 6.008,
+    "financas": 6.172
+  },
+  "4314464": {
+    "municipio": "PINHAL DA SERRA",
+    "gestao": 5.799,
+    "desempenho": 4.976,
+    "financas": 4.959
+  },
+  "4314472": {
+    "municipio": "PINHAL GRANDE",
+    "gestao": 5.636,
+    "desempenho": 4.689,
+    "financas": 5.314
+  },
+  "4314498": {
+    "municipio": "PINHEIRINHO DO VALE",
+    "gestao": 5.417,
+    "desempenho": 6.049,
+    "financas": 5.343
+  },
+  "4314506": {
+    "municipio": "PINHEIRO MACHADO",
+    "gestao": 6.926,
+    "desempenho": 5.648,
+    "financas": 5.641
+  },
+  "4314548": {
+    "municipio": "PINTO BANDEIRA",
+    "gestao": 4.759,
+    "desempenho": 5.504,
+    "financas": 4.991
+  },
+  "4314555": {
+    "municipio": "PIRAPO",
+    "gestao": 4.919,
+    "desempenho": 4.497,
+    "financas": 5.024
+  },
+  "4314605": {
+    "municipio": "PIRATINI",
+    "gestao": 7.147,
+    "desempenho": 5.048,
+    "financas": 5.679
+  },
+  "4314704": {
+    "municipio": "PLANALTO",
+    "gestao": 6.791,
+    "desempenho": 6.695,
+    "financas": 6.089
+  },
+  "4314753": {
+    "municipio": "POCO DAS ANTAS",
+    "gestao": 5.879,
+    "desempenho": 6.109,
+    "financas": 6.015
+  },
+  "4314779": {
+    "municipio": "PONTAO",
+    "gestao": 5.684,
+    "desempenho": 4.034,
+    "financas": 5.576
+  },
+  "4314787": {
+    "municipio": "PONTE PRETA",
+    "gestao": 5.291,
+    "desempenho": 5.175,
+    "financas": 5.285
+  },
+  "4314803": {
+    "municipio": "PORTAO",
+    "gestao": 5.184,
+    "desempenho": 6.18,
+    "financas": 6.342
+  },
+  "4314902": {
+    "municipio": "PORTO ALEGRE",
+    "gestao": 6.324,
+    "desempenho": 6.023,
+    "financas": 6.325
+  },
+  "4315008": {
+    "municipio": "PORTO LUCENA",
+    "gestao": 5.94,
+    "desempenho": 4.293,
+    "financas": 5.472
+  },
+  "4315057": {
+    "municipio": "PORTO MAUA",
+    "gestao": 4.466,
+    "desempenho": 5.28,
+    "financas": 5.355
+  },
+  "4315073": {
+    "municipio": "PORTO VERA CRUZ",
+    "gestao": 4.188,
+    "desempenho": 5.366,
+    "financas": 5.419
+  },
+  "4315107": {
+    "municipio": "PORTO XAVIER",
+    "gestao": 6.167,
+    "desempenho": 6.321,
+    "financas": 6.748
+  },
+  "4315131": {
+    "municipio": "POUSO NOVO",
+    "gestao": 3.687,
+    "desempenho": 4.645,
+    "financas": 4.577
+  },
+  "4315149": {
+    "municipio": "PRESIDENTE LUCENA",
+    "gestao": 4.523,
+    "desempenho": 5.268,
+    "financas": 6.302
+  },
+  "4315156": {
+    "municipio": "PROGRESSO",
+    "gestao": 6.635,
+    "desempenho": 4.961,
+    "financas": 5.406
+  },
+  "4315172": {
+    "municipio": "PROTASIO ALVES",
+    "gestao": 5.089,
+    "desempenho": 4.954,
+    "financas": 5.413
+  },
+  "4315206": {
+    "municipio": "PUTINGA",
+    "gestao": 4.839,
+    "desempenho": 4.934,
+    "financas": 5.175
+  },
+  "4315305": {
+    "municipio": "QUARAI",
+    "gestao": 6.737,
+    "desempenho": 6.357,
+    "financas": 5.555
+  },
+  "4315313": {
+    "municipio": "QUATRO IRMAOS",
+    "gestao": 4.187,
+    "desempenho": 5.01,
+    "financas": 4.459
+  },
+  "4315321": {
+    "municipio": "QUEVEDOS",
+    "gestao": 4.252,
+    "desempenho": 2.844,
+    "financas": 4.347
+  },
+  "4315354": {
+    "municipio": "QUINZE DE NOVEMBRO",
+    "gestao": 5.787,
+    "desempenho": 5.872,
+    "financas": 5.619
+  },
+  "4315404": {
+    "municipio": "REDENTORA",
+    "gestao": 7.647,
+    "desempenho": 4.764,
+    "financas": 6.253
+  },
+  "4315453": {
+    "municipio": "RELVADO",
+    "gestao": 5.677,
+    "desempenho": 5.644,
+    "financas": 5.622
+  },
+  "4315503": {
+    "municipio": "RESTINGA SECA",
+    "gestao": 7.461,
+    "desempenho": 5.719,
+    "financas": 6.579
+  },
+  "4315552": {
+    "municipio": "RIO DOS INDIOS",
+    "gestao": 4.83,
+    "desempenho": 3.199,
+    "financas": 5.145
+  },
+  "4315602": {
+    "municipio": "RIO GRANDE",
+    "gestao": 6.133,
+    "desempenho": 4.389,
+    "financas": 5.407
+  },
+  "4315701": {
+    "municipio": "RIO PARDO",
+    "gestao": 5.703,
+    "desempenho": 4.153,
+    "financas": 4.555
+  },
+  "4315750": {
+    "municipio": "RIOZINHO",
+    "gestao": 5.004,
+    "desempenho": 4.728,
+    "financas": 5.271
+  },
+  "4315800": {
+    "municipio": "ROCA SALES",
+    "gestao": 6.564,
+    "desempenho": 5.898,
+    "financas": 6.182
+  },
+  "4315909": {
+    "municipio": "RODEIO BONITO",
+    "gestao": 7.462,
+    "desempenho": 4.215,
+    "financas": 5.753
+  },
+  "4315958": {
+    "municipio": "ROLADOR",
+    "gestao": 4.185,
+    "desempenho": 3.548,
+    "financas": 4.904
+  },
+  "4316006": {
+    "municipio": "ROLANTE",
+    "gestao": 5.561,
+    "desempenho": 6.183,
+    "financas": 5.823
+  },
+  "4316105": {
+    "municipio": "RONDA ALTA",
+    "gestao": 7.761,
+    "desempenho": 7.023,
+    "financas": 7.477
+  },
+  "4316204": {
+    "municipio": "RONDINHA",
+    "gestao": 5.574,
+    "desempenho": 5.557,
+    "financas": 5.988
+  },
+  "4316303": {
+    "municipio": "ROQUE GONZALES",
+    "gestao": 5.285,
+    "desempenho": 4.296,
+    "financas": 5.127
+  },
+  "4316402": {
+    "municipio": "ROSARIO DO SUL",
+    "gestao": 6.885,
+    "desempenho": 4.37,
+    "financas": 5.032
+  },
+  "4316428": {
+    "municipio": "SAGRADA FAMILIA",
+    "gestao": 5.714,
+    "desempenho": 5.032,
+    "financas": 5.913
+  },
+  "4316436": {
+    "municipio": "SALDANHA MARINHO",
+    "gestao": 4.272,
+    "desempenho": 6.322,
+    "financas": 5.933
+  },
+  "4316451": {
+    "municipio": "SALTO DO JACUI",
+    "gestao": 6.208,
+    "desempenho": 4.562,
+    "financas": 5.654
+  },
+  "4316477": {
+    "municipio": "SALVADOR DAS MISSOES",
+    "gestao": 6.213,
+    "desempenho": 6.015,
+    "financas": 5.642
+  },
+  "4316501": {
+    "municipio": "SALVADOR DO SUL",
+    "gestao": 6.382,
+    "desempenho": 4.731,
+    "financas": 6.337
+  },
+  "4316600": {
+    "municipio": "SANANDUVA",
+    "gestao": 6.978,
+    "desempenho": 7.187,
+    "financas": 7.099
+  },
+  "4316709": {
+    "municipio": "SANTA BARBARA DO SUL",
+    "gestao": 7.009,
+    "desempenho": 6.286,
+    "financas": 7.048
+  },
+  "4316733": {
+    "municipio": "SANTA CECILIA DO SUL",
+    "gestao": 3.923,
+    "desempenho": 5.366,
+    "financas": 4.622
+  },
+  "4316758": {
+    "municipio": "SANTA CLARA DO SUL",
+    "gestao": 5.707,
+    "desempenho": 5.966,
+    "financas": 5.559
+  },
+  "4316808": {
+    "municipio": "SANTA CRUZ DO SUL",
+    "gestao": 6.332,
+    "desempenho": 6.112,
+    "financas": 5.852
+  },
+  "4316907": {
+    "municipio": "SANTA MARIA",
+    "gestao": 7.867,
+    "desempenho": 7.472,
+    "financas": 6.956
+  },
+  "4316956": {
+    "municipio": "SANTA MARIA DO HERVAL",
+    "gestao": 6.085,
+    "desempenho": 5.046,
+    "financas": 6.26
+  },
+  "4316972": {
+    "municipio": "SANTA MARGARIDA DO SUL",
+    "gestao": 5.277,
+    "desempenho": 2.188,
+    "financas": 3.965
+  },
+  "4317004": {
+    "municipio": "SANTANA DA BOA VISTA",
+    "gestao": 6.329,
+    "desempenho": 4.26,
+    "financas": 5.576
+  },
+  "4317103": {
+    "municipio": "SANTANA DO LIVRAMENTO",
+    "gestao": 6.163,
+    "desempenho": 4.114,
+    "financas": 4.126
+  },
+  "4317202": {
+    "municipio": "SANTA ROSA",
+    "gestao": 7.113,
+    "desempenho": 6.647,
+    "financas": 7.427
+  },
+  "4317251": {
+    "municipio": "SANTA TEREZA",
+    "gestao": 5.202,
+    "desempenho": 4.691,
+    "financas": 5.124
+  },
+  "4317301": {
+    "municipio": "SANTA VITORIA DO PALMAR",
+    "gestao": 6.333,
+    "desempenho": 4.359,
+    "financas": 5.392
+  },
+  "4317400": {
+    "municipio": "SANTIAGO",
+    "gestao": 7.708,
+    "desempenho": 7.834,
+    "financas": 7.314
+  },
+  "4317509": {
+    "municipio": "SANTO ANGELO",
+    "gestao": 6.26,
+    "desempenho": 6.156,
+    "financas": 5.835
+  },
+  "4317558": {
+    "municipio": "SANTO ANTONIO DO PALMA",
+    "gestao": 5.541,
+    "desempenho": 4.674,
+    "financas": 5.123
+  },
+  "4317608": {
+    "municipio": "SANTO ANTONIO DA PATRULHA",
+    "gestao": 7.774,
+    "desempenho": 6.087,
+    "financas": 6.803
+  },
+  "4317707": {
+    "municipio": "SANTO ANTONIO DAS MISSOES",
+    "gestao": 5.522,
+    "desempenho": 3.545,
+    "financas": 4.924
+  },
+  "4317756": {
+    "municipio": "SANTO ANTONIO DO PLANALTO",
+    "gestao": 5.112,
+    "desempenho": 4.057,
+    "financas": 4.68
+  },
+  "4317806": {
+    "municipio": "SANTO AUGUSTO",
+    "gestao": 7.001,
+    "desempenho": 6.808,
+    "financas": 6.871
+  },
+  "4317905": {
+    "municipio": "SANTO CRISTO",
+    "gestao": 7.155,
+    "desempenho": 6.148,
+    "financas": 6.535
+  },
+  "4317954": {
+    "municipio": "SANTO EXPEDITO DO SUL",
+    "gestao": 4.194,
+    "desempenho": 4.247,
+    "financas": 4.334
+  },
+  "4318002": {
+    "municipio": "SAO BORJA",
+    "gestao": 7.525,
+    "desempenho": 6.971,
+    "financas": 6.786
+  },
+  "4318051": {
+    "municipio": "SAO DOMINGOS DO SUL",
+    "gestao": 5.854,
+    "desempenho": 5.117,
+    "financas": 5.544
+  },
+  "4318101": {
+    "municipio": "SAO FRANCISCO DE ASSIS",
+    "gestao": 7.666,
+    "desempenho": 5.627,
+    "financas": 6.283
+  },
+  "4318200": {
+    "municipio": "SAO FRANCISCO DE PAULA",
+    "gestao": 5.463,
+    "desempenho": 4.642,
+    "financas": 5.669
+  },
+  "4318309": {
+    "municipio": "SAO GABRIEL",
+    "gestao": 6.008,
+    "desempenho": 5.233,
+    "financas": 5.067
+  },
+  "4318408": {
+    "municipio": "SAO JERONIMO",
+    "gestao": 5.488,
+    "desempenho": 5.476,
+    "financas": 5.368
+  },
+  "4318424": {
+    "municipio": "SAO JOAO DA URTIGA",
+    "gestao": 4.323,
+    "desempenho": 5.12,
+    "financas": 5.494
+  },
+  "4318432": {
+    "municipio": "SAO JOAO DO POLESINE",
+    "gestao": 5.531,
+    "desempenho": 4.096,
+    "financas": 5.223
+  },
+  "4318440": {
+    "municipio": "SAO JORGE",
+    "gestao": 4.773,
+    "desempenho": 5.221,
+    "financas": 5.201
+  },
+  "4318457": {
+    "municipio": "SAO JOSE DAS MISSOES",
+    "gestao": 5.164,
+    "desempenho": 4.015,
+    "financas": 4.616
+  },
+  "4318465": {
+    "municipio": "SAO JOSE DO HERVAL",
+    "gestao": 3.772,
+    "desempenho": 4.277,
+    "financas": 4.969
+  },
+  "4318481": {
+    "municipio": "SAO JOSE DO HORTENCIO",
+    "gestao": 5.338,
+    "desempenho": 6.566,
+    "financas": 6.879
+  },
+  "4318499": {
+    "municipio": "SAO JOSE DO INHACORA",
+    "gestao": 4.863,
+    "desempenho": 4.376,
+    "financas": 5.939
+  },
+  "4318507": {
+    "municipio": "SAO JOSE DO NORTE",
+    "gestao": 6.772,
+    "desempenho": 5.06,
+    "financas": 5.292
+  },
+  "4318606": {
+    "municipio": "SAO JOSE DO OURO",
+    "gestao": 6.262,
+    "desempenho": 4.735,
+    "financas": 5.475
+  },
+  "4318614": {
+    "municipio": "SAO JOSE DO SUL",
+    "gestao": 5.069,
+    "desempenho": 6.115,
+    "financas": 5.677
+  },
+  "4318622": {
+    "municipio": "SAO JOSE DOS AUSENTES",
+    "gestao": 4.633,
+    "desempenho": 4.972,
+    "financas": 5.62
+  },
+  "4318705": {
+    "municipio": "SAO LEOPOLDO",
+    "gestao": 6.595,
+    "desempenho": 4.01,
+    "financas": 5.859
+  },
+  "4318804": {
+    "municipio": "SAO LOURENCO DO SUL",
+    "gestao": 7.368,
+    "desempenho": 5.985,
+    "financas": 6.24
+  },
+  "4318903": {
+    "municipio": "SAO LUIZ GONZAGA",
+    "gestao": 6.774,
+    "desempenho": 5.862,
+    "financas": 6.008
+  },
+  "4319000": {
+    "municipio": "SAO MARCOS",
+    "gestao": 6.673,
+    "desempenho": 6.946,
+    "financas": 7.122
+  },
+  "4319109": {
+    "municipio": "SAO MARTINHO",
+    "gestao": 7.127,
+    "desempenho": 7.092,
+    "financas": 7.234
+  },
+  "4319125": {
+    "municipio": "SAO MARTINHO DA SERRA",
+    "gestao": 5.368,
+    "desempenho": 3.627,
+    "financas": 4.323
+  },
+  "4319158": {
+    "municipio": "SAO MIGUEL DAS MISSOES",
+    "gestao": 5.492,
+    "desempenho": 5.578,
+    "financas": 6.127
+  },
+  "4319208": {
+    "municipio": "SAO NICOLAU",
+    "gestao": 4.98,
+    "desempenho": 3.432,
+    "financas": 4.583
+  },
+  "4319307": {
+    "municipio": "SAO PAULO DAS MISSOES",
+    "gestao": 5.793,
+    "desempenho": 5.405,
+    "financas": 5.563
+  },
+  "4319356": {
+    "municipio": "SAO PEDRO DA SERRA",
+    "gestao": 5.471,
+    "desempenho": 4.927,
+    "financas": 6.168
+  },
+  "4319364": {
+    "municipio": "SAO PEDRO DAS MISSOES",
+    "gestao": 5.066,
+    "desempenho": 4.009,
+    "financas": 4.39
+  },
+  "4319372": {
+    "municipio": "SAO PEDRO DO BUTIA",
+    "gestao": 5.858,
+    "desempenho": 5.823,
+    "financas": 5.893
+  },
+  "4319406": {
+    "municipio": "SAO PEDRO DO SUL",
+    "gestao": 6.872,
+    "desempenho": 5.464,
+    "financas": 5.965
+  },
+  "4319505": {
+    "municipio": "SAO SEBASTIAO DO CAI",
+    "gestao": 6.942,
+    "desempenho": 5.754,
+    "financas": 6.795
+  },
+  "4319604": {
+    "municipio": "SAO SEPE",
+    "gestao": 5.989,
+    "desempenho": 6.482,
+    "financas": 6.103
+  },
+  "4319703": {
+    "municipio": "SAO VALENTIM",
+    "gestao": 3.94,
+    "desempenho": 4.95,
+    "financas": 4.634
+  },
+  "4319711": {
+    "municipio": "SAO VALENTIM DO SUL",
+    "gestao": 6.853,
+    "desempenho": 5.648,
+    "financas": 6.38
+  },
+  "4319737": {
+    "municipio": "SAO VALERIO DO SUL",
+    "gestao": 5.311,
+    "desempenho": 2.263,
+    "financas": 4.71
+  },
+  "4319752": {
+    "municipio": "SAO VENDELINO",
+    "gestao": 5.963,
+    "desempenho": 5.638,
+    "financas": 6.172
+  },
+  "4319802": {
+    "municipio": "SAO VICENTE DO SUL",
+    "gestao": 6.982,
+    "desempenho": 6.252,
+    "financas": 6.754
+  },
+  "4319901": {
+    "municipio": "SAPIRANGA",
+    "gestao": 4.751,
+    "desempenho": 6.56,
+    "financas": 6.083
+  },
+  "4320008": {
+    "municipio": "SAPUCAIA DO SUL",
+    "gestao": 5.527,
+    "desempenho": 7.006,
+    "financas": 5.548
+  },
+  "4320107": {
+    "municipio": "SARANDI",
+    "gestao": 5.716,
+    "desempenho": 6.369,
+    "financas": 6.173
+  },
+  "4320206": {
+    "municipio": "SEBERI",
+    "gestao": 7.236,
+    "desempenho": 6.222,
+    "financas": 6.843
+  },
+  "4320230": {
+    "municipio": "SEDE NOVA",
+    "gestao": 4.126,
+    "desempenho": 3.975,
+    "financas": 4.979
+  },
+  "4320263": {
+    "municipio": "SEGREDO",
+    "gestao": 6.392,
+    "desempenho": 5.379,
+    "financas": 6.375
+  },
+  "4320305": {
+    "municipio": "SELBACH",
+    "gestao": 5.421,
+    "desempenho": 5.014,
+    "financas": 5.39
+  },
+  "4320321": {
+    "municipio": "SENADOR SALGADO FILHO",
+    "gestao": 5.178,
+    "desempenho": 4.531,
+    "financas": 4.751
+  },
+  "4320354": {
+    "municipio": "SENTINELA DO SUL",
+    "gestao": 4.76,
+    "desempenho": 2.903,
+    "financas": 4.118
+  },
+  "4320404": {
+    "municipio": "SERAFINA CORREA",
+    "gestao": 5.841,
+    "desempenho": 7.461,
+    "financas": 6.764
+  },
+  "4320453": {
+    "municipio": "SERIO",
+    "gestao": 4.388,
+    "desempenho": 4.641,
+    "financas": 5.293
+  },
+  "4320503": {
+    "municipio": "SERTAO",
+    "gestao": 6.238,
+    "desempenho": 5.639,
+    "financas": 5.449
+  },
+  "4320552": {
+    "municipio": "SERTAO SANTANA",
+    "gestao": 5.606,
+    "desempenho": 3.221,
+    "financas": 5.184
+  },
+  "4320578": {
+    "municipio": "SETE DE SETEMBRO",
+    "gestao": 3.988,
+    "desempenho": 4.672,
+    "financas": 5.229
+  },
+  "4320602": {
+    "municipio": "SEVERIANO DE ALMEIDA",
+    "gestao": 4.93,
+    "desempenho": 5.789,
+    "financas": 5.584
+  },
+  "4320651": {
+    "municipio": "SILVEIRA MARTINS",
+    "gestao": 5.564,
+    "desempenho": 3.929,
+    "financas": 5.399
+  },
+  "4320677": {
+    "municipio": "SINIMBU",
+    "gestao": 5.585,
+    "desempenho": 5.725,
+    "financas": 5.787
+  },
+  "4320701": {
+    "municipio": "SOBRADINHO",
+    "gestao": 7.032,
+    "desempenho": 6.3,
+    "financas": 6.598
+  },
+  "4320800": {
+    "municipio": "SOLEDADE",
+    "gestao": 7.169,
+    "desempenho": 5.023,
+    "financas": 5.954
+  },
+  "4320859": {
+    "municipio": "TABAI",
+    "gestao": 4.372,
+    "desempenho": 4.284,
+    "financas": 4.354
+  },
+  "4320909": {
+    "municipio": "TAPEJARA",
+    "gestao": 6.422,
+    "desempenho": 6.924,
+    "financas": 7.104
+  },
+  "4321006": {
+    "municipio": "TAPERA",
+    "gestao": 7.549,
+    "desempenho": 6.367,
+    "financas": 6.86
+  },
+  "4321105": {
+    "municipio": "TAPES",
+    "gestao": 6.422,
+    "desempenho": 5.8,
+    "financas": 6.312
+  },
+  "4321204": {
+    "municipio": "TAQUARA",
+    "gestao": 6.355,
+    "desempenho": 7.267,
+    "financas": 7.011
+  },
+  "4321303": {
+    "municipio": "TAQUARI",
+    "gestao": 6.727,
+    "desempenho": 6.242,
+    "financas": 5.923
+  },
+  "4321329": {
+    "municipio": "TAQUARUCU DO SUL",
+    "gestao": 6.453,
+    "desempenho": 4.58,
+    "financas": 5.653
+  },
+  "4321352": {
+    "municipio": "TAVARES",
+    "gestao": 6.126,
+    "desempenho": 5.336,
+    "financas": 5.272
+  },
+  "4321402": {
+    "municipio": "TENENTE PORTELA",
+    "gestao": 5.323,
+    "desempenho": 5.262,
+    "financas": 4.278
+  },
+  "4321436": {
+    "municipio": "TERRA DE AREIA",
+    "gestao": 5.254,
+    "desempenho": 5.048,
+    "financas": 4.734
+  },
+  "4321451": {
+    "municipio": "TEUTONIA",
+    "gestao": 6.648,
+    "desempenho": 6.019,
+    "financas": 6.968
+  },
+  "4321469": {
+    "municipio": "TIO HUGO",
+    "gestao": 4.924,
+    "desempenho": 6.527,
+    "financas": 5.298
+  },
+  "4321477": {
+    "municipio": "TIRADENTES DO SUL",
+    "gestao": 5.723,
+    "desempenho": 4.562,
+    "financas": 4.944
+  },
+  "4321493": {
+    "municipio": "TOROPI",
+    "gestao": 4.785,
+    "desempenho": 4.122,
+    "financas": 4.782
+  },
+  "4321501": {
+    "municipio": "TORRES",
+    "gestao": 6.608,
+    "desempenho": 7.124,
+    "financas": 6.316
+  },
+  "4321600": {
+    "municipio": "TRAMANDAI",
+    "gestao": 5.432,
+    "desempenho": 7.028,
+    "financas": 6.079
+  },
+  "4321626": {
+    "municipio": "TRAVESSEIRO",
+    "gestao": 5.828,
+    "desempenho": 5.149,
+    "financas": 5.742
+  },
+  "4321634": {
+    "municipio": "TRES ARROIOS",
+    "gestao": 6.98,
+    "desempenho": 5.513,
+    "financas": 6.955
+  },
+  "4321667": {
+    "municipio": "TRES CACHOEIRAS",
+    "gestao": 5.749,
+    "desempenho": 6.374,
+    "financas": 5.716
+  },
+  "4321709": {
+    "municipio": "TRES COROAS",
+    "gestao": 4.964,
+    "desempenho": 6.435,
+    "financas": 6.026
+  },
+  "4321808": {
+    "municipio": "TRES DE MAIO",
+    "gestao": 5.426,
+    "desempenho": 6.559,
+    "financas": 5.998
+  },
+  "4321832": {
+    "municipio": "TRES FORQUILHAS",
+    "gestao": 4.621,
+    "desempenho": 4.042,
+    "financas": 4.808
+  },
+  "4321857": {
+    "municipio": "TRES PALMEIRAS",
+    "gestao": 5.038,
+    "desempenho": 4.509,
+    "financas": 5.769
+  },
+  "4321907": {
+    "municipio": "TRES PASSOS",
+    "gestao": 6.762,
+    "desempenho": 7.018,
+    "financas": 6.662
+  },
+  "4321956": {
+    "municipio": "TRINDADE DO SUL",
+    "gestao": 6.083,
+    "desempenho": 6.757,
+    "financas": 6.352
+  },
+  "4322004": {
+    "municipio": "TRIUNFO",
+    "gestao": 6.194,
+    "desempenho": 6.039,
+    "financas": 5.941
+  },
+  "4322103": {
+    "municipio": "TUCUNDUVA",
+    "gestao": 6.265,
+    "desempenho": 5.876,
+    "financas": 5.801
+  },
+  "4322152": {
+    "municipio": "TUNAS",
+    "gestao": 3.817,
+    "desempenho": 5.156,
+    "financas": 4.833
+  },
+  "4322186": {
+    "municipio": "TUPANCI DO SUL",
+    "gestao": 3.513,
+    "desempenho": 5.431,
+    "financas": 4.389
+  },
+  "4322202": {
+    "municipio": "TUPANCIRETA",
+    "gestao": 5.759,
+    "desempenho": 5.292,
+    "financas": 5.828
+  },
+  "4322251": {
+    "municipio": "TUPANDI",
+    "gestao": 7.186,
+    "desempenho": 5.887,
+    "financas": 7.31
+  },
+  "4322301": {
+    "municipio": "TUPARENDI",
+    "gestao": 7.467,
+    "desempenho": 5.983,
+    "financas": 6.493
+  },
+  "4322327": {
+    "municipio": "TURUCU",
+    "gestao": 5.155,
+    "desempenho": 3.864,
+    "financas": 5.011
+  },
+  "4322343": {
+    "municipio": "UBIRETAMA",
+    "gestao": 4.81,
+    "desempenho": 5.44,
+    "financas": 5.312
+  },
+  "4322350": {
+    "municipio": "UNIAO DA SERRA",
+    "gestao": 5.006,
+    "desempenho": 4.829,
+    "financas": 4.901
+  },
+  "4322376": {
+    "municipio": "UNISTALDA",
+    "gestao": 4.771,
+    "desempenho": 2.966,
+    "financas": 3.929
+  },
+  "4322400": {
+    "municipio": "URUGUAIANA",
+    "gestao": 6.313,
+    "desempenho": 7.412,
+    "financas": 5.75
+  },
+  "4322509": {
+    "municipio": "VACARIA",
+    "gestao": 5.885,
+    "desempenho": 6.099,
+    "financas": 5.656
+  },
+  "4322525": {
+    "municipio": "VALE VERDE",
+    "gestao": 4.596,
+    "desempenho": 4.926,
+    "financas": 5.761
+  },
+  "4322533": {
+    "municipio": "VALE DO SOL",
+    "gestao": 6.353,
+    "desempenho": 5.606,
+    "financas": 6.06
+  },
+  "4322541": {
+    "municipio": "VALE REAL",
+    "gestao": 6.725,
+    "desempenho": 6.439,
+    "financas": 6.856
+  },
+  "4322558": {
+    "municipio": "VANINI",
+    "gestao": 4.82,
+    "desempenho": 4.491,
+    "financas": 4.895
+  },
+  "4322608": {
+    "municipio": "VENANCIO AIRES",
+    "gestao": 7.707,
+    "desempenho": 5.289,
+    "financas": 6.803
+  },
+  "4322707": {
+    "municipio": "VERA CRUZ",
+    "gestao": 5.993,
+    "desempenho": 7.739,
+    "financas": 6.667
+  },
+  "4322806": {
+    "municipio": "VERANOPOLIS",
+    "gestao": 5.827,
+    "desempenho": 8.99,
+    "financas": 7.74
+  },
+  "4322855": {
+    "municipio": "VESPASIANO CORREA",
+    "gestao": 6.003,
+    "desempenho": 6.156,
+    "financas": 5.92
+  },
+  "4322905": {
+    "municipio": "VIADUTOS",
+    "gestao": 5.707,
+    "desempenho": 5.836,
+    "financas": 6.154
+  },
+  "4323002": {
+    "municipio": "VIAMAO",
+    "gestao": 7.0,
+    "desempenho": 5.927,
+    "financas": 6.64
+  },
+  "4323101": {
+    "municipio": "VICENTE DUTRA",
+    "gestao": 5.991,
+    "desempenho": 2.92,
+    "financas": 4.441
+  },
+  "4323200": {
+    "municipio": "VICTOR GRAEFF",
+    "gestao": 5.477,
+    "desempenho": 4.969,
+    "financas": 5.645
+  },
+  "4323309": {
+    "municipio": "VILA FLORES",
+    "gestao": 4.857,
+    "desempenho": 5.768,
+    "financas": 6.068
+  },
+  "4323358": {
+    "municipio": "VILA LANGARO",
+    "gestao": 4.227,
+    "desempenho": 6.178,
+    "financas": 6.052
+  },
+  "4323408": {
+    "municipio": "VILA MARIA",
+    "gestao": 6.37,
+    "desempenho": 6.637,
+    "financas": 6.843
+  },
+  "4323457": {
+    "municipio": "VILA NOVA DO SUL",
+    "gestao": 6.267,
+    "desempenho": 3.82,
+    "financas": 5.353
+  },
+  "4323507": {
+    "municipio": "VISTA ALEGRE",
+    "gestao": 5.764,
+    "desempenho": 5.31,
+    "financas": 5.115
+  },
+  "4323606": {
+    "municipio": "VISTA ALEGRE DO PRATA",
+    "gestao": 4.938,
+    "desempenho": 5.478,
+    "financas": 5.282
+  },
+  "4323705": {
+    "municipio": "VISTA GAUCHA",
+    "gestao": 5.101,
+    "desempenho": 5.249,
+    "financas": 6.133
+  },
+  "4323754": {
+    "municipio": "VITORIA DAS MISSOES",
+    "gestao": 4.293,
+    "desempenho": 4.167,
+    "financas": 4.759
+  },
+  "4323770": {
+    "municipio": "WESTFALIA",
+    "gestao": 5.323,
+    "desempenho": 5.556,
+    "financas": 5.715
+  },
+  "4323804": {
+    "municipio": "XANGRI-LA",
+    "gestao": 4.506,
+    "desempenho": 6.981,
+    "financas": 5.866
+  }
+}

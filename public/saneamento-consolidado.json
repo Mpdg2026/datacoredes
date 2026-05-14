@@ -1,0 +1,2984 @@
+{
+  "4300034": {
+    "municipio": "Aceguá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 94.99
+  },
+  "4300059": {
+    "municipio": "Água Santa",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 38.88
+  },
+  "4300109": {
+    "municipio": "Agudo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 49.38
+  },
+  "4300208": {
+    "municipio": "Ajuricaba",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4300307": {
+    "municipio": "Alecrim",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 30.73
+  },
+  "4300406": {
+    "municipio": "Alegrete",
+    "agua_total": null,
+    "esgoto_total": 23.07,
+    "residuos_coleta": 89.62
+  },
+  "4300455": {
+    "municipio": "Alegria",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 80.2
+  },
+  "4300471": {
+    "municipio": "Almirante Tamandaré do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 62.53
+  },
+  "4300505": {
+    "municipio": "Alpestre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 34.78
+  },
+  "4300554": {
+    "municipio": "Alto Alegre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4300570": {
+    "municipio": "Alto Feliz",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 81.37
+  },
+  "4300604": {
+    "municipio": "Alvorada",
+    "agua_total": null,
+    "esgoto_total": 39.14,
+    "residuos_coleta": 100.0
+  },
+  "4300638": {
+    "municipio": "Amaral Ferrador",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 39.15
+  },
+  "4300646": {
+    "municipio": "Ametista do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4300661": {
+    "municipio": "André da Rocha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 78.73
+  },
+  "4300703": {
+    "municipio": "Anta Gorda",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.61
+  },
+  "4300802": {
+    "municipio": "Antônio Prado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4300851": {
+    "municipio": "Arambaré",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.45
+  },
+  "4300877": {
+    "municipio": "Araricá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.97
+  },
+  "4300901": {
+    "municipio": "Aratiba",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4301008": {
+    "municipio": "Arroio do Meio",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 54.1
+  },
+  "4301073": {
+    "municipio": "Arroio do Padre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4301057": {
+    "municipio": "Arroio do Sal",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.98
+  },
+  "4301206": {
+    "municipio": "Arroio do Tigre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.37
+  },
+  "4301107": {
+    "municipio": "Arroio dos Ratos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4301305": {
+    "municipio": "Arroio Grande",
+    "agua_total": null,
+    "esgoto_total": 3.82,
+    "residuos_coleta": 100.0
+  },
+  "4301404": {
+    "municipio": "Arvorezinha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.11
+  },
+  "4301503": {
+    "municipio": "Augusto Pestana",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 61.93
+  },
+  "4301552": {
+    "municipio": "Áurea",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 41.94
+  },
+  "4301602": {
+    "municipio": "Bagé",
+    "agua_total": null,
+    "esgoto_total": 66.96,
+    "residuos_coleta": 99.01
+  },
+  "4301636": {
+    "municipio": "Balneário Pinhal",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.26
+  },
+  "4301651": {
+    "municipio": "Barão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4301701": {
+    "municipio": "Barão de Cotegipe",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 39.26
+  },
+  "4301750": {
+    "municipio": "Barão do Triunfo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4301859": {
+    "municipio": "Barra do Guarita",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4301875": {
+    "municipio": "Barra do Quaraí",
+    "agua_total": null,
+    "esgoto_total": 30.8,
+    "residuos_coleta": 80.13
+  },
+  "4301909": {
+    "municipio": "Barra do Ribeiro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4301925": {
+    "municipio": "Barra do Rio Azul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 29.19
+  },
+  "4301958": {
+    "municipio": "Barra Funda",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 64.29
+  },
+  "4301800": {
+    "municipio": "Barracão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.38
+  },
+  "4302006": {
+    "municipio": "Barros Cassal",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4302055": {
+    "municipio": "Benjamin Constant do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4302105": {
+    "municipio": "Bento Gonçalves",
+    "agua_total": null,
+    "esgoto_total": 2.48,
+    "residuos_coleta": 79.98
+  },
+  "4302154": {
+    "municipio": "Boa Vista das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.03
+  },
+  "4302204": {
+    "municipio": "Boa Vista do Buricá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4302220": {
+    "municipio": "Boa Vista do Cadeado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 38.65
+  },
+  "4302238": {
+    "municipio": "Boa Vista do Incra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 29.86
+  },
+  "4302253": {
+    "municipio": "Boa Vista do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.99
+  },
+  "4302303": {
+    "municipio": "Bom Jesus",
+    "agua_total": null,
+    "esgoto_total": 32.7,
+    "residuos_coleta": 91.39
+  },
+  "4302352": {
+    "municipio": "Bom Princípio",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4302378": {
+    "municipio": "Bom Progresso",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 68.81
+  },
+  "4302402": {
+    "municipio": "Bom Retiro do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4302451": {
+    "municipio": "Boqueirão do Leão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4302501": {
+    "municipio": "Bossoroca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 65.33
+  },
+  "4302584": {
+    "municipio": "Bozano",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 28.59
+  },
+  "4302600": {
+    "municipio": "Braga",
+    "agua_total": null,
+    "esgoto_total": 3.64,
+    "residuos_coleta": 54.36
+  },
+  "4302659": {
+    "municipio": "Brochier",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.51
+  },
+  "4302709": {
+    "municipio": "Butiá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.02
+  },
+  "4302808": {
+    "municipio": "Caçapava do Sul",
+    "agua_total": null,
+    "esgoto_total": 3.72,
+    "residuos_coleta": 88.31
+  },
+  "4302907": {
+    "municipio": "Cacequi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.4
+  },
+  "4303004": {
+    "municipio": "Cachoeira do Sul",
+    "agua_total": null,
+    "esgoto_total": 38.87,
+    "residuos_coleta": null
+  },
+  "4303103": {
+    "municipio": "Cachoeirinha",
+    "agua_total": null,
+    "esgoto_total": 90.75,
+    "residuos_coleta": 100.0
+  },
+  "4303202": {
+    "municipio": "Cacique Doble",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4303301": {
+    "municipio": "Caibaté",
+    "agua_total": null,
+    "esgoto_total": 4.21,
+    "residuos_coleta": 99.03
+  },
+  "4303400": {
+    "municipio": "Caiçara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 36.96
+  },
+  "4303509": {
+    "municipio": "Camaquã",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4303558": {
+    "municipio": "Camargo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4303608": {
+    "municipio": "Cambará do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4303673": {
+    "municipio": "Campestre da Serra",
+    "agua_total": null,
+    "esgoto_total": 28.56,
+    "residuos_coleta": 99.05
+  },
+  "4303707": {
+    "municipio": "Campina das Missões",
+    "agua_total": null,
+    "esgoto_total": 32.79,
+    "residuos_coleta": 35.77
+  },
+  "4303806": {
+    "municipio": "Campinas do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4303905": {
+    "municipio": "Campo Bom",
+    "agua_total": null,
+    "esgoto_total": 0.13,
+    "residuos_coleta": 100.0
+  },
+  "4304002": {
+    "municipio": "Campo Novo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.14
+  },
+  "4304101": {
+    "municipio": "Campos Borges",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4304200": {
+    "municipio": "Candelária",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 47.52
+  },
+  "4304309": {
+    "municipio": "Cândido Godói",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 97.53
+  },
+  "4304358": {
+    "municipio": "Candiota",
+    "agua_total": null,
+    "esgoto_total": 23.7,
+    "residuos_coleta": 73.94
+  },
+  "4304408": {
+    "municipio": "Canela",
+    "agua_total": null,
+    "esgoto_total": 23.5,
+    "residuos_coleta": 98.99
+  },
+  "4304507": {
+    "municipio": "Canguçu",
+    "agua_total": null,
+    "esgoto_total": 35.92,
+    "residuos_coleta": 100.0
+  },
+  "4304606": {
+    "municipio": "Canoas",
+    "agua_total": null,
+    "esgoto_total": 60.57,
+    "residuos_coleta": 99.0
+  },
+  "4304614": {
+    "municipio": "Canudos do Vale",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 80.73
+  },
+  "4304622": {
+    "municipio": "Capão Bonito do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.91
+  },
+  "4304630": {
+    "municipio": "Capão da Canoa",
+    "agua_total": null,
+    "esgoto_total": 64.51,
+    "residuos_coleta": 100.0
+  },
+  "4304655": {
+    "municipio": "Capão do Cipó",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4304663": {
+    "municipio": "Capão do Leão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4304689": {
+    "municipio": "Capela de Santana",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.95
+  },
+  "4304697": {
+    "municipio": "Capitão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4304671": {
+    "municipio": "Capivari do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4304713": {
+    "municipio": "Caraá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 51.55
+  },
+  "4304705": {
+    "municipio": "Carazinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.32
+  },
+  "4304804": {
+    "municipio": "Carlos Barbosa",
+    "agua_total": null,
+    "esgoto_total": 79.36,
+    "residuos_coleta": 100.0
+  },
+  "4304853": {
+    "municipio": "Carlos Gomes",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4304903": {
+    "municipio": "Casca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4304952": {
+    "municipio": "Caseiros",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 49.5
+  },
+  "4305009": {
+    "municipio": "Catuípe",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 88.58
+  },
+  "4305108": {
+    "municipio": "Caxias do Sul",
+    "agua_total": null,
+    "esgoto_total": 92.72,
+    "residuos_coleta": 100.0
+  },
+  "4305116": {
+    "municipio": "Centenário",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 32.02
+  },
+  "4305124": {
+    "municipio": "Cerrito",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4305132": {
+    "municipio": "Cerro Branco",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 28.34
+  },
+  "4305157": {
+    "municipio": "Cerro Grande",
+    "agua_total": null,
+    "esgoto_total": 21.22,
+    "residuos_coleta": 34.33
+  },
+  "4305173": {
+    "municipio": "Cerro Grande do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 97.1
+  },
+  "4305207": {
+    "municipio": "Cerro Largo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 71.02
+  },
+  "4305306": {
+    "municipio": "Chapada",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 59.43
+  },
+  "4305355": {
+    "municipio": "Charqueadas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 97.14
+  },
+  "4305371": {
+    "municipio": "Charrua",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4305405": {
+    "municipio": "Chiapetta",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 70.84
+  },
+  "4305439": {
+    "municipio": "Chuí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4305447": {
+    "municipio": "Chuvisca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 21.54
+  },
+  "4305454": {
+    "municipio": "Cidreira",
+    "agua_total": null,
+    "esgoto_total": 6.23,
+    "residuos_coleta": 64.36
+  },
+  "4305504": {
+    "municipio": "Ciríaco",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4305587": {
+    "municipio": "Colinas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.02
+  },
+  "4305603": {
+    "municipio": "Colorado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 79.03
+  },
+  "4305702": {
+    "municipio": "Condor",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.03
+  },
+  "4305801": {
+    "municipio": "Constantina",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4305835": {
+    "municipio": "Coqueiro Baixo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4305850": {
+    "municipio": "Coqueiros do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 67.17
+  },
+  "4305871": {
+    "municipio": "Coronel Barros",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4305900": {
+    "municipio": "Coronel Bicaco",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 80.59
+  },
+  "4305934": {
+    "municipio": "Coronel Pilar",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 10.1
+  },
+  "4305959": {
+    "municipio": "Cotiporã",
+    "agua_total": null,
+    "esgoto_total": 9.32,
+    "residuos_coleta": 99.02
+  },
+  "4305975": {
+    "municipio": "Coxilha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306007": {
+    "municipio": "Crissiumal",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.02
+  },
+  "4306056": {
+    "municipio": "Cristal",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 67.81
+  },
+  "4306072": {
+    "municipio": "Cristal do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 73.56
+  },
+  "4306106": {
+    "municipio": "Cruz Alta",
+    "agua_total": null,
+    "esgoto_total": 23.31,
+    "residuos_coleta": 96.46
+  },
+  "4306130": {
+    "municipio": "Cruzaltense",
+    "agua_total": null,
+    "esgoto_total": 0.06,
+    "residuos_coleta": 100.0
+  },
+  "4306205": {
+    "municipio": "Cruzeiro do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 73.87
+  },
+  "4306304": {
+    "municipio": "David Canabarro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306320": {
+    "municipio": "Derrubadas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 71.98
+  },
+  "4306353": {
+    "municipio": "Dezesseis de Novembro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4306379": {
+    "municipio": "Dilermando de Aguiar",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 88.21
+  },
+  "4306403": {
+    "municipio": "Dois Irmãos",
+    "agua_total": null,
+    "esgoto_total": 10.59,
+    "residuos_coleta": 100.0
+  },
+  "4306429": {
+    "municipio": "Dois Irmãos das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.08
+  },
+  "4306452": {
+    "municipio": "Dois Lajeados",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306502": {
+    "municipio": "Dom Feliciano",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 94.83
+  },
+  "4306601": {
+    "municipio": "Dom Pedrito",
+    "agua_total": null,
+    "esgoto_total": 13.6,
+    "residuos_coleta": 90.63
+  },
+  "4306551": {
+    "municipio": "Dom Pedro de Alcântara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4306700": {
+    "municipio": "Dona Francisca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306734": {
+    "municipio": "Doutor Maurício Cardoso",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.8
+  },
+  "4306759": {
+    "municipio": "Doutor Ricardo",
+    "agua_total": null,
+    "esgoto_total": 1.57,
+    "residuos_coleta": 100.0
+  },
+  "4306767": {
+    "municipio": "Eldorado do Sul",
+    "agua_total": null,
+    "esgoto_total": 17.88,
+    "residuos_coleta": 98.43
+  },
+  "4306809": {
+    "municipio": "Encantado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306908": {
+    "municipio": "Encruzilhada do Sul",
+    "agua_total": null,
+    "esgoto_total": 2.05,
+    "residuos_coleta": 74.81
+  },
+  "4306924": {
+    "municipio": "Engenho Velho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 60.78
+  },
+  "4306957": {
+    "municipio": "Entre Rios do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4306932": {
+    "municipio": "Entre-Ijuís",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4306973": {
+    "municipio": "Erebango",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 65.93
+  },
+  "4307005": {
+    "municipio": "Erechim",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 96.94
+  },
+  "4307054": {
+    "municipio": "Ernestina",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.58
+  },
+  "4307203": {
+    "municipio": "Erval Grande",
+    "agua_total": null,
+    "esgoto_total": 0.02,
+    "residuos_coleta": 100.0
+  },
+  "4307302": {
+    "municipio": "Erval Seco",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4307401": {
+    "municipio": "Esmeralda",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 64.92
+  },
+  "4307450": {
+    "municipio": "Esperança do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 25.78
+  },
+  "4307500": {
+    "municipio": "Espumoso",
+    "agua_total": null,
+    "esgoto_total": 10.6,
+    "residuos_coleta": 89.23
+  },
+  "4307559": {
+    "municipio": "Estação",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4307609": {
+    "municipio": "Estância Velha",
+    "agua_total": null,
+    "esgoto_total": 2.65,
+    "residuos_coleta": 92.96
+  },
+  "4307708": {
+    "municipio": "Esteio",
+    "agua_total": null,
+    "esgoto_total": 57.01,
+    "residuos_coleta": 100.0
+  },
+  "4307807": {
+    "municipio": "Estrela",
+    "agua_total": null,
+    "esgoto_total": 6.61,
+    "residuos_coleta": 100.0
+  },
+  "4307815": {
+    "municipio": "Estrela Velha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4307831": {
+    "municipio": "Eugênio de Castro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4307864": {
+    "municipio": "Fagundes Varela",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4307906": {
+    "municipio": "Farroupilha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 86.51
+  },
+  "4308003": {
+    "municipio": "Faxinal do Soturno",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 62.58
+  },
+  "4308052": {
+    "municipio": "Faxinalzinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 32.02
+  },
+  "4308078": {
+    "municipio": "Fazenda Vilanova",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308102": {
+    "municipio": "Feliz",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308201": {
+    "municipio": "Flores da Cunha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308250": {
+    "municipio": "Floriano Peixoto",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.52
+  },
+  "4308300": {
+    "municipio": "Fontoura Xavier",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308409": {
+    "municipio": "Formigueiro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308433": {
+    "municipio": "Forquetinha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 49.65
+  },
+  "4308458": {
+    "municipio": "Fortaleza dos Valos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4308508": {
+    "municipio": "Frederico Westphalen",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4308607": {
+    "municipio": "Garibaldi",
+    "agua_total": null,
+    "esgoto_total": 88.67,
+    "residuos_coleta": 98.16
+  },
+  "4308656": {
+    "municipio": "Garruchos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4308706": {
+    "municipio": "Gaurama",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 61.17
+  },
+  "4308805": {
+    "municipio": "General Câmara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4308854": {
+    "municipio": "Gentil",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 76.66
+  },
+  "4308904": {
+    "municipio": "Getúlio Vargas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4309001": {
+    "municipio": "Giruá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 39.2
+  },
+  "4309050": {
+    "municipio": "Glorinha",
+    "agua_total": null,
+    "esgoto_total": 24.19,
+    "residuos_coleta": 98.25
+  },
+  "4309100": {
+    "municipio": "Gramado",
+    "agua_total": null,
+    "esgoto_total": 37.71,
+    "residuos_coleta": null
+  },
+  "4309126": {
+    "municipio": "Gramado dos Loureiros",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4309159": {
+    "municipio": "Gramado Xavier",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 59.93
+  },
+  "4309209": {
+    "municipio": "Gravataí",
+    "agua_total": null,
+    "esgoto_total": 44.3,
+    "residuos_coleta": 95.24
+  },
+  "4309258": {
+    "municipio": "Guabiju",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4309308": {
+    "municipio": "Guaíba",
+    "agua_total": null,
+    "esgoto_total": 32.86,
+    "residuos_coleta": 100.0
+  },
+  "4309407": {
+    "municipio": "Guaporé",
+    "agua_total": null,
+    "esgoto_total": 88.55,
+    "residuos_coleta": 100.0
+  },
+  "4309506": {
+    "municipio": "Guarani das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4309555": {
+    "municipio": "Harmonia",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 73.62
+  },
+  "4307104": {
+    "municipio": "Herval",
+    "agua_total": null,
+    "esgoto_total": 62.38,
+    "residuos_coleta": 65.93
+  },
+  "4309571": {
+    "municipio": "Herveiras",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 20.76
+  },
+  "4309605": {
+    "municipio": "Horizontina",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4309654": {
+    "municipio": "Hulha Negra",
+    "agua_total": null,
+    "esgoto_total": 48.14,
+    "residuos_coleta": 74.06
+  },
+  "4309704": {
+    "municipio": "Humaitá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 59.18
+  },
+  "4309753": {
+    "municipio": "Ibarama",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 24.09
+  },
+  "4309803": {
+    "municipio": "Ibiaçá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4309902": {
+    "municipio": "Ibiraiaras",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.23
+  },
+  "4309951": {
+    "municipio": "Ibirapuitã",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310009": {
+    "municipio": "Ibirubá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 78.98
+  },
+  "4310108": {
+    "municipio": "Igrejinha",
+    "agua_total": null,
+    "esgoto_total": 2.56,
+    "residuos_coleta": 99.01
+  },
+  "4310207": {
+    "municipio": "Ijuí",
+    "agua_total": null,
+    "esgoto_total": 28.41,
+    "residuos_coleta": 100.0
+  },
+  "4310306": {
+    "municipio": "Ilópolis",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4310330": {
+    "municipio": "Imbé",
+    "agua_total": null,
+    "esgoto_total": 0.78,
+    "residuos_coleta": 98.97
+  },
+  "4310363": {
+    "municipio": "Imigrante",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310405": {
+    "municipio": "Independência",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4310413": {
+    "municipio": "Inhacorá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4310439": {
+    "municipio": "Ipê",
+    "agua_total": null,
+    "esgoto_total": 44.02,
+    "residuos_coleta": 48.42
+  },
+  "4310462": {
+    "municipio": "Ipiranga do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310504": {
+    "municipio": "Iraí",
+    "agua_total": null,
+    "esgoto_total": 12.68,
+    "residuos_coleta": 66.17
+  },
+  "4310538": {
+    "municipio": "Itaara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.27
+  },
+  "4310553": {
+    "municipio": "Itacurubi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 34.4
+  },
+  "4310579": {
+    "municipio": "Itapuca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310603": {
+    "municipio": "Itaqui",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.3
+  },
+  "4310652": {
+    "municipio": "Itati",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310702": {
+    "municipio": "Itatiba do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310751": {
+    "municipio": "Ivorá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4310801": {
+    "municipio": "Ivoti",
+    "agua_total": null,
+    "esgoto_total": 4.5,
+    "residuos_coleta": 100.0
+  },
+  "4310850": {
+    "municipio": "Jaboticaba",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4310876": {
+    "municipio": "Jacuizinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4310900": {
+    "municipio": "Jacutinga",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 67.73
+  },
+  "4311007": {
+    "municipio": "Jaguarão",
+    "agua_total": null,
+    "esgoto_total": 38.06,
+    "residuos_coleta": 93.46
+  },
+  "4311106": {
+    "municipio": "Jaguari",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4311122": {
+    "municipio": "Jaquirana",
+    "agua_total": null,
+    "esgoto_total": 32.2,
+    "residuos_coleta": 99.01
+  },
+  "4311130": {
+    "municipio": "Jari",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4311155": {
+    "municipio": "Jóia",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 30.32
+  },
+  "4311205": {
+    "municipio": "Júlio de Castilhos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.89
+  },
+  "4311239": {
+    "municipio": "Lagoa Bonita do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 27.63
+  },
+  "4311270": {
+    "municipio": "Lagoa dos Três Cantos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 45.96
+  },
+  "4311304": {
+    "municipio": "Lagoa Vermelha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4311254": {
+    "municipio": "Lagoão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4311403": {
+    "municipio": "Lajeado",
+    "agua_total": null,
+    "esgoto_total": 3.84,
+    "residuos_coleta": 100.0
+  },
+  "4311429": {
+    "municipio": "Lajeado do Bugre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 57.1
+  },
+  "4311502": {
+    "municipio": "Lavras do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 61.96
+  },
+  "4311601": {
+    "municipio": "Liberato Salzano",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 62.14
+  },
+  "4311627": {
+    "municipio": "Lindolfo Collor",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4311643": {
+    "municipio": "Linha Nova",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4311718": {
+    "municipio": "Maçambará",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 34.4
+  },
+  "4311700": {
+    "municipio": "Machadinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 86.31
+  },
+  "4311734": {
+    "municipio": "Mampituba",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 25.3
+  },
+  "4311759": {
+    "municipio": "Manoel Viana",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 86.62
+  },
+  "4311775": {
+    "municipio": "Maquiné",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4311791": {
+    "municipio": "Maratá",
+    "agua_total": null,
+    "esgoto_total": 4.01,
+    "residuos_coleta": 99.4
+  },
+  "4311809": {
+    "municipio": "Marau",
+    "agua_total": null,
+    "esgoto_total": 21.52,
+    "residuos_coleta": 92.14
+  },
+  "4311908": {
+    "municipio": "Marcelino Ramos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 52.49
+  },
+  "4311981": {
+    "municipio": "Mariana Pimentel",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4312005": {
+    "municipio": "Mariano Moro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 51.6
+  },
+  "4312054": {
+    "municipio": "Marques de Souza",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 75.42
+  },
+  "4312104": {
+    "municipio": "Mata",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 52.7
+  },
+  "4312138": {
+    "municipio": "Mato Castelhano",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.99
+  },
+  "4312153": {
+    "municipio": "Mato Leitão",
+    "agua_total": null,
+    "esgoto_total": 2.04,
+    "residuos_coleta": 95.74
+  },
+  "4312179": {
+    "municipio": "Mato Queimado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312203": {
+    "municipio": "Maximiliano de Almeida",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 63.8
+  },
+  "4312252": {
+    "municipio": "Minas do Leão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 96.19
+  },
+  "4312302": {
+    "municipio": "Miraguaí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 42.61
+  },
+  "4312351": {
+    "municipio": "Montauri",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312377": {
+    "municipio": "Monte Alegre dos Campos",
+    "agua_total": null,
+    "esgoto_total": 0.03,
+    "residuos_coleta": 100.0
+  },
+  "4312385": {
+    "municipio": "Monte Belo do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 28.84
+  },
+  "4312401": {
+    "municipio": "Montenegro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312427": {
+    "municipio": "Mormaço",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.88
+  },
+  "4312443": {
+    "municipio": "Morrinhos do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 96.74
+  },
+  "4312450": {
+    "municipio": "Morro Redondo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312476": {
+    "municipio": "Morro Reuter",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4312500": {
+    "municipio": "Mostardas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 45.86
+  },
+  "4312609": {
+    "municipio": "Muçum",
+    "agua_total": null,
+    "esgoto_total": 11.19,
+    "residuos_coleta": 100.0
+  },
+  "4312617": {
+    "municipio": "Muitos Capões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 51.58
+  },
+  "4312625": {
+    "municipio": "Muliterno",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 28.02
+  },
+  "4312658": {
+    "municipio": "Não-Me-Toque",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.64
+  },
+  "4312674": {
+    "municipio": "Nicolau Vergueiro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 51.26
+  },
+  "4312708": {
+    "municipio": "Nonoai",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4312757": {
+    "municipio": "Nova Alvorada",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312807": {
+    "municipio": "Nova Araçá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4312906": {
+    "municipio": "Nova Bassano",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 67.3
+  },
+  "4312955": {
+    "municipio": "Nova Boa Vista",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 36.36
+  },
+  "4313003": {
+    "municipio": "Nova Bréscia",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 45.54
+  },
+  "4313011": {
+    "municipio": "Nova Candelária",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 25.78
+  },
+  "4313037": {
+    "municipio": "Nova Esperança do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4313060": {
+    "municipio": "Nova Hartz",
+    "agua_total": null,
+    "esgoto_total": 4.83,
+    "residuos_coleta": 100.0
+  },
+  "4313086": {
+    "municipio": "Nova Pádua",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 72.15
+  },
+  "4313102": {
+    "municipio": "Nova Palma",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4313201": {
+    "municipio": "Nova Petrópolis",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 82.9
+  },
+  "4313300": {
+    "municipio": "Nova Prata",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 81.73
+  },
+  "4313334": {
+    "municipio": "Nova Ramada",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 41.19
+  },
+  "4313359": {
+    "municipio": "Nova Roma do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.0
+  },
+  "4313375": {
+    "municipio": "Nova Santa Rita",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4313490": {
+    "municipio": "Novo Barreiro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 37.08
+  },
+  "4313391": {
+    "municipio": "Novo Cabrais",
+    "agua_total": null,
+    "esgoto_total": 8.33,
+    "residuos_coleta": 100.0
+  },
+  "4313409": {
+    "municipio": "Novo Hamburgo",
+    "agua_total": null,
+    "esgoto_total": 6.69,
+    "residuos_coleta": 100.0
+  },
+  "4313425": {
+    "municipio": "Novo Machado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 61.92
+  },
+  "4313441": {
+    "municipio": "Novo Tiradentes",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4313466": {
+    "municipio": "Novo Xingu",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4313508": {
+    "municipio": "Osório",
+    "agua_total": null,
+    "esgoto_total": 2.8,
+    "residuos_coleta": 100.0
+  },
+  "4313607": {
+    "municipio": "Paim Filho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.1
+  },
+  "4313656": {
+    "municipio": "Palmares do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 77.08
+  },
+  "4313706": {
+    "municipio": "Palmeira das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 83.46
+  },
+  "4313805": {
+    "municipio": "Palmitinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 49.03
+  },
+  "4313904": {
+    "municipio": "Panambi",
+    "agua_total": null,
+    "esgoto_total": 1.42,
+    "residuos_coleta": 90.81
+  },
+  "4313953": {
+    "municipio": "Pantano Grande",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314001": {
+    "municipio": "Paraí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.01
+  },
+  "4314027": {
+    "municipio": "Paraíso do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 38.86
+  },
+  "4314035": {
+    "municipio": "Pareci Novo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314050": {
+    "municipio": "Parobé",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 97.0
+  },
+  "4314068": {
+    "municipio": "Passa Sete",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 59.75
+  },
+  "4314076": {
+    "municipio": "Passo do Sobrado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 23.78
+  },
+  "4314100": {
+    "municipio": "Passo Fundo",
+    "agua_total": null,
+    "esgoto_total": 43.85,
+    "residuos_coleta": 100.0
+  },
+  "4314134": {
+    "municipio": "Paulo Bento",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 50.78
+  },
+  "4314159": {
+    "municipio": "Paverama",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 93.94
+  },
+  "4314175": {
+    "municipio": "Pedras Altas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 37.18
+  },
+  "4314209": {
+    "municipio": "Pedro Osório",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314308": {
+    "municipio": "Pejuçara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 67.25
+  },
+  "4314407": {
+    "municipio": "Pelotas",
+    "agua_total": null,
+    "esgoto_total": 81.3,
+    "residuos_coleta": 98.32
+  },
+  "4314423": {
+    "municipio": "Picada Café",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314456": {
+    "municipio": "Pinhal",
+    "agua_total": null,
+    "esgoto_total": 27.43,
+    "residuos_coleta": 99.0
+  },
+  "4314464": {
+    "municipio": "Pinhal da Serra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 44.03
+  },
+  "4314472": {
+    "municipio": "Pinhal Grande",
+    "agua_total": null,
+    "esgoto_total": 42.39,
+    "residuos_coleta": 42.39
+  },
+  "4314498": {
+    "municipio": "Pinheirinho do Vale",
+    "agua_total": null,
+    "esgoto_total": 13.3,
+    "residuos_coleta": 76.34
+  },
+  "4314506": {
+    "municipio": "Pinheiro Machado",
+    "agua_total": null,
+    "esgoto_total": 0.26,
+    "residuos_coleta": 78.91
+  },
+  "4314548": {
+    "municipio": "Pinto Bandeira",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 94.55
+  },
+  "4314555": {
+    "municipio": "Pirapó",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314605": {
+    "municipio": "Piratini",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314704": {
+    "municipio": "Planalto",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.4
+  },
+  "4314753": {
+    "municipio": "Poço das Antas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 42.68
+  },
+  "4314779": {
+    "municipio": "Pontão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 40.4
+  },
+  "4314787": {
+    "municipio": "Ponte Preta",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 37.74
+  },
+  "4314803": {
+    "municipio": "Portão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4314902": {
+    "municipio": "Porto Alegre",
+    "agua_total": null,
+    "esgoto_total": 91.76,
+    "residuos_coleta": 100.0
+  },
+  "4315008": {
+    "municipio": "Porto Lucena",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.94
+  },
+  "4315057": {
+    "municipio": "Porto Mauá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4315073": {
+    "municipio": "Porto Vera Cruz",
+    "agua_total": null,
+    "esgoto_total": 9.9,
+    "residuos_coleta": 63.49
+  },
+  "4315107": {
+    "municipio": "Porto Xavier",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.82
+  },
+  "4315131": {
+    "municipio": "Pouso Novo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.42
+  },
+  "4315149": {
+    "municipio": "Presidente Lucena",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4315156": {
+    "municipio": "Progresso",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4315172": {
+    "municipio": "Protásio Alves",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 35.19
+  },
+  "4315206": {
+    "municipio": "Putinga",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4315305": {
+    "municipio": "Quaraí",
+    "agua_total": null,
+    "esgoto_total": 72.23,
+    "residuos_coleta": null
+  },
+  "4315313": {
+    "municipio": "Quatro Irmãos",
+    "agua_total": null,
+    "esgoto_total": 0.32,
+    "residuos_coleta": 100.0
+  },
+  "4315321": {
+    "municipio": "Quevedos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 90.84
+  },
+  "4315354": {
+    "municipio": "Quinze de Novembro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 50.65
+  },
+  "4315404": {
+    "municipio": "Redentora",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 31.96
+  },
+  "4315453": {
+    "municipio": "Relvado",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 34.07
+  },
+  "4315503": {
+    "municipio": "Restinga Sêca",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 39.77
+  },
+  "4315552": {
+    "municipio": "Rio dos Índios",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 20.89
+  },
+  "4315602": {
+    "municipio": "Rio Grande",
+    "agua_total": null,
+    "esgoto_total": 34.29,
+    "residuos_coleta": 79.97
+  },
+  "4315701": {
+    "municipio": "Rio Pardo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 42.86
+  },
+  "4315750": {
+    "municipio": "Riozinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 63.46
+  },
+  "4315800": {
+    "municipio": "Roca Sales",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.44
+  },
+  "4315909": {
+    "municipio": "Rodeio Bonito",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 86.3
+  },
+  "4315958": {
+    "municipio": "Rolador",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4316006": {
+    "municipio": "Rolante",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4316105": {
+    "municipio": "Ronda Alta",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 63.8
+  },
+  "4316204": {
+    "municipio": "Rondinha",
+    "agua_total": null,
+    "esgoto_total": 24.8,
+    "residuos_coleta": 50.4
+  },
+  "4316303": {
+    "municipio": "Roque Gonzales",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4316402": {
+    "municipio": "Rosário do Sul",
+    "agua_total": null,
+    "esgoto_total": 15.31,
+    "residuos_coleta": null
+  },
+  "4316428": {
+    "municipio": "Sagrada Família",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 30.26
+  },
+  "4316436": {
+    "municipio": "Saldanha Marinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4316451": {
+    "municipio": "Salto do Jacuí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.93
+  },
+  "4316477": {
+    "municipio": "Salvador das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4316501": {
+    "municipio": "Salvador do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4316600": {
+    "municipio": "Sananduva",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 69.58
+  },
+  "4316709": {
+    "municipio": "Santa Bárbara do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 79.11
+  },
+  "4316733": {
+    "municipio": "Santa Cecília do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4316758": {
+    "municipio": "Santa Clara do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.99
+  },
+  "4316808": {
+    "municipio": "Santa Cruz do Sul",
+    "agua_total": null,
+    "esgoto_total": 23.85,
+    "residuos_coleta": 100.0
+  },
+  "4316972": {
+    "municipio": "Santa Margarida do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 18.38
+  },
+  "4316907": {
+    "municipio": "Santa Maria",
+    "agua_total": null,
+    "esgoto_total": 65.03,
+    "residuos_coleta": 100.0
+  },
+  "4316956": {
+    "municipio": "Santa Maria do Herval",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.63
+  },
+  "4317202": {
+    "municipio": "Santa Rosa",
+    "agua_total": null,
+    "esgoto_total": 37.05,
+    "residuos_coleta": 100.0
+  },
+  "4317251": {
+    "municipio": "Santa Tereza",
+    "agua_total": null,
+    "esgoto_total": 4.08,
+    "residuos_coleta": 36.45
+  },
+  "4317301": {
+    "municipio": "Santa Vitória do Palmar",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 93.39
+  },
+  "4317004": {
+    "municipio": "Santana da Boa Vista",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 45.17
+  },
+  "4317103": {
+    "municipio": "Sant'Ana do Livramento",
+    "agua_total": null,
+    "esgoto_total": 36.09,
+    "residuos_coleta": 81.2
+  },
+  "4317400": {
+    "municipio": "Santiago",
+    "agua_total": null,
+    "esgoto_total": 5.87,
+    "residuos_coleta": 91.16
+  },
+  "4317509": {
+    "municipio": "Santo Ângelo",
+    "agua_total": null,
+    "esgoto_total": 32.87,
+    "residuos_coleta": 98.0
+  },
+  "4317608": {
+    "municipio": "Santo Antônio da Patrulha",
+    "agua_total": null,
+    "esgoto_total": 9.59,
+    "residuos_coleta": 99.42
+  },
+  "4317707": {
+    "municipio": "Santo Antônio das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 60.56
+  },
+  "4317558": {
+    "municipio": "Santo Antônio do Palma",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.82
+  },
+  "4317756": {
+    "municipio": "Santo Antônio do Planalto",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 62.04
+  },
+  "4317806": {
+    "municipio": "Santo Augusto",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4317905": {
+    "municipio": "Santo Cristo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 96.94
+  },
+  "4317954": {
+    "municipio": "Santo Expedito do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 33.71
+  },
+  "4318002": {
+    "municipio": "São Borja",
+    "agua_total": null,
+    "esgoto_total": 21.05,
+    "residuos_coleta": 93.39
+  },
+  "4318051": {
+    "municipio": "São Domingos do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 59.74
+  },
+  "4318101": {
+    "municipio": "São Francisco de Assis",
+    "agua_total": null,
+    "esgoto_total": 5.73,
+    "residuos_coleta": 69.47
+  },
+  "4318200": {
+    "municipio": "São Francisco de Paula",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 63.31
+  },
+  "4318309": {
+    "municipio": "São Gabriel",
+    "agua_total": null,
+    "esgoto_total": 53.4,
+    "residuos_coleta": null
+  },
+  "4318408": {
+    "municipio": "São Jerônimo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 83.93
+  },
+  "4318424": {
+    "municipio": "São João da Urtiga",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.48
+  },
+  "4318432": {
+    "municipio": "São João do Polêsine",
+    "agua_total": null,
+    "esgoto_total": 37.37,
+    "residuos_coleta": 51.38
+  },
+  "4318440": {
+    "municipio": "São Jorge",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4318457": {
+    "municipio": "São José das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 31.45
+  },
+  "4318465": {
+    "municipio": "São José do Herval",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4318481": {
+    "municipio": "São José do Hortêncio",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.0
+  },
+  "4318499": {
+    "municipio": "São José do Inhacorá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 32.92
+  },
+  "4318507": {
+    "municipio": "São José do Norte",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 35.36
+  },
+  "4318606": {
+    "municipio": "São José do Ouro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 64.08
+  },
+  "4318614": {
+    "municipio": "São José do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4318622": {
+    "municipio": "São José dos Ausentes",
+    "agua_total": null,
+    "esgoto_total": 49.83,
+    "residuos_coleta": 91.48
+  },
+  "4318705": {
+    "municipio": "São Leopoldo",
+    "agua_total": null,
+    "esgoto_total": 76.97,
+    "residuos_coleta": 100.0
+  },
+  "4318804": {
+    "municipio": "São Lourenço do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 79.8
+  },
+  "4318903": {
+    "municipio": "São Luiz Gonzaga",
+    "agua_total": null,
+    "esgoto_total": 42.74,
+    "residuos_coleta": 92.59
+  },
+  "4319000": {
+    "municipio": "São Marcos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319109": {
+    "municipio": "São Martinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319125": {
+    "municipio": "São Martinho da Serra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319158": {
+    "municipio": "São Miguel das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 50.22
+  },
+  "4319208": {
+    "municipio": "São Nicolau",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319307": {
+    "municipio": "São Paulo das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 34.54
+  },
+  "4319356": {
+    "municipio": "São Pedro da Serra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 56.89
+  },
+  "4319364": {
+    "municipio": "São Pedro das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 61.86
+  },
+  "4319372": {
+    "municipio": "São Pedro do Butiá",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.53
+  },
+  "4319406": {
+    "municipio": "São Pedro do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.74
+  },
+  "4319505": {
+    "municipio": "São Sebastião do Caí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319604": {
+    "municipio": "São Sepé",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 70.0
+  },
+  "4319703": {
+    "municipio": "São Valentim",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4319711": {
+    "municipio": "São Valentim do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319737": {
+    "municipio": "São Valério do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319752": {
+    "municipio": "São Vendelino",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4319802": {
+    "municipio": "São Vicente do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 80.0
+  },
+  "4319901": {
+    "municipio": "Sapiranga",
+    "agua_total": null,
+    "esgoto_total": 8.59,
+    "residuos_coleta": 100.0
+  },
+  "4320008": {
+    "municipio": "Sapucaia do Sul",
+    "agua_total": null,
+    "esgoto_total": 18.84,
+    "residuos_coleta": 100.0
+  },
+  "4320107": {
+    "municipio": "Sarandi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 84.68
+  },
+  "4320206": {
+    "municipio": "Seberi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4320230": {
+    "municipio": "Sede Nova",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 52.51
+  },
+  "4320263": {
+    "municipio": "Segredo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 90.8
+  },
+  "4320305": {
+    "municipio": "Selbach",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4320321": {
+    "municipio": "Senador Salgado Filho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 31.27
+  },
+  "4320354": {
+    "municipio": "Sentinela do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4320404": {
+    "municipio": "Serafina Corrêa",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.55
+  },
+  "4320453": {
+    "municipio": "Sério",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4320503": {
+    "municipio": "Sertão",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.81
+  },
+  "4320552": {
+    "municipio": "Sertão Santana",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 41.39
+  },
+  "4320578": {
+    "municipio": "Sete de Setembro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4320602": {
+    "municipio": "Severiano de Almeida",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 75.2
+  },
+  "4320651": {
+    "municipio": "Silveira Martins",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 55.47
+  },
+  "4320677": {
+    "municipio": "Sinimbu",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 82.86
+  },
+  "4320701": {
+    "municipio": "Sobradinho",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4320800": {
+    "municipio": "Soledade",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4320859": {
+    "municipio": "Tabaí",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 73.23
+  },
+  "4320909": {
+    "municipio": "Tapejara",
+    "agua_total": null,
+    "esgoto_total": 78.7,
+    "residuos_coleta": 98.99
+  },
+  "4321006": {
+    "municipio": "Tapera",
+    "agua_total": null,
+    "esgoto_total": 4.51,
+    "residuos_coleta": 99.01
+  },
+  "4321105": {
+    "municipio": "Tapes",
+    "agua_total": null,
+    "esgoto_total": 4.39,
+    "residuos_coleta": 98.02
+  },
+  "4321204": {
+    "municipio": "Taquara",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321303": {
+    "municipio": "Taquari",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321329": {
+    "municipio": "Taquaruçu do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 39.24
+  },
+  "4321352": {
+    "municipio": "Tavares",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 77.62
+  },
+  "4321402": {
+    "municipio": "Tenente Portela",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 60.42
+  },
+  "4321436": {
+    "municipio": "Terra de Areia",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 57.49
+  },
+  "4321451": {
+    "municipio": "Teutônia",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.52
+  },
+  "4321469": {
+    "municipio": "Tio Hugo",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321477": {
+    "municipio": "Tiradentes do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 48.27
+  },
+  "4321493": {
+    "municipio": "Toropi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 58.16
+  },
+  "4321501": {
+    "municipio": "Torres",
+    "agua_total": null,
+    "esgoto_total": 72.92,
+    "residuos_coleta": 100.0
+  },
+  "4321600": {
+    "municipio": "Tramandaí",
+    "agua_total": null,
+    "esgoto_total": 28.96,
+    "residuos_coleta": 100.0
+  },
+  "4321626": {
+    "municipio": "Travesseiro",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 38.33
+  },
+  "4321634": {
+    "municipio": "Três Arroios",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 35.67
+  },
+  "4321667": {
+    "municipio": "Três Cachoeiras",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321709": {
+    "municipio": "Três Coroas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321808": {
+    "municipio": "Três de Maio",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321832": {
+    "municipio": "Três Forquilhas",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321857": {
+    "municipio": "Três Palmeiras",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4321907": {
+    "municipio": "Três Passos",
+    "agua_total": null,
+    "esgoto_total": 1.12,
+    "residuos_coleta": 70.06
+  },
+  "4321956": {
+    "municipio": "Trindade do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 78.61
+  },
+  "4322004": {
+    "municipio": "Triunfo",
+    "agua_total": null,
+    "esgoto_total": 0.0,
+    "residuos_coleta": 100.0
+  },
+  "4322103": {
+    "municipio": "Tucunduva",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4322152": {
+    "municipio": "Tunas",
+    "agua_total": null,
+    "esgoto_total": 26.9,
+    "residuos_coleta": 67.26
+  },
+  "4322186": {
+    "municipio": "Tupanci do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4322202": {
+    "municipio": "Tupanciretã",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4322251": {
+    "municipio": "Tupandi",
+    "agua_total": null,
+    "esgoto_total": 11.81,
+    "residuos_coleta": 100.0
+  },
+  "4322301": {
+    "municipio": "Tuparendi",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 75.28
+  },
+  "4322327": {
+    "municipio": "Turuçu",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 98.93
+  },
+  "4322343": {
+    "municipio": "Ubiretama",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4322350": {
+    "municipio": "União da Serra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": null
+  },
+  "4322376": {
+    "municipio": "Unistalda",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.01
+  },
+  "4322400": {
+    "municipio": "Uruguaiana",
+    "agua_total": null,
+    "esgoto_total": 92.2,
+    "residuos_coleta": 99.02
+  },
+  "4322509": {
+    "municipio": "Vacaria",
+    "agua_total": null,
+    "esgoto_total": 93.47,
+    "residuos_coleta": 100.0
+  },
+  "4322533": {
+    "municipio": "Vale do Sol",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 85.38
+  },
+  "4322541": {
+    "municipio": "Vale Real",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 89.21
+  },
+  "4322525": {
+    "municipio": "Vale Verde",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 94.28
+  },
+  "4322558": {
+    "municipio": "Vanini",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 87.85
+  },
+  "4322608": {
+    "municipio": "Venâncio Aires",
+    "agua_total": null,
+    "esgoto_total": 17.12,
+    "residuos_coleta": 100.0
+  },
+  "4322707": {
+    "municipio": "Vera Cruz",
+    "agua_total": null,
+    "esgoto_total": 53.75,
+    "residuos_coleta": 100.0
+  },
+  "4322806": {
+    "municipio": "Veranópolis",
+    "agua_total": null,
+    "esgoto_total": 90.29,
+    "residuos_coleta": 61.83
+  },
+  "4322855": {
+    "municipio": "Vespasiano Corrêa",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 20.59
+  },
+  "4322905": {
+    "municipio": "Viadutos",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4323002": {
+    "municipio": "Viamão",
+    "agua_total": null,
+    "esgoto_total": 8.51,
+    "residuos_coleta": 100.0
+  },
+  "4323101": {
+    "municipio": "Vicente Dutra",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 65.72
+  },
+  "4323200": {
+    "municipio": "Victor Graeff",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 100.0
+  },
+  "4323309": {
+    "municipio": "Vila Flores",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 60.14
+  },
+  "4323358": {
+    "municipio": "Vila Lângaro",
+    "agua_total": null,
+    "esgoto_total": 11.9,
+    "residuos_coleta": 16.76
+  },
+  "4323408": {
+    "municipio": "Vila Maria",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 53.29
+  },
+  "4323457": {
+    "municipio": "Vila Nova do Sul",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 99.03
+  },
+  "4323507": {
+    "municipio": "Vista Alegre",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 41.85
+  },
+  "4323606": {
+    "municipio": "Vista Alegre do Prata",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 29.51
+  },
+  "4323705": {
+    "municipio": "Vista Gaúcha",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 54.89
+  },
+  "4323754": {
+    "municipio": "Vitória das Missões",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 19.2
+  },
+  "4323770": {
+    "municipio": "Westfália",
+    "agua_total": null,
+    "esgoto_total": null,
+    "residuos_coleta": 40.04
+  },
+  "4323804": {
+    "municipio": "Xangri-lá",
+    "agua_total": null,
+    "esgoto_total": 38.13,
+    "residuos_coleta": 98.98
+  }
+}
