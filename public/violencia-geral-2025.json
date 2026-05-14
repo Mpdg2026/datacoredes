@@ -1,0 +1,2918 @@
+{
+  "4300034": {
+    "municipio": "Aceguá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300059": {
+    "municipio": "Água Santa",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300109": {
+    "municipio": "Agudo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300208": {
+    "municipio": "Ajuricaba",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4300307": {
+    "municipio": "Alecrim",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4300406": {
+    "municipio": "Alegrete",
+    "homicidio_doloso": 1,
+    "latrocinio": 1,
+    "cvli": 3
+  },
+  "4300455": {
+    "municipio": "Alegria",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300471": {
+    "municipio": "Almirante Tamandaré do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300505": {
+    "municipio": "Alpestre",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4300554": {
+    "municipio": "Alto Alegre",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300570": {
+    "municipio": "Alto Feliz",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300604": {
+    "municipio": "Alvorada",
+    "homicidio_doloso": 35,
+    "latrocinio": 2,
+    "cvli": 44
+  },
+  "4300638": {
+    "municipio": "Amaral Ferrador",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300646": {
+    "municipio": "Ametista do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4300661": {
+    "municipio": "André da Rocha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300703": {
+    "municipio": "Anta Gorda",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4300802": {
+    "municipio": "Antônio Prado",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4300851": {
+    "municipio": "Arambaré",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300877": {
+    "municipio": "Araricá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4300901": {
+    "municipio": "Aratiba",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301008": {
+    "municipio": "Arroio do Meio",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4301073": {
+    "municipio": "Arroio do Padre",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4301057": {
+    "municipio": "Arroio do Sal",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4301206": {
+    "municipio": "Arroio do Tigre",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4301107": {
+    "municipio": "Arroio dos Ratos",
+    "homicidio_doloso": 6,
+    "latrocinio": 0,
+    "cvli": 8
+  },
+  "4301305": {
+    "municipio": "Arroio Grande",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4301404": {
+    "municipio": "Arvorezinha",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4301503": {
+    "municipio": "Augusto Pestana",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301552": {
+    "municipio": "Áurea",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301636": {
+    "municipio": "Balneário Pinhal",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4301651": {
+    "municipio": "Barão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301701": {
+    "municipio": "Barão de Cotegipe",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301750": {
+    "municipio": "Barão do Triunfo",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4301859": {
+    "municipio": "Barra do Guarita",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301875": {
+    "municipio": "Barra do Quaraí",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301909": {
+    "municipio": "Barra do Ribeiro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301925": {
+    "municipio": "Barra do Rio Azul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301958": {
+    "municipio": "Barra Funda",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4301800": {
+    "municipio": "Barracão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302006": {
+    "municipio": "Barros Cassal",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4302055": {
+    "municipio": "Benjamin Constant do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302105": {
+    "municipio": "Bento Gonçalves",
+    "homicidio_doloso": 22,
+    "latrocinio": 1,
+    "cvli": 28
+  },
+  "4302154": {
+    "municipio": "Boa Vista das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4302204": {
+    "municipio": "Boa Vista do Buricá",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4302220": {
+    "municipio": "Boa Vista do Cadeado",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302238": {
+    "municipio": "Boa Vista do Incra",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4302253": {
+    "municipio": "Boa Vista do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302303": {
+    "municipio": "Bom Jesus",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4302352": {
+    "municipio": "Bom Princípio",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302378": {
+    "municipio": "Bom Progresso",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4302402": {
+    "municipio": "Bom Retiro do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4302451": {
+    "municipio": "Boqueirão do Leão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302501": {
+    "municipio": "Bossoroca",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302584": {
+    "municipio": "Bozano",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302600": {
+    "municipio": "Braga",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302659": {
+    "municipio": "Brochier",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302709": {
+    "municipio": "Butiá",
+    "homicidio_doloso": 6,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4302808": {
+    "municipio": "Caçapava do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4302907": {
+    "municipio": "Cacequi",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4303004": {
+    "municipio": "Cachoeira do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 1,
+    "cvli": 3
+  },
+  "4303103": {
+    "municipio": "Cachoeirinha",
+    "homicidio_doloso": 9,
+    "latrocinio": 0,
+    "cvli": 8
+  },
+  "4303202": {
+    "municipio": "Cacique Doble",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4303301": {
+    "municipio": "Caibaté",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4303400": {
+    "municipio": "Caiçara",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4303509": {
+    "municipio": "Camaquã",
+    "homicidio_doloso": 4,
+    "latrocinio": 1,
+    "cvli": 6
+  },
+  "4303558": {
+    "municipio": "Camargo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4303608": {
+    "municipio": "Cambará do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4303673": {
+    "municipio": "Campestre da Serra",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4303707": {
+    "municipio": "Campina das Missões",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4303806": {
+    "municipio": "Campinas do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4303905": {
+    "municipio": "Campo Bom",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304002": {
+    "municipio": "Campo Novo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304101": {
+    "municipio": "Campos Borges",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4304200": {
+    "municipio": "Candelária",
+    "homicidio_doloso": 1,
+    "latrocinio": 1,
+    "cvli": 4
+  },
+  "4304309": {
+    "municipio": "Cândido Godói",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304358": {
+    "municipio": "Candiota",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4304408": {
+    "municipio": "Canela",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4304507": {
+    "municipio": "Canguçu",
+    "homicidio_doloso": 1,
+    "latrocinio": 1,
+    "cvli": 2
+  },
+  "4304606": {
+    "municipio": "Canoas",
+    "homicidio_doloso": 27,
+    "latrocinio": 0,
+    "cvli": 39
+  },
+  "4304614": {
+    "municipio": "Canudos do Vale",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304622": {
+    "municipio": "Capão Bonito do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304630": {
+    "municipio": "Capão da Canoa",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 9
+  },
+  "4304655": {
+    "municipio": "Capão do Cipó",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304663": {
+    "municipio": "Capão do Leão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4304689": {
+    "municipio": "Capela de Santana",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304697": {
+    "municipio": "Capitão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304671": {
+    "municipio": "Capivari do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304713": {
+    "municipio": "Caraá",
+    "homicidio_doloso": 1,
+    "latrocinio": 1,
+    "cvli": 2
+  },
+  "4304705": {
+    "municipio": "Carazinho",
+    "homicidio_doloso": 14,
+    "latrocinio": 0,
+    "cvli": 18
+  },
+  "4304804": {
+    "municipio": "Carlos Barbosa",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4304853": {
+    "municipio": "Carlos Gomes",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304903": {
+    "municipio": "Casca",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4304952": {
+    "municipio": "Caseiros",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305009": {
+    "municipio": "Catuípe",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305108": {
+    "municipio": "Caxias do Sul",
+    "homicidio_doloso": 28,
+    "latrocinio": 0,
+    "cvli": 42
+  },
+  "4305116": {
+    "municipio": "Centenário",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305124": {
+    "municipio": "Cerrito",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305132": {
+    "municipio": "Cerro Branco",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305157": {
+    "municipio": "Cerro Grande",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4305173": {
+    "municipio": "Cerro Grande do Sul",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4305207": {
+    "municipio": "Cerro Largo",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4305306": {
+    "municipio": "Chapada",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305355": {
+    "municipio": "Charqueadas",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4305371": {
+    "municipio": "Charrua",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4305405": {
+    "municipio": "Chiapetta",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305447": {
+    "municipio": "Chuvisca",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305454": {
+    "municipio": "Cidreira",
+    "homicidio_doloso": 9,
+    "latrocinio": 0,
+    "cvli": 11
+  },
+  "4305504": {
+    "municipio": "Ciríaco",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305587": {
+    "municipio": "Colinas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305603": {
+    "municipio": "Colorado",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305702": {
+    "municipio": "Condor",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305801": {
+    "municipio": "Constantina",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4305835": {
+    "municipio": "Coqueiro Baixo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305850": {
+    "municipio": "Coqueiros do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305871": {
+    "municipio": "Coronel Barros",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305900": {
+    "municipio": "Coronel Bicaco",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4305934": {
+    "municipio": "Coronel Pilar",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305959": {
+    "municipio": "Cotiporã",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4305975": {
+    "municipio": "Coxilha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306007": {
+    "municipio": "Crissiumal",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306056": {
+    "municipio": "Cristal",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306072": {
+    "municipio": "Cristal do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306106": {
+    "municipio": "Cruz Alta",
+    "homicidio_doloso": 9,
+    "latrocinio": 0,
+    "cvli": 12
+  },
+  "4306130": {
+    "municipio": "Cruzaltense",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306205": {
+    "municipio": "Cruzeiro do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306304": {
+    "municipio": "David Canabarro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306320": {
+    "municipio": "Derrubadas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306353": {
+    "municipio": "Dezesseis de Novembro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306379": {
+    "municipio": "Dilermando de Aguiar",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306403": {
+    "municipio": "Dois Irmãos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306429": {
+    "municipio": "Dois Irmãos das Missões",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306452": {
+    "municipio": "Dois Lajeados",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4306502": {
+    "municipio": "Dom Feliciano",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4306601": {
+    "municipio": "Dom Pedrito",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4306551": {
+    "municipio": "Dom Pedro de Alcântara",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306700": {
+    "municipio": "Dona Francisca",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306759": {
+    "municipio": "Doutor Ricardo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306734": {
+    "municipio": "Doutor Maurício Cardoso",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4306767": {
+    "municipio": "Eldorado do Sul",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4306809": {
+    "municipio": "Encantado",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4306908": {
+    "municipio": "Encruzilhada do Sul",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4306924": {
+    "municipio": "Engenho Velho",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306932": {
+    "municipio": "Entre-Ijuís",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4306957": {
+    "municipio": "Entre Rios do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4306973": {
+    "municipio": "Erebango",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4307005": {
+    "municipio": "Erechim",
+    "homicidio_doloso": 10,
+    "latrocinio": 0,
+    "cvli": 14
+  },
+  "4307054": {
+    "municipio": "Ernestina",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307203": {
+    "municipio": "Erval Grande",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307302": {
+    "municipio": "Erval Seco",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307401": {
+    "municipio": "Esmeralda",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4307450": {
+    "municipio": "Esperança do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307500": {
+    "municipio": "Espumoso",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4307609": {
+    "municipio": "Estância Velha",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4307708": {
+    "municipio": "Esteio",
+    "homicidio_doloso": 6,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4307807": {
+    "municipio": "Estrela",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 8
+  },
+  "4307815": {
+    "municipio": "Estrela Velha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307831": {
+    "municipio": "Eugênio de Castro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4307864": {
+    "municipio": "Fagundes Varela",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4307906": {
+    "municipio": "Farroupilha",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4308003": {
+    "municipio": "Faxinal do Soturno",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308052": {
+    "municipio": "Faxinalzinho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308078": {
+    "municipio": "Fazenda Vilanova",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308102": {
+    "municipio": "Feliz",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4308201": {
+    "municipio": "Flores da Cunha",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4308250": {
+    "municipio": "Floriano Peixoto",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308300": {
+    "municipio": "Fontoura Xavier",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4308409": {
+    "municipio": "Formigueiro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4308433": {
+    "municipio": "Forquetinha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308458": {
+    "municipio": "Fortaleza dos Valos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308508": {
+    "municipio": "Frederico Westphalen",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4308607": {
+    "municipio": "Garibaldi",
+    "homicidio_doloso": 7,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4308656": {
+    "municipio": "Garruchos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308706": {
+    "municipio": "Gaurama",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308805": {
+    "municipio": "General Câmara",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308854": {
+    "municipio": "Gentil",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4308904": {
+    "municipio": "Getúlio Vargas",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4309001": {
+    "municipio": "Giruá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309050": {
+    "municipio": "Glorinha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309100": {
+    "municipio": "Gramado",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4309126": {
+    "municipio": "Gramado dos Loureiros",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309159": {
+    "municipio": "Gramado Xavier",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309209": {
+    "municipio": "Gravataí",
+    "homicidio_doloso": 13,
+    "latrocinio": 1,
+    "cvli": 17
+  },
+  "4309258": {
+    "municipio": "Guabiju",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309308": {
+    "municipio": "Guaíba",
+    "homicidio_doloso": 8,
+    "latrocinio": 0,
+    "cvli": 11
+  },
+  "4309407": {
+    "municipio": "Guaporé",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4309506": {
+    "municipio": "Guarani das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309555": {
+    "municipio": "Harmonia",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4307104": {
+    "municipio": "Herval",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309571": {
+    "municipio": "Herveiras",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309605": {
+    "municipio": "Horizontina",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309654": {
+    "municipio": "Hulha Negra",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4309704": {
+    "municipio": "Humaitá",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4309753": {
+    "municipio": "Ibarama",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4309902": {
+    "municipio": "Ibiraiaras",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4309951": {
+    "municipio": "Ibirapuitã",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310009": {
+    "municipio": "Ibirubá",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4310108": {
+    "municipio": "Igrejinha",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4310306": {
+    "municipio": "Ilópolis",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310363": {
+    "municipio": "Imigrante",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310405": {
+    "municipio": "Independência",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310413": {
+    "municipio": "Inhacorá",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4310462": {
+    "municipio": "Ipiranga do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4310538": {
+    "municipio": "Itaara",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310553": {
+    "municipio": "Itacurubi",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310579": {
+    "municipio": "Itapuca",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310603": {
+    "municipio": "Itaqui",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4310652": {
+    "municipio": "Itati",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310702": {
+    "municipio": "Itatiba do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310751": {
+    "municipio": "Ivorá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310801": {
+    "municipio": "Ivoti",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310850": {
+    "municipio": "Jaboticaba",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4310876": {
+    "municipio": "Jacuizinho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4310900": {
+    "municipio": "Jacutinga",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311007": {
+    "municipio": "Jaguarão",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4311106": {
+    "municipio": "Jaguari",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311122": {
+    "municipio": "Jaquirana",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311130": {
+    "municipio": "Jari",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311205": {
+    "municipio": "Júlio de Castilhos",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311239": {
+    "municipio": "Lagoa Bonita do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311270": {
+    "municipio": "Lagoa dos Três Cantos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311304": {
+    "municipio": "Lagoa Vermelha",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4311254": {
+    "municipio": "Lagoão",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4311403": {
+    "municipio": "Lajeado",
+    "homicidio_doloso": 8,
+    "latrocinio": 0,
+    "cvli": 9
+  },
+  "4311429": {
+    "municipio": "Lajeado do Bugre",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311502": {
+    "municipio": "Lavras do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311601": {
+    "municipio": "Liberato Salzano",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311627": {
+    "municipio": "Lindolfo Collor",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311643": {
+    "municipio": "Linha Nova",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311700": {
+    "municipio": "Machadinho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311734": {
+    "municipio": "Mampituba",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311759": {
+    "municipio": "Manoel Viana",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4311775": {
+    "municipio": "Maquiné",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4311791": {
+    "municipio": "Maratá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4311809": {
+    "municipio": "Marau",
+    "homicidio_doloso": 6,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4311908": {
+    "municipio": "Marcelino Ramos",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4311981": {
+    "municipio": "Mariana Pimentel",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312005": {
+    "municipio": "Mariano Moro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312054": {
+    "municipio": "Marques de Souza",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312104": {
+    "municipio": "Mata",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312138": {
+    "municipio": "Mato Castelhano",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4312153": {
+    "municipio": "Mato Leitão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312179": {
+    "municipio": "Mato Queimado",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312203": {
+    "municipio": "Maximiliano de Almeida",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312252": {
+    "municipio": "Minas do Leão",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4312302": {
+    "municipio": "Miraguaí",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4312351": {
+    "municipio": "Montauri",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312377": {
+    "municipio": "Monte Alegre dos Campos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312385": {
+    "municipio": "Monte Belo do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312401": {
+    "municipio": "Montenegro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4312427": {
+    "municipio": "Mormaço",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312443": {
+    "municipio": "Morrinhos do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312450": {
+    "municipio": "Morro Redondo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312476": {
+    "municipio": "Morro Reuter",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312500": {
+    "municipio": "Mostardas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312609": {
+    "municipio": "Muçum",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312617": {
+    "municipio": "Muitos Capões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312625": {
+    "municipio": "Muliterno",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312658": {
+    "municipio": "Não-Me-Toque",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 7
+  },
+  "4312674": {
+    "municipio": "Nicolau Vergueiro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4312708": {
+    "municipio": "Nonoai",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4312757": {
+    "municipio": "Nova Alvorada",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4312807": {
+    "municipio": "Nova Araçá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4312906": {
+    "municipio": "Nova Bassano",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4312955": {
+    "municipio": "Nova Boa Vista",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313003": {
+    "municipio": "Nova Bréscia",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313011": {
+    "municipio": "Nova Candelária",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313037": {
+    "municipio": "Nova Esperança do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313060": {
+    "municipio": "Nova Hartz",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4313086": {
+    "municipio": "Nova Pádua",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313102": {
+    "municipio": "Nova Palma",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4313201": {
+    "municipio": "Nova Petrópolis",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313300": {
+    "municipio": "Nova Prata",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4313334": {
+    "municipio": "Nova Ramada",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313359": {
+    "municipio": "Nova Roma do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313375": {
+    "municipio": "Nova Santa Rita",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4313490": {
+    "municipio": "Novo Barreiro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313391": {
+    "municipio": "Novo Cabrais",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313409": {
+    "municipio": "Novo Hamburgo",
+    "homicidio_doloso": 10,
+    "latrocinio": 0,
+    "cvli": 13
+  },
+  "4313425": {
+    "municipio": "Novo Machado",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4313441": {
+    "municipio": "Novo Tiradentes",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313466": {
+    "municipio": "Novo Xingu",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313508": {
+    "municipio": "Osório",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4313607": {
+    "municipio": "Paim Filho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313656": {
+    "municipio": "Palmares do Sul",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4313706": {
+    "municipio": "Palmeira das Missões",
+    "homicidio_doloso": 9,
+    "latrocinio": 0,
+    "cvli": 9
+  },
+  "4313805": {
+    "municipio": "Palmitinho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4313904": {
+    "municipio": "Panambi",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4313953": {
+    "municipio": "Pantano Grande",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314001": {
+    "municipio": "Paraí",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4314027": {
+    "municipio": "Paraíso do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314035": {
+    "municipio": "Pareci Novo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314050": {
+    "municipio": "Parobé",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4314068": {
+    "municipio": "Passa Sete",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314076": {
+    "municipio": "Passo do Sobrado",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4314100": {
+    "municipio": "Passo Fundo",
+    "homicidio_doloso": 32,
+    "latrocinio": 1,
+    "cvli": 40
+  },
+  "4314134": {
+    "municipio": "Paulo Bento",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314159": {
+    "municipio": "Paverama",
+    "homicidio_doloso": 0,
+    "latrocinio": 1,
+    "cvli": 0
+  },
+  "4314175": {
+    "municipio": "Pedras Altas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314209": {
+    "municipio": "Pedro Osório",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4314308": {
+    "municipio": "Pejuçara",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4314407": {
+    "municipio": "Pelotas",
+    "homicidio_doloso": 9,
+    "latrocinio": 0,
+    "cvli": 12
+  },
+  "4314423": {
+    "municipio": "Picada Café",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314456": {
+    "municipio": "Pinhal",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314464": {
+    "municipio": "Pinhal da Serra",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4314472": {
+    "municipio": "Pinhal Grande",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314498": {
+    "municipio": "Pinheirinho do Vale",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4314506": {
+    "municipio": "Pinheiro Machado",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4314548": {
+    "municipio": "Pinto Bandeira",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314555": {
+    "municipio": "Pirapó",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314605": {
+    "municipio": "Piratini",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4314704": {
+    "municipio": "Planalto",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4314753": {
+    "municipio": "Poço das Antas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314779": {
+    "municipio": "Pontão",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314787": {
+    "municipio": "Ponte Preta",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4314803": {
+    "municipio": "Portão",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4314902": {
+    "municipio": "Porto Alegre",
+    "homicidio_doloso": 169,
+    "latrocinio": 3,
+    "cvli": 206
+  },
+  "4315008": {
+    "municipio": "Porto Lucena",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315057": {
+    "municipio": "Porto Mauá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315073": {
+    "municipio": "Porto Vera Cruz",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315107": {
+    "municipio": "Porto Xavier",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4315131": {
+    "municipio": "Pouso Novo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315149": {
+    "municipio": "Presidente Lucena",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315156": {
+    "municipio": "Progresso",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4315172": {
+    "municipio": "Protásio Alves",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315206": {
+    "municipio": "Putinga",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315305": {
+    "municipio": "Quaraí",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4315313": {
+    "municipio": "Quatro Irmãos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315321": {
+    "municipio": "Quevedos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315354": {
+    "municipio": "Quinze de Novembro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4315404": {
+    "municipio": "Redentora",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4315453": {
+    "municipio": "Relvado",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315503": {
+    "municipio": "Restinga Seca",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4315552": {
+    "municipio": "Rio dos Índios",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4315602": {
+    "municipio": "Rio Grande",
+    "homicidio_doloso": 17,
+    "latrocinio": 0,
+    "cvli": 24
+  },
+  "4315701": {
+    "municipio": "Rio Pardo",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4315750": {
+    "municipio": "Riozinho",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4315800": {
+    "municipio": "Roca Sales",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315909": {
+    "municipio": "Rodeio Bonito",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4315958": {
+    "municipio": "Rolador",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316006": {
+    "municipio": "Rolante",
+    "homicidio_doloso": 8,
+    "latrocinio": 0,
+    "cvli": 11
+  },
+  "4316105": {
+    "municipio": "Ronda Alta",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4316204": {
+    "municipio": "Rondinha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316303": {
+    "municipio": "Roque Gonzales",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316402": {
+    "municipio": "Rosário do Sul",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4316428": {
+    "municipio": "Sagrada Família",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316436": {
+    "municipio": "Saldanha Marinho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316451": {
+    "municipio": "Salto do Jacuí",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4316477": {
+    "municipio": "Salvador das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316501": {
+    "municipio": "Salvador do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316600": {
+    "municipio": "Sananduva",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316709": {
+    "municipio": "Santa Bárbara do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4316733": {
+    "municipio": "Santa Cecília do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316758": {
+    "municipio": "Santa Clara do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4316808": {
+    "municipio": "Santa Cruz do Sul",
+    "homicidio_doloso": 9,
+    "latrocinio": 1,
+    "cvli": 14
+  },
+  "4316972": {
+    "municipio": "Santa Margarida do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4316907": {
+    "municipio": "Santa Maria",
+    "homicidio_doloso": 30,
+    "latrocinio": 3,
+    "cvli": 38
+  },
+  "4316956": {
+    "municipio": "Santa Maria do Herval",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4317202": {
+    "municipio": "Santa Rosa",
+    "homicidio_doloso": 3,
+    "latrocinio": 1,
+    "cvli": 5
+  },
+  "4317251": {
+    "municipio": "Santa Tereza",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4317301": {
+    "municipio": "Santa Vitória do Palmar",
+    "homicidio_doloso": 8,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4317004": {
+    "municipio": "Santana da Boa Vista",
+    "homicidio_doloso": 2,
+    "latrocinio": 1,
+    "cvli": 3
+  },
+  "4317103": {
+    "municipio": "Santana do Livramento",
+    "homicidio_doloso": 5,
+    "latrocinio": 1,
+    "cvli": 7
+  },
+  "4317400": {
+    "municipio": "Santiago",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4317509": {
+    "municipio": "Santo Ângelo",
+    "homicidio_doloso": 10,
+    "latrocinio": 0,
+    "cvli": 14
+  },
+  "4317608": {
+    "municipio": "Santo Antônio da Patrulha",
+    "homicidio_doloso": 7,
+    "latrocinio": 1,
+    "cvli": 9
+  },
+  "4317707": {
+    "municipio": "Santo Antônio das Missões",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4317558": {
+    "municipio": "Santo Antônio do Palma",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4317756": {
+    "municipio": "Santo Antônio do Planalto",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4317806": {
+    "municipio": "Santo Augusto",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4317905": {
+    "municipio": "Santo Cristo",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4317954": {
+    "municipio": "Santo Expedito do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318002": {
+    "municipio": "São Borja",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4318051": {
+    "municipio": "São Domingos do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318101": {
+    "municipio": "São Francisco de Assis",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4318200": {
+    "municipio": "São Francisco de Paula",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 7
+  },
+  "4318309": {
+    "municipio": "São Gabriel",
+    "homicidio_doloso": 6,
+    "latrocinio": 0,
+    "cvli": 8
+  },
+  "4318408": {
+    "municipio": "São Jerônimo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318424": {
+    "municipio": "São João da Urtiga",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318432": {
+    "municipio": "São João do Polêsine",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318440": {
+    "municipio": "São Jorge",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318457": {
+    "municipio": "São José das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318465": {
+    "municipio": "São José do Herval",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318481": {
+    "municipio": "São José do Hortêncio",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318499": {
+    "municipio": "São José do Inhacorá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318507": {
+    "municipio": "São José do Norte",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4318606": {
+    "municipio": "São José do Ouro",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4318614": {
+    "municipio": "São José do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4318622": {
+    "municipio": "São José dos Ausentes",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4318705": {
+    "municipio": "São Leopoldo",
+    "homicidio_doloso": 10,
+    "latrocinio": 0,
+    "cvli": 16
+  },
+  "4318804": {
+    "municipio": "São Lourenço do Sul",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4318903": {
+    "municipio": "São Luiz Gonzaga",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4319000": {
+    "municipio": "São Marcos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319109": {
+    "municipio": "São Martinho",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4319125": {
+    "municipio": "São Martinho da Serra",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319158": {
+    "municipio": "São Miguel das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319208": {
+    "municipio": "São Nicolau",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319307": {
+    "municipio": "São Paulo das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319356": {
+    "municipio": "São Pedro da Serra",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319364": {
+    "municipio": "São Pedro das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319372": {
+    "municipio": "São Pedro do Butiá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319406": {
+    "municipio": "São Pedro do Sul",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4319505": {
+    "municipio": "São Sebastião do Caí",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4319703": {
+    "municipio": "São Valentim",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319711": {
+    "municipio": "São Valentim do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4319737": {
+    "municipio": "São Valério do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319752": {
+    "municipio": "São Vendelino",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319802": {
+    "municipio": "São Vicente do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4319901": {
+    "municipio": "Sapiranga",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4320008": {
+    "municipio": "Sapucaia do Sul",
+    "homicidio_doloso": 7,
+    "latrocinio": 0,
+    "cvli": 9
+  },
+  "4320107": {
+    "municipio": "Sarandi",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320206": {
+    "municipio": "Seberi",
+    "homicidio_doloso": 2,
+    "latrocinio": 1,
+    "cvli": 3
+  },
+  "4320230": {
+    "municipio": "Sede Nova",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320263": {
+    "municipio": "Segredo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320305": {
+    "municipio": "Selbach",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320321": {
+    "municipio": "Senador Salgado Filho",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320354": {
+    "municipio": "Sentinela do Sul",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4320404": {
+    "municipio": "Serafina Corrêa",
+    "homicidio_doloso": 5,
+    "latrocinio": 0,
+    "cvli": 6
+  },
+  "4320453": {
+    "municipio": "Sério",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4320503": {
+    "municipio": "Sertão",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4320552": {
+    "municipio": "Sertão Santana",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4320578": {
+    "municipio": "Sete de Setembro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320602": {
+    "municipio": "Severiano de Almeida",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320651": {
+    "municipio": "Silveira Martins",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320677": {
+    "municipio": "Sinimbu",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4320701": {
+    "municipio": "Sobradinho",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4320800": {
+    "municipio": "Soledade",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 5
+  },
+  "4320859": {
+    "municipio": "Tabaí",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4320909": {
+    "municipio": "Tapejara",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4321006": {
+    "municipio": "Tapera",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321105": {
+    "municipio": "Tapes",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4321204": {
+    "municipio": "Taquara",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 4
+  },
+  "4321303": {
+    "municipio": "Taquari",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321329": {
+    "municipio": "Taquaruçu do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321352": {
+    "municipio": "Tavares",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321402": {
+    "municipio": "Tenente Portela",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4321436": {
+    "municipio": "Terra de Areia",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321451": {
+    "municipio": "Teutônia",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4321469": {
+    "municipio": "Tio Hugo",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321477": {
+    "municipio": "Tiradentes do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321493": {
+    "municipio": "Toropi",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321501": {
+    "municipio": "Torres",
+    "homicidio_doloso": 3,
+    "latrocinio": 1,
+    "cvli": 5
+  },
+  "4321600": {
+    "municipio": "Tramandaí",
+    "homicidio_doloso": 8,
+    "latrocinio": 1,
+    "cvli": 11
+  },
+  "4321626": {
+    "municipio": "Travesseiro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321634": {
+    "municipio": "Três Arroios",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321667": {
+    "municipio": "Três Cachoeiras",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321709": {
+    "municipio": "Três Coroas",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4321808": {
+    "municipio": "Três de Maio",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4321832": {
+    "municipio": "Três Forquilhas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321857": {
+    "municipio": "Três Palmeiras",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4321907": {
+    "municipio": "Três Passos",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4321956": {
+    "municipio": "Trindade do Sul",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4322004": {
+    "municipio": "Triunfo",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4322103": {
+    "municipio": "Tucunduva",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322152": {
+    "municipio": "Tunas",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322186": {
+    "municipio": "Tupanci do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322202": {
+    "municipio": "Tupanciretã",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4322251": {
+    "municipio": "Tupandi",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322301": {
+    "municipio": "Tuparendi",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4322327": {
+    "municipio": "Turuçu",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322343": {
+    "municipio": "Ubiretama",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322350": {
+    "municipio": "União da Serra",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322376": {
+    "municipio": "Unistalda",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322400": {
+    "municipio": "Uruguaiana",
+    "homicidio_doloso": 4,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4322509": {
+    "municipio": "Vacaria",
+    "homicidio_doloso": 7,
+    "latrocinio": 0,
+    "cvli": 10
+  },
+  "4322533": {
+    "municipio": "Vale do Sol",
+    "homicidio_doloso": 3,
+    "latrocinio": 0,
+    "cvli": 3
+  },
+  "4322541": {
+    "municipio": "Vale Real",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322525": {
+    "municipio": "Vale Verde",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322558": {
+    "municipio": "Vanini",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322608": {
+    "municipio": "Venâncio Aires",
+    "homicidio_doloso": 7,
+    "latrocinio": 1,
+    "cvli": 8
+  },
+  "4322707": {
+    "municipio": "Vera Cruz",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 1
+  },
+  "4322806": {
+    "municipio": "Veranópolis",
+    "homicidio_doloso": 2,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4322855": {
+    "municipio": "Vespasiano Correa",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4322905": {
+    "municipio": "Viadutos",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323002": {
+    "municipio": "Viamão",
+    "homicidio_doloso": 29,
+    "latrocinio": 2,
+    "cvli": 40
+  },
+  "4323101": {
+    "municipio": "Vicente Dutra",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323200": {
+    "municipio": "Victor Graeff",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323309": {
+    "municipio": "Vila Flores",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323358": {
+    "municipio": "Vila Lângaro",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323408": {
+    "municipio": "Vila Maria",
+    "homicidio_doloso": 1,
+    "latrocinio": 0,
+    "cvli": 2
+  },
+  "4323457": {
+    "municipio": "Vila Nova do Sul",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323507": {
+    "municipio": "Vista Alegre",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323606": {
+    "municipio": "Vista Alegre do Prata",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323705": {
+    "municipio": "Vista Gaúcha",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323754": {
+    "municipio": "Vitória das Missões",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323770": {
+    "municipio": "Westfália",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 0
+  },
+  "4323804": {
+    "municipio": "Xangri-lá",
+    "homicidio_doloso": 0,
+    "latrocinio": 0,
+    "cvli": 1
+  }
+}

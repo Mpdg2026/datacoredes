@@ -223,38 +223,7 @@ export const portalRouter = router({
       }));
     }),
 
-  /**
-   * Violência Geral - CVLI e Homicídios
-   * Dados da SSP-RS filtrados por localidade
-   */
-  violenciaGeral: publicProcedure
-    .input(
-      z.object({
-        municipioId: z.number().optional(),
-        coredeId: z.number().optional(),
-        regiaoFuncionalId: z.string().optional(),
-      })
-    )
-    .query(({ input }) => {
-      // Dados de exemplo - série 2020-2026
-      const baseData = [
-        { ano: 2020, cvli: 12, homicidios: 8 },
-        { ano: 2021, cvli: 14, homicidios: 10 },
-        { ano: 2022, cvli: 11, homicidios: 7 },
-        { ano: 2023, cvli: 9, homicidios: 5 },
-        { ano: 2024, cvli: 8, homicidios: 4 },
-        { ano: 2025, cvli: 7, homicidios: 3 },
-        { ano: 2026, cvli: 6, homicidios: 2 },
-      ];
 
-      // TODO: Conectar ao banco de dados real
-      // SELECT * FROM violencia_geral WHERE municipio_id = ? AND ano >= 2020
-
-      return baseData.map((item, idx) => ({
-        id: idx + 1,
-        ...item,
-      }));
-    }),
 
   /**
    * Violência contra a Mulher - Série 2020-2026
@@ -307,11 +276,11 @@ export const portalRouter = router({
       try {
         const fs = await import('fs');
         const path = await import('path');
-        const odsPath = path.join(process.cwd(), 'public', 'ods-consolidado.json');
+        const odsPath = path.join(process.cwd(), 'public', 'ods-consolidado-v2.json');
         
         // Fallback para dist se em produção
         if (!fs.existsSync(odsPath)) {
-          const distPath = path.join(process.cwd(), 'dist', 'public', 'ods-consolidado.json');
+          const distPath = path.join(process.cwd(), 'dist', 'public', 'ods-consolidado-v2.json');
           if (fs.existsSync(distPath)) {
             if (input.codigoIBGE) {
               return JSON.parse(fs.readFileSync(distPath, 'utf-8'))[input.codigoIBGE.toString()] || null;
@@ -353,7 +322,6 @@ export const portalRouter = router({
   saneamento: publicProcedure
     .input(
       z.object({
-        municipioId: z.number().optional(),
         codigoIBGE: z.number().optional(),
       })
     )
@@ -361,20 +329,54 @@ export const portalRouter = router({
       try {
         const fs = await import('fs');
         const path = await import('path');
-        const sanPath = path.join(process.cwd(), 'public', 'saneamento-data.json');
-        const sanData = JSON.parse(fs.readFileSync(sanPath, 'utf-8'));
+        const sanPath = path.join(process.cwd(), 'public', 'saneamento-consolidado.json');
         
-        // Filtrar por código IBGE se fornecido
-        if (input.codigoIBGE) {
-          const registro = sanData.find((r: any) => parseInt(r['Código IBGE']) === input.codigoIBGE);
-          return registro ? [registro] : [];
+        if (!fs.existsSync(sanPath)) {
+          return null;
         }
         
-        // Retornar primeiros 10 registros
-        return sanData.slice(0, 10);
+        const sanData = JSON.parse(fs.readFileSync(sanPath, 'utf-8'));
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        return sanData[input.codigoIBGE.toString()] || null;
       } catch (error) {
         console.error('Erro ao carregar dados Saneamento:', error);
-        return [];
+        return null;
+      }
+    }),
+
+  /**
+   * Violência Geral - CVLI e Homicídios 2025
+   */
+  violenciaGeral: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.number().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const vgPath = path.join(process.cwd(), 'public', 'violencia-geral-2025.json');
+        
+        if (!fs.existsSync(vgPath)) {
+          return null;
+        }
+        
+        const vgData = JSON.parse(fs.readFileSync(vgPath, 'utf-8'));
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        return vgData[input.codigoIBGE.toString()] || null;
+      } catch (error) {
+        console.error('Erro ao carregar dados Violência Geral:', error);
+        return null;
       }
     }),
 

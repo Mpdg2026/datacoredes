@@ -292,9 +292,10 @@ export default function Portal() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       {Array.from({ length: 17 }, (_, i) => {
                         const goalKey = `goal${i + 1}`;
-                        const goal2023 = (ods.data as any)?.[`${goalKey}_2023`] || 0;
-                        const goal2024 = (ods.data as any)?.[`${goalKey}_2024`] || 0;
-                        const goal2025 = (ods.data as any)?.[`${goalKey}_2025`] || 0;
+                        const anos = (ods.data as any)?.anos || {};
+                        const goal2023 = anos['2023']?.goals?.[goalKey] || 0;
+                        const goal2024 = anos['2024']?.goals?.[goalKey] || 0;
+                        const goal2025 = anos['2025']?.goals?.[goalKey] || 0;
 
                         return (
                           <Card key={i + 1} className="border-l-4 border-l-[#f4b41a]">

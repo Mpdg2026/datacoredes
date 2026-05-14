@@ -1,2984 +1,2984 @@
 {
   "4300034": {
     "municipio": "Aceguá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 94.99
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.36,
+    "agua_solucao_individual": 96.41
   },
   "4300059": {
     "municipio": "Água Santa",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 38.88
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.97,
+    "agua_solucao_individual": 51.62
   },
   "4300109": {
     "municipio": "Agudo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 49.38
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 48.9,
+    "agua_solucao_individual": 44.14
   },
   "4300208": {
     "municipio": "Ajuricaba",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.75,
+    "agua_solucao_individual": 24.63
   },
   "4300307": {
     "municipio": "Alecrim",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 30.73
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.52,
+    "agua_solucao_individual": 21.25
   },
   "4300406": {
     "municipio": "Alegrete",
-    "agua_total": null,
-    "esgoto_total": 23.07,
-    "residuos_coleta": 89.62
+    "agua_coleta_tratamento": 28.05,
+    "agua_coleta_sem_tratamento": 26.68,
+    "agua_solucao_individual": 27.01
   },
   "4300455": {
     "municipio": "Alegria",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 80.2
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.95,
+    "agua_solucao_individual": 10.79
   },
   "4300471": {
     "municipio": "Almirante Tamandaré do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 62.53
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.83,
+    "agua_solucao_individual": 24.91
   },
   "4300505": {
     "municipio": "Alpestre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 34.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.59,
+    "agua_solucao_individual": 26.1
   },
   "4300554": {
     "municipio": "Alto Alegre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.94,
+    "agua_solucao_individual": 25.71
   },
   "4300570": {
     "municipio": "Alto Feliz",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 81.37
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.35,
+    "agua_solucao_individual": 98.28
   },
   "4300604": {
     "municipio": "Alvorada",
-    "agua_total": null,
-    "esgoto_total": 39.14,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 9.67,
+    "agua_coleta_sem_tratamento": 45.58,
+    "agua_solucao_individual": 31.93
   },
   "4300638": {
     "municipio": "Amaral Ferrador",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 39.15
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.32,
+    "agua_solucao_individual": 39.87
   },
   "4300646": {
     "municipio": "Ametista do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.22,
+    "agua_solucao_individual": 23.9
   },
   "4300661": {
     "municipio": "André da Rocha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 78.73
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.47,
+    "agua_solucao_individual": 49.4
   },
   "4300703": {
     "municipio": "Anta Gorda",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.61
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 36.16,
+    "agua_solucao_individual": 57.14
   },
   "4300802": {
     "municipio": "Antônio Prado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 73.58,
+    "agua_solucao_individual": 21.59
   },
   "4300851": {
     "municipio": "Arambaré",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.45
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.35,
+    "agua_solucao_individual": 68.42
   },
   "4300877": {
     "municipio": "Araricá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.97
+    "agua_coleta_tratamento": 43.64,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 46.22
   },
   "4300901": {
     "municipio": "Aratiba",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 12.39,
+    "agua_solucao_individual": 72.92
   },
   "4301008": {
     "municipio": "Arroio do Meio",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 54.1
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.82,
+    "agua_solucao_individual": 54.25
   },
   "4301073": {
     "municipio": "Arroio do Padre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.08,
+    "agua_solucao_individual": 31.06
   },
   "4301057": {
     "municipio": "Arroio do Sal",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.98
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.79,
+    "agua_solucao_individual": 53.3
   },
   "4301206": {
     "municipio": "Arroio do Tigre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.37
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 23.92,
+    "agua_solucao_individual": 54.09
   },
   "4301107": {
     "municipio": "Arroio dos Ratos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 40.93,
+    "agua_solucao_individual": 30.83
   },
   "4301305": {
     "municipio": "Arroio Grande",
-    "agua_total": null,
-    "esgoto_total": 3.82,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 42.72,
+    "agua_solucao_individual": 33.96
   },
   "4301404": {
     "municipio": "Arvorezinha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.11
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 52.7,
+    "agua_solucao_individual": 14.55
   },
   "4301503": {
     "municipio": "Augusto Pestana",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 61.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 10.14,
+    "agua_solucao_individual": 27.84
   },
   "4301552": {
     "municipio": "Áurea",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 41.94
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.93,
+    "agua_solucao_individual": 39.04
   },
   "4301602": {
     "municipio": "Bagé",
-    "agua_total": null,
-    "esgoto_total": 66.96,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 17.2,
+    "agua_coleta_sem_tratamento": 45.21,
+    "agua_solucao_individual": 23.91
   },
   "4301636": {
     "municipio": "Balneário Pinhal",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.26
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.8,
+    "agua_solucao_individual": 67.93
   },
   "4301651": {
     "municipio": "Barão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 30.54,
+    "agua_solucao_individual": 14.92
   },
   "4301701": {
     "municipio": "Barão de Cotegipe",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 39.26
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.29,
+    "agua_solucao_individual": 79.2
   },
   "4301750": {
     "municipio": "Barão do Triunfo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.43,
+    "agua_solucao_individual": 85.94
   },
   "4301859": {
     "municipio": "Barra do Guarita",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.01,
+    "agua_solucao_individual": 4.38
   },
   "4301875": {
     "municipio": "Barra do Quaraí",
-    "agua_total": null,
-    "esgoto_total": 30.8,
-    "residuos_coleta": 80.13
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 65.95,
+    "agua_solucao_individual": 5.63
   },
   "4301909": {
     "municipio": "Barra do Ribeiro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 84.4,
+    "agua_solucao_individual": 6.51
   },
   "4301925": {
     "municipio": "Barra do Rio Azul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 29.19
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.24,
+    "agua_solucao_individual": 71.46
   },
   "4301958": {
     "municipio": "Barra Funda",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 64.29
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.1,
+    "agua_solucao_individual": 37.52
   },
   "4301800": {
     "municipio": "Barracão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.38
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.84,
+    "agua_solucao_individual": 54.92
   },
   "4302006": {
     "municipio": "Barros Cassal",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 51.69,
+    "agua_solucao_individual": 19.34
   },
   "4302055": {
     "municipio": "Benjamin Constant do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.59,
+    "agua_solucao_individual": 96.77
   },
   "4302105": {
     "municipio": "Bento Gonçalves",
-    "agua_total": null,
-    "esgoto_total": 2.48,
-    "residuos_coleta": 79.98
+    "agua_coleta_tratamento": 90.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 10.0
   },
   "4302154": {
     "municipio": "Boa Vista das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.14,
+    "agua_solucao_individual": 5.19
   },
   "4302204": {
     "municipio": "Boa Vista do Buricá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.59,
+    "agua_solucao_individual": 6.62
   },
   "4302220": {
     "municipio": "Boa Vista do Cadeado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 38.65
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.57,
+    "agua_solucao_individual": 8.05
   },
   "4302238": {
     "municipio": "Boa Vista do Incra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 29.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 0.83
   },
   "4302253": {
     "municipio": "Boa Vista do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.99
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.28,
+    "agua_solucao_individual": 11.25
   },
   "4302303": {
     "municipio": "Bom Jesus",
-    "agua_total": null,
-    "esgoto_total": 32.7,
-    "residuos_coleta": 91.39
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 85.5,
+    "agua_solucao_individual": 2.77
   },
   "4302352": {
     "municipio": "Bom Princípio",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.56,
+    "agua_solucao_individual": 58.44
   },
   "4302378": {
     "municipio": "Bom Progresso",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 68.81
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.44,
+    "agua_solucao_individual": 35.08
   },
   "4302402": {
     "municipio": "Bom Retiro do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 16.78,
+    "agua_solucao_individual": 68.53
   },
   "4302451": {
     "municipio": "Boqueirão do Leão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.73,
+    "agua_solucao_individual": 90.97
   },
   "4302501": {
     "municipio": "Bossoroca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 65.33
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.68,
+    "agua_solucao_individual": 11.62
   },
   "4302584": {
     "municipio": "Bozano",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 28.59
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 62.32
   },
   "4302600": {
     "municipio": "Braga",
-    "agua_total": null,
-    "esgoto_total": 3.64,
-    "residuos_coleta": 54.36
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.36,
+    "agua_solucao_individual": 9.11
   },
   "4302659": {
     "municipio": "Brochier",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.51
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.35,
+    "agua_solucao_individual": 28.48
   },
   "4302709": {
     "municipio": "Butiá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.55,
+    "agua_solucao_individual": 49.23
   },
   "4302808": {
     "municipio": "Caçapava do Sul",
-    "agua_total": null,
-    "esgoto_total": 3.72,
-    "residuos_coleta": 88.31
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 59.04,
+    "agua_solucao_individual": 7.32
   },
   "4302907": {
     "municipio": "Cacequi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.4
+    "agua_coleta_tratamento": 65.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 35.0
   },
   "4303004": {
     "municipio": "Cachoeira do Sul",
-    "agua_total": null,
-    "esgoto_total": 38.87,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 4.44,
+    "agua_coleta_sem_tratamento": 28.31,
+    "agua_solucao_individual": 8.29
   },
   "4303103": {
     "municipio": "Cachoeirinha",
-    "agua_total": null,
-    "esgoto_total": 90.75,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 44.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 10.09
   },
   "4303202": {
     "municipio": "Cacique Doble",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 38.88,
+    "agua_solucao_individual": 31.45
   },
   "4303301": {
     "municipio": "Caibaté",
-    "agua_total": null,
-    "esgoto_total": 4.21,
-    "residuos_coleta": 99.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.29,
+    "agua_solucao_individual": 21.49
   },
   "4303400": {
     "municipio": "Caiçara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 36.96
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.78,
+    "agua_solucao_individual": 38.14
   },
   "4303509": {
     "municipio": "Camaquã",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 78.08,
+    "agua_solucao_individual": 15.6
   },
   "4303558": {
     "municipio": "Camargo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.46,
+    "agua_solucao_individual": 56.71
   },
   "4303608": {
     "municipio": "Cambará do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 60.51,
+    "agua_solucao_individual": 27.06
   },
   "4303673": {
     "municipio": "Campestre da Serra",
-    "agua_total": null,
-    "esgoto_total": 28.56,
-    "residuos_coleta": 99.05
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 53.29,
+    "agua_solucao_individual": 21.36
   },
   "4303707": {
     "municipio": "Campina das Missões",
-    "agua_total": null,
-    "esgoto_total": 32.79,
-    "residuos_coleta": 35.77
+    "agua_coleta_tratamento": 87.84,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 2.01
   },
   "4303806": {
     "municipio": "Campinas do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 61.99,
+    "agua_solucao_individual": 30.52
   },
   "4303905": {
     "municipio": "Campo Bom",
-    "agua_total": null,
-    "esgoto_total": 0.13,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 78.76,
+    "agua_solucao_individual": 17.69
   },
   "4304002": {
     "municipio": "Campo Novo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.14
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.58,
+    "agua_solucao_individual": 12.95
   },
   "4304101": {
     "municipio": "Campos Borges",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.79,
+    "agua_solucao_individual": 10.47
   },
   "4304200": {
     "municipio": "Candelária",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 47.52
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 64.95,
+    "agua_solucao_individual": 17.25
   },
   "4304309": {
     "municipio": "Cândido Godói",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 97.53
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 15.71,
+    "agua_solucao_individual": 9.15
   },
   "4304358": {
     "municipio": "Candiota",
-    "agua_total": null,
-    "esgoto_total": 23.7,
-    "residuos_coleta": 73.94
+    "agua_coleta_tratamento": 92.26,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 6.24
   },
   "4304408": {
     "municipio": "Canela",
-    "agua_total": null,
-    "esgoto_total": 23.5,
-    "residuos_coleta": 98.99
+    "agua_coleta_tratamento": 27.43,
+    "agua_coleta_sem_tratamento": 22.86,
+    "agua_solucao_individual": 38.2
   },
   "4304507": {
     "municipio": "Canguçu",
-    "agua_total": null,
-    "esgoto_total": 35.92,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 30.16,
+    "agua_coleta_sem_tratamento": 51.49,
+    "agua_solucao_individual": 6.67
   },
   "4304606": {
     "municipio": "Canoas",
-    "agua_total": null,
-    "esgoto_total": 60.57,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 67.72,
+    "agua_coleta_sem_tratamento": 4.53,
+    "agua_solucao_individual": 20.75
   },
   "4304614": {
     "municipio": "Canudos do Vale",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 80.73
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 44.28
   },
   "4304622": {
     "municipio": "Capão Bonito do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.91
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.8,
+    "agua_solucao_individual": 1.8
   },
   "4304630": {
     "municipio": "Capão da Canoa",
-    "agua_total": null,
-    "esgoto_total": 64.51,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 8.2,
+    "agua_coleta_sem_tratamento": 8.2,
+    "agua_solucao_individual": 46.38
   },
   "4304655": {
     "municipio": "Capão do Cipó",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 40.08,
+    "agua_solucao_individual": 0.77
   },
   "4304663": {
     "municipio": "Capão do Leão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.75,
+    "agua_solucao_individual": 57.31
   },
   "4304689": {
     "municipio": "Capela de Santana",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.95
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 48.33,
+    "agua_solucao_individual": 45.09
   },
   "4304697": {
     "municipio": "Capitão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 4.36,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 13.08
   },
   "4304671": {
     "municipio": "Capivari do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 48.85,
+    "agua_solucao_individual": 34.24
   },
   "4304713": {
     "municipio": "Caraá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 51.55
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.46,
+    "agua_solucao_individual": 96.31
   },
   "4304705": {
     "municipio": "Carazinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.32
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 20.88,
+    "agua_solucao_individual": 30.09
   },
   "4304804": {
     "municipio": "Carlos Barbosa",
-    "agua_total": null,
-    "esgoto_total": 79.36,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 69.98,
+    "agua_solucao_individual": 22.09
   },
   "4304853": {
     "municipio": "Carlos Gomes",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.38,
+    "agua_solucao_individual": 63.49
   },
   "4304903": {
     "municipio": "Casca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.72,
+    "agua_solucao_individual": 23.69
   },
   "4304952": {
     "municipio": "Caseiros",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 49.5
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.69,
+    "agua_solucao_individual": 28.7
   },
   "4305009": {
     "municipio": "Catuípe",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 88.58
+    "agua_coleta_tratamento": 6.44,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 18.74
   },
   "4305108": {
     "municipio": "Caxias do Sul",
-    "agua_total": null,
-    "esgoto_total": 92.72,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 37.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 13.08
   },
   "4305116": {
     "municipio": "Centenário",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 32.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.74,
+    "agua_solucao_individual": 69.02
   },
   "4305124": {
     "municipio": "Cerrito",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.47,
+    "agua_solucao_individual": 34.0
   },
   "4305132": {
     "municipio": "Cerro Branco",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 28.34
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 13.11,
+    "agua_solucao_individual": 68.05
   },
   "4305157": {
     "municipio": "Cerro Grande",
-    "agua_total": null,
-    "esgoto_total": 21.22,
-    "residuos_coleta": 34.33
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.6,
+    "agua_solucao_individual": 44.58
   },
   "4305173": {
     "municipio": "Cerro Grande do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 97.1
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 67.75,
+    "agua_solucao_individual": 15.86
   },
   "4305207": {
     "municipio": "Cerro Largo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 71.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 30.26,
+    "agua_solucao_individual": 20.12
   },
   "4305306": {
     "municipio": "Chapada",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 59.43
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.08,
+    "agua_solucao_individual": 21.62
   },
   "4305355": {
     "municipio": "Charqueadas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 97.14
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 67.29,
+    "agua_solucao_individual": 26.65
   },
   "4305371": {
     "municipio": "Charrua",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.68,
+    "agua_solucao_individual": 73.8
   },
   "4305405": {
     "municipio": "Chiapetta",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 70.84
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.86,
+    "agua_solucao_individual": 12.71
   },
   "4305439": {
     "municipio": "Chuí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 24.77,
+    "agua_solucao_individual": 58.24
   },
   "4305447": {
     "municipio": "Chuvisca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 21.54
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 24.18,
+    "agua_solucao_individual": 53.48
   },
   "4305454": {
     "municipio": "Cidreira",
-    "agua_total": null,
-    "esgoto_total": 6.23,
-    "residuos_coleta": 64.36
+    "agua_coleta_tratamento": 7.29,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 38.6
   },
   "4305504": {
     "municipio": "Ciríaco",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 46.39,
+    "agua_solucao_individual": 34.48
   },
   "4305587": {
     "municipio": "Colinas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.46,
+    "agua_solucao_individual": 68.78
   },
   "4305603": {
     "municipio": "Colorado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 79.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.54,
+    "agua_solucao_individual": 3.96
   },
   "4305702": {
     "municipio": "Condor",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.47,
+    "agua_solucao_individual": 24.27
   },
   "4305801": {
     "municipio": "Constantina",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.3,
+    "agua_solucao_individual": 42.0
   },
   "4305835": {
     "municipio": "Coqueiro Baixo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 18.44
   },
   "4305850": {
     "municipio": "Coqueiros do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 67.17
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.59,
+    "agua_solucao_individual": 25.66
   },
   "4305871": {
     "municipio": "Coronel Barros",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.09,
+    "agua_solucao_individual": 80.42
   },
   "4305900": {
     "municipio": "Coronel Bicaco",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 80.59
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.28,
+    "agua_solucao_individual": 2.13
   },
   "4305934": {
     "municipio": "Coronel Pilar",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 10.1
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 35.06
   },
   "4305959": {
     "municipio": "Cotiporã",
-    "agua_total": null,
-    "esgoto_total": 9.32,
-    "residuos_coleta": 99.02
+    "agua_coleta_tratamento": 90.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 10.0
   },
   "4305975": {
     "municipio": "Coxilha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.4,
+    "agua_solucao_individual": 16.91
   },
   "4306007": {
     "municipio": "Crissiumal",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.73,
+    "agua_solucao_individual": 23.79
   },
   "4306056": {
     "municipio": "Cristal",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 67.81
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 71.23,
+    "agua_solucao_individual": 23.82
   },
   "4306072": {
     "municipio": "Cristal do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 73.56
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.11,
+    "agua_solucao_individual": 38.56
   },
   "4306106": {
     "municipio": "Cruz Alta",
-    "agua_total": null,
-    "esgoto_total": 23.31,
-    "residuos_coleta": 96.46
+    "agua_coleta_tratamento": 30.53,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 7.29
   },
   "4306130": {
     "municipio": "Cruzaltense",
-    "agua_total": null,
-    "esgoto_total": 0.06,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.45,
+    "agua_solucao_individual": 54.6
   },
   "4306205": {
     "municipio": "Cruzeiro do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 73.87
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.9,
+    "agua_solucao_individual": 39.89
   },
   "4306304": {
     "municipio": "David Canabarro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 15.69,
+    "agua_solucao_individual": 70.45
   },
   "4306320": {
     "municipio": "Derrubadas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 71.98
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.89,
+    "agua_solucao_individual": 49.61
   },
   "4306353": {
     "municipio": "Dezesseis de Novembro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.3,
+    "agua_solucao_individual": 14.39
   },
   "4306379": {
     "municipio": "Dilermando de Aguiar",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 88.21
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.32,
+    "agua_solucao_individual": 93.74
   },
   "4306403": {
     "municipio": "Dois Irmãos",
-    "agua_total": null,
-    "esgoto_total": 10.59,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 57.24,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 38.16
   },
   "4306429": {
     "municipio": "Dois Irmãos das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.08
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.29,
+    "agua_solucao_individual": 1.28
   },
   "4306452": {
     "municipio": "Dois Lajeados",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.34,
+    "agua_solucao_individual": 85.55
   },
   "4306502": {
     "municipio": "Dom Feliciano",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 94.83
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 24.39,
+    "agua_solucao_individual": 31.4
   },
   "4306601": {
     "municipio": "Dom Pedrito",
-    "agua_total": null,
-    "esgoto_total": 13.6,
-    "residuos_coleta": 90.63
+    "agua_coleta_tratamento": 77.28,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 13.73
   },
   "4306551": {
     "municipio": "Dom Pedro de Alcântara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 52.09,
+    "agua_solucao_individual": 3.64
   },
   "4306700": {
     "municipio": "Dona Francisca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 47.67,
+    "agua_solucao_individual": 26.98
   },
   "4306734": {
     "municipio": "Doutor Maurício Cardoso",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.8
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.04,
+    "agua_solucao_individual": 2.71
   },
   "4306759": {
     "municipio": "Doutor Ricardo",
-    "agua_total": null,
-    "esgoto_total": 1.57,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 2.74,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 59.02
   },
   "4306767": {
     "municipio": "Eldorado do Sul",
-    "agua_total": null,
-    "esgoto_total": 17.88,
-    "residuos_coleta": 98.43
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 70.9,
+    "agua_solucao_individual": 24.35
   },
   "4306809": {
     "municipio": "Encantado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 40.15,
+    "agua_solucao_individual": 51.84
   },
   "4306908": {
     "municipio": "Encruzilhada do Sul",
-    "agua_total": null,
-    "esgoto_total": 2.05,
-    "residuos_coleta": 74.81
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 77.59,
+    "agua_solucao_individual": 8.22
   },
   "4306924": {
     "municipio": "Engenho Velho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 60.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.67,
+    "agua_solucao_individual": 6.01
   },
   "4306957": {
     "municipio": "Entre Rios do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 15.73,
+    "agua_solucao_individual": 58.45
   },
   "4306932": {
     "municipio": "Entre-Ijuís",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.24,
+    "agua_solucao_individual": 13.45
   },
   "4306973": {
     "municipio": "Erebango",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 65.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.72,
+    "agua_solucao_individual": 25.08
   },
   "4307005": {
     "municipio": "Erechim",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 96.94
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 66.21,
+    "agua_solucao_individual": 26.73
   },
   "4307054": {
     "municipio": "Ernestina",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.58
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.73,
+    "agua_solucao_individual": 14.84
   },
   "4307203": {
     "municipio": "Erval Grande",
-    "agua_total": null,
-    "esgoto_total": 0.02,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 40.11,
+    "agua_solucao_individual": 18.96
   },
   "4307302": {
     "municipio": "Erval Seco",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.54,
+    "agua_solucao_individual": 16.7
   },
   "4307401": {
     "municipio": "Esmeralda",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 64.92
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 10.34,
+    "agua_solucao_individual": 51.03
   },
   "4307450": {
     "municipio": "Esperança do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 25.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.78,
+    "agua_solucao_individual": 3.2
   },
   "4307500": {
     "municipio": "Espumoso",
-    "agua_total": null,
-    "esgoto_total": 10.6,
-    "residuos_coleta": 89.23
+    "agua_coleta_tratamento": 30.6,
+    "agua_coleta_sem_tratamento": 8.08,
+    "agua_solucao_individual": 26.4
   },
   "4307559": {
     "municipio": "Estação",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.11,
+    "agua_solucao_individual": 46.43
   },
   "4307609": {
     "municipio": "Estância Velha",
-    "agua_total": null,
-    "esgoto_total": 2.65,
-    "residuos_coleta": 92.96
+    "agua_coleta_tratamento": 3.57,
+    "agua_coleta_sem_tratamento": 23.12,
+    "agua_solucao_individual": 67.93
   },
   "4307708": {
     "municipio": "Esteio",
-    "agua_total": null,
-    "esgoto_total": 57.01,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 8.17,
+    "agua_coleta_sem_tratamento": 53.24,
+    "agua_solucao_individual": 29.47
   },
   "4307807": {
     "municipio": "Estrela",
-    "agua_total": null,
-    "esgoto_total": 6.61,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 26.95,
+    "agua_coleta_sem_tratamento": 23.59,
+    "agua_solucao_individual": 39.09
   },
   "4307815": {
     "municipio": "Estrela Velha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.03,
+    "agua_solucao_individual": 12.17
   },
   "4307831": {
     "municipio": "Eugênio de Castro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.08,
+    "agua_solucao_individual": 5.47
   },
   "4307864": {
     "municipio": "Fagundes Varela",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 24.59,
+    "agua_solucao_individual": 51.82
   },
   "4307906": {
     "municipio": "Farroupilha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 86.51
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 38.9,
+    "agua_solucao_individual": 55.76
   },
   "4308003": {
     "municipio": "Faxinal do Soturno",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 62.58
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 75.07,
+    "agua_solucao_individual": 21.27
   },
   "4308052": {
     "municipio": "Faxinalzinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 32.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.34,
+    "agua_solucao_individual": 49.49
   },
   "4308078": {
     "municipio": "Fazenda Vilanova",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.94,
+    "agua_solucao_individual": 46.8
   },
   "4308102": {
     "municipio": "Feliz",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.35,
+    "agua_solucao_individual": 59.53
   },
   "4308201": {
     "municipio": "Flores da Cunha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 23.65,
+    "agua_coleta_sem_tratamento": 39.42,
+    "agua_solucao_individual": 23.87
   },
   "4308250": {
     "municipio": "Floriano Peixoto",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.52
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 48.63
   },
   "4308300": {
     "municipio": "Fontoura Xavier",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.61,
+    "agua_solucao_individual": 2.0
   },
   "4308409": {
     "municipio": "Formigueiro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 34.67,
+    "agua_solucao_individual": 6.1
   },
   "4308433": {
     "municipio": "Forquetinha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 49.65
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.07,
+    "agua_solucao_individual": 97.44
   },
   "4308458": {
     "municipio": "Fortaleza dos Valos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.75,
+    "agua_solucao_individual": 5.35
   },
   "4308508": {
     "municipio": "Frederico Westphalen",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 7.56,
+    "agua_coleta_sem_tratamento": 57.65,
+    "agua_solucao_individual": 13.64
   },
   "4308607": {
     "municipio": "Garibaldi",
-    "agua_total": null,
-    "esgoto_total": 88.67,
-    "residuos_coleta": 98.16
+    "agua_coleta_tratamento": 43.99,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 46.98
   },
   "4308656": {
     "municipio": "Garruchos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.95,
+    "agua_solucao_individual": 0.0
   },
   "4308706": {
     "municipio": "Gaurama",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 61.17
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.89,
+    "agua_solucao_individual": 44.19
   },
   "4308805": {
     "municipio": "General Câmara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 22.35,
+    "agua_solucao_individual": 56.95
   },
   "4308854": {
     "municipio": "Gentil",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 76.66
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.55,
+    "agua_solucao_individual": 31.54
   },
   "4308904": {
     "municipio": "Getúlio Vargas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 11.15,
+    "agua_solucao_individual": 53.26
   },
   "4309001": {
     "municipio": "Giruá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 39.2
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.79,
+    "agua_solucao_individual": 14.31
   },
   "4309050": {
     "municipio": "Glorinha",
-    "agua_total": null,
-    "esgoto_total": 24.19,
-    "residuos_coleta": 98.25
+    "agua_coleta_tratamento": 17.42,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 79.58
   },
   "4309100": {
     "municipio": "Gramado",
-    "agua_total": null,
-    "esgoto_total": 37.71,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 38.5,
+    "agua_coleta_sem_tratamento": 7.12,
+    "agua_solucao_individual": 47.02
   },
   "4309126": {
     "municipio": "Gramado dos Loureiros",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.76,
+    "agua_solucao_individual": 98.67
   },
   "4309159": {
     "municipio": "Gramado Xavier",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 59.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.57,
+    "agua_solucao_individual": 49.91
   },
   "4309209": {
     "municipio": "Gravataí",
-    "agua_total": null,
-    "esgoto_total": 44.3,
-    "residuos_coleta": 95.24
+    "agua_coleta_tratamento": 25.34,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 16.44
   },
   "4309258": {
     "municipio": "Guabiju",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.81,
+    "agua_solucao_individual": 68.29
   },
   "4309308": {
     "municipio": "Guaíba",
-    "agua_total": null,
-    "esgoto_total": 32.86,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 6.01,
+    "agua_coleta_sem_tratamento": 69.14,
+    "agua_solucao_individual": 12.14
   },
   "4309407": {
     "municipio": "Guaporé",
-    "agua_total": null,
-    "esgoto_total": 88.55,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 61.66,
+    "agua_solucao_individual": 35.38
   },
   "4309506": {
     "municipio": "Guarani das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.62,
+    "agua_solucao_individual": 1.99
   },
   "4309555": {
     "municipio": "Harmonia",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 73.62
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.45,
+    "agua_solucao_individual": 39.5
   },
   "4307104": {
     "municipio": "Herval",
-    "agua_total": null,
-    "esgoto_total": 62.38,
-    "residuos_coleta": 65.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 39.15,
+    "agua_solucao_individual": 33.5
   },
   "4309571": {
     "municipio": "Herveiras",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 20.76
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.69,
+    "agua_solucao_individual": 0.52
   },
   "4309605": {
     "municipio": "Horizontina",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 28.35,
+    "agua_solucao_individual": 26.45
   },
   "4309654": {
     "municipio": "Hulha Negra",
-    "agua_total": null,
-    "esgoto_total": 48.14,
-    "residuos_coleta": 74.06
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 57.68,
+    "agua_solucao_individual": 23.2
   },
   "4309704": {
     "municipio": "Humaitá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 59.18
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.68,
+    "agua_solucao_individual": 30.26
   },
   "4309753": {
     "municipio": "Ibarama",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 24.09
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 47.96,
+    "agua_solucao_individual": 23.36
   },
   "4309803": {
     "municipio": "Ibiaçá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.32,
+    "agua_solucao_individual": 39.7
   },
   "4309902": {
     "municipio": "Ibiraiaras",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.23
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 45.8,
+    "agua_solucao_individual": 28.82
   },
   "4309951": {
     "municipio": "Ibirapuitã",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.67,
+    "agua_solucao_individual": 6.9
   },
   "4310009": {
     "municipio": "Ibirubá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 78.98
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.29,
+    "agua_solucao_individual": 22.7
   },
   "4310108": {
     "municipio": "Igrejinha",
-    "agua_total": null,
-    "esgoto_total": 2.56,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 8.52,
+    "agua_coleta_sem_tratamento": 31.5,
+    "agua_solucao_individual": 49.72
   },
   "4310207": {
     "municipio": "Ijuí",
-    "agua_total": null,
-    "esgoto_total": 28.41,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 8.28,
+    "agua_coleta_sem_tratamento": 34.24,
+    "agua_solucao_individual": 19.33
   },
   "4310306": {
     "municipio": "Ilópolis",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.21,
+    "agua_solucao_individual": 59.54
   },
   "4310330": {
     "municipio": "Imbé",
-    "agua_total": null,
-    "esgoto_total": 0.78,
-    "residuos_coleta": 98.97
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.76,
+    "agua_solucao_individual": 78.44
   },
   "4310363": {
     "municipio": "Imigrante",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.2,
+    "agua_solucao_individual": 44.56
   },
   "4310405": {
     "municipio": "Independência",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.17,
+    "agua_solucao_individual": 8.47
   },
   "4310413": {
     "municipio": "Inhacorá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.37,
+    "agua_solucao_individual": 30.61
   },
   "4310439": {
     "municipio": "Ipê",
-    "agua_total": null,
-    "esgoto_total": 44.02,
-    "residuos_coleta": 48.42
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 64.33,
+    "agua_solucao_individual": 28.08
   },
   "4310462": {
     "municipio": "Ipiranga do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.12,
+    "agua_solucao_individual": 68.63
   },
   "4310504": {
     "municipio": "Iraí",
-    "agua_total": null,
-    "esgoto_total": 12.68,
-    "residuos_coleta": 66.17
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 25.89,
+    "agua_solucao_individual": 11.62
   },
   "4310538": {
     "municipio": "Itaara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.27
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.01,
+    "agua_solucao_individual": 57.11
   },
   "4310553": {
     "municipio": "Itacurubi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 34.4
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.17,
+    "agua_solucao_individual": 21.62
   },
   "4310579": {
     "municipio": "Itapuca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.51,
+    "agua_solucao_individual": 4.66
   },
   "4310603": {
     "municipio": "Itaqui",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.3
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 52.28,
+    "agua_solucao_individual": 20.15
   },
   "4310652": {
     "municipio": "Itati",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 14.62
   },
   "4310702": {
     "municipio": "Itatiba do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 13.24,
+    "agua_solucao_individual": 41.82
   },
   "4310751": {
     "municipio": "Ivorá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 27.05,
+    "agua_coleta_sem_tratamento": 2.32,
+    "agua_solucao_individual": 22.84
   },
   "4310801": {
     "municipio": "Ivoti",
-    "agua_total": null,
-    "esgoto_total": 4.5,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.79,
+    "agua_solucao_individual": 63.53
   },
   "4310850": {
     "municipio": "Jaboticaba",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.35,
+    "agua_solucao_individual": 16.48
   },
   "4310876": {
     "municipio": "Jacuizinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.53,
+    "agua_solucao_individual": 4.45
   },
   "4310900": {
     "municipio": "Jacutinga",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 67.73
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 41.43,
+    "agua_solucao_individual": 35.02
   },
   "4311007": {
     "municipio": "Jaguarão",
-    "agua_total": null,
-    "esgoto_total": 38.06,
-    "residuos_coleta": 93.46
+    "agua_coleta_tratamento": 48.73,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 15.15
   },
   "4311106": {
     "municipio": "Jaguari",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 25.46,
+    "agua_solucao_individual": 24.53
   },
   "4311122": {
     "municipio": "Jaquirana",
-    "agua_total": null,
-    "esgoto_total": 32.2,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 62.43,
+    "agua_solucao_individual": 0.95
   },
   "4311130": {
     "municipio": "Jari",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.16,
+    "agua_solucao_individual": 5.87
   },
   "4311155": {
     "municipio": "Jóia",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 30.32
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.29,
+    "agua_solucao_individual": 57.92
   },
   "4311205": {
     "municipio": "Júlio de Castilhos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.89
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 42.93,
+    "agua_solucao_individual": 9.95
   },
   "4311239": {
     "municipio": "Lagoa Bonita do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 27.63
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.78,
+    "agua_solucao_individual": 36.2
   },
   "4311270": {
     "municipio": "Lagoa dos Três Cantos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 45.96
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.49,
+    "agua_solucao_individual": 33.46
   },
   "4311304": {
     "municipio": "Lagoa Vermelha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 84.68,
+    "agua_solucao_individual": 4.24
   },
   "4311254": {
     "municipio": "Lagoão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 31.54,
+    "agua_solucao_individual": 1.81
   },
   "4311403": {
     "municipio": "Lajeado",
-    "agua_total": null,
-    "esgoto_total": 3.84,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 1.08,
+    "agua_coleta_sem_tratamento": 4.6,
+    "agua_solucao_individual": 78.08
   },
   "4311429": {
     "municipio": "Lajeado do Bugre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 57.1
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.68,
+    "agua_solucao_individual": 0.0
   },
   "4311502": {
     "municipio": "Lavras do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 61.96
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 62.3,
+    "agua_solucao_individual": 9.14
   },
   "4311601": {
     "municipio": "Liberato Salzano",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 62.14
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.46,
+    "agua_solucao_individual": 13.57
   },
   "4311627": {
     "municipio": "Lindolfo Collor",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 20.25,
+    "agua_solucao_individual": 56.1
   },
   "4311643": {
     "municipio": "Linha Nova",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 93.27
   },
   "4311718": {
     "municipio": "Maçambará",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 34.4
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 50.46,
+    "agua_solucao_individual": 30.61
   },
   "4311700": {
     "municipio": "Machadinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 86.31
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.23,
+    "agua_solucao_individual": 74.89
   },
   "4311734": {
     "municipio": "Mampituba",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 25.3
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 33.63
   },
   "4311759": {
     "municipio": "Manoel Viana",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 86.62
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.17,
+    "agua_solucao_individual": 8.95
   },
   "4311775": {
     "municipio": "Maquiné",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.83,
+    "agua_solucao_individual": 83.87
   },
   "4311791": {
     "municipio": "Maratá",
-    "agua_total": null,
-    "esgoto_total": 4.01,
-    "residuos_coleta": 99.4
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.51,
+    "agua_solucao_individual": 85.39
   },
   "4311809": {
     "municipio": "Marau",
-    "agua_total": null,
-    "esgoto_total": 21.52,
-    "residuos_coleta": 92.14
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 57.49,
+    "agua_solucao_individual": 34.94
   },
   "4311908": {
     "municipio": "Marcelino Ramos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 52.49
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.3,
+    "agua_solucao_individual": 68.11
   },
   "4311981": {
     "municipio": "Mariana Pimentel",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.02,
+    "agua_solucao_individual": 93.26
   },
   "4312005": {
     "municipio": "Mariano Moro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 51.6
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 10.06,
+    "agua_solucao_individual": 77.54
   },
   "4312054": {
     "municipio": "Marques de Souza",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 75.42
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.19,
+    "agua_solucao_individual": 80.84
   },
   "4312104": {
     "municipio": "Mata",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 52.7
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 12.45,
+    "agua_solucao_individual": 60.39
   },
   "4312138": {
     "municipio": "Mato Castelhano",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.99
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.1,
+    "agua_solucao_individual": 84.64
   },
   "4312153": {
     "municipio": "Mato Leitão",
-    "agua_total": null,
-    "esgoto_total": 2.04,
-    "residuos_coleta": 95.74
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.56,
+    "agua_solucao_individual": 99.07
   },
   "4312179": {
     "municipio": "Mato Queimado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.67,
+    "agua_solucao_individual": 39.25
   },
   "4312203": {
     "municipio": "Maximiliano de Almeida",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 63.8
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 48.76,
+    "agua_solucao_individual": 15.16
   },
   "4312252": {
     "municipio": "Minas do Leão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 96.19
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 50.89,
+    "agua_solucao_individual": 20.54
   },
   "4312302": {
     "municipio": "Miraguaí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 42.61
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.01,
+    "agua_solucao_individual": 43.4
   },
   "4312351": {
     "municipio": "Montauri",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 48.76
   },
   "4312377": {
     "municipio": "Monte Alegre dos Campos",
-    "agua_total": null,
-    "esgoto_total": 0.03,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 13.8,
+    "agua_solucao_individual": 29.15
   },
   "4312385": {
     "municipio": "Monte Belo do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 28.84
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.91,
+    "agua_solucao_individual": 15.32
   },
   "4312401": {
     "municipio": "Montenegro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 64.22,
+    "agua_solucao_individual": 26.26
   },
   "4312427": {
     "municipio": "Mormaço",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.88
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.83,
+    "agua_solucao_individual": 5.33
   },
   "4312443": {
     "municipio": "Morrinhos do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 96.74
+    "agua_coleta_tratamento": 2.46,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 18.77
   },
   "4312450": {
     "municipio": "Morro Redondo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 50.91,
+    "agua_solucao_individual": 42.75
   },
   "4312476": {
     "municipio": "Morro Reuter",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.35,
+    "agua_solucao_individual": 86.26
   },
   "4312500": {
     "municipio": "Mostardas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 45.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 76.41,
+    "agua_solucao_individual": 17.71
   },
   "4312609": {
     "municipio": "Muçum",
-    "agua_total": null,
-    "esgoto_total": 11.19,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.12,
+    "agua_solucao_individual": 55.93
   },
   "4312617": {
     "municipio": "Muitos Capões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 51.58
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 16.08,
+    "agua_solucao_individual": 1.75
   },
   "4312625": {
     "municipio": "Muliterno",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 28.02
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.79,
+    "agua_solucao_individual": 40.55
   },
   "4312658": {
     "municipio": "Não-Me-Toque",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.64
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.5,
+    "agua_solucao_individual": 40.7
   },
   "4312674": {
     "municipio": "Nicolau Vergueiro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 51.26
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 26.57
   },
   "4312708": {
     "municipio": "Nonoai",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.61,
+    "agua_solucao_individual": 23.01
   },
   "4312757": {
     "municipio": "Nova Alvorada",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 14.34,
+    "agua_solucao_individual": 10.36
   },
   "4312807": {
     "municipio": "Nova Araçá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.43,
+    "agua_solucao_individual": 72.47
   },
   "4312906": {
     "municipio": "Nova Bassano",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 67.3
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 28.67,
+    "agua_solucao_individual": 45.3
   },
   "4312955": {
     "municipio": "Nova Boa Vista",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 36.36
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.04,
+    "agua_solucao_individual": 47.92
   },
   "4313003": {
     "municipio": "Nova Bréscia",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 45.54
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.15,
+    "agua_solucao_individual": 25.08
   },
   "4313011": {
     "municipio": "Nova Candelária",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 25.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.24,
+    "agua_solucao_individual": 88.01
   },
   "4313037": {
     "municipio": "Nova Esperança do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 16.34,
+    "agua_solucao_individual": 4.08
   },
   "4313060": {
     "municipio": "Nova Hartz",
-    "agua_total": null,
-    "esgoto_total": 4.83,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 50.17,
+    "agua_solucao_individual": 47.79
   },
   "4313086": {
     "municipio": "Nova Pádua",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 72.15
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 74.18,
+    "agua_solucao_individual": 17.62
   },
   "4313102": {
     "municipio": "Nova Palma",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.93,
+    "agua_solucao_individual": 81.84
   },
   "4313201": {
     "municipio": "Nova Petrópolis",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 82.9
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.81,
+    "agua_solucao_individual": 92.17
   },
   "4313300": {
     "municipio": "Nova Prata",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 81.73
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 31.79,
+    "agua_solucao_individual": 56.26
   },
   "4313334": {
     "municipio": "Nova Ramada",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 41.19
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.69,
+    "agua_solucao_individual": 8.81
   },
   "4313359": {
     "municipio": "Nova Roma do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 56.91,
+    "agua_solucao_individual": 13.5
   },
   "4313375": {
     "municipio": "Nova Santa Rita",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 34.05,
+    "agua_solucao_individual": 31.39
   },
   "4313490": {
     "municipio": "Novo Barreiro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 37.08
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 3.91
   },
   "4313391": {
     "municipio": "Novo Cabrais",
-    "agua_total": null,
-    "esgoto_total": 8.33,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 12.11,
+    "agua_solucao_individual": 84.95
   },
   "4313409": {
     "municipio": "Novo Hamburgo",
-    "agua_total": null,
-    "esgoto_total": 6.69,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 2.58,
+    "agua_coleta_sem_tratamento": 54.8,
+    "agua_solucao_individual": 34.84
   },
   "4313425": {
     "municipio": "Novo Machado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 61.92
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 3.93
   },
   "4313441": {
     "municipio": "Novo Tiradentes",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 24.77
   },
   "4313466": {
     "municipio": "Novo Xingu",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 25.09
   },
   "4313508": {
     "municipio": "Osório",
-    "agua_total": null,
-    "esgoto_total": 2.8,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 41.26,
+    "agua_solucao_individual": 31.64
   },
   "4313607": {
     "municipio": "Paim Filho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.1
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.5,
+    "agua_solucao_individual": 38.88
   },
   "4313656": {
     "municipio": "Palmares do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 77.08
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.5,
+    "agua_solucao_individual": 87.57
   },
   "4313706": {
     "municipio": "Palmeira das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 83.46
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 22.45,
+    "agua_solucao_individual": 13.18
   },
   "4313805": {
     "municipio": "Palmitinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 49.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.45,
+    "agua_solucao_individual": 37.4
   },
   "4313904": {
     "municipio": "Panambi",
-    "agua_total": null,
-    "esgoto_total": 1.42,
-    "residuos_coleta": 90.81
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.87,
+    "agua_solucao_individual": 56.46
   },
   "4313953": {
     "municipio": "Pantano Grande",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 72.88,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 11.17
   },
   "4314001": {
     "municipio": "Paraí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 31.92,
+    "agua_solucao_individual": 43.32
   },
   "4314027": {
     "municipio": "Paraíso do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 38.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.26,
+    "agua_solucao_individual": 57.85
   },
   "4314035": {
     "municipio": "Pareci Novo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.41,
+    "agua_solucao_individual": 98.67
   },
   "4314050": {
     "municipio": "Parobé",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 97.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 69.47,
+    "agua_solucao_individual": 21.58
   },
   "4314068": {
     "municipio": "Passa Sete",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 59.75
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.44,
+    "agua_solucao_individual": 43.24
   },
   "4314076": {
     "municipio": "Passo do Sobrado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 23.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.41,
+    "agua_solucao_individual": 94.75
   },
   "4314100": {
     "municipio": "Passo Fundo",
-    "agua_total": null,
-    "esgoto_total": 43.85,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 34.78,
+    "agua_coleta_sem_tratamento": 2.56,
+    "agua_solucao_individual": 17.96
   },
   "4314134": {
     "municipio": "Paulo Bento",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 50.78
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.67,
+    "agua_solucao_individual": 56.73
   },
   "4314159": {
     "municipio": "Paverama",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 93.94
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.66,
+    "agua_solucao_individual": 33.58
   },
   "4314175": {
     "municipio": "Pedras Altas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 37.18
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 33.85,
+    "agua_solucao_individual": 60.03
   },
   "4314209": {
     "municipio": "Pedro Osório",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 26.83,
+    "agua_solucao_individual": 12.85
   },
   "4314308": {
     "municipio": "Pejuçara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 67.25
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.38,
+    "agua_solucao_individual": 1.31
   },
   "4314407": {
     "municipio": "Pelotas",
-    "agua_total": null,
-    "esgoto_total": 81.3,
-    "residuos_coleta": 98.32
+    "agua_coleta_tratamento": 21.0,
+    "agua_coleta_sem_tratamento": 49.0,
+    "agua_solucao_individual": 27.0
   },
   "4314423": {
     "municipio": "Picada Café",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.02,
+    "agua_solucao_individual": 88.29
   },
   "4314456": {
     "municipio": "Pinhal",
-    "agua_total": null,
-    "esgoto_total": 27.43,
-    "residuos_coleta": 99.0
+    "agua_coleta_tratamento": 24.26,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 41.86
   },
   "4314464": {
     "municipio": "Pinhal da Serra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 44.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.21,
+    "agua_solucao_individual": 3.35
   },
   "4314472": {
     "municipio": "Pinhal Grande",
-    "agua_total": null,
-    "esgoto_total": 42.39,
-    "residuos_coleta": 42.39
+    "agua_coleta_tratamento": 79.68,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 7.28
   },
   "4314498": {
     "municipio": "Pinheirinho do Vale",
-    "agua_total": null,
-    "esgoto_total": 13.3,
-    "residuos_coleta": 76.34
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.87,
+    "agua_solucao_individual": 12.68
   },
   "4314506": {
     "municipio": "Pinheiro Machado",
-    "agua_total": null,
-    "esgoto_total": 0.26,
-    "residuos_coleta": 78.91
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 82.16,
+    "agua_solucao_individual": 10.48
   },
   "4314548": {
     "municipio": "Pinto Bandeira",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 94.55
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.17,
+    "agua_solucao_individual": 69.74
   },
   "4314555": {
     "municipio": "Pirapó",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.83,
+    "agua_solucao_individual": 65.64
   },
   "4314605": {
     "municipio": "Piratini",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 20.67,
+    "agua_solucao_individual": 54.19
   },
   "4314704": {
     "municipio": "Planalto",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.4
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.2,
+    "agua_solucao_individual": 35.11
   },
   "4314753": {
     "municipio": "Poço das Antas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 42.68
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.12,
+    "agua_solucao_individual": 99.88
   },
   "4314779": {
     "municipio": "Pontão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 40.4
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.31,
+    "agua_solucao_individual": 12.83
   },
   "4314787": {
     "municipio": "Ponte Preta",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 37.74
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.42,
+    "agua_solucao_individual": 52.15
   },
   "4314803": {
     "municipio": "Portão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 43.9,
+    "agua_solucao_individual": 49.73
   },
   "4314902": {
     "municipio": "Porto Alegre",
-    "agua_total": null,
-    "esgoto_total": 91.76,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 47.06,
+    "agua_coleta_sem_tratamento": 52.34,
+    "agua_solucao_individual": 0.6
   },
   "4315008": {
     "municipio": "Porto Lucena",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.94
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.99,
+    "agua_solucao_individual": 22.74
   },
   "4315057": {
     "municipio": "Porto Mauá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.14,
+    "agua_solucao_individual": 41.3
   },
   "4315073": {
     "municipio": "Porto Vera Cruz",
-    "agua_total": null,
-    "esgoto_total": 9.9,
-    "residuos_coleta": 63.49
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 19.55,
+    "agua_solucao_individual": 33.18
   },
   "4315107": {
     "municipio": "Porto Xavier",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.82
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 66.79,
+    "agua_solucao_individual": 16.43
   },
   "4315131": {
     "municipio": "Pouso Novo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.42
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.32,
+    "agua_solucao_individual": 25.63
   },
   "4315149": {
     "municipio": "Presidente Lucena",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.61,
+    "agua_solucao_individual": 77.76
   },
   "4315156": {
     "municipio": "Progresso",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.3,
+    "agua_solucao_individual": 48.69
   },
   "4315172": {
     "municipio": "Protásio Alves",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 35.19
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.37,
+    "agua_solucao_individual": 61.83
   },
   "4315206": {
     "municipio": "Putinga",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.45,
+    "agua_solucao_individual": 77.93
   },
   "4315305": {
     "municipio": "Quaraí",
-    "agua_total": null,
-    "esgoto_total": 72.23,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 77.73,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 13.2
   },
   "4315313": {
     "municipio": "Quatro Irmãos",
-    "agua_total": null,
-    "esgoto_total": 0.32,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.33,
+    "agua_solucao_individual": 88.76
   },
   "4315321": {
     "municipio": "Quevedos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 90.84
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.82,
+    "agua_solucao_individual": 30.28
   },
   "4315354": {
     "municipio": "Quinze de Novembro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 50.65
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 21.26,
+    "agua_solucao_individual": 10.81
   },
   "4315404": {
     "municipio": "Redentora",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 31.96
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.33,
+    "agua_solucao_individual": 6.16
   },
   "4315453": {
     "municipio": "Relvado",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 34.07
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.45,
+    "agua_solucao_individual": 94.41
   },
   "4315503": {
     "municipio": "Restinga Sêca",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 39.77
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 20.42,
+    "agua_solucao_individual": 33.41
   },
   "4315552": {
     "municipio": "Rio dos Índios",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 20.89
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.05,
+    "agua_solucao_individual": 3.97
   },
   "4315602": {
     "municipio": "Rio Grande",
-    "agua_total": null,
-    "esgoto_total": 34.29,
-    "residuos_coleta": 79.97
+    "agua_coleta_tratamento": 20.52,
+    "agua_coleta_sem_tratamento": 10.21,
+    "agua_solucao_individual": 57.89
   },
   "4315701": {
     "municipio": "Rio Pardo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 42.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 56.52,
+    "agua_solucao_individual": 31.46
   },
   "4315750": {
     "municipio": "Riozinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 63.46
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.4,
+    "agua_solucao_individual": 57.35
   },
   "4315800": {
     "municipio": "Roca Sales",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.44
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.64,
+    "agua_solucao_individual": 91.05
   },
   "4315909": {
     "municipio": "Rodeio Bonito",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 86.3
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.46,
+    "agua_solucao_individual": 28.82
   },
   "4315958": {
     "municipio": "Rolador",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.8,
+    "agua_solucao_individual": 75.49
   },
   "4316006": {
     "municipio": "Rolante",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 18.49,
+    "agua_solucao_individual": 57.26
   },
   "4316105": {
     "municipio": "Ronda Alta",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 63.8
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 10.56,
+    "agua_solucao_individual": 35.07
   },
   "4316204": {
     "municipio": "Rondinha",
-    "agua_total": null,
-    "esgoto_total": 24.8,
-    "residuos_coleta": 50.4
+    "agua_coleta_tratamento": 34.01,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 37.29
   },
   "4316303": {
     "municipio": "Roque Gonzales",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 12.96,
+    "agua_solucao_individual": 21.12
   },
   "4316402": {
     "municipio": "Rosário do Sul",
-    "agua_total": null,
-    "esgoto_total": 15.31,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 42.91,
+    "agua_coleta_sem_tratamento": 11.63,
+    "agua_solucao_individual": 18.95
   },
   "4316428": {
     "municipio": "Sagrada Família",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 30.26
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.25,
+    "agua_solucao_individual": 20.89
   },
   "4316436": {
     "municipio": "Saldanha Marinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.73,
+    "agua_solucao_individual": 7.78
   },
   "4316451": {
     "municipio": "Salto do Jacuí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.93
+    "agua_coleta_tratamento": 29.73,
+    "agua_coleta_sem_tratamento": 7.43,
+    "agua_solucao_individual": 4.6
   },
   "4316477": {
     "municipio": "Salvador das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.1,
+    "agua_solucao_individual": 54.75
   },
   "4316501": {
     "municipio": "Salvador do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 27.84,
+    "agua_solucao_individual": 68.35
   },
   "4316600": {
     "municipio": "Sananduva",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 69.58
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 56.39,
+    "agua_solucao_individual": 29.7
   },
   "4316709": {
     "municipio": "Santa Bárbara do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 79.11
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 22.58,
+    "agua_solucao_individual": 9.38
   },
   "4316733": {
     "municipio": "Santa Cecília do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.46,
+    "agua_solucao_individual": 28.54
   },
   "4316758": {
     "municipio": "Santa Clara do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.99
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.61,
+    "agua_solucao_individual": 72.05
   },
   "4316808": {
     "municipio": "Santa Cruz do Sul",
-    "agua_total": null,
-    "esgoto_total": 23.85,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 67.38,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 28.08
   },
   "4316972": {
     "municipio": "Santa Margarida do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 18.38
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.43,
+    "agua_solucao_individual": 65.76
   },
   "4316907": {
     "municipio": "Santa Maria",
-    "agua_total": null,
-    "esgoto_total": 65.03,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 67.07,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 17.71
   },
   "4316956": {
     "municipio": "Santa Maria do Herval",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.63
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.5,
+    "agua_solucao_individual": 70.29
   },
   "4317202": {
     "municipio": "Santa Rosa",
-    "agua_total": null,
-    "esgoto_total": 37.05,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 2.58,
+    "agua_coleta_sem_tratamento": 25.4,
+    "agua_solucao_individual": 14.21
   },
   "4317251": {
     "municipio": "Santa Tereza",
-    "agua_total": null,
-    "esgoto_total": 4.08,
-    "residuos_coleta": 36.45
+    "agua_coleta_tratamento": 11.06,
+    "agua_coleta_sem_tratamento": 5.53,
+    "agua_solucao_individual": 82.62
   },
   "4317301": {
     "municipio": "Santa Vitória do Palmar",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 93.39
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 29.71,
+    "agua_solucao_individual": 56.86
   },
   "4317004": {
     "municipio": "Santana da Boa Vista",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 45.17
+    "agua_coleta_tratamento": 69.25,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 0.35
   },
   "4317103": {
     "municipio": "Sant'Ana do Livramento",
-    "agua_total": null,
-    "esgoto_total": 36.09,
-    "residuos_coleta": 81.2
+    "agua_coleta_tratamento": 25.0,
+    "agua_coleta_sem_tratamento": 11.0,
+    "agua_solucao_individual": 42.02
   },
   "4317400": {
     "municipio": "Santiago",
-    "agua_total": null,
-    "esgoto_total": 5.87,
-    "residuos_coleta": 91.16
+    "agua_coleta_tratamento": 67.45,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 11.53
   },
   "4317509": {
     "municipio": "Santo Ângelo",
-    "agua_total": null,
-    "esgoto_total": 32.87,
-    "residuos_coleta": 98.0
+    "agua_coleta_tratamento": 21.5,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 9.91
   },
   "4317608": {
     "municipio": "Santo Antônio da Patrulha",
-    "agua_total": null,
-    "esgoto_total": 9.59,
-    "residuos_coleta": 99.42
+    "agua_coleta_tratamento": 4.51,
+    "agua_coleta_sem_tratamento": 16.79,
+    "agua_solucao_individual": 51.73
   },
   "4317707": {
     "municipio": "Santo Antônio das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 60.56
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.37,
+    "agua_solucao_individual": 13.05
   },
   "4317558": {
     "municipio": "Santo Antônio do Palma",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.82
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.59,
+    "agua_solucao_individual": 32.6
   },
   "4317756": {
     "municipio": "Santo Antônio do Planalto",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 62.04
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.3,
+    "agua_solucao_individual": 15.0
   },
   "4317806": {
     "municipio": "Santo Augusto",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.84,
+    "agua_solucao_individual": 8.36
   },
   "4317905": {
     "municipio": "Santo Cristo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 96.94
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.27,
+    "agua_solucao_individual": 39.83
   },
   "4317954": {
     "municipio": "Santo Expedito do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 33.71
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 7.22,
+    "agua_solucao_individual": 83.49
   },
   "4318002": {
     "municipio": "São Borja",
-    "agua_total": null,
-    "esgoto_total": 21.05,
-    "residuos_coleta": 93.39
+    "agua_coleta_tratamento": 35.19,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 30.49
   },
   "4318051": {
     "municipio": "São Domingos do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 59.74
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.14,
+    "agua_solucao_individual": 70.54
   },
   "4318101": {
     "municipio": "São Francisco de Assis",
-    "agua_total": null,
-    "esgoto_total": 5.73,
-    "residuos_coleta": 69.47
+    "agua_coleta_tratamento": 9.53,
+    "agua_coleta_sem_tratamento": 2.38,
+    "agua_solucao_individual": 16.38
   },
   "4318200": {
     "municipio": "São Francisco de Paula",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 63.31
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 54.0,
+    "agua_solucao_individual": 18.46
   },
   "4318309": {
     "municipio": "São Gabriel",
-    "agua_total": null,
-    "esgoto_total": 53.4,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 17.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 10.29
   },
   "4318408": {
     "municipio": "São Jerônimo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 83.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 15.94,
+    "agua_solucao_individual": 68.22
   },
   "4318424": {
     "municipio": "São João da Urtiga",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.48
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 55.91,
+    "agua_solucao_individual": 10.26
   },
   "4318432": {
     "municipio": "São João do Polêsine",
-    "agua_total": null,
-    "esgoto_total": 37.37,
-    "residuos_coleta": 51.38
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.55,
+    "agua_solucao_individual": 1.62
   },
   "4318440": {
     "municipio": "São Jorge",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.17,
+    "agua_solucao_individual": 76.77
   },
   "4318457": {
     "municipio": "São José das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 31.45
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.12,
+    "agua_solucao_individual": 1.57
   },
   "4318465": {
     "municipio": "São José do Herval",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.42,
+    "agua_solucao_individual": 8.3
   },
   "4318481": {
     "municipio": "São José do Hortêncio",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.81,
+    "agua_solucao_individual": 91.19
   },
   "4318499": {
     "municipio": "São José do Inhacorá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 32.92
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.4,
+    "agua_solucao_individual": 78.73
   },
   "4318507": {
     "municipio": "São José do Norte",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 35.36
+    "agua_coleta_tratamento": 12.05,
+    "agua_coleta_sem_tratamento": 27.86,
+    "agua_solucao_individual": 38.11
   },
   "4318606": {
     "municipio": "São José do Ouro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 64.08
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 37.37,
+    "agua_solucao_individual": 49.51
   },
   "4318614": {
     "municipio": "São José do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.36,
+    "agua_solucao_individual": 76.39
   },
   "4318622": {
     "municipio": "São José dos Ausentes",
-    "agua_total": null,
-    "esgoto_total": 49.83,
-    "residuos_coleta": 91.48
+    "agua_coleta_tratamento": 53.49,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 12.75
   },
   "4318705": {
     "municipio": "São Leopoldo",
-    "agua_total": null,
-    "esgoto_total": 76.97,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 76.88,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 16.27
   },
   "4318804": {
     "municipio": "São Lourenço do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 79.8
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 26.22,
+    "agua_solucao_individual": 54.38
   },
   "4318903": {
     "municipio": "São Luiz Gonzaga",
-    "agua_total": null,
-    "esgoto_total": 42.74,
-    "residuos_coleta": 92.59
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 36.0,
+    "agua_solucao_individual": 26.78
   },
   "4319000": {
     "municipio": "São Marcos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 80.24,
+    "agua_solucao_individual": 15.69
   },
   "4319109": {
     "municipio": "São Martinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.31,
+    "agua_solucao_individual": 22.35
   },
   "4319125": {
     "municipio": "São Martinho da Serra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.21,
+    "agua_solucao_individual": 1.17
   },
   "4319158": {
     "municipio": "São Miguel das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 50.22
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.24,
+    "agua_solucao_individual": 27.34
   },
   "4319208": {
     "municipio": "São Nicolau",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.22,
+    "agua_solucao_individual": 23.08
   },
   "4319307": {
     "municipio": "São Paulo das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 34.54
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.59,
+    "agua_solucao_individual": 20.33
   },
   "4319356": {
     "municipio": "São Pedro da Serra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 56.89
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.26,
+    "agua_solucao_individual": 84.53
   },
   "4319364": {
     "municipio": "São Pedro das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 61.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 27.26
   },
   "4319372": {
     "municipio": "São Pedro do Butiá",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.53
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.41,
+    "agua_solucao_individual": 50.12
   },
   "4319406": {
     "municipio": "São Pedro do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.74
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 61.63,
+    "agua_solucao_individual": 2.24
   },
   "4319505": {
     "municipio": "São Sebastião do Caí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 62.01,
+    "agua_solucao_individual": 31.99
   },
   "4319604": {
     "municipio": "São Sepé",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 70.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 82.24,
+    "agua_solucao_individual": 6.92
   },
   "4319703": {
     "municipio": "São Valentim",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 34.81,
+    "agua_solucao_individual": 16.23
   },
   "4319711": {
     "municipio": "São Valentim do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.13,
+    "agua_solucao_individual": 43.03
   },
   "4319737": {
     "municipio": "São Valério do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 21.37
   },
   "4319752": {
     "municipio": "São Vendelino",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.07,
+    "agua_solucao_individual": 96.08
   },
   "4319802": {
     "municipio": "São Vicente do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 80.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 33.62,
+    "agua_solucao_individual": 48.53
   },
   "4319901": {
     "municipio": "Sapiranga",
-    "agua_total": null,
-    "esgoto_total": 8.59,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 40.34,
+    "agua_coleta_sem_tratamento": 27.78,
+    "agua_solucao_individual": 25.6
   },
   "4320008": {
     "municipio": "Sapucaia do Sul",
-    "agua_total": null,
-    "esgoto_total": 18.84,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 63.85,
+    "agua_coleta_sem_tratamento": 4.0,
+    "agua_solucao_individual": 22.36
   },
   "4320107": {
     "municipio": "Sarandi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 84.68
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 43.76,
+    "agua_solucao_individual": 40.57
   },
   "4320206": {
     "municipio": "Seberi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.71,
+    "agua_solucao_individual": 10.86
   },
   "4320230": {
     "municipio": "Sede Nova",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 52.51
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.01,
+    "agua_solucao_individual": 21.13
   },
   "4320263": {
     "municipio": "Segredo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 90.8
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.16,
+    "agua_solucao_individual": 13.5
   },
   "4320305": {
     "municipio": "Selbach",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.33,
+    "agua_solucao_individual": 31.22
   },
   "4320321": {
     "municipio": "Senador Salgado Filho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 31.27
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.25,
+    "agua_solucao_individual": 61.25
   },
   "4320354": {
     "municipio": "Sentinela do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.7,
+    "agua_solucao_individual": 30.34
   },
   "4320404": {
     "municipio": "Serafina Corrêa",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.55
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 4.93,
+    "agua_solucao_individual": 58.87
   },
   "4320453": {
     "municipio": "Sério",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 43.58
   },
   "4320503": {
     "municipio": "Sertão",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.81
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.23,
+    "agua_solucao_individual": 26.48
   },
   "4320552": {
     "municipio": "Sertão Santana",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 41.39
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 11.35,
+    "agua_solucao_individual": 64.63
   },
   "4320578": {
     "municipio": "Sete de Setembro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.2,
+    "agua_solucao_individual": 0.0
   },
   "4320602": {
     "municipio": "Severiano de Almeida",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 75.2
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 17.16,
+    "agua_solucao_individual": 76.77
   },
   "4320651": {
     "municipio": "Silveira Martins",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 55.47
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 27.59,
+    "agua_solucao_individual": 43.45
   },
   "4320677": {
     "municipio": "Sinimbu",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 82.86
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.64,
+    "agua_solucao_individual": 39.32
   },
   "4320701": {
     "municipio": "Sobradinho",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 26.54,
+    "agua_solucao_individual": 57.65
   },
   "4320800": {
     "municipio": "Soledade",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 68.25,
+    "agua_solucao_individual": 14.92
   },
   "4320859": {
     "municipio": "Tabaí",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 73.23
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.48,
+    "agua_solucao_individual": 40.21
   },
   "4320909": {
     "municipio": "Tapejara",
-    "agua_total": null,
-    "esgoto_total": 78.7,
-    "residuos_coleta": 98.99
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 23.51,
+    "agua_solucao_individual": 46.07
   },
   "4321006": {
     "municipio": "Tapera",
-    "agua_total": null,
-    "esgoto_total": 4.51,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 29.38,
+    "agua_solucao_individual": 21.35
   },
   "4321105": {
     "municipio": "Tapes",
-    "agua_total": null,
-    "esgoto_total": 4.39,
-    "residuos_coleta": 98.02
+    "agua_coleta_tratamento": 5.2,
+    "agua_coleta_sem_tratamento": 56.67,
+    "agua_solucao_individual": 28.21
   },
   "4321204": {
     "municipio": "Taquara",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 56.87,
+    "agua_solucao_individual": 32.75
   },
   "4321303": {
     "municipio": "Taquari",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.74,
+    "agua_solucao_individual": 67.26
   },
   "4321329": {
     "municipio": "Taquaruçu do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 39.24
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 47.25
   },
   "4321352": {
     "municipio": "Tavares",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 77.62
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 30.28,
+    "agua_solucao_individual": 24.28
   },
   "4321402": {
     "municipio": "Tenente Portela",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 60.42
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.29,
+    "agua_solucao_individual": 14.05
   },
   "4321436": {
     "municipio": "Terra de Areia",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 57.49
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.35,
+    "agua_solucao_individual": 15.67
   },
   "4321451": {
     "municipio": "Teutônia",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.52
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.33,
+    "agua_solucao_individual": 82.73
   },
   "4321469": {
     "municipio": "Tio Hugo",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 18.73
   },
   "4321477": {
     "municipio": "Tiradentes do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 48.27
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.24,
+    "agua_solucao_individual": 19.73
   },
   "4321493": {
     "municipio": "Toropi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 58.16
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 2.78,
+    "agua_solucao_individual": 0.0
   },
   "4321501": {
     "municipio": "Torres",
-    "agua_total": null,
-    "esgoto_total": 72.92,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 43.82,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 20.61
   },
   "4321600": {
     "municipio": "Tramandaí",
-    "agua_total": null,
-    "esgoto_total": 28.96,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 14.87,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 42.17
   },
   "4321626": {
     "municipio": "Travesseiro",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 38.33
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 4.62
   },
   "4321634": {
     "municipio": "Três Arroios",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 35.67
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.95,
+    "agua_solucao_individual": 91.33
   },
   "4321667": {
     "municipio": "Três Cachoeiras",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 27.16,
+    "agua_solucao_individual": 29.53
   },
   "4321709": {
     "municipio": "Três Coroas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 20.04,
+    "agua_solucao_individual": 72.33
   },
   "4321808": {
     "municipio": "Três de Maio",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.72,
+    "agua_solucao_individual": 12.49
   },
   "4321832": {
     "municipio": "Três Forquilhas",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 1.3,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 0.78
   },
   "4321857": {
     "municipio": "Três Palmeiras",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 5.41,
+    "agua_solucao_individual": 37.13
   },
   "4321907": {
     "municipio": "Três Passos",
-    "agua_total": null,
-    "esgoto_total": 1.12,
-    "residuos_coleta": 70.06
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 9.0,
+    "agua_solucao_individual": 37.5
   },
   "4321956": {
     "municipio": "Trindade do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 78.61
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.52,
+    "agua_solucao_individual": 32.6
   },
   "4322004": {
     "municipio": "Triunfo",
-    "agua_total": null,
-    "esgoto_total": 0.0,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 39.7,
+    "agua_solucao_individual": 26.97
   },
   "4322103": {
     "municipio": "Tucunduva",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.97,
+    "agua_solucao_individual": 5.95
   },
   "4322152": {
     "municipio": "Tunas",
-    "agua_total": null,
-    "esgoto_total": 26.9,
-    "residuos_coleta": 67.26
+    "agua_coleta_tratamento": 2.4,
+    "agua_coleta_sem_tratamento": 0.0,
+    "agua_solucao_individual": 4.51
   },
   "4322186": {
     "municipio": "Tupanci do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 15.22,
+    "agua_solucao_individual": 76.53
   },
   "4322202": {
     "municipio": "Tupanciretã",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 50.04,
+    "agua_solucao_individual": 3.83
   },
   "4322251": {
     "municipio": "Tupandi",
-    "agua_total": null,
-    "esgoto_total": 11.81,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 5.2,
+    "agua_coleta_sem_tratamento": 5.09,
+    "agua_solucao_individual": 87.61
   },
   "4322301": {
     "municipio": "Tuparendi",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 75.28
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.61,
+    "agua_solucao_individual": 11.41
   },
   "4322327": {
     "municipio": "Turuçu",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 98.93
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.39,
+    "agua_solucao_individual": 55.82
   },
   "4322343": {
     "municipio": "Ubiretama",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.4,
+    "agua_solucao_individual": 25.0
   },
   "4322350": {
     "municipio": "União da Serra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": null
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.57,
+    "agua_solucao_individual": 93.21
   },
   "4322376": {
     "municipio": "Unistalda",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.01
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.64,
+    "agua_solucao_individual": 0.66
   },
   "4322400": {
     "municipio": "Uruguaiana",
-    "agua_total": null,
-    "esgoto_total": 92.2,
-    "residuos_coleta": 99.02
+    "agua_coleta_tratamento": 54.0,
+    "agua_coleta_sem_tratamento": 6.0,
+    "agua_solucao_individual": 31.82
   },
   "4322509": {
     "municipio": "Vacaria",
-    "agua_total": null,
-    "esgoto_total": 93.47,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 86.9,
+    "agua_solucao_individual": 5.74
   },
   "4322533": {
     "municipio": "Vale do Sol",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 85.38
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.92,
+    "agua_solucao_individual": 89.11
   },
   "4322541": {
     "municipio": "Vale Real",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 89.21
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 3.26,
+    "agua_solucao_individual": 24.66
   },
   "4322525": {
     "municipio": "Vale Verde",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 94.28
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 62.24,
+    "agua_solucao_individual": 30.73
   },
   "4322558": {
     "municipio": "Vanini",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 87.85
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.3,
+    "agua_solucao_individual": 76.12
   },
   "4322608": {
     "municipio": "Venâncio Aires",
-    "agua_total": null,
-    "esgoto_total": 17.12,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 55.63,
+    "agua_solucao_individual": 40.86
   },
   "4322707": {
     "municipio": "Vera Cruz",
-    "agua_total": null,
-    "esgoto_total": 53.75,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 78.22,
+    "agua_solucao_individual": 12.18
   },
   "4322806": {
     "municipio": "Veranópolis",
-    "agua_total": null,
-    "esgoto_total": 90.29,
-    "residuos_coleta": 61.83
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 86.33,
+    "agua_solucao_individual": 10.69
   },
   "4322855": {
     "municipio": "Vespasiano Corrêa",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 20.59
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.72,
+    "agua_solucao_individual": 98.28
   },
   "4322905": {
     "municipio": "Viadutos",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 19.07,
+    "agua_solucao_individual": 35.19
   },
   "4323002": {
     "municipio": "Viamão",
-    "agua_total": null,
-    "esgoto_total": 8.51,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 2.44,
+    "agua_coleta_sem_tratamento": 38.01,
+    "agua_solucao_individual": 35.37
   },
   "4323101": {
     "municipio": "Vicente Dutra",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 65.72
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 6.59,
+    "agua_solucao_individual": 46.49
   },
   "4323200": {
     "municipio": "Victor Graeff",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 100.0
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.4,
+    "agua_solucao_individual": 35.75
   },
   "4323309": {
     "municipio": "Vila Flores",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 60.14
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 8.61,
+    "agua_solucao_individual": 68.84
   },
   "4323358": {
     "municipio": "Vila Lângaro",
-    "agua_total": null,
-    "esgoto_total": 11.9,
-    "residuos_coleta": 16.76
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 16.67,
+    "agua_solucao_individual": 53.01
   },
   "4323408": {
     "municipio": "Vila Maria",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 53.29
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 36.33,
+    "agua_solucao_individual": 33.3
   },
   "4323457": {
     "municipio": "Vila Nova do Sul",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 99.03
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 76.12,
+    "agua_solucao_individual": 10.62
   },
   "4323507": {
     "municipio": "Vista Alegre",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 41.85
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.08,
+    "agua_solucao_individual": 24.56
   },
   "4323606": {
     "municipio": "Vista Alegre do Prata",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 29.51
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 47.3,
+    "agua_solucao_individual": 41.04
   },
   "4323705": {
     "municipio": "Vista Gaúcha",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 54.89
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.31,
+    "agua_solucao_individual": 34.82
   },
   "4323754": {
     "municipio": "Vitória das Missões",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 19.2
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 0.9,
+    "agua_solucao_individual": 22.12
   },
   "4323770": {
     "municipio": "Westfália",
-    "agua_total": null,
-    "esgoto_total": null,
-    "residuos_coleta": 40.04
+    "agua_coleta_tratamento": 0.0,
+    "agua_coleta_sem_tratamento": 1.59,
+    "agua_solucao_individual": 97.08
   },
   "4323804": {
     "municipio": "Xangri-lá",
-    "agua_total": null,
-    "esgoto_total": 38.13,
-    "residuos_coleta": 98.98
+    "agua_coleta_tratamento": 8.19,
+    "agua_coleta_sem_tratamento": 8.64,
+    "agua_solucao_individual": 11.01
   }
 }

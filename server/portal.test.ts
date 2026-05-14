@@ -114,12 +114,13 @@ describe('Portal Router', () => {
   });
 
   describe('Indicadores IGM', () => {
-    it('deve retornar dados IGM para uma RF válida', async () => {
-      const rfs = await caller.portal.regioesFuncionais();
-      const firstRF = rfs[0];
+    it('deve retornar dados IGM para um município válido', async () => {
+      const municipios = await caller.portal.todosMunicipios();
+      const firstMun = municipios[0];
       
-      const igm = await caller.portal.igm({ regiaoFuncionalId: firstRF.id });
-      expect(Array.isArray(igm)).toBe(true);
+      const igm = await caller.portal.igm({ codigoIBGE: firstMun.codigoIBGE });
+      expect(igm).toBeDefined();
+      expect(igm).toHaveProperty('municipio');
     });
   });
 
@@ -134,12 +135,12 @@ describe('Portal Router', () => {
   });
 
   describe('Violência Geral', () => {
-    it('deve retornar dados de violência geral para uma RF válida', async () => {
-      const rfs = await caller.portal.regioesFuncionais();
-      const firstRF = rfs[0];
+    it('deve retornar dados de violência geral para um município válido', async () => {
+      const municipios = await caller.portal.todosMunicipios();
+      const firstMun = municipios[0];
       
-      const violencia = await caller.portal.violenciaGeral({ regiaoFuncionalId: firstRF.id });
-      expect(Array.isArray(violencia)).toBe(true);
+      const violencia = await caller.portal.violenciaGeral({ codigoIBGE: firstMun.codigoIBGE });
+      expect(violencia).toBeDefined();
     });
   });
 
