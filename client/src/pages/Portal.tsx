@@ -332,31 +332,31 @@ export default function Portal() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <Card className="border-t-4 border-t-blue-400">
                       <CardHeader>
-                        <CardTitle className="text-lg">Água</CardTitle>
+                        <CardTitle className="text-lg">Água com Tratamento</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-4xl font-bold text-blue-600">{(saneamento.data as any)?.agua_total?.toFixed(1) || 'S/D'}%</p>
-                        <p className="text-sm text-gray-500 mt-2">Cobertura de Água</p>
+                        <p className="text-4xl font-bold text-blue-600">{(saneamento.data as any)?.agua_coleta_tratamento?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Coleta com Tratamento</p>
                       </CardContent>
                     </Card>
 
                     <Card className="border-t-4 border-t-green-400">
                       <CardHeader>
-                        <CardTitle className="text-lg">Esgoto</CardTitle>
+                        <CardTitle className="text-lg">Água sem Tratamento</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-4xl font-bold text-green-600">{(saneamento.data as any)?.esgoto_total?.toFixed(1) || 'S/D'}%</p>
-                        <p className="text-sm text-gray-500 mt-2">Cobertura de Esgoto</p>
+                        <p className="text-4xl font-bold text-green-600">{(saneamento.data as any)?.agua_coleta_sem_tratamento?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Coleta sem Tratamento</p>
                       </CardContent>
                     </Card>
 
                     <Card className="border-t-4 border-t-yellow-400">
                       <CardHeader>
-                        <CardTitle className="text-lg">Resíduos</CardTitle>
+                        <CardTitle className="text-lg">Solução Individual</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-4xl font-bold text-yellow-600">{(saneamento.data as any)?.residuos_coleta?.toFixed(1) || 'S/D'}%</p>
-                        <p className="text-sm text-gray-500 mt-2">Coleta de Resíduos</p>
+                        <p className="text-4xl font-bold text-yellow-600">{(saneamento.data as any)?.agua_solucao_individual?.toFixed(1) || 'S/D'}%</p>
+                        <p className="text-sm text-gray-500 mt-2">Solução Individual</p>
                       </CardContent>
                     </Card>
                   </div>
@@ -369,16 +369,16 @@ export default function Portal() {
                       <ResponsiveContainer width="100%" height={300}>
                         <BarChart data={[
                           {
-                            indicador: 'Água',
-                            valor: (saneamento.data as any)?.agua_total || 0,
+                            indicador: 'Água com Tratamento',
+                            valor: (saneamento.data as any)?.agua_coleta_tratamento || 0,
                           },
                           {
-                            indicador: 'Esgoto',
-                            valor: (saneamento.data as any)?.esgoto_total || 0,
+                            indicador: 'Água sem Tratamento',
+                            valor: (saneamento.data as any)?.agua_coleta_sem_tratamento || 0,
                           },
                           {
-                            indicador: 'Resíduos',
-                            valor: (saneamento.data as any)?.residuos_coleta || 0,
+                            indicador: 'Solução Individual',
+                            valor: (saneamento.data as any)?.agua_solucao_individual || 0,
                           },
                         ]}>
                           <CartesianGrid strokeDasharray="3 3" />
