@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { trpc } from '@/lib/trpc';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -59,7 +59,6 @@ export default function Portal() {
     { codigoIBGE: codigoIBGE || 0 },
     { enabled: !!codigoIBGE }
   );
-
 
   // ============ HANDLERS - FILTROS ============
   const handleRFChange = (rfId: string) => {
@@ -503,42 +502,41 @@ export default function Portal() {
                       </ResponsiveContainer>
                     </CardContent>
                   </Card>
+                </>
+              )}
 
-                  {historicoPIB.length > 0 && (
-                    <Card>
-                      <CardHeader>
-                        <CardTitle>Tendência de PIB (2020-2024)</CardTitle>
-                        <CardDescription>Evolução do Produto Interno Bruto em milhões de reais</CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        <ResponsiveContainer width="100%" height={300}>
-                          <LineChart data={historicoPIB}>
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis dataKey="ano" />
-                            <YAxis />
-                            <Tooltip formatter={(value) => `R$ ${(value as number).toFixed(2)}M`} />
-                            <Legend />
-                            <Line type="monotone" dataKey="pib" stroke="#001f5c" strokeWidth={2} name="PIB (Milhões)" dot={{ r: 4 }} />
-                          </LineChart>
-                        </ResponsiveContainer>
-                      </CardContent>
-                    </Card>
-                  )}
+              {economia.error && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-500">Erro ao carregar dados econômicos</p>
+                  </CardContent>
+                </Card>
+              )}
+            </TabsContent>
 
-                  {historicoPopulacao.length > 0 && (
-                    <Card>
-                      <CardHeader>
-                        <CardTitle>Tendência de População (2020-2024)</CardTitle>
-                        <CardDescription>Evolução da população e densidade populacional</CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        <ResponsiveContainer width="100%" height={300}>
-                          <LineChart data={historicoPopulacao}>
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis dataKey="ano" />
-                            <YAxis yAxisId="left" />
-                            <YAxis yAxisId="right" orientation="right" />
-                            <Tooltip />
+            {/* ============ ABA MAPA ============ */}
+            <TabsContent value="mapa" className="space-y-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Visualização Geográfica</CardTitle>
+                  <CardDescription>
+                    {municipioSelecionado?.nome} - {selectedCorede && coredes.data?.find(c => c.id === selectedCorede)?.nome}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <MapView />
+                </CardContent>
+              </Card>
+            </TabsContent>
+          </Tabs>
+        )}
+
+        {/* Mensagem quando nenhum município é selecionado */}
+        {!selectedMunicipio && (
+          <Card className="border-dashed">
+            <CardContent className="pt-12 pb-12 text-center">
+              <p className="text-lg text-gray-500">Selecione um município para visualizar os indicadores</p>
+            </CardContent>
           </Card>
         )}
       </div>
