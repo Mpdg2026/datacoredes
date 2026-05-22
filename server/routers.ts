@@ -382,7 +382,7 @@ export const portalRouter = router({
 
   /**
    * Dados do IBGE Cidades - PIB, População, etc.
-   * Utiliza CODIGO IBGE para requisições à API
+   * Tenta dados locais primeiro, depois API IBGE como fallback
    */
   ibgeCidades: publicProcedure
     .input(
@@ -391,9 +391,38 @@ export const portalRouter = router({
       })
     )
     .query(async ({ input }) => {
-      const { buscarDadosIBGE } = await import("./_core/ibge");
-      const dados = await buscarDadosIBGE(input.codigoIBGE);
-      return dados || { codigoIBGE: input.codigoIBGE, nome: "Desconhecido" };
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        
+        // Primeiro tentar dados locais consolidados
+        const economiaPath = path.join(process.cwd(), 'public', 'economia-consolidada.json');
+        if (fs.existsSync(economiaPath)) {
+          const economiaData = JSON.parse(fs.readFileSync(economiaPath, 'utf-8'));
+          const municipioData = economiaData[input.codigoIBGE.toString()];
+          if (municipioData) {
+            return municipioData;
+          }
+        }
+        
+        // Fallback para dist se em produção
+        const distPath = path.join(process.cwd(), 'dist', 'public', 'economia-consolidada.json');
+        if (fs.existsSync(distPath)) {
+          const economiaData = JSON.parse(fs.readFileSync(distPath, 'utf-8'));
+          const municipioData = economiaData[input.codigoIBGE.toString()];
+          if (municipioData) {
+            return municipioData;
+          }
+        }
+        
+        // Fallback para API IBGE (pode estar indisponível)
+        const { buscarDadosIBGE } = await import("./_core/ibge");
+        const dados = await buscarDadosIBGE(input.codigoIBGE);
+        return dados || { codigoIBGE: input.codigoIBGE, nome: "Desconhecido" };
+      } catch (error) {
+        console.error(`Erro ao buscar dados econômicos para ${input.codigoIBGE}:`, error);
+        return { codigoIBGE: input.codigoIBGE, nome: "Desconhecido" };
+      }
     }),
 });
 

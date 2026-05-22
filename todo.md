@@ -120,3 +120,14 @@
 **Status:** Pronto para produção
 **Testes:** 21/21 passando
 **Funcionalidades:** 100% implementadas
+
+
+## Fase 6: Aba Economia com IBGE (Concluída)
+- [x] Criar procedure `economia` que chama IBGE Cidades
+- [x] Buscar PIB, PIB per capita, população e densidade
+- [x] Implementar gráficos de tendência (histórico de anos)
+- [x] Adicionar TabsTrigger "Economia" na UI
+- [x] Criar cards com indicadores econômicos
+- [x] Implementar gráficos de PIB e população
+- [x] Adicionar testes para procedure economia
+- [x] Validar integração IBGE em produção (com fallback local)

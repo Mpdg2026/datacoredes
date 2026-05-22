@@ -54,6 +54,12 @@ export default function Portal() {
     { enabled: !!codigoIBGE }
   );
 
+  // Economia - IBGE Cidades
+  const economia = trpc.portal.ibgeCidades.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
+  );
+
   // ============ HANDLERS - FILTROS ============
   const handleRFChange = (rfId: string) => {
     setSelectedRF(rfId);
@@ -170,7 +176,7 @@ export default function Portal() {
         {/* Abas Temáticas */}
         {selectedMunicipio && (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-4 mb-8 bg-[#001f5c]">
+            <TabsList className="grid w-full grid-cols-5 mb-8 bg-[#001f5c]">
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Governança (IGM)
               </TabsTrigger>
@@ -179,6 +185,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="saneamento" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Saneamento
+              </TabsTrigger>
+              <TabsTrigger value="economia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Economia
               </TabsTrigger>
               <TabsTrigger value="mapa" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Mapa
@@ -391,6 +400,117 @@ export default function Portal() {
                     </CardContent>
                   </Card>
                 </>
+              )}
+            </TabsContent>
+
+            {/* ============ ABA ECONOMIA ============ */}
+            <TabsContent value="economia" className="space-y-6">
+              {economia.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados econômicos...</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {economia.data && (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <Card className="border-t-4 border-t-blue-600">
+                      <CardHeader>
+                        <CardTitle className="text-lg">PIB</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-3xl font-bold text-blue-600">
+                          {(economia.data as any)?.pib 
+                            ? `R$ ${((economia.data as any).pib / 1000000).toFixed(2)}M` 
+                            : 'S/D'}
+                        </p>
+                        <p className="text-sm text-gray-500 mt-2">Produto Interno Bruto</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-green-600">
+                      <CardHeader>
+                        <CardTitle className="text-lg">PIB Per Capita</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-3xl font-bold text-green-600">
+                          {(economia.data as any)?.pibPerCapita 
+                            ? `R$ ${((economia.data as any).pibPerCapita).toLocaleString('pt-BR', { maximumFractionDigits: 2 })}` 
+                            : 'S/D'}
+                        </p>
+                        <p className="text-sm text-gray-500 mt-2">PIB por Habitante</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-purple-600">
+                      <CardHeader>
+                        <CardTitle className="text-lg">População</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-3xl font-bold text-purple-600">
+                          {(economia.data as any)?.populacao 
+                            ? ((economia.data as any).populacao).toLocaleString('pt-BR') 
+                            : 'S/D'}
+                        </p>
+                        <p className="text-sm text-gray-500 mt-2">Habitantes (Censo 2022)</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-orange-600">
+                      <CardHeader>
+                        <CardTitle className="text-lg">Densidade</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-3xl font-bold text-orange-600">
+                          {(economia.data as any)?.densidade 
+                            ? `${((economia.data as any).densidade).toFixed(2)} hab/km²` 
+                            : 'S/D'}
+                        </p>
+                        <p className="text-sm text-gray-500 mt-2">Densidade Populacional</p>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Indicadores Econômicos</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <ResponsiveContainer width="100%" height={300}>
+                        <BarChart data={[
+                          {
+                            indicador: 'PIB (Milhões)',
+                            valor: (economia.data as any)?.pib ? (economia.data as any).pib / 1000000 : 0,
+                          },
+                          {
+                            indicador: 'PIB Per Capita (Mil)',
+                            valor: (economia.data as any)?.pibPerCapita ? (economia.data as any).pibPerCapita / 1000 : 0,
+                          },
+                          {
+                            indicador: 'População (Mil)',
+                            valor: (economia.data as any)?.populacao ? (economia.data as any).populacao / 1000 : 0,
+                          },
+                        ]}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="indicador" />
+                          <YAxis />
+                          <Tooltip />
+                          <Bar dataKey="valor" fill="#001f5c" />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </CardContent>
+                  </Card>
+                </>
+              )}
+
+              {economia.error && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-500">Erro ao carregar dados econômicos</p>
+                  </CardContent>
+                </Card>
               )}
             </TabsContent>
 
