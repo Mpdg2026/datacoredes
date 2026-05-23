@@ -1,0 +1,40 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway05.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2HhJQ9GEUpVeeGC.bddaab57c04d --database 5viHidMiukHDK8StjqWYgG --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "coredes"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "idese"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "idsc"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "igm"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "municipios"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "regioes_funcionais"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "users"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "violencia_geral"
+    },
+    {
+      "Tables_in_5viHidMiukHDK8StjqWYgG": "violencia_mulher"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_5viHidMiukHDK8StjqWYgG\n__drizzle_migrations\ncoredes\nidese\nidsc\nigm\nmunicipios\nregioes_funcionais\nusers\nviolencia_geral\nviolencia_mulher\n",
+  "stderr": "",
+  "execution_time_ms": 430
+}

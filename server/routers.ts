@@ -424,6 +424,88 @@ export const portalRouter = router({
         return { codigoIBGE: input.codigoIBGE, nome: "Desconhecido" };
       }
     }),
+
+  /**
+   * Dados Econômicos Completos - PIB 2010-2023, Demografia 2022
+   */
+  economiaCompleta: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.number(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const economiaPath = path.join(process.cwd(), 'public', 'economia-completa.json');
+        if (!fs.existsSync(economiaPath)) {
+          return null;
+        }
+        const economiaData = JSON.parse(fs.readFileSync(economiaPath, 'utf-8'));
+        for (const [municipioNome, municipioData] of Object.entries(economiaData.municipios || {})) {
+          if ((municipioData as any).codigo_ibge === input.codigoIBGE) {
+            return { nome: municipioNome, ...(municipioData as any) };
+          }
+        }
+        return null;
+      } catch (error) {
+        console.error(`Erro ao buscar economia completa para ${input.codigoIBGE}:`, error);
+        return null;
+      }
+    }),
+
+  /**
+   * Rankings de Municípios
+   */
+  rankingEconomia: publicProcedure
+    .input(
+      z.object({
+        indicador: z.enum(['pib_total', 'pib_pc', 'populacao', 'densidade']).default('pib_total'),
+        limite: z.number().default(10),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const economiaPath = path.join(process.cwd(), 'public', 'economia-completa.json');
+        if (!fs.existsSync(economiaPath)) {
+          return [];
+        }
+        const economiaData = JSON.parse(fs.readFileSync(economiaPath, 'utf-8'));
+        const municipios = Object.entries(economiaData.municipios || {}).map(([nome, dados]: any) => {
+          let valor = 0;
+          switch (input.indicador) {
+            case 'pib_total':
+              valor = dados.pib_recente?.pib_total_mil || 0;
+              break;
+            case 'pib_pc':
+              valor = dados.pib_recente?.pib_pc || 0;
+              break;
+            case 'populacao':
+              valor = dados.demografia_2022?.populacao || 0;
+              break;
+            case 'densidade':
+              valor = dados.demografia_2022?.densidade || 0;
+              break;
+          }
+          return {
+            nome,
+            codigoIBGE: dados.codigo_ibge,
+            valor,
+            pibTotal: dados.pib_recente?.pib_total_mil,
+            pibPC: dados.pib_recente?.pib_pc,
+            populacao: dados.demografia_2022?.populacao,
+            densidade: dados.demografia_2022?.densidade,
+          };
+        });
+        return municipios.sort((a, b) => b.valor - a.valor).slice(0, input.limite);
+      } catch (error) {
+        console.error('Erro ao buscar ranking:', error);
+        return [];
+      }
+    }),
 });
 
 export const appRouter = router({

@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { DataTable } from '@/components/DataTable';
 import { MapView } from '@/components/Map';
+import { Economia } from './Economia';
 import { X } from 'lucide-react';
 
 export default function Portal() {
@@ -58,6 +59,16 @@ export default function Portal() {
   const economia = trpc.portal.ibgeCidades.useQuery(
     { codigoIBGE: codigoIBGE || 0 },
     { enabled: !!codigoIBGE }
+  );
+  // Economia Completa - PIB 2010-2023 + Demografia 2022
+  const economiaCompleta = trpc.portal.economiaCompleta.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
+  );
+
+  // Rankings de Economia
+  const rankingEconomia = trpc.portal.rankingEconomia.useQuery(
+    { indicador: "pib_total", limite: 10 }
   );
 
   // ============ HANDLERS - FILTROS ============
@@ -512,6 +523,11 @@ export default function Portal() {
                   </CardContent>
                 </Card>
               )}
+            </TabsContent>
+
+            {/* ============ ABA ECONOMIA ============ */}
+            <TabsContent value="economia" className="space-y-6">
+              <Economia data={economiaCompleta.data || null} isLoading={economiaCompleta.isLoading} />
             </TabsContent>
 
             {/* ============ ABA MAPA ============ */}

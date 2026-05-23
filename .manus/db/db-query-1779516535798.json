@@ -1,0 +1,250 @@
+{
+  "query": "SELECT rf.id as rf_id, rf.nome as rf_nome, c.id as corede_id, c.nome as corede_nome, m.codigo_ibge, m.nome as municipio_nome FROM regioes_funcionais rf JOIN coredes c ON c.regiao_funcional_id = rf.id JOIN municipios m ON m.corede_id = c.id ORDER BY rf.id, c.id, m.nome LIMIT 30;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway05.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2HhJQ9GEUpVeeGC.bddaab57c04d --database 5viHidMiukHDK8StjqWYgG --execute SELECT rf.id as rf_id, rf.nome as rf_nome, c.id as corede_id, c.nome as corede_nome, m.codigo_ibge, m.nome as municipio_nome FROM regioes_funcionais rf JOIN coredes c ON c.regiao_funcional_id = rf.id JOIN municipios m ON m.corede_id = c.id ORDER BY rf.id, c.id, m.nome LIMIT 30;",
+  "rows": [
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4300851",
+      "municipio_nome": "Arambaré"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4301107",
+      "municipio_nome": "Arroio dos Ratos"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4301750",
+      "municipio_nome": "Barão do Triunfo"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4301909",
+      "municipio_nome": "Barra do Ribeiro"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4302709",
+      "municipio_nome": "Butiá"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4303509",
+      "municipio_nome": "Camaquã"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4305173",
+      "municipio_nome": "Cerro Grande do Sul"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4305355",
+      "municipio_nome": "Charqueadas"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4305447",
+      "municipio_nome": "Chuvisca"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4306056",
+      "municipio_nome": "Cristal"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4306502",
+      "municipio_nome": "Dom Feliciano"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4311981",
+      "municipio_nome": "Mariana Pimentel"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4312252",
+      "municipio_nome": "Minas do Leão"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4318408",
+      "municipio_nome": "São Jerônimo"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4320354",
+      "municipio_nome": "Sentinela do Sul"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4320552",
+      "municipio_nome": "Sertão Santana"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "1",
+      "corede_nome": "Centro-Sul",
+      "codigo_ibge": "4321105",
+      "municipio_nome": "Tapes"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4300604",
+      "municipio_nome": "Alvorada"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4303103",
+      "municipio_nome": "Cachoeirinha"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4306767",
+      "municipio_nome": "Eldorado do Sul"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4309050",
+      "municipio_nome": "Glorinha"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4309209",
+      "municipio_nome": "Gravataí"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4309308",
+      "municipio_nome": "Guaíba"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4314902",
+      "municipio_nome": "Porto Alegre"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4317608",
+      "municipio_nome": "Santo Antônio da Patrulha"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4322004",
+      "municipio_nome": "Triunfo"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "2",
+      "corede_nome": "Metropolitano Delta do Jacuí",
+      "codigo_ibge": "4323002",
+      "municipio_nome": "Viamão"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "3",
+      "corede_nome": "Paranhana Encosta da Serra",
+      "codigo_ibge": "4310108",
+      "municipio_nome": "Igrejinha"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "3",
+      "corede_nome": "Paranhana Encosta da Serra",
+      "codigo_ibge": "4311627",
+      "municipio_nome": "Lindolfo Collor"
+    },
+    {
+      "rf_id": "1",
+      "rf_nome": "Região Funcional RF1",
+      "corede_id": "3",
+      "corede_nome": "Paranhana Encosta da Serra",
+      "codigo_ibge": "4312476",
+      "municipio_nome": "Morro Reuter"
+    }
+  ],
+  "messages": [],
+  "stdout": "rf_id\trf_nome\tcorede_id\tcorede_nome\tcodigo_ibge\tmunicipio_nome\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4300851\tArambaré\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4301107\tArroio dos Ratos\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4301750\tBarão do Triunfo\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4301909\tBarra do Ribeiro\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4302709\tButiá\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4303509\tCamaquã\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4305173\tCerro Grande do Sul\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4305355\tCharqueadas\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4305447\tChuvisca\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4306056\tCristal\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4306502\tDom Feliciano\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4311981\tMariana Pimentel\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4312252\tMinas do Leão\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4318408\tSão Jerônimo\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4320354\tSentinela do Sul\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4320552\tSertão Santana\n1\tRegião Funcional RF1\t1\tCentro-Sul\t4321105\tTapes\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4300604\tAlvorada\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4303103\tCachoeirinha\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4306767\tEldorado do Sul\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4309050\tGlorinha\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4309209\tGravataí\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4309308\tGuaíba\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4314902\tPorto Alegre\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4317608\tSanto Antônio da Patrulha\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4322004\tTriunfo\n1\tRegião Funcional RF1\t2\tMetropolitano Delta do Jacuí\t4323002\tViamão\n1\tRegião Funcional RF1\t3\tParanhana Encosta da Serra\t4310108\tIgrejinha\n1\tRegião Funcional RF1\t3\tParanhana Encosta da Serra\t4311627\tLindolfo Collor\n1\tRegião Funcional RF1\t3\tParanhana Encosta da Serra\t4312476\tMorro Reuter\n",
+  "stderr": "",
+  "execution_time_ms": 282
+}
