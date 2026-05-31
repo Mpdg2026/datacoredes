@@ -189,7 +189,7 @@ export default function Portal() {
         {/* Abas Temáticas */}
         {selectedMunicipio || activeTab === 'violencia' || activeTab === 'violencia-mulher' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-6 mb-8 bg-[#001f5c]">
+            <TabsList className="grid w-full grid-cols-7 mb-8 bg-[#001f5c]">
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Governança (IGM)
               </TabsTrigger>
@@ -434,7 +434,7 @@ export default function Portal() {
 
             {/* ============ ABA VIOLÊNCIA CONTRA A MULHER ============ */}
             <TabsContent value="violencia-mulher" className="space-y-6">
-              <ViolenciaMulher />
+              <ViolenciaMulher selectedMunicipio={selectedMunicipio} selectedCorede={selectedCorede} />
             </TabsContent>
 
             {/* ============ ABA MAPA ============ */}
