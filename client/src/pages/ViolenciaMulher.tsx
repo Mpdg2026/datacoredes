@@ -81,6 +81,19 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
   const [selectedCategory, setSelectedCategory] = useState<'deam' | 'salas' | 'pppm'>('deam');
   const [searchTerm, setSearchTerm] = useState('');
   const [municipioData, setMunicipioData] = useState<any>(null);
+  
+  // Estados para comparação entre municípios
+  const [municipioA, setMunicipioA] = useState<string>('');
+  const [municipioB, setMunicipioB] = useState<string>('');
+  const [indicadorComparacao, setIndicadorComparacao] = useState<string>('Feminicídio Consumado');
+  const [municipioAData, setMunicipioAData] = useState<any>(null);
+  const [municipioBData, setMunicipiBData] = useState<any>(null);
+  const [nomeA, setNomeA] = useState<string>('');
+  const [nomeB, setNomeB] = useState<string>('');
+  
+  // Carregar lista de todos os municípios
+  const todosMunicipiosQuery = trpc.portal.todosMunicipios.useQuery();
+  const todosMunicipios = todosMunicipiosQuery.data;
 
   // Chamar procedure do backend para carregar dados municipais
   const municipioQuery = trpc.portal.violenciaMulherMunicipio.useQuery(
@@ -97,6 +110,49 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
       setMunicipioData(null);
     }
   }, [municipioQuery.data]);
+  // Carregar dados de Município A para comparação
+  useEffect(() => {
+    if (municipioA) {
+      const municipioInfo = todosMunicipios?.find(m => m.codigoIBGE === municipioA);
+      setNomeA(municipioInfo?.nome || '');
+      
+      // Buscar dados do município A
+      const fetchData = async () => {
+        try {
+          const result = await trpc.portal.violenciaMulherMunicipio.query({ codigoIBGE: municipioA });
+          setMunicipioAData(result);
+        } catch (error) {
+          console.error('Erro ao carregar dados de Município A:', error);
+        }
+      };
+      fetchData();
+    } else {
+      setMunicipioAData(null);
+      setNomeA('');
+    }
+  }, [municipioA, todosMunicipios]);
+
+  // Carregar dados de Município B para comparação
+  useEffect(() => {
+    if (municipioB) {
+      const municipioInfo = todosMunicipios?.find(m => m.codigoIBGE === municipioB);
+      setNomeB(municipioInfo?.nome || '');
+      
+      // Buscar dados do município B
+      const fetchData = async () => {
+        try {
+          const result = await trpc.portal.violenciaMulherMunicipio.query({ codigoIBGE: municipioB });
+          setMunicipiBData(result);
+        } catch (error) {
+          console.error('Erro ao carregar dados de Município B:', error);
+        }
+      };
+      fetchData();
+    } else {
+      setMunicipiBData(null);
+      setNomeB('');
+    }
+  }, [municipioB, todosMunicipios]);
 
   // BLOCO A: Dados consolidados do RS (sempre visível)
   const rsIndicadores = useMemo(() => {
@@ -119,8 +175,6 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
 
   return (
     <div className="space-y-6">
-      {activeTab === 'indicadores' ? (
-        <>
           {/* ========== BLOCO A: RIO GRANDE DO SUL — SÉRIE HISTÓRICA (SEMPRE VISÍVEL) ========== */}
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 space-y-4">
             <div>
@@ -236,17 +290,46 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
                       { label: 'Ameaça', key: 'Ameaça', color: 'purple' },
                       { label: 'Estupro', key: 'Estupro', color: 'blue' },
                     ].map((ind) => {
-                      const valor2025 = Number(municipioData[ind.key]?.['2025'] || 0);
-                      const valor2026 = Number(municipioData[ind.key]?.['2026'] || 0);
-                      const variacao = valor2025 > 0 ? ((valor2026 - valor2025) / valor2025 * 100).toFixed(1) : '0';
-                      const colorClass = Number(variacao) > 0 ? 'text-red-600' : 'text-green-600';
+                      const anos = ['2020', '2021', '2022', '2023', '2024', '2025', '2026'];
+                      const dados = anos.map(ano => Number(municipioData[ind.key]?.[ano] || 0));
+                      
+                      let ultimoAnoIndex = dados.length - 1;
+                      while (ultimoAnoIndex > 0 && dados[ultimoAnoIndex] === 0 && dados[ultimoAnoIndex - 1] === 0) {
+                        ultimoAnoIndex--;
+                      }
+                      
+                      const valorAtual = dados[ultimoAnoIndex];
+                      const anoAtual = anos[ultimoAnoIndex];
+                      
+                      let variacao = '0';
+                      let seta = '→';
+                      let colorClass = 'text-gray-600';
+                      let anoComparacao = 'N/A';
+                      
+                      if (ultimoAnoIndex > 0) {
+                        const valorAnterior = dados[ultimoAnoIndex - 1];
+                        anoComparacao = anos[ultimoAnoIndex - 1];
+                        
+                        if (valorAnterior > 0) {
+                          const variacaoNum = ((valorAtual - valorAnterior) / valorAnterior * 100);
+                          variacao = Math.abs(variacaoNum).toFixed(1);
+                          
+                          if (variacaoNum > 0) {
+                            seta = '↑';
+                            colorClass = 'text-red-600';
+                          } else if (variacaoNum < 0) {
+                            seta = '↓';
+                            colorClass = 'text-green-600';
+                          }
+                        }
+                      }
                       
                       return (
                         <Card key={ind.key} className={`border-l-4 border-l-${ind.color}-500`}>
                           <CardContent className="pt-4">
                             <p className="text-xs text-gray-600 mb-1">{ind.label}</p>
-                            <p className="text-2xl font-bold text-gray-900">{valor2026.toLocaleString('pt-BR')}</p>
-                            <p className={`text-xs font-semibold ${colorClass}`}>{Number(variacao) > 0 ? '+' : ''}{variacao}%</p>
+                            <p className="text-2xl font-bold text-gray-900">{valorAtual.toLocaleString('pt-BR')}</p>
+                            <p className={`text-xs font-semibold ${colorClass}`}>{seta} {variacao}% vs {anoComparacao}</p>
                           </CardContent>
                         </Card>
                       );
@@ -295,10 +378,8 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
               </div>
             )}
           </div>
-        </>
-      ) : (
-        <>
-          {/* ========== SEÇÃO LOCAIS DE ATENDIMENTO ========== */}
+
+      {/* ========== SEÇÃO LOCAIS DE ATENDIMENTO ========== */}
           {/* Destaque de Emergência */}
           <div className="bg-red-100 border-2 border-red-400 rounded-lg p-4 flex items-center gap-4">
             <AlertCircle className="w-6 h-6 text-red-600 flex-shrink-0" />
@@ -368,21 +449,141 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
               </tbody>
             </table>
           </div>
-        </>
-      )}
 
-      {/* Abas de Navegação */}
+
+      {/* ========== BLOCO C: COMPARAR MUNICÍPIOS ========== */}
+      <div className="bg-white border-2 border-dashed border-blue-300 rounded-lg p-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">🔄 Comparar Municípios</h2>
+        <p className="text-sm text-gray-600 mb-6">Compare indicadores de violência entre dois municípios</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          {/* Seletor Município A */}
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">Município A</label>
+            <select
+              value={municipioA}
+              onChange={(e) => setMunicipioA(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">Selecione um município...</option>
+              {todosMunicipios?.map((m) => (
+                <option key={m.codigoIBGE} value={m.codigoIBGE}>
+                  {m.nome}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Seletor Município B */}
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">Município B</label>
+            <select
+              value={municipioB}
+              onChange={(e) => setMunicipioB(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">Selecione um município...</option>
+              {todosMunicipios?.map((m) => (
+                <option key={m.codigoIBGE} value={m.codigoIBGE}>
+                  {m.nome}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Seletor Indicador */}
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">Indicador</label>
+            <select
+              value={indicadorComparacao}
+              onChange={(e) => setIndicadorComparacao(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="Feminicídio Consumado">Feminicídio Consumado</option>
+              <option value="Feminicídio Tentado">Feminicídio Tentado</option>
+              <option value="Lesão Corporal">Lesão Corporal</option>
+              <option value="Ameaça">Ameaça</option>
+              <option value="Estupro">Estupro</option>
+            </select>
+          </div>
+        </div>
+
+        {municipioA && municipioB && municipioAData && municipioBData ? (
+          <div className="space-y-6">
+            {/* Gráfico de Comparação */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Evolução Comparativa: {indicadorComparacao}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ResponsiveContainer width="100%" height={300}>
+                  <LineChart data={[
+                    { ano: '2020', A: Number(municipioAData[indicadorComparacao]?.['2020'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2020'] || 0) },
+                    { ano: '2021', A: Number(municipioAData[indicadorComparacao]?.['2021'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2021'] || 0) },
+                    { ano: '2022', A: Number(municipioAData[indicadorComparacao]?.['2022'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2022'] || 0) },
+                    { ano: '2023', A: Number(municipioAData[indicadorComparacao]?.['2023'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2023'] || 0) },
+                    { ano: '2024', A: Number(municipioAData[indicadorComparacao]?.['2024'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2024'] || 0) },
+                    { ano: '2025', A: Number(municipioAData[indicadorComparacao]?.['2025'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2025'] || 0) },
+                    { ano: '2026*', A: Number(municipioAData[indicadorComparacao]?.['2026'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2026'] || 0) },
+                  ]}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="ano" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Line type="monotone" dataKey="A" stroke="#3b82f6" name={nomeA || "Município A"} strokeWidth={2} />
+                    <Line type="monotone" dataKey="B" stroke="#ef4444" name={nomeB || "Município B"} strokeWidth={2} />
+                  </LineChart>
+                </ResponsiveContainer>
+              </CardContent>
+            </Card>
+
+            {/* Tabela Comparativa */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Dados Anuais - {indicadorComparacao}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr className="bg-gray-100 border-b">
+                        <th className="text-left p-3 font-semibold text-gray-800">Ano</th>
+                        <th className="text-center p-3 font-semibold text-gray-800">{nomeA || "Município A"}</th>
+                        <th className="text-center p-3 font-semibold text-gray-800">{nomeB || "Município B"}</th>
+                        <th className="text-center p-3 font-semibold text-gray-800">Diferença</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {['2020', '2021', '2022', '2023', '2024', '2025', '2026'].map((ano) => {
+                        const valA = Number(municipioAData[indicadorComparacao]?.[ano] || 0);
+                        const valB = Number(municipioBData[indicadorComparacao]?.[ano] || 0);
+                        const diff = valA - valB;
+                        const diffClass = diff > 0 ? 'text-red-600 font-semibold' : diff < 0 ? 'text-green-600 font-semibold' : 'text-gray-600';
+                        return (
+                          <tr key={ano} className="border-b hover:bg-gray-50">
+                            <td className="p-3 font-semibold text-gray-800">{ano}</td>
+                            <td className="text-center p-3">{valA.toLocaleString('pt-BR')}</td>
+                            <td className="text-center p-3">{valB.toLocaleString('pt-BR')}</td>
+                            <td className={`text-center p-3 ${diffClass}`}>{diff > 0 ? '+' : ''}{diff.toLocaleString('pt-BR')}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        ) : (
+          <div className="text-center py-8 text-gray-600">
+            <p className="text-lg">Selecione dois municípios para comparar</p>
+          </div>
+        )}
+      </div>
+
+            {/* Aba de Navegação - Apenas Locais de Atendimento */}
       <div className="flex gap-2 border-b border-gray-200 sticky bottom-0 bg-white">
-        <button
-          onClick={() => setActiveTab('indicadores')}
-          className={`px-4 py-2 font-semibold border-b-2 transition ${
-            activeTab === 'indicadores'
-              ? 'border-blue-600 text-blue-600'
-              : 'border-transparent text-gray-600 hover:text-gray-900'
-          }`}
-        >
-          Indicadores
-        </button>
         <button
           onClick={() => setActiveTab('locais')}
           className={`px-4 py-2 font-semibold border-b-2 transition ${
