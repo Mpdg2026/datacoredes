@@ -189,7 +189,7 @@ export default function Portal() {
         {/* Abas Temáticas */}
         {selectedMunicipio || activeTab === 'violencia' || activeTab === 'violencia-mulher' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-7 mb-8 bg-[#001f5c]">
+            <TabsList className="grid w-full grid-cols-6 mb-8 bg-[#001f5c]">
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Governança (IGM)
               </TabsTrigger>
@@ -208,9 +208,7 @@ export default function Portal() {
               <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência Mulher
               </TabsTrigger>
-              <TabsTrigger value="mapa" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Mapa
-              </TabsTrigger>
+
             </TabsList>
 
             {/* ============ ABA IGM ============ */}
@@ -437,20 +435,7 @@ export default function Portal() {
               <ViolenciaMulher selectedMunicipio={selectedMunicipio} selectedCorede={selectedCorede} />
             </TabsContent>
 
-            {/* ============ ABA MAPA ============ */}
-            <TabsContent value="mapa" className="space-y-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Visualização Geográfica</CardTitle>
-                  <CardDescription>
-                    {municipioSelecionado?.nome} - {selectedCorede && coredes.data?.find(c => c.id === selectedCorede)?.nome}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <MapView />
-                </CardContent>
-              </Card>
-            </TabsContent>
+
           </Tabs>
         ) : (
           <Card className="border-dashed">
