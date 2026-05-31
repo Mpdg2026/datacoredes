@@ -561,8 +561,11 @@ export const portalRouter = router({
         
         // Se nao ha codigoIBGE, retorna null (dados do RS sao hardcoded no frontend)
         if (!input.codigoIBGE) {
+          console.log('[ViolenciaMulherMunicipio] Sem codigoIBGE');
           return null;
         }
+        
+        console.log('[ViolenciaMulherMunicipio] Procurando codigoIBGE:', input.codigoIBGE);
         
         // Busca dados do municipio
         const vmPath = path.join(process.cwd(), 'public', 'violencia-mulher-municipios.json');
@@ -570,7 +573,34 @@ export const portalRouter = router({
           return null;
         }
         const vmData = JSON.parse(fs.readFileSync(vmPath, 'utf-8'));
-        return vmData[input.codigoIBGE] || null;
+        
+        // Mapear código IBGE para nome do município em MAIÚSCULAS
+        // O hierarchy.json tem a estrutura: RF -> Corede -> [[codigoIBGE, nomeMunicipio], ...]
+        let municipioNome = null;
+        for (const rf of Object.values(hierarchyData) as any[]) {
+          for (const corede of Object.values(rf) as any[]) {
+            if (Array.isArray(corede)) {
+              for (const [codigo, nome] of corede) {
+                if (String(codigo) === input.codigoIBGE) {
+                  municipioNome = nome.toUpperCase();
+                  break;
+                }
+              }
+              if (municipioNome) break;
+            }
+          }
+          if (municipioNome) break;
+        }
+        
+        if (!municipioNome) {
+          console.log('[ViolenciaMulherMunicipio] Município não encontrado para código:', input.codigoIBGE);
+          return null;
+        }
+        
+        console.log('[ViolenciaMulherMunicipio] Encontrado município:', municipioNome);
+        const resultado = vmData[municipioNome];
+        console.log('[ViolenciaMulherMunicipio] Dados encontrados:', !!resultado);
+        return resultado || null;
       } catch (error) {
         console.error('Erro ao carregar dados de Violência contra a Mulher:', error);
         return null;

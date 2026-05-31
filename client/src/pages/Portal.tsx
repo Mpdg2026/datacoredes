@@ -35,9 +35,10 @@ export default function Portal() {
   const todosMunicipios = trpc.portal.todosMunicipios.useQuery();
 
   // ============ QUERIES - INDICADORES ============
-  // Obter código IBGE do município selecionado
+  // Obter código IBGE e nome do município selecionado
   const municipioSelecionado = municipios.data?.find((m: any) => m.id === selectedMunicipio);
   const codigoIBGE = municipioSelecionado?.codigoIBGE;
+  const nomeMunicipio = municipioSelecionado?.nome;
 
   // IGM - Dados reais (Gestão, Desempenho, Finanças)
   const igm = trpc.portal.igm.useQuery(
@@ -432,7 +433,7 @@ export default function Portal() {
 
             {/* ============ ABA VIOLÊNCIA CONTRA A MULHER ============ */}
             <TabsContent value="violencia-mulher" className="space-y-6">
-              <ViolenciaMulher selectedMunicipio={selectedMunicipio ? String(selectedMunicipio) : undefined} selectedCorede={selectedCorede ? String(selectedCorede) : undefined} />
+              <ViolenciaMulher selectedMunicipio={codigoIBGE ? String(codigoIBGE) : undefined} nomeMunicipio={nomeMunicipio} selectedCorede={selectedCorede ? String(selectedCorede) : undefined} />
             </TabsContent>
 
 

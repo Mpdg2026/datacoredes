@@ -8,6 +8,7 @@ import { trpc } from '@/lib/trpc';
 
 interface ViolenciaMulherProps {
   selectedMunicipio?: string | number;
+  nomeMunicipio?: string;
   selectedCorede?: string;
 }
 
@@ -75,12 +76,11 @@ const LOCAIS_ATENDIMENTO = {
   ],
 };
 
-export function ViolenciaMulher({ selectedMunicipio, selectedCorede }: ViolenciaMulherProps) {
+export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCorede }: ViolenciaMulherProps) {
   const [activeTab, setActiveTab] = useState<'indicadores' | 'locais'>('indicadores');
   const [selectedCategory, setSelectedCategory] = useState<'deam' | 'salas' | 'pppm'>('deam');
   const [searchTerm, setSearchTerm] = useState('');
   const [municipioData, setMunicipioData] = useState<any>(null);
-  const [municipioName, setMunicipioName] = useState('');
 
   // Chamar procedure do backend para carregar dados municipais
   const municipioQuery = trpc.portal.violenciaMulherMunicipio.useQuery(
@@ -91,11 +91,10 @@ export function ViolenciaMulher({ selectedMunicipio, selectedCorede }: Violencia
   // Atualizar dados quando a query retorna
   useEffect(() => {
     if (municipioQuery.data) {
-      setMunicipioData(municipioQuery.data.dados || null);
-      setMunicipioName(municipioQuery.data.municipio || '');
+      // A procedure retorna o objeto diretamente (com chaves como "Feminicídio Consumado", etc.)
+      setMunicipioData(municipioQuery.data);
     } else {
       setMunicipioData(null);
-      setMunicipioName('');
     }
   }, [municipioQuery.data]);
 
@@ -223,10 +222,10 @@ export function ViolenciaMulher({ selectedMunicipio, selectedCorede }: Violencia
               <div className="text-center py-8 text-gray-600">
                 <p className="text-lg">⏳ Carregando dados...</p>
               </div>
-            ) : municipioData && municipioName ? (
+            ) : municipioData && selectedMunicipio ? (
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">📍 {municipioName}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">📍 {nomeMunicipio || selectedMunicipio}</h3>
                   
                   {/* Cards de Indicadores */}
                   <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
@@ -237,8 +236,8 @@ export function ViolenciaMulher({ selectedMunicipio, selectedCorede }: Violencia
                       { label: 'Ameaça', key: 'Ameaça', color: 'purple' },
                       { label: 'Estupro', key: 'Estupro', color: 'blue' },
                     ].map((ind) => {
-                      const valor2025 = Number(municipioData['2025']?.[ind.key] || 0);
-                      const valor2026 = Number(municipioData['2026']?.[ind.key] || 0);
+                      const valor2025 = Number(municipioData[ind.key]?.['2025'] || 0);
+                      const valor2026 = Number(municipioData[ind.key]?.['2026'] || 0);
                       const variacao = valor2025 > 0 ? ((valor2026 - valor2025) / valor2025 * 100).toFixed(1) : '0';
                       const colorClass = Number(variacao) > 0 ? 'text-red-600' : 'text-green-600';
                       
@@ -262,13 +261,13 @@ export function ViolenciaMulher({ selectedMunicipio, selectedCorede }: Violencia
                     <CardContent>
                       <ResponsiveContainer width="100%" height={300}>
                         <LineChart data={[
-                          { ano: '2020', Feminicídio_Consumado: municipioData['2020']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2020']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2020']?.['Lesão Corporal'] || 0 },
-                          { ano: '2021', Feminicídio_Consumado: municipioData['2021']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2021']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2021']?.['Lesão Corporal'] || 0 },
-                          { ano: '2022', Feminicídio_Consumado: municipioData['2022']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2022']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2022']?.['Lesão Corporal'] || 0 },
-                          { ano: '2023', Feminicídio_Consumado: municipioData['2023']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2023']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2023']?.['Lesão Corporal'] || 0 },
-                          { ano: '2024', Feminicídio_Consumado: municipioData['2024']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2024']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2024']?.['Lesão Corporal'] || 0 },
-                          { ano: '2025', Feminicídio_Consumado: municipioData['2025']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2025']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2025']?.['Lesão Corporal'] || 0 },
-                          { ano: '2026*', Feminicídio_Consumado: municipioData['2026']?.['Feminicídio Consumado'] || 0, Feminicídio_Tentado: municipioData['2026']?.['Feminicídio Tentado'] || 0, Lesão_Corporal: municipioData['2026']?.['Lesão Corporal'] || 0 },
+                          { ano: '2020', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2020'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2020'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2020'] || 0 },
+                          { ano: '2021', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2021'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2021'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2021'] || 0 },
+                          { ano: '2022', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2022'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2022'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2022'] || 0 },
+                          { ano: '2023', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2023'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2023'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2023'] || 0 },
+                          { ano: '2024', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2024'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2024'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2024'] || 0 },
+                          { ano: '2025', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2025'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2025'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2025'] || 0 },
+                          { ano: '2026*', Feminicídio_Consumado: municipioData['Feminicídio Consumado']?.['2026'] || 0, Feminicídio_Tentado: municipioData['Feminicídio Tentado']?.['2026'] || 0, Lesão_Corporal: municipioData['Lesão Corporal']?.['2026'] || 0 },
                         ]}>
                           <CartesianGrid strokeDasharray="3 3" />
                           <XAxis dataKey="ano" />
