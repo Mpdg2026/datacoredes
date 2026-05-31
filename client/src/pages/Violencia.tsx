@@ -38,10 +38,13 @@ export function Violencia({ codigoIBGE }: ViolenciaProps) {
   const [todosMunicipios, setTodosMunicipios] = useState<any[]>([]);
 
   // Carregar lista de todos os municípios
-  const { data: municipiosData } = trpc.portal.hierarchy.useQuery();
+  const { data: municipiosData } = trpc.portal.municipios.useQuery({
+    coredeId: undefined,
+    regiaoFuncionalId: undefined,
+  });
   useEffect(() => {
-    if (municipiosData?.municipios) {
-      setTodosMunicipios(municipiosData.municipios);
+    if (municipiosData) {
+      setTodosMunicipios(municipiosData);
     }
   }, [municipiosData]);
 
