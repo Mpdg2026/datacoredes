@@ -11,6 +11,7 @@ import { DataTable } from '@/components/DataTable';
 import { MapView } from '@/components/Map';
 import { Economia } from './Economia';
 import { Violencia } from './Violencia';
+import { ViolenciaMulher } from './ViolenciaMulher';
 import { X } from 'lucide-react';
 
 export default function Portal() {
@@ -186,9 +187,9 @@ export default function Portal() {
         </Card>
 
         {/* Abas Temáticas */}
-        {selectedMunicipio || activeTab === 'violencia' ? (
+        {selectedMunicipio || activeTab === 'violencia' || activeTab === 'violencia-mulher' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-5 mb-8 bg-[#001f5c]">
+            <TabsList className="grid w-full grid-cols-6 mb-8 bg-[#001f5c]">
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Governança (IGM)
               </TabsTrigger>
@@ -203,6 +204,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="violencia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência
+              </TabsTrigger>
+              <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Violência Mulher
               </TabsTrigger>
               <TabsTrigger value="mapa" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Mapa
@@ -426,6 +430,11 @@ export default function Portal() {
             {/* ============ ABA VIOLÊNCIA ============ */}
             <TabsContent value="violencia" className="space-y-6">
               <Violencia codigoIBGE={codigoIBGE?.toString()} />
+            </TabsContent>
+
+            {/* ============ ABA VIOLÊNCIA CONTRA A MULHER ============ */}
+            <TabsContent value="violencia-mulher" className="space-y-6">
+              <ViolenciaMulher />
             </TabsContent>
 
             {/* ============ ABA MAPA ============ */}
