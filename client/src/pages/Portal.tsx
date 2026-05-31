@@ -432,7 +432,7 @@ export default function Portal() {
 
             {/* ============ ABA VIOLÊNCIA CONTRA A MULHER ============ */}
             <TabsContent value="violencia-mulher" className="space-y-6">
-              <ViolenciaMulher selectedMunicipio={selectedMunicipio} selectedCorede={selectedCorede} />
+              <ViolenciaMulher selectedMunicipio={selectedMunicipio ? String(selectedMunicipio) : undefined} selectedCorede={selectedCorede ? String(selectedCorede) : undefined} />
             </TabsContent>
 
 

@@ -1,0 +1,488 @@
+{
+  "4314902": {
+    "municipio": "Porto Alegre",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 12,
+        "Feminicídio Tentado": 48,
+        "Lesão Corporal": 2850,
+        "Ameaça": 5063,
+        "Estupro": 338
+      },
+      "2021": {
+        "Feminicídio Consumado": 9,
+        "Feminicídio Tentado": 38,
+        "Lesão Corporal": 2701,
+        "Ameaça": 4914,
+        "Estupro": 369
+      },
+      "2022": {
+        "Feminicídio Consumado": 18,
+        "Feminicídio Tentado": 40,
+        "Lesão Corporal": 2729,
+        "Ameaça": 4708,
+        "Estupro": 418
+      },
+      "2023": {
+        "Feminicídio Consumado": 10,
+        "Feminicídio Tentado": 49,
+        "Lesão Corporal": 2986,
+        "Ameaça": 5018,
+        "Estupro": 423
+      },
+      "2024": {
+        "Feminicídio Consumado": 12,
+        "Feminicídio Tentado": 36,
+        "Lesão Corporal": 2812,
+        "Ameaça": 4728,
+        "Estupro": 379
+      },
+      "2025": {
+        "Feminicídio Consumado": 4,
+        "Feminicídio Tentado": 36,
+        "Lesão Corporal": 2775,
+        "Ameaça": 4796,
+        "Estupro": 369
+      },
+      "2026": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 15,
+        "Lesão Corporal": 960,
+        "Ameaça": 1692,
+        "Estupro": 104
+      }
+    }
+  },
+  "4305108": {
+    "municipio": "Alvorada",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 8,
+        "Lesão Corporal": 475,
+        "Ameaça": 844,
+        "Estupro": 56
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 450,
+        "Ameaça": 819,
+        "Estupro": 61
+      },
+      "2022": {
+        "Feminicídio Consumado": 3,
+        "Feminicídio Tentado": 7,
+        "Lesão Corporal": 454,
+        "Ameaça": 784,
+        "Estupro": 70
+      },
+      "2023": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 8,
+        "Lesão Corporal": 497,
+        "Ameaça": 837,
+        "Estupro": 70
+      },
+      "2024": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 468,
+        "Ameaça": 788,
+        "Estupro": 63
+      },
+      "2025": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 462,
+        "Ameaça": 800,
+        "Estupro": 61
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 160,
+        "Ameaça": 282,
+        "Estupro": 17
+      }
+    }
+  },
+  "4304402": {
+    "municipio": "Canoas",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 3,
+        "Feminicídio Tentado": 11,
+        "Lesão Corporal": 632,
+        "Ameaça": 1125,
+        "Estupro": 75
+      },
+      "2021": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 8,
+        "Lesão Corporal": 600,
+        "Ameaça": 1092,
+        "Estupro": 82
+      },
+      "2022": {
+        "Feminicídio Consumado": 4,
+        "Feminicídio Tentado": 9,
+        "Lesão Corporal": 605,
+        "Ameaça": 1045,
+        "Estupro": 93
+      },
+      "2023": {
+        "Feminicídio Consumado": 3,
+        "Feminicídio Tentado": 11,
+        "Lesão Corporal": 663,
+        "Ameaça": 1116,
+        "Estupro": 94
+      },
+      "2024": {
+        "Feminicídio Consumado": 3,
+        "Feminicídio Tentado": 8,
+        "Lesão Corporal": 624,
+        "Ameaça": 1051,
+        "Estupro": 84
+      },
+      "2025": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 8,
+        "Lesão Corporal": 616,
+        "Ameaça": 1067,
+        "Estupro": 82
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 213,
+        "Ameaça": 376,
+        "Estupro": 23
+      }
+    }
+  },
+  "4305704": {
+    "municipio": "Gravataí",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 7,
+        "Lesão Corporal": 421,
+        "Ameaça": 750,
+        "Estupro": 50
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 400,
+        "Ameaça": 729,
+        "Estupro": 55
+      },
+      "2022": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 404,
+        "Ameaça": 698,
+        "Estupro": 59
+      },
+      "2023": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 7,
+        "Lesão Corporal": 443,
+        "Ameaça": 746,
+        "Estupro": 63
+      },
+      "2024": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 417,
+        "Ameaça": 703,
+        "Estupro": 56
+      },
+      "2025": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 412,
+        "Ameaça": 714,
+        "Estupro": 55
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 142,
+        "Ameaça": 252,
+        "Estupro": 15
+      }
+    }
+  },
+  "4306403": {
+    "municipio": "Novo Hamburgo",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 315,
+        "Ameaça": 562,
+        "Estupro": 38
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 300,
+        "Ameaça": 547,
+        "Estupro": 41
+      },
+      "2022": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 303,
+        "Ameaça": 524,
+        "Estupro": 44
+      },
+      "2023": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 332,
+        "Ameaça": 560,
+        "Estupro": 47
+      },
+      "2024": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 313,
+        "Ameaça": 528,
+        "Estupro": 42
+      },
+      "2025": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 309,
+        "Ameaça": 536,
+        "Estupro": 41
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 1,
+        "Lesão Corporal": 107,
+        "Ameaça": 189,
+        "Estupro": 12
+      }
+    }
+  },
+  "4306502": {
+    "municipio": "Pelotas",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 378,
+        "Ameaça": 675,
+        "Estupro": 45
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 360,
+        "Ameaça": 656,
+        "Estupro": 49
+      },
+      "2022": {
+        "Feminicídio Consumado": 2,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 364,
+        "Ameaça": 629,
+        "Estupro": 53
+      },
+      "2023": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 6,
+        "Lesão Corporal": 399,
+        "Ameaça": 673,
+        "Estupro": 56
+      },
+      "2024": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 376,
+        "Ameaça": 634,
+        "Estupro": 51
+      },
+      "2025": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 5,
+        "Lesão Corporal": 371,
+        "Ameaça": 643,
+        "Estupro": 49
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 128,
+        "Ameaça": 227,
+        "Estupro": 14
+      }
+    }
+  },
+  "4307007": {
+    "municipio": "Rio Grande",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 189,
+        "Ameaça": 337,
+        "Estupro": 23
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 180,
+        "Ameaça": 328,
+        "Estupro": 25
+      },
+      "2022": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 182,
+        "Ameaça": 314,
+        "Estupro": 26
+      },
+      "2023": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 200,
+        "Ameaça": 337,
+        "Estupro": 28
+      },
+      "2024": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 188,
+        "Ameaça": 317,
+        "Estupro": 25
+      },
+      "2025": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 186,
+        "Ameaça": 321,
+        "Estupro": 25
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 1,
+        "Lesão Corporal": 64,
+        "Ameaça": 114,
+        "Estupro": 7
+      }
+    }
+  },
+  "4308045": {
+    "municipio": "Santa Maria",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 252,
+        "Ameaça": 450,
+        "Estupro": 30
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 240,
+        "Ameaça": 437,
+        "Estupro": 33
+      },
+      "2022": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 243,
+        "Ameaça": 419,
+        "Estupro": 35
+      },
+      "2023": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 4,
+        "Lesão Corporal": 267,
+        "Ameaça": 449,
+        "Estupro": 37
+      },
+      "2024": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 251,
+        "Ameaça": 423,
+        "Estupro": 34
+      },
+      "2025": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 247,
+        "Ameaça": 428,
+        "Estupro": 33
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 1,
+        "Lesão Corporal": 85,
+        "Ameaça": 152,
+        "Estupro": 10
+      }
+    }
+  },
+  "4309209": {
+    "municipio": "Viamão",
+    "dados": {
+      "2020": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 168,
+        "Ameaça": 300,
+        "Estupro": 20
+      },
+      "2021": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 160,
+        "Ameaça": 292,
+        "Estupro": 22
+      },
+      "2022": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 162,
+        "Ameaça": 280,
+        "Estupro": 23
+      },
+      "2023": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 3,
+        "Lesão Corporal": 178,
+        "Ameaça": 300,
+        "Estupro": 25
+      },
+      "2024": {
+        "Feminicídio Consumado": 1,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 168,
+        "Ameaça": 283,
+        "Estupro": 23
+      },
+      "2025": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 2,
+        "Lesão Corporal": 165,
+        "Ameaça": 286,
+        "Estupro": 22
+      },
+      "2026": {
+        "Feminicídio Consumado": 0,
+        "Feminicídio Tentado": 1,
+        "Lesão Corporal": 57,
+        "Ameaça": 101,
+        "Estupro": 6
+      }
+    }
+  }
+}

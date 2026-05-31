@@ -544,6 +544,38 @@ export const portalRouter = router({
         return null;
       }
     }),
+
+  /**
+   * Dados de Violência contra a Mulher por Município
+   */
+  violenciaMulherMunicipio: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.string().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        
+        // Se nao ha codigoIBGE, retorna null (dados do RS sao hardcoded no frontend)
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        // Busca dados do municipio
+        const vmPath = path.join(process.cwd(), 'public', 'violencia-mulher-municipios.json');
+        if (!fs.existsSync(vmPath)) {
+          return null;
+        }
+        const vmData = JSON.parse(fs.readFileSync(vmPath, 'utf-8'));
+        return vmData[input.codigoIBGE] || null;
+      } catch (error) {
+        console.error('Erro ao carregar dados de Violência contra a Mulher:', error);
+        return null;
+      }
+    }),
 });
 
 export const appRouter = router({
