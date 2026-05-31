@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { Card } from '@/components/ui/card';
+import { useState, useMemo, useEffect } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { trpc } from '@/lib/trpc';
 import { TrendingDown, TrendingUp, AlertTriangle } from 'lucide-react';
@@ -8,10 +8,89 @@ interface ViolenciaProps {
   codigoIBGE?: string;
 }
 
+// Procedure para carregar dados CVLI de um município específico
+const INDICADORES_CVLI = [
+  'Homicídio Doloso',
+  'Total de Vítimas de CVLI*',
+  'Latrocínio',
+  'Furtos',
+  'Roubos',
+  'Furto de Veículo',
+  'Roubo de Veículo',
+  'Estelionato',
+  'Entorpecentes - Tráfico',
+  'Delitos Relacionados à Armas e Munições',
+]
+
 export function Violencia({ codigoIBGE }: ViolenciaProps) {
   const { data: cvliData, isLoading } = trpc.portal.violenciaCVLI.useQuery({
     codigoIBGE: codigoIBGE || undefined,
   });
+
+  // Estados para comparação entre municípios
+  const [municipioA, setMunicipioA] = useState('');
+  const [municipioB, setMunicipioB] = useState('');
+  const [indicadorComparacao, setIndicadorComparacao] = useState('Homicídio Doloso');
+  const [nomeA, setNomeA] = useState('');
+  const [nomeB, setNomeB] = useState('');
+  const [municipioAData, setMunicipioAData] = useState<any>(null);
+  const [municipioBData, setMunicipiBData] = useState<any>(null);
+  const [todosMunicipios, setTodosMunicipios] = useState<any[]>([]);
+
+  // Carregar lista de todos os municípios
+  const { data: municipiosData } = trpc.portal.hierarchy.useQuery();
+  useEffect(() => {
+    if (municipiosData?.municipios) {
+      setTodosMunicipios(municipiosData.municipios);
+    }
+  }, [municipiosData]);
+
+  // Carregar dados de Município A para comparação
+  const municipioAQuery = trpc.portal.violenciaCVLI.useQuery(
+    { codigoIBGE: municipioA || undefined },
+    { enabled: !!municipioA }
+  );
+
+  useEffect(() => {
+    if (municipioA && todosMunicipios) {
+      const municipioInfo = todosMunicipios.find(m => m.codigoIBGE === municipioA);
+      setNomeA(municipioInfo?.nome || '');
+    } else {
+      setNomeA('');
+    }
+  }, [municipioA, todosMunicipios]);
+
+  useEffect(() => {
+    if (municipioAQuery.data?.historico) {
+      setMunicipioAData(municipioAQuery.data.historico);
+    } else if (!municipioA) {
+      setMunicipioAData(null);
+    }
+  }, [municipioAQuery.data, municipioA]);
+
+  // Carregar dados de Município B para comparação
+  const municipioBQuery = trpc.portal.violenciaCVLI.useQuery(
+    { codigoIBGE: municipioB || undefined },
+    { enabled: !!municipioB }
+  );
+
+  useEffect(() => {
+    if (municipioB && todosMunicipios) {
+      const municipioInfo = todosMunicipios.find(m => m.codigoIBGE === municipioB);
+      setNomeB(municipioInfo?.nome || '');
+    } else {
+      setNomeB('');
+    }
+  }, [municipioB, todosMunicipios]);
+
+  useEffect(() => {
+    if (municipioBQuery.data?.historico) {
+      setMunicipiBData(municipioBQuery.data.historico);
+    } else if (!municipioB) {
+      setMunicipiBData(null);
+    }
+  }, [municipioBQuery.data, municipioB]);
+
 
   // Indicadores principais
   const indicadoresPrincipais = useMemo(() => {
@@ -301,6 +380,143 @@ export function Violencia({ codigoIBGE }: ViolenciaProps) {
           </Card>
         </div>
       )}
+
+
+      {/* Bloco de Comparação entre Municípios */}
+      <Card className="border-2 border-dashed border-blue-300 bg-blue-50">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <span>🔄</span> Comparar Municípios
+          </CardTitle>
+          <p className="text-sm text-gray-600 mt-2">Compare indicadores de violência entre dois municípios</p>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            {/* Seletor Município A */}
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-2">Município A</label>
+              <select
+                value={municipioA}
+                onChange={(e) => setMunicipioA(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Selecione um município...</option>
+                {todosMunicipios?.map((m) => (
+                  <option key={m.codigoIBGE} value={m.codigoIBGE}>
+                    {m.nome}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Seletor Município B */}
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-2">Município B</label>
+              <select
+                value={municipioB}
+                onChange={(e) => setMunicipioB(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Selecione um município...</option>
+                {todosMunicipios?.map((m) => (
+                  <option key={m.codigoIBGE} value={m.codigoIBGE}>
+                    {m.nome}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Seletor Indicador */}
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-2">Indicador</label>
+              <select
+                value={indicadorComparacao}
+                onChange={(e) => setIndicadorComparacao(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                {INDICADORES_CVLI.map((ind) => (
+                  <option key={ind} value={ind}>{ind}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          {municipioA && municipioB && municipioAData && municipioBData ? (
+            <div className="space-y-6">
+              {/* Gráfico de Comparação */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Evolução Comparativa: {indicadorComparacao}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ResponsiveContainer width="100%" height={300}>
+                    <LineChart data={[
+                      { ano: '2020', A: Number(municipioAData['2020']?.[indicadorComparacao] || 0), B: Number(municipioBData['2020']?.[indicadorComparacao] || 0) },
+                      { ano: '2021', A: Number(municipioAData['2021']?.[indicadorComparacao] || 0), B: Number(municipioBData['2021']?.[indicadorComparacao] || 0) },
+                      { ano: '2022', A: Number(municipioAData['2022']?.[indicadorComparacao] || 0), B: Number(municipioBData['2022']?.[indicadorComparacao] || 0) },
+                      { ano: '2023', A: Number(municipioAData['2023']?.[indicadorComparacao] || 0), B: Number(municipioBData['2023']?.[indicadorComparacao] || 0) },
+                      { ano: '2024', A: Number(municipioAData['2024']?.[indicadorComparacao] || 0), B: Number(municipioBData['2024']?.[indicadorComparacao] || 0) },
+                      { ano: '2025', A: Number(municipioAData['2025']?.[indicadorComparacao] || 0), B: Number(municipioBData['2025']?.[indicadorComparacao] || 0) },
+                      { ano: '2026*', A: Number(municipioAData['2026_parcial']?.[indicadorComparacao] || 0), B: Number(municipioBData['2026_parcial']?.[indicadorComparacao] || 0) },
+                    ]}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="ano" />
+                      <YAxis />
+                      <Tooltip />
+                      <Legend />
+                      <Line type="monotone" dataKey="A" stroke="#3b82f6" name={nomeA || "Município A"} strokeWidth={2} />
+                      <Line type="monotone" dataKey="B" stroke="#ef4444" name={nomeB || "Município B"} strokeWidth={2} />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </CardContent>
+              </Card>
+
+              {/* Tabela Comparativa */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Dados Anuais - {indicadorComparacao}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-gray-100 border-b">
+                          <th className="text-left p-3 font-semibold text-gray-800">Ano</th>
+                          <th className="text-center p-3 font-semibold text-gray-800">{nomeA || "Município A"}</th>
+                          <th className="text-center p-3 font-semibold text-gray-800">{nomeB || "Município B"}</th>
+                          <th className="text-center p-3 font-semibold text-gray-800">Diferença</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {['2020', '2021', '2022', '2023', '2024', '2025', '2026_parcial'].map((ano) => {
+                          const valA = Number(municipioAData[ano]?.[indicadorComparacao] || 0);
+                          const valB = Number(municipioBData[ano]?.[indicadorComparacao] || 0);
+                          const diff = valA - valB;
+                          const anoDisplay = ano === '2026_parcial' ? '2026*' : ano;
+                          return (
+                            <tr key={ano} className="border-b hover:bg-gray-50">
+                              <td className="text-left p-3 font-semibold">{anoDisplay}</td>
+                              <td className="text-center p-3">{valA.toLocaleString()}</td>
+                              <td className="text-center p-3">{valB.toLocaleString()}</td>
+                              <td className={`text-center p-3 font-semibold ${diff > 0 ? 'text-red-600' : diff < 0 ? 'text-green-600' : 'text-gray-600'}`}>
+                                {diff > 0 ? '+' : ''}{diff.toLocaleString()}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          ) : (
+            <div className="text-center py-8 text-gray-500">
+              <p>Selecione dois municípios para comparar</p>
+            </div>
+          )}
+        </CardContent>
+      </Card>
 
       {/* Rodapé com Fonte */}
       <div className="text-xs text-gray-500 border-t pt-4">

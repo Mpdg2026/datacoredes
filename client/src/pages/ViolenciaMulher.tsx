@@ -111,48 +111,50 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
     }
   }, [municipioQuery.data]);
   // Carregar dados de Município A para comparação
+  const municipioAQuery = trpc.portal.violenciaMulherMunicipio.useQuery(
+    { codigoIBGE: municipioA || undefined },
+    { enabled: !!municipioA }
+  );
+
   useEffect(() => {
-    if (municipioA) {
-      const municipioInfo = todosMunicipios?.find(m => m.codigoIBGE === municipioA);
+    if (municipioA && todosMunicipios) {
+      const municipioInfo = todosMunicipios.find(m => m.codigoIBGE === municipioA);
       setNomeA(municipioInfo?.nome || '');
-      
-      // Buscar dados do município A
-      const fetchData = async () => {
-        try {
-          const result = await trpc.portal.violenciaMulherMunicipio.query({ codigoIBGE: municipioA });
-          setMunicipioAData(result);
-        } catch (error) {
-          console.error('Erro ao carregar dados de Município A:', error);
-        }
-      };
-      fetchData();
     } else {
-      setMunicipioAData(null);
       setNomeA('');
     }
   }, [municipioA, todosMunicipios]);
 
-  // Carregar dados de Município B para comparação
   useEffect(() => {
-    if (municipioB) {
-      const municipioInfo = todosMunicipios?.find(m => m.codigoIBGE === municipioB);
+    if (municipioAQuery.data) {
+      setMunicipioAData(municipioAQuery.data);
+    } else if (!municipioA) {
+      setMunicipioAData(null);
+    }
+  }, [municipioAQuery.data, municipioA]);
+
+  // Carregar dados de Município B para comparação
+  const municipioBQuery = trpc.portal.violenciaMulherMunicipio.useQuery(
+    { codigoIBGE: municipioB || undefined },
+    { enabled: !!municipioB }
+  );
+
+  useEffect(() => {
+    if (municipioB && todosMunicipios) {
+      const municipioInfo = todosMunicipios.find(m => m.codigoIBGE === municipioB);
       setNomeB(municipioInfo?.nome || '');
-      
-      // Buscar dados do município B
-      const fetchData = async () => {
-        try {
-          const result = await trpc.portal.violenciaMulherMunicipio.query({ codigoIBGE: municipioB });
-          setMunicipiBData(result);
-        } catch (error) {
-          console.error('Erro ao carregar dados de Município B:', error);
-        }
-      };
-      fetchData();
     } else {
-      setMunicipiBData(null);
       setNomeB('');
     }
   }, [municipioB, todosMunicipios]);
+
+  useEffect(() => {
+    if (municipioBQuery.data) {
+      setMunicipiBData(municipioBQuery.data);
+    } else if (!municipioB) {
+      setMunicipiBData(null);
+    }
+  }, [municipioBQuery.data, municipioB]);
 
   // BLOCO A: Dados consolidados do RS (sempre visível)
   const rsIndicadores = useMemo(() => {
