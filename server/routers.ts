@@ -506,6 +506,39 @@ export const portalRouter = router({
         return [];
       }
     }),
+
+  /**
+   * Dados CVLI - Violência por Município (2020-2025 + 2026 parcial)
+   * Fonte: OESP/SSP-RS
+   */
+  violenciaCVLI: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.string().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        const cvliPath = path.join(process.cwd(), 'public', 'cvli-consolidado.json');
+        
+        if (!fs.existsSync(cvliPath)) {
+          return null;
+        }
+        
+        const cvliData = JSON.parse(fs.readFileSync(cvliPath, 'utf-8'));
+        
+        if (!input.codigoIBGE) {
+          return cvliData['RS_GERAL'] || null;
+        }
+        
+        return cvliData[input.codigoIBGE] || null;
+      } catch (error) {
+        console.error('Erro ao carregar dados CVLI:', error);
+        return null;
+      }
+    }),
 });
 
 export const appRouter = router({

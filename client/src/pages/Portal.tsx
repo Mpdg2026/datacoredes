@@ -10,6 +10,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import { DataTable } from '@/components/DataTable';
 import { MapView } from '@/components/Map';
 import { Economia } from './Economia';
+import { Violencia } from './Violencia';
 import { X } from 'lucide-react';
 
 export default function Portal() {
@@ -199,6 +200,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="economia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Economia
+              </TabsTrigger>
+              <TabsTrigger value="violencia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Violência
               </TabsTrigger>
               <TabsTrigger value="mapa" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Mapa
@@ -417,6 +421,11 @@ export default function Portal() {
             {/* ============ ABA ECONOMIA ============ */}
             <TabsContent value="economia" className="space-y-6">
               <Economia data={economiaCompleta.data || null} isLoading={economiaCompleta.isLoading} />
+            </TabsContent>
+
+            {/* ============ ABA VIOLÊNCIA ============ */}
+            <TabsContent value="violencia" className="space-y-6">
+              <Violencia codigoIBGE={codigoIBGE?.toString()} />
             </TabsContent>
 
             {/* ============ ABA MAPA ============ */}
