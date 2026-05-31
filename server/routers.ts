@@ -521,18 +521,23 @@ export const portalRouter = router({
       try {
         const fs = await import('fs');
         const path = await import('path');
-        const cvliPath = path.join(process.cwd(), 'public', 'cvli-consolidado.json');
         
+        // Se nao ha codigoIBGE, retorna dados consolidados do RS
+        if (!input.codigoIBGE) {
+          const rsPath = path.join(process.cwd(), 'public', 'cvli-rs-consolidado.json');
+          if (!fs.existsSync(rsPath)) {
+            return null;
+          }
+          const rsData = JSON.parse(fs.readFileSync(rsPath, 'utf-8'));
+          return rsData['RS'] || null;
+        }
+        
+        // Se ha codigoIBGE, busca dados do municipio
+        const cvliPath = path.join(process.cwd(), 'public', 'cvli-consolidado.json');
         if (!fs.existsSync(cvliPath)) {
           return null;
         }
-        
         const cvliData = JSON.parse(fs.readFileSync(cvliPath, 'utf-8'));
-        
-        if (!input.codigoIBGE) {
-          return cvliData['RS_GERAL'] || null;
-        }
-        
         return cvliData[input.codigoIBGE] || null;
       } catch (error) {
         console.error('Erro ao carregar dados CVLI:', error);

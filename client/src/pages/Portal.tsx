@@ -19,7 +19,7 @@ export default function Portal() {
   const [selectedCorede, setSelectedCorede] = useState<number | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<number | null>(null);
   const [selectedMunicipioComparacao, setSelectedMunicipioComparacao] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState('igm');
+  const [activeTab, setActiveTab] = useState('violencia');
   const [showComparacao, setShowComparacao] = useState(false);
 
   // ============ QUERIES - FILTROS EM CASCATA ============
@@ -186,7 +186,7 @@ export default function Portal() {
         </Card>
 
         {/* Abas Temáticas */}
-        {selectedMunicipio && (
+        {selectedMunicipio || activeTab === 'violencia' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-5 mb-8 bg-[#001f5c]">
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
@@ -443,16 +443,15 @@ export default function Portal() {
               </Card>
             </TabsContent>
           </Tabs>
-        )}
-
-        {/* Mensagem quando nenhum município é selecionado */}
-        {!selectedMunicipio && (
+        ) : (
           <Card className="border-dashed">
             <CardContent className="pt-12 pb-12 text-center">
               <p className="text-lg text-gray-500">Selecione um município para visualizar os indicadores</p>
             </CardContent>
           </Card>
         )}
+
+
       </div>
     </div>
   );

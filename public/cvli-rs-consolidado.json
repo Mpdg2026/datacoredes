@@ -1,0 +1,92 @@
+{
+  "RS": {
+    "codigo_ibge": "RS",
+    "municipio": "Rio Grande do Sul",
+    "historico": {
+      "2020": {
+        "Homicídio  Doloso": 1725,
+        "Total de Vítimas de CVLI*": 2152,
+        "Latrocínio": 71,
+        "Furtos": 103778,
+        "Roubo": 46824,
+        "Furto de Veículo": 9411,
+        "Roubo de Veículo": 7887,
+        "Estelionato": 67732,
+        "Entorpecentes - Tráfico": 15739,
+        "Delitos Relacionados à Armas e Munições": 6340
+      },
+      "2021": {
+        "Homicídio  Doloso": 1532,
+        "Total de Vítimas de CVLI*": 2055,
+        "Latrocínio": 66,
+        "Furtos": 115253,
+        "Roubo": 40238,
+        "Furto de Veículo": 8916,
+        "Roubo de Veículo": 4942,
+        "Estelionato": 92067,
+        "Entorpecentes - Tráfico": 16892,
+        "Delitos Relacionados à Armas e Munições": 6274
+      },
+      "2022": {
+        "Homicídio  Doloso": 1632,
+        "Total de Vítimas de CVLI*": 2115,
+        "Latrocínio": 52,
+        "Furtos": 128047,
+        "Roubo": 36950,
+        "Furto de Veículo": 8953,
+        "Roubo de Veículo": 4406,
+        "Estelionato": 95182,
+        "Entorpecentes - Tráfico": 16290,
+        "Delitos Relacionados à Armas e Munições": 6421
+      },
+      "2023": {
+        "Homicídio  Doloso": 1570,
+        "Total de Vítimas de CVLI*": 2020,
+        "Latrocínio": 42,
+        "Furtos": 125529,
+        "Roubo": 32506,
+        "Furto de Veículo": 8556,
+        "Roubo de Veículo": 3594,
+        "Estelionato": 89369,
+        "Entorpecentes - Tráfico": 16089,
+        "Delitos Relacionados à Armas e Munições": 6558
+      },
+      "2024": {
+        "Homicídio  Doloso": 1338,
+        "Total de Vítimas de CVLI*": 1728,
+        "Latrocínio": 29,
+        "Furtos": 105373,
+        "Roubo": 20771,
+        "Furto de Veículo": 6639,
+        "Roubo de Veículo": 2299,
+        "Estelionato": 80572,
+        "Entorpecentes - Tráfico": 16736,
+        "Delitos Relacionados à Armas e Munições": 5887
+      },
+      "2025": {
+        "Homicídio  Doloso": 970,
+        "Total de Vítimas de CVLI*": 1299,
+        "Latrocínio": 30,
+        "Furtos": 108433,
+        "Roubo": 18662,
+        "Furto de Veículo": 6303,
+        "Roubo de Veículo": 1790,
+        "Estelionato": 85558,
+        "Entorpecentes - Tráfico": 18105,
+        "Delitos Relacionados à Armas e Munições": 5869
+      },
+      "2026_parcial": {
+        "Homicídio  Doloso": 294,
+        "Total de Vítimas de CVLI*": 410,
+        "Latrocínio": 11,
+        "Furtos": 32330,
+        "Roubo": 4945,
+        "Furto de Veículo": 1838,
+        "Roubo de Veículo": 509,
+        "Estelionato": 29427,
+        "Entorpecentes - Tráfico": 5694,
+        "Delitos Relacionados à Armas e Munições": 1716
+      }
+    }
+  }
+}

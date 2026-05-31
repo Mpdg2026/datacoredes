@@ -237,27 +237,66 @@ export function Violencia({ codigoIBGE }: ViolenciaProps) {
           {/* Tabela de Indicadores */}
           <Card className="p-4">
             <h3 className="font-semibold mb-4">Indicadores Detalhados</h3>
-            <div className="space-y-2 text-sm">
+            <div className="space-y-3 text-sm max-h-96 overflow-y-auto">
               {cvliData.historico &&
                 Object.entries(cvliData.historico)
-                  .sort(([anoA], [anoB]) => anoB.localeCompare(anoA))
-                  .slice(0, 3)
-                  .map(([ano, dados]: any) => (
-                    <div key={ano} className="border-t pt-2">
-                      <div className="font-semibold text-gray-700">{ano}</div>
-                      <div className="grid grid-cols-2 gap-1 text-xs mt-1">
-                        {Object.entries(dados)
-                          .filter(([key]) => key !== 'nota')
-                          .slice(0, 6)
-                          .map(([key, value]: any) => (
-                            <div key={key} className="flex justify-between">
-                              <span className="text-gray-600">{key}:</span>
-                              <span className="font-semibold">{value.toLocaleString()}</span>
-                            </div>
-                          ))}
+                  .filter(([ano]) => ano !== 'nota')
+                  .sort(([anoA], [anoB]) => {
+                    // Ordenar cronologicamente: 2020-2025, depois 2026_parcial
+                    const aNum = anoA === '2026_parcial' ? 9999 : parseInt(anoA);
+                    const bNum = anoB === '2026_parcial' ? 9999 : parseInt(anoB);
+                    return aNum - bNum;
+                  })
+                  .map(([ano, dados]: any) => {
+                    const anoDisplay = ano === '2026_parcial' ? '2026 (parcial jan-abr)' : ano;
+                    return (
+                      <div key={ano} className="border-t pt-3 pb-2">
+                        <div className="font-semibold text-gray-800 mb-2">{anoDisplay}</div>
+                        <div className="grid grid-cols-2 gap-2 text-xs">
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Homicídio Doloso:</span>
+                            <span className="font-semibold">{dados['Homicídio  Doloso']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Vítimas CVLI:</span>
+                            <span className="font-semibold">{dados['Total de Vítimas de CVLI*']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Latrocínio:</span>
+                            <span className="font-semibold">{dados['Latrocínio']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Furto:</span>
+                            <span className="font-semibold">{dados['Furtos']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Roubo:</span>
+                            <span className="font-semibold">{dados['Roubo']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Furto de Veículo:</span>
+                            <span className="font-semibold">{dados['Furto de Veículo']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Roubo de Veículo:</span>
+                            <span className="font-semibold">{dados['Roubo de Veículo']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Estelionato:</span>
+                            <span className="font-semibold">{dados['Estelionato']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Tráfico:</span>
+                            <span className="font-semibold">{dados['Entorpecentes - Tráfico']?.toLocaleString() || '-'}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-600">Armas/Munições:</span>
+                            <span className="font-semibold">{dados['Delitos Relacionados à Armas e Munições']?.toLocaleString() || '-'}</span>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
             </div>
           </Card>
         </div>
