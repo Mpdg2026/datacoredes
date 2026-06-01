@@ -444,7 +444,7 @@ export function Violencia({ codigoIBGE }: ViolenciaProps) {
             </div>
           </div>
 
-          {municipioA && municipioB && municipioAData && municipioBData ? (
+          {municipioA && municipioB ? (
             <div className="space-y-6">
               {/* Gráfico de Comparação */}
               <Card>

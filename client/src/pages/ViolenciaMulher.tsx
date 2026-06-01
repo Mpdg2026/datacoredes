@@ -510,7 +510,7 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
           </div>
         </div>
 
-        {municipioA && municipioB && municipioAData && municipioBData ? (
+        {municipioA && municipioB ? (
           <div className="space-y-6">
             {/* Gráfico de Comparação */}
             <Card>
@@ -520,13 +520,13 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
               <CardContent>
                 <ResponsiveContainer width="100%" height={300}>
                   <LineChart data={[
-                    { ano: '2020', A: Number(municipioAData[indicadorComparacao]?.['2020'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2020'] || 0) },
-                    { ano: '2021', A: Number(municipioAData[indicadorComparacao]?.['2021'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2021'] || 0) },
-                    { ano: '2022', A: Number(municipioAData[indicadorComparacao]?.['2022'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2022'] || 0) },
-                    { ano: '2023', A: Number(municipioAData[indicadorComparacao]?.['2023'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2023'] || 0) },
-                    { ano: '2024', A: Number(municipioAData[indicadorComparacao]?.['2024'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2024'] || 0) },
-                    { ano: '2025', A: Number(municipioAData[indicadorComparacao]?.['2025'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2025'] || 0) },
-                    { ano: '2026*', A: Number(municipioAData[indicadorComparacao]?.['2026'] || 0), B: Number(municipioBData[indicadorComparacao]?.['2026'] || 0) },
+                    { ano: '2020', A: Number((municipioAData?.[indicadorComparacao]?.['2020']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2020']) || 0) },
+                    { ano: '2021', A: Number((municipioAData?.[indicadorComparacao]?.['2021']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2021']) || 0) },
+                    { ano: '2022', A: Number((municipioAData?.[indicadorComparacao]?.['2022']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2022']) || 0) },
+                    { ano: '2023', A: Number((municipioAData?.[indicadorComparacao]?.['2023']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2023']) || 0) },
+                    { ano: '2024', A: Number((municipioAData?.[indicadorComparacao]?.['2024']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2024']) || 0) },
+                    { ano: '2025', A: Number((municipioAData?.[indicadorComparacao]?.['2025']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2025']) || 0) },
+                    { ano: '2026*', A: Number((municipioAData?.[indicadorComparacao]?.['2026']) || 0), B: Number((municipioBData?.[indicadorComparacao]?.['2026']) || 0) },
                   ]}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="ano" />
@@ -584,7 +584,88 @@ export function ViolenciaMulher({ selectedMunicipio, nomeMunicipio, selectedCore
         )}
       </div>
 
-            {/* Aba de Navegação - Apenas Locais de Atendimento */}
+      {/* Renderização da aba Locais de Atendimento */}
+      {activeTab === 'locais' && (
+        <div className="mt-6">
+          <div className="flex gap-3 mb-6">
+            <button
+              onClick={() => setSelectedCategory('deam')}
+              className={`px-4 py-2 rounded-lg font-semibold transition ${
+                selectedCategory === 'deam'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+              }`}
+            >
+              DEAM ({LOCAIS_ATENDIMENTO.deam.length})
+            </button>
+            <button
+              onClick={() => setSelectedCategory('salas')}
+              className={`px-4 py-2 rounded-lg font-semibold transition ${
+                selectedCategory === 'salas'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+              }`}
+            >
+              Salas das Margaridas ({LOCAIS_ATENDIMENTO.salas.length})
+            </button>
+            <button
+              onClick={() => setSelectedCategory('pppm')}
+              className={`px-4 py-2 rounded-lg font-semibold transition ${
+                selectedCategory === 'pppm'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+              }`}
+            >
+              PPPM ({LOCAIS_ATENDIMENTO.pppm.length})
+            </button>
+          </div>
+
+          {/* Campo de busca */}
+          <div className="mb-6 flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2">
+            <Search className="w-5 h-5 text-gray-600" />
+            <input
+              type="text"
+              placeholder="Buscar por munícipio..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
+              className="flex-1 bg-transparent outline-none text-gray-800 placeholder-gray-600"
+            />
+          </div>
+
+          {/* Tabela de Locais */}
+          <Card>
+            <CardHeader>
+              <CardTitle>
+                {selectedCategory === 'deam' && 'Delegacias Especializadas de Atendimento à Mulher'}
+                {selectedCategory === 'salas' && 'Salas das Margaridas'}
+                {selectedCategory === 'pppm' && 'Programa de Prevenção e Proteção à Mulher'}
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="bg-gray-100 border-b">
+                    <th className="text-left p-3 font-semibold text-gray-800">Município</th>
+                    <th className="text-left p-3 font-semibold text-gray-800">Telefone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {LOCAIS_ATENDIMENTO[selectedCategory]
+                    .filter((local: any) => local.municipio.toLowerCase().includes(searchTerm))
+                    .map((local: any, idx: number) => (
+                      <tr key={idx} className="border-b hover:bg-gray-50">
+                        <td className="p-3 text-gray-800">{local.municipio}</td>
+                        <td className="p-3 text-gray-800 font-semibold">{local.telefone}</td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* Aba de Navegação - Apenas Locais de Atendimento */}
       <div className="flex gap-2 border-b border-gray-200 sticky bottom-0 bg-white">
         <button
           onClick={() => setActiveTab('locais')}
