@@ -207,7 +207,7 @@ export default function Portal() {
                 Violência
               </TabsTrigger>
               <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Violência Mulher
+                Violência Contra a Mulher
               </TabsTrigger>
 
             </TabsList>

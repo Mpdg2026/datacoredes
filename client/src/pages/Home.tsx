@@ -19,17 +19,11 @@ export default function Home() {
               </div>
               <h1 className="text-2xl font-bold">Portal Coredes em Números</h1>
             </div>
-            <div>
-              {isAuthenticated ? (
-                <button onClick={logout} className="px-4 py-2 bg-[#f4b41a] text-[#001f5c] rounded font-semibold hover:bg-opacity-90">
-                  Sair
-                </button>
-              ) : (
-                <a href={getLoginUrl()} className="px-4 py-2 bg-[#f4b41a] text-[#001f5c] rounded font-semibold hover:bg-opacity-90">
-                  Entrar
-                </a>
-              )}
-            </div>
+            {isAuthenticated && (
+              <button onClick={logout} className="px-4 py-2 bg-[#f4b41a] text-[#001f5c] rounded font-semibold hover:bg-opacity-90">
+                Sair
+              </button>
+            )}
           </div>
         </div>
       </header>
