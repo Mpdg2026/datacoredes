@@ -86,84 +86,84 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* RF1 */}
               <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF1 - Metropolitana</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF1</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Delta do Jacuí</li>
-                  <li>• Paranhana Encosta da Serra</li>
-                  <li>• Vale do Rio dos Sinos</li>
-                  <li>• Vale do Caí</li>
-                  <li>• Litoral</li>
-                  <li>• Serra Gaúcha</li>
+                  <li className="font-semibold">Centro-Sul</li>
+                  <li className="font-semibold">Metropolitano Delta do Jacuí</li>
+                  <li className="font-semibold">Paranhana Encosta da Serra</li>
+                  <li className="font-semibold">Vale do Caí</li>
+                  <li className="font-semibold">Vale do Rio dos Sinos</li>
                 </ul>
               </div>
               {/* RF2 */}
               <div className="bg-green-50 rounded-lg p-6 border-l-4 border-green-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF2 - Sul</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF2</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Sul</li>
-                  <li>• Campanha</li>
-                  <li>• Costa Doce</li>
+                  <li className="font-semibold">Vale do Rio Pardo</li>
+                  <li className="font-semibold">Vale do Taquari</li>
                 </ul>
               </div>
               {/* RF3 */}
               <div className="bg-purple-50 rounded-lg p-6 border-l-4 border-purple-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF3 - Centro-Sul</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF3</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Centro-Sul</li>
-                  <li>• Vale do Rio Pardo</li>
-                  <li>• Jacuí Centro</li>
+                  <li className="font-semibold">Campos de Cima da Serra</li>
+                  <li className="font-semibold">Hortênsias</li>
+                  <li className="font-semibold">Serra</li>
                 </ul>
               </div>
               {/* RF4 */}
               <div className="bg-orange-50 rounded-lg p-6 border-l-4 border-orange-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF4 - Fronteira Oeste</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF4</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Fronteira Oeste</li>
-                  <li>• Missões</li>
-                  <li>• Celeiro</li>
+                  <li className="font-semibold">Litoral</li>
                 </ul>
               </div>
               {/* RF5 */}
               <div className="bg-red-50 rounded-lg p-6 border-l-4 border-red-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF5 - Noroeste Colonial</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF5</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Noroeste Colonial</li>
-                  <li>• Alto Jacuí</li>
-                  <li>• Médio Alto Uruguai</li>
+                  <li className="font-semibold">Sul</li>
                 </ul>
               </div>
               {/* RF6 */}
               <div className="bg-pink-50 rounded-lg p-6 border-l-4 border-pink-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF6 - Nordeste</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF6</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Nordeste</li>
-                  <li>• Campos de Cima da Serra</li>
-                  <li>• Hortênsias</li>
+                  <li className="font-semibold">Campanha</li>
+                  <li className="font-semibold">Fronteira Oeste</li>
                 </ul>
               </div>
               {/* RF7 */}
               <div className="bg-yellow-50 rounded-lg p-6 border-l-4 border-yellow-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF7 - Norte</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF7</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Norte</li>
-                  <li>• Alto da Serra do Botucaraí</li>
-                  <li>• Rio da Várzea</li>
+                  <li className="font-semibold">Celeiro</li>
+                  <li className="font-semibold">Fronteira Noroeste</li>
+                  <li className="font-semibold">Missões</li>
+                  <li className="font-semibold">Noroeste Colonial</li>
                 </ul>
               </div>
               {/* RF8 */}
               <div className="bg-indigo-50 rounded-lg p-6 border-l-4 border-indigo-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF8 - Central</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF8</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Central</li>
-                  <li>• Vale do Jaguari</li>
+                  <li className="font-semibold">Alto Jacuí</li>
+                  <li className="font-semibold">Central</li>
+                  <li className="font-semibold">Jacuí Centro</li>
+                  <li className="font-semibold">Vale do Jaguari</li>
                 </ul>
               </div>
               {/* RF9 */}
               <div className="bg-cyan-50 rounded-lg p-6 border-l-4 border-cyan-500">
-                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF9 - Alto Pelotas</h4>
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF9</h4>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Alto Pelotas</li>
-                  <li>• Sudoeste Rio-Grandense</li>
+                  <li className="font-semibold">Alto da Serra do Botucaraí</li>
+                  <li className="font-semibold">Médio Alto Uruguai</li>
+                  <li className="font-semibold">Nordeste</li>
+                  <li className="font-semibold">Norte</li>
+                  <li className="font-semibold">Produção</li>
+                  <li className="font-semibold">Rio da Várzea</li>
                 </ul>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function Home() {
                 O Portal Coredes em Números é uma plataforma interativa desenvolvida pela Faccat (Faculdades Integradas de Taquara) para disponibilizar indicadores socioeconômicos dos municípios e Coredes do Rio Grande do Sul.
               </p>
               <p className="text-gray-700 mb-4">
-                O portal integra dados de múltiplas fontes oficiais, incluindo o IDESE (Índice de Desenvolvimento Socioeconômico), IGM (Índice de Gestão Municipal), IDSC (Índice de Desenvolvimento Sustentável das Cidades), IPS Brasil (Índice de Progresso Social), e estatísticas de segurança pública.
+                O portal integra dados de múltiplas fontes oficiais: IDESE — Índice de Desenvolvimento Socioeconômico; IGM — Índice de Gestão Municipal; IDSC — Índice de Desenvolvimento Sustentável das Cidades; IPS Brasil — Índice de Progresso Social; e estatísticas de segurança pública da SSP/RS — Secretaria da Segurança Pública do Rio Grande do Sul.
               </p>
               <p className="text-gray-700">
                 Todos os dados são atualizados regularmente e podem ser filtrados por Região Funcional, Corede ou Município, permitindo análises detalhadas e comparativas.
@@ -191,9 +191,9 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-[#001f5c] text-white py-8 mt-12">
           <div className="container text-center">
-            <p className="font-semibold">Portal Coredes em Números</p>
-            <p className="text-gray-300 text-sm mt-2">Faculdades Integradas de Taquara (Faccat)</p>
-            <p className="text-gray-400 text-xs mt-2">Dados atualizados até abril de 2026</p>
+            <p className="font-semibold">Portal Coredes em Números | Faculdades Integradas de Taquara (Faccat)</p>
+            <p className="text-gray-300 text-sm mt-2">Responsável pela compilação dos dados: Prof. Marcos Paulo Dhein Griebeler — marcosdhein@faccat.br</p>
+            <p className="text-gray-400 text-xs mt-2">Dados atualizados até: Junho/2026</p>
           </div>
         </footer>
       </main>
