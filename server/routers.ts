@@ -606,6 +606,57 @@ export const portalRouter = router({
         return null;
       }
     }),
+
+  /**
+   * Buscar dados IPS (Índice de Progresso Social) de um município
+   */
+  ipsMunicipio: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.string().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        const ipsPath = path.join(process.cwd(), 'public', 'ips-brasil-municipios.json');
+        if (!fs.existsSync(ipsPath)) {
+          return null;
+        }
+        const ipsData = JSON.parse(fs.readFileSync(ipsPath, 'utf-8'));
+        
+        let municipioNome = null;
+        for (const rf of Object.values(hierarchyData) as any[]) {
+          for (const corede of Object.values(rf) as any[]) {
+            if (Array.isArray(corede)) {
+              for (const [codigo, nome] of corede) {
+                if (String(codigo) === input.codigoIBGE) {
+                  municipioNome = nome.toUpperCase();
+                  break;
+                }
+              }
+              if (municipioNome) break;
+            }
+          }
+          if (municipioNome) break;
+        }
+        
+        if (!municipioNome) {
+          return null;
+        }
+        
+        return ipsData[municipioNome] || null;
+      } catch (error) {
+        console.error('Erro ao carregar dados de IPS:', error);
+        return null;
+      }
+    }),
 });
 
 export const appRouter = router({

@@ -12,6 +12,7 @@ import { MapView } from '@/components/Map';
 import { Economia } from './Economia';
 import { Violencia } from './Violencia';
 import { ViolenciaMulher } from './ViolenciaMulher';
+import { IPS } from './IPS';
 import { X } from 'lucide-react';
 
 export default function Portal() {
@@ -208,6 +209,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência Contra a Mulher
+              </TabsTrigger>
+              <TabsTrigger value="ips" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                IPS
               </TabsTrigger>
 
             </TabsList>
@@ -436,6 +440,10 @@ export default function Portal() {
               <ViolenciaMulher selectedMunicipio={codigoIBGE ? String(codigoIBGE) : undefined} nomeMunicipio={nomeMunicipio} selectedCorede={selectedCorede ? String(selectedCorede) : undefined} />
             </TabsContent>
 
+            {/* ============ ABA IPS ============ */}
+            <TabsContent value="ips" className="space-y-6">
+              <IPS codigoIBGE={codigoIBGE ? String(codigoIBGE) : undefined} nomeMunicipio={nomeMunicipio} />
+            </TabsContent>
 
           </Tabs>
         ) : (
