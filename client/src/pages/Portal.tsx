@@ -124,9 +124,13 @@ export default function Portal() {
     setShowSearchDropdown(false);
     
     // Preencher automaticamente RF e Corede
-    if (municipio.coredeId && municipio.regiaoFuncionalId) {
-      setSelectedRF(municipio.regiaoFuncionalId);
-      setSelectedCorede(municipio.coredeId);
+    if (municipio.regiaoFuncional && municipio.corede) {
+      setSelectedRF(municipio.regiaoFuncional);
+      // Encontrar o ID do Corede na lista de coredes carregados
+      const coredeEncontrado = coredes.data?.find((c: any) => c.nome === municipio.corede);
+      if (coredeEncontrado) {
+        setSelectedCorede(coredeEncontrado.id);
+      }
     }
   };
 
