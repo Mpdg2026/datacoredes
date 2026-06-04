@@ -23,6 +23,8 @@ export default function Portal() {
   const [selectedMunicipioComparacao, setSelectedMunicipioComparacao] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState('violencia');
   const [showComparacao, setShowComparacao] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [showSearchDropdown, setShowSearchDropdown] = useState(false);
 
   // ============ QUERIES - FILTROS EM CASCATA ============
   const regioesFuncionais = trpc.portal.regioesFuncionais.useQuery();
@@ -97,6 +99,35 @@ export default function Portal() {
     setSelectedMunicipio(null);
     setSelectedMunicipioComparacao(null);
     setShowComparacao(false);
+    setSearchTerm('');
+  };
+
+  // Funcao para normalizar strings (remover acentos e converter para minusculas)
+  const normalizeString = (str: string) => {
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+  };
+
+  // Filtrar municipios baseado no termo de busca
+  const municipiosFiltrados = todosMunicipios.data
+    ? todosMunicipios.data.filter((m: any) =>
+        normalizeString(m.nome).includes(normalizeString(searchTerm))
+      )
+    : [];
+
+  // Funcao para selecionar municipio via busca
+  const handleSelectMunicipioSearch = (municipio: any) => {
+    setSelectedMunicipio(municipio.id);
+    setSearchTerm('');
+    setShowSearchDropdown(false);
+    
+    // Preencher automaticamente RF e Corede
+    if (municipio.coredeId && municipio.regiaoFuncionalId) {
+      setSelectedRF(municipio.regiaoFuncionalId);
+      setSelectedCorede(municipio.coredeId);
+    }
   };
 
   // ============ RENDERIZAÇÃO - FILTROS ============
@@ -185,6 +216,48 @@ export default function Portal() {
             >
               Limpar Filtros
             </Button>
+          </CardContent>
+        </Card>
+
+        {/* Barra de Busca Rápida */}
+        <Card className="mb-8 border-l-4 border-l-[#f4b41a]">
+          <CardContent className="pt-6">
+            <div className="relative">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Busca Rápida por Município</label>
+              <input
+                type="text"
+                placeholder="Buscar município diretamente..."
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setShowSearchDropdown(e.target.value.length > 0);
+                }}
+                onFocus={() => searchTerm.length > 0 && setShowSearchDropdown(true)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#f4b41a]"
+              />
+              
+              {/* Dropdown de Sugestões */}
+              {showSearchDropdown && municipiosFiltrados.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded-lg shadow-lg z-50 max-h-64 overflow-y-auto">
+                  {municipiosFiltrados.slice(0, 10).map((municipio: any) => (
+                    <button
+                      key={municipio.id}
+                      onClick={() => handleSelectMunicipioSearch(municipio)}
+                      className="w-full text-left px-4 py-2 hover:bg-[#f4b41a] hover:text-[#001f5c] transition"
+                    >
+                      <div className="font-medium">{municipio.nome}</div>
+                      <div className="text-xs text-gray-500">{municipio.coredeNome}</div>
+                    </button>
+                  ))}
+                </div>
+              )}
+              
+              {showSearchDropdown && searchTerm.length > 0 && municipiosFiltrados.length === 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded-lg shadow-lg z-50 p-4 text-center text-gray-500">
+                  Nenhum município encontrado
+                </div>
+              )}
+            </div>
           </CardContent>
         </Card>
 
