@@ -9,25 +9,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      {/* Header */}
-      <header className="bg-[#001f5c] text-white shadow-lg">
-        <div className="container py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#f4b41a] rounded-full flex items-center justify-center">
-                <span className="text-[#001f5c] font-bold">F</span>
-              </div>
-              <h1 className="text-2xl font-bold">Portal Coredes em Números</h1>
-            </div>
-            {isAuthenticated && (
-              <button onClick={logout} className="px-4 py-2 bg-[#f4b41a] text-[#001f5c] rounded font-semibold hover:bg-opacity-90">
-                Sair
-              </button>
-            )}
-          </div>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="flex-1">
         {/* Hero Section */}
@@ -184,6 +165,91 @@ export default function Home() {
               <p className="text-gray-700">
                 Todos os dados são atualizados regularmente e podem ser filtrados por Região Funcional, Corede ou Município, permitindo análises detalhadas e comparativas.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Links Úteis Section */}
+        <section className="py-16">
+          <div className="container">
+            <h3 className="text-3xl font-bold text-[#001f5c] mb-12 text-center">Links Úteis</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Coredes RS */}
+              <a
+                href="https://conselhosregionais.rs.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">Coredes RS</h4>
+                <p className="text-gray-600 text-sm">Conselhos Regionais de Desenvolvimento do RS</p>
+              </a>
+
+              {/* Atlas Socioeconômico */}
+              <a
+                href="https://atlassocioeconomico.rs.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">Atlas Socioeconômico RS</h4>
+                <p className="text-gray-600 text-sm">Indicadores socioeconômicos e territoriais do RS</p>
+              </a>
+
+              {/* IBGE Cidades */}
+              <a
+                href="https://cidades.ibge.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">IBGE Cidades</h4>
+                <p className="text-gray-600 text-sm">Dados municipais do Instituto Brasileiro de Geografia e Estatística</p>
+              </a>
+
+              {/* PNUD Brasil */}
+              <a
+                href="https://br.undp.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">PNUD Brasil</h4>
+                <p className="text-gray-600 text-sm">Programa das Nações Unidas para o Desenvolvimento</p>
+              </a>
+
+              {/* Consulta Popular RS */}
+              <a
+                href="https://consultapopular.rs.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">Consulta Popular RS</h4>
+                <p className="text-gray-600 text-sm">Participação cidadã nas decisões de investimento do Estado</p>
+              </a>
+
+              {/* IPEA */}
+              <a
+                href="https://ipea.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">IPEA</h4>
+                <p className="text-gray-600 text-sm">Instituto de Pesquisa Econômica Aplicada</p>
+              </a>
+
+              {/* MDIR */}
+              <a
+                href="https://mdr.gov.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">MDIR</h4>
+                <p className="text-gray-600 text-sm">Ministério do Desenvolvimento e Integração Regional</p>
+              </a>
             </div>
           </div>
         </section>
