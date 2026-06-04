@@ -33,7 +33,6 @@ export default function Home() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-[#001f5c] to-[#003d99] text-white py-20">
           <div className="container text-center">
-            <h2 className="text-4xl font-bold mb-4">Indicadores Socioeconômicos do RS</h2>
             <p className="text-xl text-gray-300 mb-8">Explore dados de desenvolvimento humano, governança, sustentabilidade e segurança pública dos municípios e Coredes do Rio Grande do Sul</p>
             <a href="/portal" className="inline-block px-8 py-3 bg-[#f4b41a] text-[#001f5c] rounded-lg font-bold text-lg hover:bg-opacity-90 transition">
               Acessar Portal
@@ -68,6 +67,105 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a]">
               <h4 className="text-xl font-bold text-[#001f5c] mb-2">Progresso Social</h4>
               <p className="text-gray-600">Índice de Progresso Social (IPS Brasil) 2024-2026</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Regiões Funcionais e Coredes */}
+        <section className="py-16">
+          <div className="container">
+            <h3 className="text-3xl font-bold text-[#001f5c] mb-8 text-center">Regiões Funcionais e Coredes do RS</h3>
+            <div className="max-w-4xl mx-auto mb-12">
+              <p className="text-gray-700 mb-4">
+                O Rio Grande do Sul é organizado em 9 Regiões Funcionais de Planejamento e 28 Conselhos Regionais de Desenvolvimento (Coredes), criados pela Lei Estadual nº 10.283/1994. Os Coredes são fóruns de discussão e decisão sobre políticas e ações voltadas ao desenvolvimento regional, integrando municípios com características socioeconômicas semelhantes. Cada Corede elabora sua Consulta Popular e contribui para o planejamento estratégico do Estado.
+              </p>
+              <p className="text-gray-600 text-sm italic">
+                Fonte: Atlas Socioeconômico do RS — atlassocioeconomico.rs.gov.br
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* RF1 */}
+              <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF1 - Metropolitana</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Delta do Jacuí</li>
+                  <li>• Paranhana Encosta da Serra</li>
+                  <li>• Vale do Rio dos Sinos</li>
+                  <li>• Vale do Caí</li>
+                  <li>• Litoral</li>
+                  <li>• Serra Gaúcha</li>
+                </ul>
+              </div>
+              {/* RF2 */}
+              <div className="bg-green-50 rounded-lg p-6 border-l-4 border-green-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF2 - Sul</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Sul</li>
+                  <li>• Campanha</li>
+                  <li>• Costa Doce</li>
+                </ul>
+              </div>
+              {/* RF3 */}
+              <div className="bg-purple-50 rounded-lg p-6 border-l-4 border-purple-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF3 - Centro-Sul</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Centro-Sul</li>
+                  <li>• Vale do Rio Pardo</li>
+                  <li>• Jacuí Centro</li>
+                </ul>
+              </div>
+              {/* RF4 */}
+              <div className="bg-orange-50 rounded-lg p-6 border-l-4 border-orange-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF4 - Fronteira Oeste</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Fronteira Oeste</li>
+                  <li>• Missões</li>
+                  <li>• Celeiro</li>
+                </ul>
+              </div>
+              {/* RF5 */}
+              <div className="bg-red-50 rounded-lg p-6 border-l-4 border-red-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF5 - Noroeste Colonial</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Noroeste Colonial</li>
+                  <li>• Alto Jacuí</li>
+                  <li>• Médio Alto Uruguai</li>
+                </ul>
+              </div>
+              {/* RF6 */}
+              <div className="bg-pink-50 rounded-lg p-6 border-l-4 border-pink-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF6 - Nordeste</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Nordeste</li>
+                  <li>• Campos de Cima da Serra</li>
+                  <li>• Hortênsias</li>
+                </ul>
+              </div>
+              {/* RF7 */}
+              <div className="bg-yellow-50 rounded-lg p-6 border-l-4 border-yellow-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF7 - Norte</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Norte</li>
+                  <li>• Alto da Serra do Botucaraí</li>
+                  <li>• Rio da Várzea</li>
+                </ul>
+              </div>
+              {/* RF8 */}
+              <div className="bg-indigo-50 rounded-lg p-6 border-l-4 border-indigo-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF8 - Central</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Central</li>
+                  <li>• Vale do Jaguari</li>
+                </ul>
+              </div>
+              {/* RF9 */}
+              <div className="bg-cyan-50 rounded-lg p-6 border-l-4 border-cyan-500">
+                <h4 className="text-lg font-bold text-[#001f5c] mb-3">RF9 - Alto Pelotas</h4>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Alto Pelotas</li>
+                  <li>• Sudoeste Rio-Grandense</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
