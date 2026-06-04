@@ -66,8 +66,8 @@ export default function Home() {
               <p className="text-gray-600">Indicadores de Violência de Gênero 2020-2026</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a]">
-              <h4 className="text-xl font-bold text-[#001f5c] mb-2">Filtros em Cascata</h4>
-              <p className="text-gray-600">Região Funcional {">"}  Corede {">"}  Município</p>
+              <h4 className="text-xl font-bold text-[#001f5c] mb-2">Progresso Social</h4>
+              <p className="text-gray-600">Índice de Progresso Social (IPS Brasil) 2024-2026</p>
             </div>
           </div>
         </section>
@@ -81,7 +81,7 @@ export default function Home() {
                 O Portal Coredes em Números é uma plataforma interativa desenvolvida pela Faccat (Faculdades Integradas de Taquara) para disponibilizar indicadores socioeconômicos dos municípios e Coredes do Rio Grande do Sul.
               </p>
               <p className="text-gray-700 mb-4">
-                O portal integra dados de múltiplas fontes oficiais, incluindo o IDESE (Índice de Desenvolvimento Socioeconômico), IGM (Índice de Gestão Municipal), IDSC (Índice de Desenvolvimento Sustentável das Cidades), e estatísticas de segurança pública.
+                O portal integra dados de múltiplas fontes oficiais, incluindo o IDESE (Índice de Desenvolvimento Socioeconômico), IGM (Índice de Gestão Municipal), IDSC (Índice de Desenvolvimento Sustentável das Cidades), IPS Brasil (Índice de Progresso Social), e estatísticas de segurança pública.
               </p>
               <p className="text-gray-700">
                 Todos os dados são atualizados regularmente e podem ser filtrados por Região Funcional, Corede ou Município, permitindo análises detalhadas e comparativas.
