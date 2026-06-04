@@ -6,6 +6,18 @@ import { publicProcedure, router } from "./_core/trpc";
 import hierarchyData from '../hierarchy.json' assert { type: 'json' };
 
 /**
+ * Normaliza string removendo acentos, convertendo para maiúsculas e removendo espaços extras
+ */
+function normalizeString(str: string): string {
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // Remove acentos
+    .replace(/\s+/g, ' ') // Collapse multiple spaces
+    .toUpperCase()
+    .trim();
+}
+
+/**
  * Portal Router - Procedures para filtros em cascata e dados temáticos
  * Fonte de verdade: hierarchy.json (497 municípios, 28 coredes, 9 RFs)
  */
@@ -574,7 +586,7 @@ export const portalRouter = router({
         }
         const vmData = JSON.parse(fs.readFileSync(vmPath, 'utf-8'));
         
-        // Mapear código IBGE para nome do município em MAIÚSCULAS
+        // Mapear código IBGE para nome do município em MAIÚSCULAS (normalizado)
         // O hierarchy.json tem a estrutura: RF -> Corede -> [[codigoIBGE, nomeMunicipio], ...]
         let municipioNome = null;
         for (const rf of Object.values(hierarchyData) as any[]) {
@@ -582,7 +594,7 @@ export const portalRouter = router({
             if (Array.isArray(corede)) {
               for (const [codigo, nome] of corede) {
                 if (String(codigo) === input.codigoIBGE) {
-                  municipioNome = nome.toUpperCase();
+                  municipioNome = normalizeString(nome);
                   break;
                 }
               }
@@ -597,7 +609,7 @@ export const portalRouter = router({
           return null;
         }
         
-        console.log('[ViolenciaMulherMunicipio] Encontrado município:', municipioNome);
+        console.log('[ViolenciaMulherMunicipio] Procurando com nome normalizado:', municipioNome);
         const resultado = vmData[municipioNome];
         console.log('[ViolenciaMulherMunicipio] Dados encontrados:', !!resultado);
         return resultado || null;
@@ -637,7 +649,7 @@ export const portalRouter = router({
             if (Array.isArray(corede)) {
               for (const [codigo, nome] of corede) {
                 if (String(codigo) === input.codigoIBGE) {
-                  municipioNome = nome.toUpperCase();
+                  municipioNome = normalizeString(nome);
                   break;
                 }
               }
