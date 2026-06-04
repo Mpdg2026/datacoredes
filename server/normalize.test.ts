@@ -116,3 +116,92 @@ describe('Violência Contra a Mulher - Data Matching', () => {
     });
   });
 });
+
+
+describe('IPS Brasil - Data Matching com Acentos', () => {
+  let hierarchyData: any;
+  let ipsData: any;
+
+  beforeEach(() => {
+    const hierarchyPath = path.join(process.cwd(), 'hierarchy.json');
+    const ipsPath = path.join(process.cwd(), 'public', 'ips-brasil-municipios.json');
+
+    hierarchyData = JSON.parse(fs.readFileSync(hierarchyPath, 'utf-8'));
+    ipsData = JSON.parse(fs.readFileSync(ipsPath, 'utf-8'));
+  });
+
+  it('deve encontrar dados para Gravataí com acento', () => {
+    // IPS data tem acento: GRAVATAÍ
+    const comAcento = ipsData['GRAVATAÍ'];
+    expect(comAcento).toBeDefined();
+    expect(comAcento['2024']).toBeDefined();
+    expect(comAcento['2025']).toBeDefined();
+    expect(comAcento['2026']).toBeDefined();
+  });
+
+  it('deve encontrar dados para os 10 municipios de teste com fallback de acento', () => {
+    const testMunicipios = [
+      'Porto Alegre',
+      'Gravataí',
+      'Caxias do Sul',
+      'Pelotas',
+      'Santa Maria',
+      'Taquara',
+      'Canoas',
+      'Passo Fundo',
+      'Rio Grande',
+      'Novo Hamburgo'
+    ];
+
+    testMunicipios.forEach((municipio) => {
+      const normalized = normalizeString(municipio);
+      const comAcento = ipsData[municipio.toUpperCase()];
+      const semAcento = ipsData[normalized];
+
+      const encontrado = comAcento || semAcento;
+      expect(encontrado).toBeDefined(`Dados nao encontrados para ${municipio}`);
+
+      // Verify structure
+      if (encontrado) {
+        expect(encontrado['2024']).toBeDefined();
+        expect(encontrado['2024']['Índice de Progresso Social']).toBeDefined();
+      }
+    });
+  });
+
+  it('deve ter pelo menos 494 municipios com dados IPS', () => {
+    // Collect all municipalities from hierarchy
+    const allMunicipios: string[] = [];
+    Object.keys(hierarchyData).forEach((rf) => {
+      const rfData = hierarchyData[rf];
+      Object.keys(rfData).forEach((corede) => {
+        const municipios = rfData[corede];
+        municipios.forEach((mun: any) => {
+          allMunicipios.push(mun[1]);
+        });
+      });
+    });
+
+    // Count how many have data (with or without accent)
+    const comDados = allMunicipios.filter((mun) => {
+      const normalized = normalizeString(mun);
+      const comAcento = ipsData[mun.toUpperCase()];
+      const semAcento = ipsData[normalized];
+      return comAcento || semAcento;
+    });
+
+    expect(comDados.length).toBeGreaterThanOrEqual(494);
+    expect(allMunicipios.length).toBe(497);
+  });
+
+  it('deve ter estrutura de dados IPS correta com todos os indicadores', () => {
+    const dados = ipsData['PORTO ALEGRE'];
+    expect(dados).toBeDefined();
+
+    const ano2024 = dados['2024'];
+    expect(ano2024['Índice de Progresso Social']).toBeDefined();
+    expect(ano2024['Necessidades Humanas Básicas']).toBeDefined();
+    expect(ano2024['Fundamentos do Bem-estar']).toBeDefined();
+    expect(ano2024['Oportunidades']).toBeDefined();
+  });
+});

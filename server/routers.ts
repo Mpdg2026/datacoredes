@@ -644,11 +644,13 @@ export const portalRouter = router({
         const ipsData = JSON.parse(fs.readFileSync(ipsPath, 'utf-8'));
         
         let municipioNome = null;
+        let municipioNomeOriginal = null;
         for (const rf of Object.values(hierarchyData) as any[]) {
           for (const corede of Object.values(rf) as any[]) {
             if (Array.isArray(corede)) {
               for (const [codigo, nome] of corede) {
                 if (String(codigo) === input.codigoIBGE) {
+                  municipioNomeOriginal = nome;
                   municipioNome = normalizeString(nome);
                   break;
                 }
@@ -663,7 +665,21 @@ export const portalRouter = router({
           return null;
         }
         
-        return ipsData[municipioNome] || null;
+        // Tentar primeiro com acento (chave original em maiusculas)
+        const nomeComAcento = municipioNomeOriginal?.toUpperCase();
+        if (nomeComAcento && ipsData[nomeComAcento]) {
+          console.log('[IPS] Encontrado com acento:', nomeComAcento);
+          return ipsData[nomeComAcento];
+        }
+        
+        // Fallback: tentar sem acento (normalizado)
+        if (ipsData[municipioNome]) {
+          console.log('[IPS] Encontrado sem acento:', municipioNome);
+          return ipsData[municipioNome];
+        }
+        
+        console.log('[IPS] Dados nao encontrados para:', municipioNome);
+        return null;
       } catch (error) {
         console.error('Erro ao carregar dados de IPS:', error);
         return null;
