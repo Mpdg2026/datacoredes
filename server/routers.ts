@@ -685,6 +685,75 @@ export const portalRouter = router({
         return null;
       }
     }),
+
+  /**
+   * Buscar dados IDHM (Indice de Desenvolvimento Humano Municipal) de um municipio
+   */
+  idhm: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.number().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        const idhmPath = path.join(process.cwd(), 'public', 'idhm-municipios.json');
+        if (!fs.existsSync(idhmPath)) {
+          return null;
+        }
+        const idhmData = JSON.parse(fs.readFileSync(idhmPath, 'utf-8'));
+        
+        let municipioNome = null;
+        let municipioNomeOriginal = null;
+        for (const rf of Object.values(hierarchyData) as any[]) {
+          for (const corede of Object.values(rf) as any[]) {
+            if (Array.isArray(corede)) {
+              for (const [codigo, nome] of corede) {
+                if (String(codigo) === input.codigoIBGE.toString()) {
+                  municipioNomeOriginal = nome;
+                  municipioNome = normalizeString(nome);
+                  break;
+                }
+              }
+              if (municipioNome) break;
+            }
+          }
+          if (municipioNome) break;
+        }
+        
+        if (!municipioNome) {
+          return null;
+        }
+        
+        // Procurar nos dados IDHM (estrutura: RF -> COREDE -> [{ nome, idhm_1991, idhm_2000, idhm_2010 }])
+        for (const rf of Object.values(idhmData) as any[]) {
+          for (const coredes of Object.values(rf) as any[]) {
+            if (Array.isArray(coredes)) {
+              for (const municipio of coredes) {
+                const municipioDataNormalized = normalizeString(municipio.nome);
+                if (municipioDataNormalized === municipioNome) {
+                  console.log('[IDHM] Encontrado:', municipio.nome);
+                  return municipio;
+                }
+              }
+            }
+          }
+        }
+        
+        console.log('[IDHM] Dados nao encontrados para:', municipioNome);
+        return null;
+      } catch (error) {
+        console.error('Erro ao carregar dados de IDHM:', error);
+        return null;
+      }
+    }),
 });
 
 export const appRouter = router({

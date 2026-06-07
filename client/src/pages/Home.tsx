@@ -26,10 +26,6 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-[#001f5c] mb-12 text-center">Funcionalidades</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a]">
-              <h4 className="text-xl font-bold text-[#001f5c] mb-2">Desenvolvimento Humano</h4>
-              <p className="text-gray-600">Índice de Desenvolvimento Socioeconômico (IDESE) 2020</p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a]">
               <h4 className="text-xl font-bold text-[#001f5c] mb-2">Governança Municipal</h4>
               <p className="text-gray-600">Índice de Gestão Municipal (IGM) 2025</p>
             </div>

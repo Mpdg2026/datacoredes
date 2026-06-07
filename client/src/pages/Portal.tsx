@@ -21,7 +21,7 @@ export default function Portal() {
   const [selectedCorede, setSelectedCorede] = useState<number | null>(null);
   const [selectedMunicipio, setSelectedMunicipio] = useState<number | null>(null);
   const [selectedMunicipioComparacao, setSelectedMunicipioComparacao] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState('violencia');
+  const [activeTab, setActiveTab] = useState('idhm');
   const [showComparacao, setShowComparacao] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
@@ -75,6 +75,12 @@ export default function Portal() {
   // Rankings de Economia
   const rankingEconomia = trpc.portal.rankingEconomia.useQuery(
     { indicador: "pib_total", limite: 10 }
+  );
+
+  // IDHM - Dados de Desenvolvimento Humano
+  const idhm = trpc.portal.idhm.useQuery(
+    { codigoIBGE: codigoIBGE || 0 },
+    { enabled: !!codigoIBGE }
   );
 
   // ============ HANDLERS - FILTROS ============
@@ -246,6 +252,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência Contra a Mulher
+              </TabsTrigger>
+              <TabsTrigger value="idhm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Desenvolvimento Humano
               </TabsTrigger>
               <TabsTrigger value="ips" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 IPS
@@ -475,6 +484,102 @@ export default function Portal() {
             {/* ============ ABA VIOLÊNCIA CONTRA A MULHER ============ */}
             <TabsContent value="violencia-mulher" className="space-y-6">
               <ViolenciaMulher selectedMunicipio={codigoIBGE ? String(codigoIBGE) : undefined} nomeMunicipio={nomeMunicipio} selectedCorede={selectedCorede ? String(selectedCorede) : undefined} />
+            </TabsContent>
+
+            {/* ============ ABA IDHM ============ */}
+            <TabsContent value="idhm" className="space-y-6">
+              {idhm.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados IDHM...</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {idhm.data && (
+                <>
+                  {/* Cards de IDHM */}
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <Card className="border-t-4 border-t-blue-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">IDHM 1991</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-blue-600">{idhm.data.idhm_1991?.toFixed(3) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Desenvolvimento Humano</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-green-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">IDHM 2000</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-green-600">{idhm.data.idhm_2000?.toFixed(3) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Desenvolvimento Humano</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="border-t-4 border-t-yellow-500">
+                      <CardHeader>
+                        <CardTitle className="text-lg">IDHM 2010</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-4xl font-bold text-yellow-600">{idhm.data.idhm_2010?.toFixed(3) || 'S/D'}</p>
+                        <p className="text-sm text-gray-500 mt-2">Índice de Desenvolvimento Humano</p>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  {/* Gráfico de Evolução */}
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Evolução do IDHM (1991-2010)</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <ResponsiveContainer width="100%" height={300}>
+                        <LineChart data={[
+                          {
+                            ano: '1991',
+                            valor: idhm.data.idhm_1991 || 0,
+                          },
+                          {
+                            ano: '2000',
+                            valor: idhm.data.idhm_2000 || 0,
+                          },
+                          {
+                            ano: '2010',
+                            valor: idhm.data.idhm_2010 || 0,
+                          },
+                        ]}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="ano" />
+                          <YAxis domain={[0, 1]} />
+                          <Tooltip />
+                          <Legend />
+                          <Line type="monotone" dataKey="valor" stroke="#f4b41a" strokeWidth={2} name="IDHM" />
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </CardContent>
+                  </Card>
+                </>
+              )}
+
+              {!idhm.data && !idhm.isLoading && (
+                <Card className="border-dashed">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Dados não disponíveis para este município</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {idhm.error && (
+                <Card className="border-red-500">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-500">Erro ao carregar dados IDHM</p>
+                  </CardContent>
+                </Card>
+              )}
             </TabsContent>
 
             {/* ============ ABA IPS ============ */}

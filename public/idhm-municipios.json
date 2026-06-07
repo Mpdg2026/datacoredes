@@ -1,0 +1,3052 @@
+{
+  "RF6": {
+    "Campanha": [
+      {
+        "nome": "Aceguá",
+        "idhm_1991": 0.509,
+        "idhm_2000": 0.621,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Bagé",
+        "idhm_1991": 0.561,
+        "idhm_2000": 0.659,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Caçapava do Sul",
+        "idhm_1991": 0.494,
+        "idhm_2000": 0.599,
+        "idhm_2010": 0.704
+      },
+      {
+        "nome": "Candiota",
+        "idhm_1991": 0.502,
+        "idhm_2000": 0.622,
+        "idhm_2010": 0.698
+      },
+      {
+        "nome": "Dom Pedrito",
+        "idhm_1991": 0.515,
+        "idhm_2000": 0.621,
+        "idhm_2010": 0.708
+      },
+      {
+        "nome": "Horizontina",
+        "idhm_1991": 0.568,
+        "idhm_2000": 0.725,
+        "idhm_2010": 0.783
+      },
+      {
+        "nome": "Lajeado do Bugre",
+        "idhm_1991": 0.233,
+        "idhm_2000": 0.504,
+        "idhm_2010": 0.613
+      }
+    ],
+    "Fronteira Oeste": [
+      {
+        "nome": "Alegrete",
+        "idhm_1991": 0.524,
+        "idhm_2000": 0.641,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Barra do Quaraí",
+        "idhm_1991": 0.479,
+        "idhm_2000": 0.549,
+        "idhm_2010": 0.662
+      },
+      {
+        "nome": "Itaara",
+        "idhm_1991": 0.45,
+        "idhm_2000": 0.607,
+        "idhm_2010": 0.76
+      },
+      {
+        "nome": "Itapuca",
+        "idhm_1991": 0.377,
+        "idhm_2000": 0.495,
+        "idhm_2010": 0.664
+      },
+      {
+        "nome": "Linha Nova",
+        "idhm_1991": 0.475,
+        "idhm_2000": 0.611,
+        "idhm_2010": 0.749
+      },
+      {
+        "nome": "Mampituba",
+        "idhm_1991": 0.372,
+        "idhm_2000": 0.518,
+        "idhm_2010": 0.649
+      },
+      {
+        "nome": "Quaraí",
+        "idhm_1991": 0.542,
+        "idhm_2000": 0.63,
+        "idhm_2010": 0.704
+      },
+      {
+        "nome": "Rosário do Sul",
+        "idhm_1991": 0.496,
+        "idhm_2000": 0.616,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Santa Margarida do Sul",
+        "idhm_1991": 0.426,
+        "idhm_2000": 0.526,
+        "idhm_2010": 0.663
+      },
+      {
+        "nome": "Sant'Ana do Livramento",
+        "idhm_1991": 0.557,
+        "idhm_2000": 0.663,
+        "idhm_2010": 0.727
+      },
+      {
+        "nome": "São Borja",
+        "idhm_1991": 0.54,
+        "idhm_2000": 0.637,
+        "idhm_2010": 0.736
+      },
+      {
+        "nome": "São Gabriel",
+        "idhm_1991": 0.518,
+        "idhm_2000": 0.624,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Uruguaiana",
+        "idhm_1991": 0.55,
+        "idhm_2000": 0.663,
+        "idhm_2010": 0.744
+      }
+    ]
+  },
+  "RF9": {
+    "Nordeste": [
+      {
+        "nome": "Água Santa",
+        "idhm_1991": 0.448,
+        "idhm_2000": 0.63,
+        "idhm_2010": 0.75
+      },
+      {
+        "nome": "Barracão",
+        "idhm_1991": 0.439,
+        "idhm_2000": 0.566,
+        "idhm_2010": 0.71
+      },
+      {
+        "nome": "Cacique Doble",
+        "idhm_1991": 0.424,
+        "idhm_2000": 0.576,
+        "idhm_2010": 0.662
+      },
+      {
+        "nome": "Capão Bonito do Sul",
+        "idhm_1991": 0.442,
+        "idhm_2000": 0.531,
+        "idhm_2010": 0.637
+      },
+      {
+        "nome": "Caseiros",
+        "idhm_1991": 0.415,
+        "idhm_2000": 0.59,
+        "idhm_2010": 0.703
+      },
+      {
+        "nome": "Ibarama",
+        "idhm_1991": 0.369,
+        "idhm_2000": 0.528,
+        "idhm_2010": 0.652
+      },
+      {
+        "nome": "Ibiaçá",
+        "idhm_1991": 0.484,
+        "idhm_2000": 0.677,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Lagoa dos Três Cantos",
+        "idhm_1991": 0.566,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.789
+      },
+      {
+        "nome": "Maçambará",
+        "idhm_1991": 0.403,
+        "idhm_2000": 0.562,
+        "idhm_2010": 0.684
+      },
+      {
+        "nome": "Mato Queimado",
+        "idhm_1991": 0.461,
+        "idhm_2000": 0.617,
+        "idhm_2010": 0.717
+      },
+      {
+        "nome": "Osório",
+        "idhm_1991": 0.565,
+        "idhm_2000": 0.671,
+        "idhm_2010": 0.751
+      },
+      {
+        "nome": "Sananduva",
+        "idhm_1991": 0.513,
+        "idhm_2000": 0.66,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Santa Cecília do Sul",
+        "idhm_1991": 0.372,
+        "idhm_2000": 0.529,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "Santo Expedito do Sul",
+        "idhm_1991": 0.379,
+        "idhm_2000": 0.627,
+        "idhm_2010": 0.732
+      },
+      {
+        "nome": "São João da Urtiga",
+        "idhm_1991": 0.428,
+        "idhm_2000": 0.572,
+        "idhm_2010": 0.694
+      },
+      {
+        "nome": "São José do Ouro",
+        "idhm_1991": 0.489,
+        "idhm_2000": 0.653,
+        "idhm_2010": 0.755
+      },
+      {
+        "nome": "Tapejara",
+        "idhm_1991": 0.49,
+        "idhm_2000": 0.66,
+        "idhm_2010": 0.76
+      },
+      {
+        "nome": "Tupanci do Sul",
+        "idhm_1991": 0.401,
+        "idhm_2000": 0.57,
+        "idhm_2010": 0.694
+      },
+      {
+        "nome": "Vila Lângaro",
+        "idhm_1991": 0.412,
+        "idhm_2000": 0.616,
+        "idhm_2010": 0.705
+      }
+    ],
+    "Produção": [
+      {
+        "nome": "Almirante Tamandaré do Sul",
+        "idhm_1991": 0.491,
+        "idhm_2000": 0.601,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Camargo",
+        "idhm_1991": 0.457,
+        "idhm_2000": 0.661,
+        "idhm_2010": 0.736
+      },
+      {
+        "nome": "Carazinho",
+        "idhm_1991": 0.562,
+        "idhm_2000": 0.678,
+        "idhm_2010": 0.766
+      },
+      {
+        "nome": "Casca",
+        "idhm_1991": 0.531,
+        "idhm_2000": 0.688,
+        "idhm_2010": 0.785
+      },
+      {
+        "nome": "Ciríaco",
+        "idhm_1991": 0.446,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.719
+      },
+      {
+        "nome": "Coqueiros do Sul",
+        "idhm_1991": 0.422,
+        "idhm_2000": 0.601,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Coxilha",
+        "idhm_1991": 0.415,
+        "idhm_2000": 0.594,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "David Canabarro",
+        "idhm_1991": 0.499,
+        "idhm_2000": 0.629,
+        "idhm_2010": 0.762
+      },
+      {
+        "nome": "Ernestina",
+        "idhm_1991": 0.475,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.716
+      },
+      {
+        "nome": "General Câmara",
+        "idhm_1991": 0.471,
+        "idhm_2000": 0.619,
+        "idhm_2010": 0.686
+      },
+      {
+        "nome": "Maratá",
+        "idhm_1991": 0.474,
+        "idhm_2000": 0.591,
+        "idhm_2010": 0.697
+      },
+      {
+        "nome": "Mata",
+        "idhm_1991": 0.431,
+        "idhm_2000": 0.551,
+        "idhm_2010": 0.656
+      },
+      {
+        "nome": "Muitos Capões",
+        "idhm_1991": 0.397,
+        "idhm_2000": 0.534,
+        "idhm_2010": 0.702
+      },
+      {
+        "nome": "Nonoai",
+        "idhm_1991": 0.442,
+        "idhm_2000": 0.584,
+        "idhm_2010": 0.702
+      },
+      {
+        "nome": "Passo do Sobrado",
+        "idhm_1991": 0.483,
+        "idhm_2000": 0.601,
+        "idhm_2010": 0.698
+      },
+      {
+        "nome": "Pontão",
+        "idhm_1991": 0.373,
+        "idhm_2000": 0.585,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "Santo Antônio do Palma",
+        "idhm_1991": 0.453,
+        "idhm_2000": 0.667,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Santo Antônio do Planalto",
+        "idhm_1991": 0.51,
+        "idhm_2000": 0.693,
+        "idhm_2010": 0.759
+      },
+      {
+        "nome": "São Domingos do Sul",
+        "idhm_1991": 0.568,
+        "idhm_2000": 0.69,
+        "idhm_2010": 0.763
+      },
+      {
+        "nome": "Vanini",
+        "idhm_1991": 0.563,
+        "idhm_2000": 0.673,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Vila Maria",
+        "idhm_1991": 0.464,
+        "idhm_2000": 0.662,
+        "idhm_2010": 0.761
+      }
+    ],
+    "Médio Alto Uruguai": [
+      {
+        "nome": "Alpestre",
+        "idhm_1991": 0.346,
+        "idhm_2000": 0.524,
+        "idhm_2010": 0.671
+      },
+      {
+        "nome": "Ametista do Sul",
+        "idhm_1991": 0.392,
+        "idhm_2000": 0.539,
+        "idhm_2010": 0.682
+      },
+      {
+        "nome": "Caiçara",
+        "idhm_1991": 0.471,
+        "idhm_2000": 0.612,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Cristal do Sul",
+        "idhm_1991": 0.315,
+        "idhm_2000": 0.516,
+        "idhm_2010": 0.66
+      },
+      {
+        "nome": "Dois Irmãos das Missões",
+        "idhm_1991": 0.363,
+        "idhm_2000": 0.559,
+        "idhm_2010": 0.67
+      },
+      {
+        "nome": "Erval Seco",
+        "idhm_1991": 0.434,
+        "idhm_2000": 0.538,
+        "idhm_2010": 0.685
+      },
+      {
+        "nome": "Fortaleza dos Valos",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.658,
+        "idhm_2010": 0.756
+      },
+      {
+        "nome": "Gramado",
+        "idhm_1991": 0.546,
+        "idhm_2000": 0.698,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Ipiranga do Sul",
+        "idhm_1991": 0.488,
+        "idhm_2000": 0.673,
+        "idhm_2010": 0.791
+      },
+      {
+        "nome": "Nicolau Vergueiro",
+        "idhm_1991": 0.41,
+        "idhm_2000": 0.676,
+        "idhm_2010": 0.753
+      },
+      {
+        "nome": "Novo Machado",
+        "idhm_1991": 0.447,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.663
+      },
+      {
+        "nome": "Palmeira das Missões",
+        "idhm_1991": 0.5,
+        "idhm_2000": 0.635,
+        "idhm_2010": 0.737
+      },
+      {
+        "nome": "Picada Café",
+        "idhm_1991": 0.52,
+        "idhm_2000": 0.653,
+        "idhm_2010": 0.758
+      },
+      {
+        "nome": "Pinhal Grande",
+        "idhm_1991": 0.405,
+        "idhm_2000": 0.566,
+        "idhm_2010": 0.678
+      },
+      {
+        "nome": "Planalto",
+        "idhm_1991": 0.444,
+        "idhm_2000": 0.587,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Rio dos Índios",
+        "idhm_1991": 0.327,
+        "idhm_2000": 0.512,
+        "idhm_2010": 0.656
+      },
+      {
+        "nome": "Rodeio Bonito",
+        "idhm_1991": 0.496,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.732
+      },
+      {
+        "nome": "Seberi",
+        "idhm_1991": 0.406,
+        "idhm_2000": 0.597,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Taquaruçu do Sul",
+        "idhm_1991": 0.435,
+        "idhm_2000": 0.588,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Trindade do Sul",
+        "idhm_1991": 0.378,
+        "idhm_2000": 0.561,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Vicente Dutra",
+        "idhm_1991": 0.358,
+        "idhm_2000": 0.489,
+        "idhm_2010": 0.638
+      },
+      {
+        "nome": "Vista Alegre",
+        "idhm_1991": 0.452,
+        "idhm_2000": 0.632,
+        "idhm_2010": 0.739
+      }
+    ],
+    "Alto da Serra do Botucaraí": [
+      {
+        "nome": "Alto Alegre",
+        "idhm_1991": 0.567,
+        "idhm_2000": 0.662,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Barros Cassal",
+        "idhm_1991": 0.361,
+        "idhm_2000": 0.511,
+        "idhm_2010": 0.65
+      },
+      {
+        "nome": "Campos Borges",
+        "idhm_1991": 0.428,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.708
+      },
+      {
+        "nome": "Espumoso",
+        "idhm_1991": 0.519,
+        "idhm_2000": 0.653,
+        "idhm_2010": 0.765
+      },
+      {
+        "nome": "Gramado dos Loureiros",
+        "idhm_1991": 0.336,
+        "idhm_2000": 0.573,
+        "idhm_2010": 0.685
+      },
+      {
+        "nome": "Ibiraiaras",
+        "idhm_1991": 0.489,
+        "idhm_2000": 0.645,
+        "idhm_2010": 0.724
+      },
+      {
+        "nome": "Itacurubi",
+        "idhm_1991": 0.42,
+        "idhm_2000": 0.539,
+        "idhm_2010": 0.657
+      },
+      {
+        "nome": "Jaboticaba",
+        "idhm_1991": 0.414,
+        "idhm_2000": 0.51,
+        "idhm_2010": 0.658
+      },
+      {
+        "nome": "Lagoa Vermelha",
+        "idhm_1991": 0.52,
+        "idhm_2000": 0.65,
+        "idhm_2010": 0.738
+      },
+      {
+        "nome": "Montenegro",
+        "idhm_1991": 0.543,
+        "idhm_2000": 0.668,
+        "idhm_2010": 0.755
+      },
+      {
+        "nome": "Não-Me-Toque",
+        "idhm_1991": 0.572,
+        "idhm_2000": 0.692,
+        "idhm_2010": 0.765
+      },
+      {
+        "nome": "São José do Herval",
+        "idhm_1991": 0.407,
+        "idhm_2000": 0.555,
+        "idhm_2010": 0.717
+      },
+      {
+        "nome": "Soledade",
+        "idhm_1991": 0.522,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.731
+      },
+      {
+        "nome": "Tio Hugo",
+        "idhm_1991": 0.428,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.742
+      },
+      {
+        "nome": "Victor Graeff",
+        "idhm_1991": 0.516,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.777
+      }
+    ],
+    "Norte": [
+      {
+        "nome": "Aratiba",
+        "idhm_1991": 0.455,
+        "idhm_2000": 0.615,
+        "idhm_2010": 0.772
+      },
+      {
+        "nome": "Áurea",
+        "idhm_1991": 0.408,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.707
+      },
+      {
+        "nome": "Barão de Cotegipe",
+        "idhm_1991": 0.45,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.719
+      },
+      {
+        "nome": "Barra do Rio Azul",
+        "idhm_1991": 0.443,
+        "idhm_2000": 0.561,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Benjamin Constant do Sul",
+        "idhm_1991": 0.312,
+        "idhm_2000": 0.45,
+        "idhm_2010": 0.619
+      },
+      {
+        "nome": "Campinas do Sul",
+        "idhm_1991": 0.528,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.76
+      },
+      {
+        "nome": "Carlos Gomes",
+        "idhm_1991": 0.423,
+        "idhm_2000": 0.596,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Centenário",
+        "idhm_1991": 0.39,
+        "idhm_2000": 0.545,
+        "idhm_2010": 0.701
+      },
+      {
+        "nome": "Charrua",
+        "idhm_1991": 0.375,
+        "idhm_2000": 0.501,
+        "idhm_2010": 0.62
+      },
+      {
+        "nome": "Cruzaltense",
+        "idhm_1991": 0.356,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.719
+      },
+      {
+        "nome": "Entre Rios do Sul",
+        "idhm_1991": 0.382,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.703
+      },
+      {
+        "nome": "Erebango",
+        "idhm_1991": 0.459,
+        "idhm_2000": 0.606,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Erechim",
+        "idhm_1991": 0.578,
+        "idhm_2000": 0.696,
+        "idhm_2010": 0.776
+      },
+      {
+        "nome": "Erval Grande",
+        "idhm_1991": 0.338,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.681
+      },
+      {
+        "nome": "Estação",
+        "idhm_1991": 0.534,
+        "idhm_2000": 0.662,
+        "idhm_2010": 0.753
+      },
+      {
+        "nome": "Faxinalzinho",
+        "idhm_1991": 0.408,
+        "idhm_2000": 0.574,
+        "idhm_2010": 0.666
+      },
+      {
+        "nome": "Floriano Peixoto",
+        "idhm_1991": 0.347,
+        "idhm_2000": 0.532,
+        "idhm_2010": 0.663
+      },
+      {
+        "nome": "Garruchos",
+        "idhm_1991": 0.252,
+        "idhm_2000": 0.549,
+        "idhm_2010": 0.671
+      },
+      {
+        "nome": "Gentil",
+        "idhm_1991": 0.41,
+        "idhm_2000": 0.628,
+        "idhm_2010": 0.733
+      },
+      {
+        "nome": "Ipê",
+        "idhm_1991": 0.503,
+        "idhm_2000": 0.615,
+        "idhm_2010": 0.728
+      },
+      {
+        "nome": "Itati",
+        "idhm_1991": 0.397,
+        "idhm_2000": 0.554,
+        "idhm_2010": 0.669
+      },
+      {
+        "nome": "Jacuizinho",
+        "idhm_1991": 0.344,
+        "idhm_2000": 0.466,
+        "idhm_2010": 0.662
+      },
+      {
+        "nome": "Marau",
+        "idhm_1991": 0.542,
+        "idhm_2000": 0.678,
+        "idhm_2010": 0.774
+      },
+      {
+        "nome": "Mariana Pimentel",
+        "idhm_1991": 0.449,
+        "idhm_2000": 0.604,
+        "idhm_2010": 0.701
+      },
+      {
+        "nome": "Passo Fundo",
+        "idhm_1991": 0.589,
+        "idhm_2000": 0.701,
+        "idhm_2010": 0.776
+      },
+      {
+        "nome": "Ponte Preta",
+        "idhm_1991": 0.336,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "Quatro Irmãos",
+        "idhm_1991": 0.33,
+        "idhm_2000": 0.504,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "São Valentim",
+        "idhm_1991": 0.458,
+        "idhm_2000": 0.544,
+        "idhm_2010": 0.72
+      },
+      {
+        "nome": "Sertão",
+        "idhm_1991": 0.495,
+        "idhm_2000": 0.684,
+        "idhm_2010": 0.751
+      },
+      {
+        "nome": "Severiano de Almeida",
+        "idhm_1991": 0.451,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.752
+      },
+      {
+        "nome": "Três Arroios",
+        "idhm_1991": 0.482,
+        "idhm_2000": 0.637,
+        "idhm_2010": 0.791
+      },
+      {
+        "nome": "Viadutos",
+        "idhm_1991": 0.417,
+        "idhm_2000": 0.567,
+        "idhm_2010": 0.702
+      }
+    ],
+    "Rio da Várzea": [
+      {
+        "nome": "Barra Funda",
+        "idhm_1991": 0.501,
+        "idhm_2000": 0.666,
+        "idhm_2010": 0.763
+      },
+      {
+        "nome": "Boa Vista das Missões",
+        "idhm_1991": 0.34,
+        "idhm_2000": 0.605,
+        "idhm_2010": 0.676
+      },
+      {
+        "nome": "Cerro Grande",
+        "idhm_1991": 0.388,
+        "idhm_2000": 0.557,
+        "idhm_2010": 0.674
+      },
+      {
+        "nome": "Chapada",
+        "idhm_1991": 0.49,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Constantina",
+        "idhm_1991": 0.488,
+        "idhm_2000": 0.63,
+        "idhm_2010": 0.754
+      },
+      {
+        "nome": "Engenho Velho",
+        "idhm_1991": 0.353,
+        "idhm_2000": 0.533,
+        "idhm_2010": 0.717
+      },
+      {
+        "nome": "Ivoti",
+        "idhm_1991": 0.551,
+        "idhm_2000": 0.697,
+        "idhm_2010": 0.784
+      },
+      {
+        "nome": "Lajeado",
+        "idhm_1991": 0.598,
+        "idhm_2000": 0.715,
+        "idhm_2010": 0.778
+      },
+      {
+        "nome": "Lavras do Sul",
+        "idhm_1991": 0.504,
+        "idhm_2000": 0.629,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Nova Bassano",
+        "idhm_1991": 0.525,
+        "idhm_2000": 0.674,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Nova Santa Rita",
+        "idhm_1991": 0.455,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.718
+      },
+      {
+        "nome": "Novo Tiradentes",
+        "idhm_1991": 0.406,
+        "idhm_2000": 0.538,
+        "idhm_2010": 0.676
+      },
+      {
+        "nome": "Palmares do Sul",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.715
+      },
+      {
+        "nome": "Ronda Alta",
+        "idhm_1991": 0.457,
+        "idhm_2000": 0.619,
+        "idhm_2010": 0.724
+      },
+      {
+        "nome": "Rondinha",
+        "idhm_1991": 0.494,
+        "idhm_2000": 0.65,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Sagrada Família",
+        "idhm_1991": 0.327,
+        "idhm_2000": 0.541,
+        "idhm_2010": 0.678
+      },
+      {
+        "nome": "São José das Missões",
+        "idhm_1991": 0.326,
+        "idhm_2000": 0.54,
+        "idhm_2010": 0.651
+      },
+      {
+        "nome": "São Pedro das Missões",
+        "idhm_1991": 0.398,
+        "idhm_2000": 0.471,
+        "idhm_2010": 0.664
+      },
+      {
+        "nome": "Sarandi",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.677,
+        "idhm_2010": 0.777
+      },
+      {
+        "nome": "Três Palmeiras",
+        "idhm_1991": 0.388,
+        "idhm_2000": 0.594,
+        "idhm_2010": 0.703
+      }
+    ]
+  },
+  "RF8": {
+    "Central": [
+      {
+        "nome": "Agudo",
+        "idhm_1991": 0.449,
+        "idhm_2000": 0.593,
+        "idhm_2010": 0.694
+      },
+      {
+        "nome": "Dilermando de Aguiar",
+        "idhm_1991": 0.411,
+        "idhm_2000": 0.558,
+        "idhm_2010": 0.648
+      },
+      {
+        "nome": "Dona Francisca",
+        "idhm_1991": 0.479,
+        "idhm_2000": 0.605,
+        "idhm_2010": 0.697
+      },
+      {
+        "nome": "Faxinal do Soturno",
+        "idhm_1991": 0.54,
+        "idhm_2000": 0.643,
+        "idhm_2010": 0.72
+      },
+      {
+        "nome": "Fontoura Xavier",
+        "idhm_1991": 0.331,
+        "idhm_2000": 0.504,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Iraí",
+        "idhm_1991": 0.469,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.691
+      },
+      {
+        "nome": "Itatiba do Sul",
+        "idhm_1991": 0.374,
+        "idhm_2000": 0.533,
+        "idhm_2010": 0.681
+      },
+      {
+        "nome": "Jaquirana",
+        "idhm_1991": 0.363,
+        "idhm_2000": 0.47,
+        "idhm_2010": 0.614
+      },
+      {
+        "nome": "Jóia",
+        "idhm_1991": 0.45,
+        "idhm_2000": 0.587,
+        "idhm_2010": 0.686
+      },
+      {
+        "nome": "Nova Pádua",
+        "idhm_1991": 0.525,
+        "idhm_2000": 0.688,
+        "idhm_2010": 0.761
+      },
+      {
+        "nome": "Pinhal da Serra",
+        "idhm_1991": 0.278,
+        "idhm_2000": 0.512,
+        "idhm_2010": 0.65
+      },
+      {
+        "nome": "Quevedos",
+        "idhm_1991": 0.343,
+        "idhm_2000": 0.491,
+        "idhm_2010": 0.665
+      },
+      {
+        "nome": "Santa Maria",
+        "idhm_1991": 0.609,
+        "idhm_2000": 0.715,
+        "idhm_2010": 0.784
+      },
+      {
+        "nome": "São João do Polêsine",
+        "idhm_1991": 0.499,
+        "idhm_2000": 0.686,
+        "idhm_2010": 0.748
+      },
+      {
+        "nome": "São Martinho da Serra",
+        "idhm_1991": 0.369,
+        "idhm_2000": 0.541,
+        "idhm_2010": 0.652
+      },
+      {
+        "nome": "São Pedro do Sul",
+        "idhm_1991": 0.476,
+        "idhm_2000": 0.614,
+        "idhm_2010": 0.709
+      },
+      {
+        "nome": "Silveira Martins",
+        "idhm_1991": 0.502,
+        "idhm_2000": 0.652,
+        "idhm_2010": 0.742
+      },
+      {
+        "nome": "Toropi",
+        "idhm_1991": 0.368,
+        "idhm_2000": 0.52,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "Tupanciretã",
+        "idhm_1991": 0.512,
+        "idhm_2000": 0.612,
+        "idhm_2010": 0.709
+      }
+    ],
+    "Alto Jacuí": [
+      {
+        "nome": "Boa Vista do Cadeado",
+        "idhm_1991": 0.411,
+        "idhm_2000": 0.585,
+        "idhm_2010": 0.703
+      },
+      {
+        "nome": "Boa Vista do Incra",
+        "idhm_1991": 0.486,
+        "idhm_2000": 0.643,
+        "idhm_2010": 0.731
+      },
+      {
+        "nome": "Colorado",
+        "idhm_1991": 0.548,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.758
+      },
+      {
+        "nome": "Cruz Alta",
+        "idhm_1991": 0.559,
+        "idhm_2000": 0.679,
+        "idhm_2010": 0.75
+      },
+      {
+        "nome": "Forquetinha",
+        "idhm_1991": 0.467,
+        "idhm_2000": 0.553,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "Ibirapuitã",
+        "idhm_1991": 0.417,
+        "idhm_2000": 0.527,
+        "idhm_2010": 0.638
+      },
+      {
+        "nome": "Lagoa Bonita do Sul",
+        "idhm_1991": 0.339,
+        "idhm_2000": 0.533,
+        "idhm_2010": 0.67
+      },
+      {
+        "nome": "Muliterno",
+        "idhm_1991": 0.404,
+        "idhm_2000": 0.598,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Quinze de Novembro",
+        "idhm_1991": 0.477,
+        "idhm_2000": 0.657,
+        "idhm_2010": 0.756
+      },
+      {
+        "nome": "Saldanha Marinho",
+        "idhm_1991": 0.508,
+        "idhm_2000": 0.689,
+        "idhm_2010": 0.762
+      },
+      {
+        "nome": "Salto do Jacuí",
+        "idhm_1991": 0.459,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Santa Bárbara do Sul",
+        "idhm_1991": 0.541,
+        "idhm_2000": 0.653,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "Selbach",
+        "idhm_1991": 0.57,
+        "idhm_2000": 0.741,
+        "idhm_2010": 0.777
+      },
+      {
+        "nome": "Tapera",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.66,
+        "idhm_2010": 0.747
+      }
+    ],
+    "Vale do Jaguari": [
+      {
+        "nome": "Cacequi",
+        "idhm_1991": 0.491,
+        "idhm_2000": 0.58,
+        "idhm_2010": 0.7
+      },
+      {
+        "nome": "Capão do Cipó",
+        "idhm_1991": 0.383,
+        "idhm_2000": 0.561,
+        "idhm_2010": 0.672
+      },
+      {
+        "nome": "Jaguarão",
+        "idhm_1991": 0.512,
+        "idhm_2000": 0.62,
+        "idhm_2010": 0.707
+      },
+      {
+        "nome": "Marques de Souza",
+        "idhm_1991": 0.482,
+        "idhm_2000": 0.627,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Nova Candelária",
+        "idhm_1991": 0.385,
+        "idhm_2000": 0.603,
+        "idhm_2010": 0.759
+      },
+      {
+        "nome": "Santiago",
+        "idhm_1991": 0.559,
+        "idhm_2000": 0.696,
+        "idhm_2010": 0.766
+      },
+      {
+        "nome": "São Francisco de Assis",
+        "idhm_1991": 0.445,
+        "idhm_2000": 0.558,
+        "idhm_2010": 0.675
+      },
+      {
+        "nome": "São Vicente do Sul",
+        "idhm_1991": 0.488,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.685
+      },
+      {
+        "nome": "Unistalda",
+        "idhm_1991": 0.376,
+        "idhm_2000": 0.552,
+        "idhm_2010": 0.649
+      }
+    ],
+    "Jacuí Centro": [
+      {
+        "nome": "Cachoeira do Sul",
+        "idhm_1991": 0.546,
+        "idhm_2000": 0.661,
+        "idhm_2010": 0.742
+      },
+      {
+        "nome": "Cerro Branco",
+        "idhm_1991": 0.42,
+        "idhm_2000": 0.544,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Novo Barreiro",
+        "idhm_1991": 0.368,
+        "idhm_2000": 0.552,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "Paraí",
+        "idhm_1991": 0.566,
+        "idhm_2000": 0.678,
+        "idhm_2010": 0.773
+      },
+      {
+        "nome": "Restinga Seca",
+        "idhm_1991": 0.49,
+        "idhm_2000": 0.586,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "São Sepé",
+        "idhm_1991": 0.506,
+        "idhm_2000": 0.614,
+        "idhm_2010": 0.708
+      },
+      {
+        "nome": "Vila Nova do Sul",
+        "idhm_1991": 0.379,
+        "idhm_2000": 0.565,
+        "idhm_2010": 0.662
+      }
+    ]
+  },
+  "RF7": {
+    "Noroeste Colonial": [
+      {
+        "nome": "Ajuricaba",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.646,
+        "idhm_2010": 0.753
+      },
+      {
+        "nome": "Augusto Pestana",
+        "idhm_1991": 0.502,
+        "idhm_2000": 0.635,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Bozano",
+        "idhm_1991": 0.447,
+        "idhm_2000": 0.615,
+        "idhm_2010": 0.745
+      },
+      {
+        "nome": "Catuípe",
+        "idhm_1991": 0.542,
+        "idhm_2000": 0.635,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Condor",
+        "idhm_1991": 0.473,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Coronel Barros",
+        "idhm_1991": 0.451,
+        "idhm_2000": 0.612,
+        "idhm_2010": 0.744
+      },
+      {
+        "nome": "Igrejinha",
+        "idhm_1991": 0.481,
+        "idhm_2000": 0.603,
+        "idhm_2010": 0.721
+      },
+      {
+        "nome": "Jari",
+        "idhm_1991": 0.273,
+        "idhm_2000": 0.516,
+        "idhm_2010": 0.631
+      },
+      {
+        "nome": "Nova Prata",
+        "idhm_1991": 0.586,
+        "idhm_2000": 0.689,
+        "idhm_2010": 0.766
+      },
+      {
+        "nome": "Palmitinho",
+        "idhm_1991": 0.413,
+        "idhm_2000": 0.615,
+        "idhm_2010": 0.72
+      },
+      {
+        "nome": "Pedro Osório",
+        "idhm_1991": 0.518,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.678
+      }
+    ],
+    "Fronteira Noroeste": [
+      {
+        "nome": "Alecrim",
+        "idhm_1991": 0.425,
+        "idhm_2000": 0.548,
+        "idhm_2010": 0.672
+      },
+      {
+        "nome": "Alegria",
+        "idhm_1991": 0.412,
+        "idhm_2000": 0.578,
+        "idhm_2010": 0.695
+      },
+      {
+        "nome": "Boa Vista do Buricá",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.669,
+        "idhm_2010": 0.762
+      },
+      {
+        "nome": "Campina das Missões",
+        "idhm_1991": 0.515,
+        "idhm_2000": 0.607,
+        "idhm_2010": 0.738
+      },
+      {
+        "nome": "Cândido Godói",
+        "idhm_1991": 0.491,
+        "idhm_2000": 0.647,
+        "idhm_2010": 0.728
+      },
+      {
+        "nome": "Doutor Maurício Cardoso",
+        "idhm_1991": 0.482,
+        "idhm_2000": 0.65,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "Herveiras",
+        "idhm_1991": 0.299,
+        "idhm_2000": 0.441,
+        "idhm_2010": 0.616
+      },
+      {
+        "nome": "Imigrante",
+        "idhm_1991": 0.514,
+        "idhm_2000": 0.69,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Nova Bréscia",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.695,
+        "idhm_2010": 0.778
+      },
+      {
+        "nome": "Novo Hamburgo",
+        "idhm_1991": 0.544,
+        "idhm_2000": 0.671,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Porto Lucena",
+        "idhm_1991": 0.437,
+        "idhm_2000": 0.578,
+        "idhm_2010": 0.693
+      },
+      {
+        "nome": "Porto Mauá",
+        "idhm_1991": 0.474,
+        "idhm_2000": 0.593,
+        "idhm_2010": 0.698
+      },
+      {
+        "nome": "Porto Vera Cruz",
+        "idhm_1991": 0.406,
+        "idhm_2000": 0.544,
+        "idhm_2010": 0.69
+      },
+      {
+        "nome": "Santa Rosa",
+        "idhm_1991": 0.555,
+        "idhm_2000": 0.685,
+        "idhm_2010": 0.769
+      },
+      {
+        "nome": "Santo Cristo",
+        "idhm_1991": 0.503,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.738
+      },
+      {
+        "nome": "São José do Inhacorá",
+        "idhm_1991": 0.441,
+        "idhm_2000": 0.602,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Senador Salgado Filho",
+        "idhm_1991": 0.393,
+        "idhm_2000": 0.59,
+        "idhm_2010": 0.693
+      },
+      {
+        "nome": "Três de Maio",
+        "idhm_1991": 0.533,
+        "idhm_2000": 0.655,
+        "idhm_2010": 0.759
+      },
+      {
+        "nome": "Tucunduva",
+        "idhm_1991": 0.562,
+        "idhm_2000": 0.661,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Tuparendi",
+        "idhm_1991": 0.495,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.728
+      }
+    ],
+    "Celeiro": [
+      {
+        "nome": "Barra do Guarita",
+        "idhm_1991": 0.41,
+        "idhm_2000": 0.559,
+        "idhm_2010": 0.734
+      },
+      {
+        "nome": "Bom Progresso",
+        "idhm_1991": 0.407,
+        "idhm_2000": 0.566,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Braga",
+        "idhm_1991": 0.375,
+        "idhm_2000": 0.553,
+        "idhm_2010": 0.674
+      },
+      {
+        "nome": "Campo Novo",
+        "idhm_1991": 0.477,
+        "idhm_2000": 0.568,
+        "idhm_2010": 0.703
+      },
+      {
+        "nome": "Chiapetta",
+        "idhm_1991": 0.496,
+        "idhm_2000": 0.606,
+        "idhm_2010": 0.732
+      },
+      {
+        "nome": "Coronel Bicaco",
+        "idhm_1991": 0.445,
+        "idhm_2000": 0.579,
+        "idhm_2010": 0.665
+      },
+      {
+        "nome": "Crissiumal",
+        "idhm_1991": 0.469,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Derrubadas",
+        "idhm_1991": 0.361,
+        "idhm_2000": 0.573,
+        "idhm_2010": 0.707
+      },
+      {
+        "nome": "Esperança do Sul",
+        "idhm_1991": 0.398,
+        "idhm_2000": 0.498,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Hulha Negra",
+        "idhm_1991": 0.386,
+        "idhm_2000": 0.569,
+        "idhm_2010": 0.643
+      },
+      {
+        "nome": "Independência",
+        "idhm_1991": 0.465,
+        "idhm_2000": 0.601,
+        "idhm_2010": 0.693
+      },
+      {
+        "nome": "Minas do Leão",
+        "idhm_1991": 0.417,
+        "idhm_2000": 0.547,
+        "idhm_2010": 0.681
+      },
+      {
+        "nome": "Redentora",
+        "idhm_1991": 0.35,
+        "idhm_2000": 0.464,
+        "idhm_2010": 0.631
+      },
+      {
+        "nome": "Santo Augusto",
+        "idhm_1991": 0.48,
+        "idhm_2000": 0.627,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "São Martinho",
+        "idhm_1991": 0.47,
+        "idhm_2000": 0.638,
+        "idhm_2010": 0.726
+      },
+      {
+        "nome": "São Valério do Sul",
+        "idhm_1991": 0.431,
+        "idhm_2000": 0.532,
+        "idhm_2010": 0.642
+      },
+      {
+        "nome": "Sede Nova",
+        "idhm_1991": 0.451,
+        "idhm_2000": 0.571,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Tenente Portela",
+        "idhm_1991": 0.48,
+        "idhm_2000": 0.607,
+        "idhm_2010": 0.708
+      },
+      {
+        "nome": "Tiradentes do Sul",
+        "idhm_1991": 0.392,
+        "idhm_2000": 0.551,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Três Passos",
+        "idhm_1991": 0.523,
+        "idhm_2000": 0.686,
+        "idhm_2010": 0.768
+      },
+      {
+        "nome": "Vista Gaúcha",
+        "idhm_1991": 0.461,
+        "idhm_2000": 0.619,
+        "idhm_2010": 0.757
+      }
+    ],
+    "Missões": [
+      {
+        "nome": "Bossoroca",
+        "idhm_1991": 0.457,
+        "idhm_2000": 0.586,
+        "idhm_2010": 0.692
+      },
+      {
+        "nome": "Caibaté",
+        "idhm_1991": 0.483,
+        "idhm_2000": 0.614,
+        "idhm_2010": 0.719
+      },
+      {
+        "nome": "Cerro Largo",
+        "idhm_1991": 0.541,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Dezesseis de Novembro",
+        "idhm_1991": 0.408,
+        "idhm_2000": 0.529,
+        "idhm_2010": 0.654
+      },
+      {
+        "nome": "Entre-Ijuís",
+        "idhm_1991": 0.473,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.68
+      },
+      {
+        "nome": "Eugênio de Castro",
+        "idhm_1991": 0.469,
+        "idhm_2000": 0.621,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Garibaldi",
+        "idhm_1991": 0.575,
+        "idhm_2000": 0.712,
+        "idhm_2010": 0.786
+      },
+      {
+        "nome": "Getúlio Vargas",
+        "idhm_1991": 0.532,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Guaporé",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.67,
+        "idhm_2010": 0.765
+      },
+      {
+        "nome": "Mato Leitão",
+        "idhm_1991": 0.472,
+        "idhm_2000": 0.623,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Pirapó",
+        "idhm_1991": 0.391,
+        "idhm_2000": 0.531,
+        "idhm_2010": 0.669
+      },
+      {
+        "nome": "Porto Xavier",
+        "idhm_1991": 0.49,
+        "idhm_2000": 0.616,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Rolador",
+        "idhm_1991": 0.366,
+        "idhm_2000": 0.583,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Roque Gonzales",
+        "idhm_1991": 0.448,
+        "idhm_2000": 0.567,
+        "idhm_2010": 0.688
+      },
+      {
+        "nome": "Salvador das Missões",
+        "idhm_1991": 0.518,
+        "idhm_2000": 0.655,
+        "idhm_2010": 0.753
+      },
+      {
+        "nome": "Santo Ângelo",
+        "idhm_1991": 0.568,
+        "idhm_2000": 0.685,
+        "idhm_2010": 0.772
+      },
+      {
+        "nome": "Santo Antônio das Missões",
+        "idhm_1991": 0.435,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.686
+      },
+      {
+        "nome": "São Luiz Gonzaga",
+        "idhm_1991": 0.52,
+        "idhm_2000": 0.634,
+        "idhm_2010": 0.741
+      },
+      {
+        "nome": "São Miguel das Missões",
+        "idhm_1991": 0.403,
+        "idhm_2000": 0.57,
+        "idhm_2010": 0.667
+      },
+      {
+        "nome": "São Nicolau",
+        "idhm_1991": 0.393,
+        "idhm_2000": 0.517,
+        "idhm_2010": 0.645
+      },
+      {
+        "nome": "São Paulo das Missões",
+        "idhm_1991": 0.441,
+        "idhm_2000": 0.567,
+        "idhm_2010": 0.692
+      },
+      {
+        "nome": "São Pedro do Butiá",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.666,
+        "idhm_2010": 0.763
+      },
+      {
+        "nome": "Sete de Setembro",
+        "idhm_1991": 0.389,
+        "idhm_2000": 0.532,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "Ubiretama",
+        "idhm_1991": 0.432,
+        "idhm_2000": 0.554,
+        "idhm_2010": 0.7
+      },
+      {
+        "nome": "Vitória das Missões",
+        "idhm_1991": 0.432,
+        "idhm_2000": 0.556,
+        "idhm_2010": 0.655
+      }
+    ]
+  },
+  "RF1": {
+    "Vale do Caí": [
+      {
+        "nome": "Alto Feliz",
+        "idhm_1991": 0.5,
+        "idhm_2000": 0.64,
+        "idhm_2010": 0.734
+      },
+      {
+        "nome": "Barão",
+        "idhm_1991": 0.456,
+        "idhm_2000": 0.622,
+        "idhm_2010": 0.748
+      },
+      {
+        "nome": "Bom Princípio",
+        "idhm_1991": 0.52,
+        "idhm_2000": 0.67,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Brochier",
+        "idhm_1991": 0.471,
+        "idhm_2000": 0.566,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Capela de Santana",
+        "idhm_1991": 0.416,
+        "idhm_2000": 0.534,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Feliz",
+        "idhm_1991": 0.563,
+        "idhm_2000": 0.659,
+        "idhm_2010": 0.75
+      },
+      {
+        "nome": "Guarani das Missões",
+        "idhm_1991": 0.471,
+        "idhm_2000": 0.592,
+        "idhm_2010": 0.737
+      },
+      {
+        "nome": "Lindolfo Collor",
+        "idhm_1991": 0.427,
+        "idhm_2000": 0.54,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Maquiné",
+        "idhm_1991": 0.46,
+        "idhm_2000": 0.579,
+        "idhm_2010": 0.682
+      },
+      {
+        "nome": "Monte Belo do Sul",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.629,
+        "idhm_2010": 0.752
+      },
+      {
+        "nome": "Paraíso do Sul",
+        "idhm_1991": 0.441,
+        "idhm_2000": 0.557,
+        "idhm_2010": 0.676
+      },
+      {
+        "nome": "Salvador do Sul",
+        "idhm_1991": 0.524,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "São José do Hortêncio",
+        "idhm_1991": 0.481,
+        "idhm_2000": 0.624,
+        "idhm_2010": 0.707
+      },
+      {
+        "nome": "São José do Sul",
+        "idhm_1991": 0.416,
+        "idhm_2000": 0.576,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "São Pedro da Serra",
+        "idhm_1991": 0.546,
+        "idhm_2000": 0.639,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "São Sebastião do Caí",
+        "idhm_1991": 0.552,
+        "idhm_2000": 0.662,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "São Vendelino",
+        "idhm_1991": 0.509,
+        "idhm_2000": 0.655,
+        "idhm_2010": 0.754
+      },
+      {
+        "nome": "Tupandi",
+        "idhm_1991": 0.405,
+        "idhm_2000": 0.654,
+        "idhm_2010": 0.718
+      },
+      {
+        "nome": "Vale Real",
+        "idhm_1991": 0.451,
+        "idhm_2000": 0.604,
+        "idhm_2010": 0.737
+      }
+    ],
+    "Metropolitano Delta do Jacuí": [
+      {
+        "nome": "Alvorada",
+        "idhm_1991": 0.472,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "Cachoeirinha",
+        "idhm_1991": 0.546,
+        "idhm_2000": 0.672,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Eldorado do Sul",
+        "idhm_1991": 0.48,
+        "idhm_2000": 0.62,
+        "idhm_2010": 0.717
+      },
+      {
+        "nome": "Giruá",
+        "idhm_1991": 0.479,
+        "idhm_2000": 0.626,
+        "idhm_2010": 0.721
+      },
+      {
+        "nome": "Gramado Xavier",
+        "idhm_1991": 0.356,
+        "idhm_2000": 0.46,
+        "idhm_2010": 0.634
+      },
+      {
+        "nome": "Guabiju",
+        "idhm_1991": 0.489,
+        "idhm_2000": 0.674,
+        "idhm_2010": 0.758
+      },
+      {
+        "nome": "Porto Alegre",
+        "idhm_1991": 0.66,
+        "idhm_2000": 0.744,
+        "idhm_2010": 0.805
+      },
+      {
+        "nome": "Santo Antônio da Patrulha",
+        "idhm_1991": 0.508,
+        "idhm_2000": 0.62,
+        "idhm_2010": 0.717
+      },
+      {
+        "nome": "Triunfo",
+        "idhm_1991": 0.492,
+        "idhm_2000": 0.628,
+        "idhm_2010": 0.733
+      },
+      {
+        "nome": "Viamão",
+        "idhm_1991": 0.511,
+        "idhm_2000": 0.62,
+        "idhm_2010": 0.717
+      }
+    ],
+    "Centro-Sul": [
+      {
+        "nome": "Arambaré",
+        "idhm_1991": 0.348,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.691
+      },
+      {
+        "nome": "Arroio dos Ratos",
+        "idhm_1991": 0.468,
+        "idhm_2000": 0.61,
+        "idhm_2010": 0.698
+      },
+      {
+        "nome": "Barão do Triunfo",
+        "idhm_1991": 0.363,
+        "idhm_2000": 0.482,
+        "idhm_2010": 0.61
+      },
+      {
+        "nome": "Barra do Ribeiro",
+        "idhm_1991": 0.479,
+        "idhm_2000": 0.619,
+        "idhm_2010": 0.67
+      },
+      {
+        "nome": "Butiá",
+        "idhm_1991": 0.455,
+        "idhm_2000": 0.579,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Camaquã",
+        "idhm_1991": 0.469,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.697
+      },
+      {
+        "nome": "Cerro Grande do Sul",
+        "idhm_1991": 0.371,
+        "idhm_2000": 0.513,
+        "idhm_2010": 0.66
+      },
+      {
+        "nome": "Charqueadas",
+        "idhm_1991": 0.551,
+        "idhm_2000": 0.649,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Chuvisca",
+        "idhm_1991": 0.296,
+        "idhm_2000": 0.481,
+        "idhm_2010": 0.616
+      },
+      {
+        "nome": "Cristal",
+        "idhm_1991": 0.433,
+        "idhm_2000": 0.537,
+        "idhm_2010": 0.644
+      },
+      {
+        "nome": "Dom Feliciano",
+        "idhm_1991": 0.318,
+        "idhm_2000": 0.47,
+        "idhm_2010": 0.587
+      },
+      {
+        "nome": "Marcelino Ramos",
+        "idhm_1991": 0.478,
+        "idhm_2000": 0.631,
+        "idhm_2010": 0.724
+      },
+      {
+        "nome": "Maximiliano de Almeida",
+        "idhm_1991": 0.445,
+        "idhm_2000": 0.562,
+        "idhm_2010": 0.699
+      },
+      {
+        "nome": "São Jerônimo",
+        "idhm_1991": 0.478,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.696
+      },
+      {
+        "nome": "Sentinela do Sul",
+        "idhm_1991": 0.375,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.671
+      },
+      {
+        "nome": "Sertão Santana",
+        "idhm_1991": 0.409,
+        "idhm_2000": 0.577,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Tapes",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.619,
+        "idhm_2010": 0.695
+      }
+    ],
+    "Vale do Rio dos Sinos": [
+      {
+        "nome": "Araricá",
+        "idhm_1991": 0.414,
+        "idhm_2000": 0.565,
+        "idhm_2010": 0.679
+      },
+      {
+        "nome": "Campo Bom",
+        "idhm_1991": 0.517,
+        "idhm_2000": 0.669,
+        "idhm_2010": 0.745
+      },
+      {
+        "nome": "Canoas",
+        "idhm_1991": 0.556,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.75
+      },
+      {
+        "nome": "Dois Irmãos",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.676,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Estância Velha",
+        "idhm_1991": 0.537,
+        "idhm_2000": 0.674,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Esteio",
+        "idhm_1991": 0.589,
+        "idhm_2000": 0.693,
+        "idhm_2010": 0.754
+      },
+      {
+        "nome": "Ivorá",
+        "idhm_1991": 0.512,
+        "idhm_2000": 0.637,
+        "idhm_2010": 0.724
+      },
+      {
+        "nome": "Nova Esperança do Sul",
+        "idhm_1991": 0.526,
+        "idhm_2000": 0.593,
+        "idhm_2010": 0.735
+      },
+      {
+        "nome": "Nova Roma do Sul",
+        "idhm_1991": 0.533,
+        "idhm_2000": 0.677,
+        "idhm_2010": 0.741
+      },
+      {
+        "nome": "Novo Cabrais",
+        "idhm_1991": 0.415,
+        "idhm_2000": 0.538,
+        "idhm_2010": 0.688
+      },
+      {
+        "nome": "Portão",
+        "idhm_1991": 0.453,
+        "idhm_2000": 0.618,
+        "idhm_2010": 0.713
+      },
+      {
+        "nome": "São Leopoldo",
+        "idhm_1991": 0.543,
+        "idhm_2000": 0.656,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Sapiranga",
+        "idhm_1991": 0.463,
+        "idhm_2000": 0.597,
+        "idhm_2010": 0.711
+      },
+      {
+        "nome": "Sapucaia do Sul",
+        "idhm_1991": 0.513,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.726
+      }
+    ],
+    "Paranhana Encosta da Serra": [
+      {
+        "nome": "Ibirubá",
+        "idhm_1991": 0.511,
+        "idhm_2000": 0.674,
+        "idhm_2010": 0.765
+      },
+      {
+        "nome": "Liberato Salzano",
+        "idhm_1991": 0.363,
+        "idhm_2000": 0.521,
+        "idhm_2010": 0.685
+      },
+      {
+        "nome": "Morro Redondo",
+        "idhm_1991": 0.437,
+        "idhm_2000": 0.572,
+        "idhm_2010": 0.702
+      },
+      {
+        "nome": "Pareci Novo",
+        "idhm_1991": 0.478,
+        "idhm_2000": 0.66,
+        "idhm_2010": 0.749
+      },
+      {
+        "nome": "Presidente Lucena",
+        "idhm_1991": 0.455,
+        "idhm_2000": 0.621,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Riozinho",
+        "idhm_1991": 0.42,
+        "idhm_2000": 0.568,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Rolante",
+        "idhm_1991": 0.444,
+        "idhm_2000": 0.595,
+        "idhm_2010": 0.688
+      },
+      {
+        "nome": "Santa Maria do Herval",
+        "idhm_1991": 0.401,
+        "idhm_2000": 0.598,
+        "idhm_2010": 0.676
+      },
+      {
+        "nome": "Taquara",
+        "idhm_1991": 0.537,
+        "idhm_2000": 0.651,
+        "idhm_2010": 0.727
+      },
+      {
+        "nome": "Três Coroas",
+        "idhm_1991": 0.478,
+        "idhm_2000": 0.61,
+        "idhm_2010": 0.71
+      }
+    ]
+  },
+  "RF5": {
+    "Sul": [
+      {
+        "nome": "Amaral Ferrador",
+        "idhm_1991": 0.356,
+        "idhm_2000": 0.507,
+        "idhm_2010": 0.624
+      },
+      {
+        "nome": "Arroio do Padre",
+        "idhm_1991": 0.319,
+        "idhm_2000": 0.56,
+        "idhm_2010": 0.669
+      },
+      {
+        "nome": "Arroio Grande",
+        "idhm_1991": 0.484,
+        "idhm_2000": 0.588,
+        "idhm_2010": 0.657
+      },
+      {
+        "nome": "Canguçu",
+        "idhm_1991": 0.381,
+        "idhm_2000": 0.516,
+        "idhm_2010": 0.65
+      },
+      {
+        "nome": "Capão do Leão",
+        "idhm_1991": 0.413,
+        "idhm_2000": 0.542,
+        "idhm_2010": 0.637
+      },
+      {
+        "nome": "Cerrito",
+        "idhm_1991": 0.415,
+        "idhm_2000": 0.574,
+        "idhm_2010": 0.649
+      },
+      {
+        "nome": "Chuí",
+        "idhm_1991": 0.539,
+        "idhm_2000": 0.654,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "Harmonia",
+        "idhm_1991": 0.541,
+        "idhm_2000": 0.663,
+        "idhm_2010": 0.749
+      },
+      {
+        "nome": "Jacutinga",
+        "idhm_1991": 0.508,
+        "idhm_2000": 0.62,
+        "idhm_2010": 0.726
+      },
+      {
+        "nome": "Morrinhos do Sul",
+        "idhm_1991": 0.397,
+        "idhm_2000": 0.593,
+        "idhm_2010": 0.711
+      },
+      {
+        "nome": "Paverama",
+        "idhm_1991": 0.387,
+        "idhm_2000": 0.54,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "Pedras Altas",
+        "idhm_1991": 0.372,
+        "idhm_2000": 0.482,
+        "idhm_2010": 0.64
+      },
+      {
+        "nome": "Pejuçara",
+        "idhm_1991": 0.542,
+        "idhm_2000": 0.65,
+        "idhm_2010": 0.741
+      },
+      {
+        "nome": "Pinheirinho do Vale",
+        "idhm_1991": 0.375,
+        "idhm_2000": 0.53,
+        "idhm_2010": 0.71
+      },
+      {
+        "nome": "Piratini",
+        "idhm_1991": 0.408,
+        "idhm_2000": 0.55,
+        "idhm_2010": 0.658
+      },
+      {
+        "nome": "Rio Grande",
+        "idhm_1991": 0.527,
+        "idhm_2000": 0.652,
+        "idhm_2010": 0.744
+      },
+      {
+        "nome": "Santa Vitória do Palmar",
+        "idhm_1991": 0.501,
+        "idhm_2000": 0.626,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Santana da Boa Vista",
+        "idhm_1991": 0.388,
+        "idhm_2000": 0.553,
+        "idhm_2010": 0.633
+      },
+      {
+        "nome": "São José do Norte",
+        "idhm_1991": 0.36,
+        "idhm_2000": 0.481,
+        "idhm_2010": 0.623
+      },
+      {
+        "nome": "São Lourenço do Sul",
+        "idhm_1991": 0.469,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Tavares",
+        "idhm_1991": 0.426,
+        "idhm_2000": 0.543,
+        "idhm_2010": 0.656
+      },
+      {
+        "nome": "Turuçu",
+        "idhm_1991": 0.352,
+        "idhm_2000": 0.528,
+        "idhm_2010": 0.629
+      }
+    ]
+  },
+  "RF3": {
+    "Campos de Cima da Serra": [
+      {
+        "nome": "André da Rocha",
+        "idhm_1991": 0.504,
+        "idhm_2000": 0.591,
+        "idhm_2010": 0.72
+      },
+      {
+        "nome": "Bom Jesus",
+        "idhm_1991": 0.42,
+        "idhm_2000": 0.541,
+        "idhm_2010": 0.666
+      },
+      {
+        "nome": "Campestre da Serra",
+        "idhm_1991": 0.436,
+        "idhm_2000": 0.622,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "Esmeralda",
+        "idhm_1991": 0.478,
+        "idhm_2000": 0.538,
+        "idhm_2010": 0.68
+      },
+      {
+        "nome": "Inhacorá",
+        "idhm_1991": 0.369,
+        "idhm_2000": 0.554,
+        "idhm_2010": 0.673
+      },
+      {
+        "nome": "Montauri",
+        "idhm_1991": 0.484,
+        "idhm_2000": 0.608,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Muçum",
+        "idhm_1991": 0.549,
+        "idhm_2000": 0.641,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Pinhal",
+        "idhm_1991": 0.403,
+        "idhm_2000": 0.628,
+        "idhm_2010": 0.72
+      },
+      {
+        "nome": "São José dos Ausentes",
+        "idhm_1991": 0.42,
+        "idhm_2000": 0.512,
+        "idhm_2010": 0.663
+      },
+      {
+        "nome": "Vacaria",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.641,
+        "idhm_2010": 0.721
+      }
+    ],
+    "Serra": [
+      {
+        "nome": "Antônio Prado",
+        "idhm_1991": 0.543,
+        "idhm_2000": 0.683,
+        "idhm_2010": 0.758
+      },
+      {
+        "nome": "Bento Gonçalves",
+        "idhm_1991": 0.612,
+        "idhm_2000": 0.712,
+        "idhm_2010": 0.778
+      },
+      {
+        "nome": "Boa Vista do Sul",
+        "idhm_1991": 0.491,
+        "idhm_2000": 0.655,
+        "idhm_2010": 0.728
+      },
+      {
+        "nome": "Carlos Barbosa",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.724,
+        "idhm_2010": 0.796
+      },
+      {
+        "nome": "Caxias do Sul",
+        "idhm_1991": 0.594,
+        "idhm_2000": 0.705,
+        "idhm_2010": 0.782
+      },
+      {
+        "nome": "Coronel Pilar",
+        "idhm_1991": 0.519,
+        "idhm_2000": 0.602,
+        "idhm_2010": 0.727
+      },
+      {
+        "nome": "Cotiporã",
+        "idhm_1991": 0.505,
+        "idhm_2000": 0.645,
+        "idhm_2010": 0.741
+      },
+      {
+        "nome": "Fagundes Varela",
+        "idhm_1991": 0.473,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.763
+      },
+      {
+        "nome": "Farroupilha",
+        "idhm_1991": 0.56,
+        "idhm_2000": 0.691,
+        "idhm_2010": 0.777
+      },
+      {
+        "nome": "Flores da Cunha",
+        "idhm_1991": 0.523,
+        "idhm_2000": 0.674,
+        "idhm_2010": 0.754
+      },
+      {
+        "nome": "Frederico Westphalen",
+        "idhm_1991": 0.536,
+        "idhm_2000": 0.683,
+        "idhm_2010": 0.76
+      },
+      {
+        "nome": "Gravataí",
+        "idhm_1991": 0.54,
+        "idhm_2000": 0.661,
+        "idhm_2010": 0.736
+      },
+      {
+        "nome": "Guaíba",
+        "idhm_1991": 0.522,
+        "idhm_2000": 0.654,
+        "idhm_2010": 0.73
+      },
+      {
+        "nome": "Miraguaí",
+        "idhm_1991": 0.412,
+        "idhm_2000": 0.584,
+        "idhm_2010": 0.725
+      },
+      {
+        "nome": "Monte Alegre dos Campos",
+        "idhm_1991": 0.305,
+        "idhm_2000": 0.462,
+        "idhm_2010": 0.65
+      },
+      {
+        "nome": "Nova Alvorada",
+        "idhm_1991": 0.455,
+        "idhm_2000": 0.566,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Nova Araçá",
+        "idhm_1991": 0.58,
+        "idhm_2000": 0.732,
+        "idhm_2010": 0.785
+      },
+      {
+        "nome": "Nova Hartz",
+        "idhm_1991": 0.436,
+        "idhm_2000": 0.578,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Nova Petrópolis",
+        "idhm_1991": 0.589,
+        "idhm_2000": 0.697,
+        "idhm_2010": 0.78
+      },
+      {
+        "nome": "Nova Ramada",
+        "idhm_1991": 0.416,
+        "idhm_2000": 0.576,
+        "idhm_2010": 0.742
+      },
+      {
+        "nome": "Pantano Grande",
+        "idhm_1991": 0.444,
+        "idhm_2000": 0.589,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Pinheiro Machado",
+        "idhm_1991": 0.425,
+        "idhm_2000": 0.584,
+        "idhm_2010": 0.661
+      },
+      {
+        "nome": "Protásio Alves",
+        "idhm_1991": 0.423,
+        "idhm_2000": 0.636,
+        "idhm_2010": 0.733
+      },
+      {
+        "nome": "Santa Tereza",
+        "idhm_1991": 0.461,
+        "idhm_2000": 0.611,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "São Jorge",
+        "idhm_1991": 0.506,
+        "idhm_2000": 0.629,
+        "idhm_2010": 0.732
+      },
+      {
+        "nome": "São Marcos",
+        "idhm_1991": 0.555,
+        "idhm_2000": 0.695,
+        "idhm_2010": 0.768
+      },
+      {
+        "nome": "São Valentim do Sul",
+        "idhm_1991": 0.502,
+        "idhm_2000": 0.671,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Serafina Corrêa",
+        "idhm_1991": 0.561,
+        "idhm_2000": 0.678,
+        "idhm_2010": 0.76
+      },
+      {
+        "nome": "União da Serra",
+        "idhm_1991": 0.401,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.733
+      },
+      {
+        "nome": "Veranópolis",
+        "idhm_1991": 0.6,
+        "idhm_2000": 0.702,
+        "idhm_2010": 0.773
+      },
+      {
+        "nome": "Vila Flores",
+        "idhm_1991": 0.563,
+        "idhm_2000": 0.621,
+        "idhm_2010": 0.742
+      },
+      {
+        "nome": "Vista Alegre do Prata",
+        "idhm_1991": 0.437,
+        "idhm_2000": 0.689,
+        "idhm_2010": 0.78
+      }
+    ],
+    "Hortênsias": [
+      {
+        "nome": "Cambará do Sul",
+        "idhm_1991": 0.476,
+        "idhm_2000": 0.564,
+        "idhm_2010": 0.697
+      },
+      {
+        "nome": "Canela",
+        "idhm_1991": 0.494,
+        "idhm_2000": 0.638,
+        "idhm_2010": 0.748
+      },
+      {
+        "nome": "Glorinha",
+        "idhm_1991": 0.424,
+        "idhm_2000": 0.587,
+        "idhm_2010": 0.714
+      },
+      {
+        "nome": "Jaguari",
+        "idhm_1991": 0.506,
+        "idhm_2000": 0.601,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Nova Palma",
+        "idhm_1991": 0.51,
+        "idhm_2000": 0.659,
+        "idhm_2010": 0.744
+      },
+      {
+        "nome": "Pelotas",
+        "idhm_1991": 0.558,
+        "idhm_2000": 0.66,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "São Francisco de Paula",
+        "idhm_1991": 0.464,
+        "idhm_2000": 0.592,
+        "idhm_2010": 0.685
+      }
+    ]
+  },
+  "RF2": {
+    "Vale do Taquari": [
+      {
+        "nome": "Anta Gorda",
+        "idhm_1991": 0.486,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Arroio do Meio",
+        "idhm_1991": 0.557,
+        "idhm_2000": 0.69,
+        "idhm_2010": 0.769
+      },
+      {
+        "nome": "Arvorezinha",
+        "idhm_1991": 0.458,
+        "idhm_2000": 0.593,
+        "idhm_2010": 0.694
+      },
+      {
+        "nome": "Bom Retiro do Sul",
+        "idhm_1991": 0.501,
+        "idhm_2000": 0.639,
+        "idhm_2010": 0.739
+      },
+      {
+        "nome": "Canudos do Vale",
+        "idhm_1991": 0.391,
+        "idhm_2000": 0.556,
+        "idhm_2010": 0.713
+      },
+      {
+        "nome": "Capitão",
+        "idhm_1991": 0.398,
+        "idhm_2000": 0.614,
+        "idhm_2010": 0.746
+      },
+      {
+        "nome": "Colinas",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.625,
+        "idhm_2010": 0.765
+      },
+      {
+        "nome": "Coqueiro Baixo",
+        "idhm_1991": 0.385,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.692
+      },
+      {
+        "nome": "Cruzeiro do Sul",
+        "idhm_1991": 0.506,
+        "idhm_2000": 0.637,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Dois Lajeados",
+        "idhm_1991": 0.513,
+        "idhm_2000": 0.694,
+        "idhm_2010": 0.757
+      },
+      {
+        "nome": "Doutor Ricardo",
+        "idhm_1991": 0.405,
+        "idhm_2000": 0.575,
+        "idhm_2010": 0.724
+      },
+      {
+        "nome": "Encantado",
+        "idhm_1991": 0.603,
+        "idhm_2000": 0.7,
+        "idhm_2010": 0.767
+      },
+      {
+        "nome": "Estrela",
+        "idhm_1991": 0.564,
+        "idhm_2000": 0.676,
+        "idhm_2010": 0.767
+      },
+      {
+        "nome": "Fazenda Vilanova",
+        "idhm_1991": 0.429,
+        "idhm_2000": 0.548,
+        "idhm_2010": 0.698
+      },
+      {
+        "nome": "Formigueiro",
+        "idhm_1991": 0.454,
+        "idhm_2000": 0.579,
+        "idhm_2010": 0.682
+      },
+      {
+        "nome": "Ijuí",
+        "idhm_1991": 0.553,
+        "idhm_2000": 0.683,
+        "idhm_2010": 0.781
+      },
+      {
+        "nome": "Imbé",
+        "idhm_1991": 0.547,
+        "idhm_2000": 0.677,
+        "idhm_2010": 0.764
+      },
+      {
+        "nome": "Lagoão",
+        "idhm_1991": 0.296,
+        "idhm_2000": 0.476,
+        "idhm_2010": 0.643
+      },
+      {
+        "nome": "Mariano Moro",
+        "idhm_1991": 0.483,
+        "idhm_2000": 0.656,
+        "idhm_2010": 0.73
+      },
+      {
+        "nome": "Mostardas",
+        "idhm_1991": 0.439,
+        "idhm_2000": 0.571,
+        "idhm_2010": 0.664
+      },
+      {
+        "nome": "Nova Boa Vista",
+        "idhm_1991": 0.509,
+        "idhm_2000": 0.64,
+        "idhm_2010": 0.768
+      },
+      {
+        "nome": "Paulo Bento",
+        "idhm_1991": 0.407,
+        "idhm_2000": 0.608,
+        "idhm_2010": 0.71
+      },
+      {
+        "nome": "Poço das Antas",
+        "idhm_1991": 0.489,
+        "idhm_2000": 0.645,
+        "idhm_2010": 0.744
+      },
+      {
+        "nome": "Pouso Novo",
+        "idhm_1991": 0.497,
+        "idhm_2000": 0.625,
+        "idhm_2010": 0.715
+      },
+      {
+        "nome": "Progresso",
+        "idhm_1991": 0.405,
+        "idhm_2000": 0.535,
+        "idhm_2010": 0.683
+      },
+      {
+        "nome": "Putinga",
+        "idhm_1991": 0.444,
+        "idhm_2000": 0.577,
+        "idhm_2010": 0.715
+      },
+      {
+        "nome": "Relvado",
+        "idhm_1991": 0.406,
+        "idhm_2000": 0.588,
+        "idhm_2010": 0.731
+      },
+      {
+        "nome": "Roca Sales",
+        "idhm_1991": 0.51,
+        "idhm_2000": 0.627,
+        "idhm_2010": 0.729
+      },
+      {
+        "nome": "Santa Clara do Sul",
+        "idhm_1991": 0.493,
+        "idhm_2000": 0.612,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Sério",
+        "idhm_1991": 0.367,
+        "idhm_2000": 0.522,
+        "idhm_2010": 0.652
+      },
+      {
+        "nome": "Tabaí",
+        "idhm_1991": 0.379,
+        "idhm_2000": 0.602,
+        "idhm_2010": 0.701
+      },
+      {
+        "nome": "Taquari",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.641,
+        "idhm_2010": 0.733
+      },
+      {
+        "nome": "Teutônia",
+        "idhm_1991": 0.535,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.747
+      },
+      {
+        "nome": "Travesseiro",
+        "idhm_1991": 0.44,
+        "idhm_2000": 0.569,
+        "idhm_2010": 0.701
+      },
+      {
+        "nome": "Vespasiano Correa",
+        "idhm_1991": 0.43,
+        "idhm_2000": 0.639,
+        "idhm_2010": 0.723
+      },
+      {
+        "nome": "Westfalia",
+        "idhm_1991": 0.564,
+        "idhm_2000": 0.68,
+        "idhm_2010": 0.752
+      }
+    ],
+    "Vale do Rio Pardo": [
+      {
+        "nome": "Arroio do Tigre",
+        "idhm_1991": 0.433,
+        "idhm_2000": 0.568,
+        "idhm_2010": 0.707
+      },
+      {
+        "nome": "Boqueirão do Leão",
+        "idhm_1991": 0.452,
+        "idhm_2000": 0.563,
+        "idhm_2010": 0.7
+      },
+      {
+        "nome": "Candelária",
+        "idhm_1991": 0.428,
+        "idhm_2000": 0.561,
+        "idhm_2010": 0.674
+      },
+      {
+        "nome": "Encruzilhada do Sul",
+        "idhm_1991": 0.431,
+        "idhm_2000": 0.551,
+        "idhm_2010": 0.657
+      },
+      {
+        "nome": "Estrela Velha",
+        "idhm_1991": 0.374,
+        "idhm_2000": 0.535,
+        "idhm_2010": 0.679
+      },
+      {
+        "nome": "Gaurama",
+        "idhm_1991": 0.498,
+        "idhm_2000": 0.662,
+        "idhm_2010": 0.738
+      },
+      {
+        "nome": "Herval",
+        "idhm_1991": 0.443,
+        "idhm_2000": 0.548,
+        "idhm_2010": 0.687
+      },
+      {
+        "nome": "Humaitá",
+        "idhm_1991": 0.538,
+        "idhm_2000": 0.64,
+        "idhm_2010": 0.738
+      },
+      {
+        "nome": "Júlio de Castilhos",
+        "idhm_1991": 0.542,
+        "idhm_2000": 0.626,
+        "idhm_2010": 0.716
+      },
+      {
+        "nome": "Mato Castelhano",
+        "idhm_1991": 0.434,
+        "idhm_2000": 0.665,
+        "idhm_2010": 0.727
+      },
+      {
+        "nome": "Panambi",
+        "idhm_1991": 0.537,
+        "idhm_2000": 0.688,
+        "idhm_2010": 0.761
+      },
+      {
+        "nome": "Parobé",
+        "idhm_1991": 0.444,
+        "idhm_2000": 0.6,
+        "idhm_2010": 0.704
+      },
+      {
+        "nome": "Passa Sete",
+        "idhm_1991": 0.3,
+        "idhm_2000": 0.503,
+        "idhm_2010": 0.622
+      },
+      {
+        "nome": "Rio Pardo",
+        "idhm_1991": 0.482,
+        "idhm_2000": 0.609,
+        "idhm_2010": 0.693
+      },
+      {
+        "nome": "Santa Cruz do Sul",
+        "idhm_1991": 0.561,
+        "idhm_2000": 0.682,
+        "idhm_2010": 0.773
+      },
+      {
+        "nome": "Segredo",
+        "idhm_1991": 0.394,
+        "idhm_2000": 0.53,
+        "idhm_2010": 0.659
+      },
+      {
+        "nome": "Sinimbu",
+        "idhm_1991": 0.374,
+        "idhm_2000": 0.513,
+        "idhm_2010": 0.631
+      },
+      {
+        "nome": "Sobradinho",
+        "idhm_1991": 0.538,
+        "idhm_2000": 0.65,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Tunas",
+        "idhm_1991": 0.319,
+        "idhm_2000": 0.484,
+        "idhm_2010": 0.657
+      },
+      {
+        "nome": "Vale do Sol",
+        "idhm_1991": 0.335,
+        "idhm_2000": 0.496,
+        "idhm_2010": 0.624
+      },
+      {
+        "nome": "Vale Verde",
+        "idhm_1991": 0.403,
+        "idhm_2000": 0.549,
+        "idhm_2010": 0.646
+      },
+      {
+        "nome": "Venâncio Aires",
+        "idhm_1991": 0.477,
+        "idhm_2000": 0.61,
+        "idhm_2010": 0.712
+      },
+      {
+        "nome": "Vera Cruz",
+        "idhm_1991": 0.456,
+        "idhm_2000": 0.582,
+        "idhm_2010": 0.737
+      }
+    ]
+  },
+  "RF4": {
+    "Litoral": [
+      {
+        "nome": "Arroio do Sal",
+        "idhm_1991": 0.48,
+        "idhm_2000": 0.664,
+        "idhm_2010": 0.74
+      },
+      {
+        "nome": "Balneário Pinhal",
+        "idhm_1991": 0.44,
+        "idhm_2000": 0.618,
+        "idhm_2010": 0.696
+      },
+      {
+        "nome": "Capão da Canoa",
+        "idhm_1991": 0.526,
+        "idhm_2000": 0.639,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Capivari do Sul",
+        "idhm_1991": 0.511,
+        "idhm_2000": 0.658,
+        "idhm_2010": 0.766
+      },
+      {
+        "nome": "Caraá",
+        "idhm_1991": 0.37,
+        "idhm_2000": 0.508,
+        "idhm_2010": 0.652
+      },
+      {
+        "nome": "Cidreira",
+        "idhm_1991": 0.466,
+        "idhm_2000": 0.64,
+        "idhm_2010": 0.729
+      },
+      {
+        "nome": "Dom Pedro de Alcântara",
+        "idhm_1991": 0.395,
+        "idhm_2000": 0.572,
+        "idhm_2010": 0.691
+      },
+      {
+        "nome": "Ilópolis",
+        "idhm_1991": 0.471,
+        "idhm_2000": 0.613,
+        "idhm_2010": 0.73
+      },
+      {
+        "nome": "Itaqui",
+        "idhm_1991": 0.504,
+        "idhm_2000": 0.63,
+        "idhm_2010": 0.713
+      },
+      {
+        "nome": "Machadinho",
+        "idhm_1991": 0.454,
+        "idhm_2000": 0.571,
+        "idhm_2010": 0.692
+      },
+      {
+        "nome": "Manoel Viana",
+        "idhm_1991": 0.41,
+        "idhm_2000": 0.543,
+        "idhm_2010": 0.655
+      },
+      {
+        "nome": "Mormaço",
+        "idhm_1991": 0.408,
+        "idhm_2000": 0.584,
+        "idhm_2010": 0.714
+      },
+      {
+        "nome": "Morro Reuter",
+        "idhm_1991": 0.428,
+        "idhm_2000": 0.656,
+        "idhm_2010": 0.743
+      },
+      {
+        "nome": "Novo Xingu",
+        "idhm_1991": 0.412,
+        "idhm_2000": 0.585,
+        "idhm_2010": 0.767
+      },
+      {
+        "nome": "Paim Filho",
+        "idhm_1991": 0.465,
+        "idhm_2000": 0.606,
+        "idhm_2010": 0.706
+      },
+      {
+        "nome": "Terra de Areia",
+        "idhm_1991": 0.487,
+        "idhm_2000": 0.611,
+        "idhm_2010": 0.689
+      },
+      {
+        "nome": "Torres",
+        "idhm_1991": 0.538,
+        "idhm_2000": 0.681,
+        "idhm_2010": 0.762
+      },
+      {
+        "nome": "Tramandaí",
+        "idhm_1991": 0.504,
+        "idhm_2000": 0.633,
+        "idhm_2010": 0.719
+      },
+      {
+        "nome": "Três Cachoeiras",
+        "idhm_1991": 0.509,
+        "idhm_2000": 0.638,
+        "idhm_2010": 0.718
+      },
+      {
+        "nome": "Três Forquilhas",
+        "idhm_1991": 0.378,
+        "idhm_2000": 0.541,
+        "idhm_2010": 0.662
+      },
+      {
+        "nome": "Xangri-Lá",
+        "idhm_1991": 0.502,
+        "idhm_2000": 0.642,
+        "idhm_2010": 0.735
+      }
+    ]
+  }
+}
