@@ -1,0 +1,7960 @@
+{
+  "Aceguá": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 4394,
+      "homens": 2303,
+      "mulheres": 2091
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 4170,
+      "homens": 2140,
+      "mulheres": 2030
+    }
+  },
+  "Agudo": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 16722,
+      "homens": 8349,
+      "mulheres": 8373
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 16041,
+      "homens": 7875,
+      "mulheres": 8166
+    }
+  },
+  "Ajuricaba": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 7255,
+      "homens": 3585,
+      "mulheres": 3670
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 6720,
+      "homens": 3316,
+      "mulheres": 3404
+    }
+  },
+  "Alecrim": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 7045,
+      "homens": 3512,
+      "mulheres": 3533
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6123,
+      "homens": 3095,
+      "mulheres": 3028
+    }
+  },
+  "Alegrete": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 77653,
+      "homens": 38051,
+      "mulheres": 39602
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 72409,
+      "homens": 35196,
+      "mulheres": 37213
+    }
+  },
+  "Alegria": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 4301,
+      "homens": 2149,
+      "mulheres": 2152
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 3651,
+      "homens": 1866,
+      "mulheres": 1785
+    }
+  },
+  "Almirante Tamandaré do Sul": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2067,
+      "homens": 1041,
+      "mulheres": 1026
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1969,
+      "homens": 1010,
+      "mulheres": 959
+    }
+  },
+  "Alpestre": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 8027,
+      "homens": 4129,
+      "mulheres": 3898
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7117,
+      "homens": 3617,
+      "mulheres": 3500
+    }
+  },
+  "Alto Alegre": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1848,
+      "homens": 944,
+      "mulheres": 904
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1800,
+      "homens": 906,
+      "mulheres": 894
+    }
+  },
+  "Alto Feliz": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2917,
+      "homens": 1500,
+      "mulheres": 1417
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3072,
+      "homens": 1565,
+      "mulheres": 1507
+    }
+  },
+  "Alvorada": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 195673,
+      "homens": 95080,
+      "mulheres": 100593
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 187315,
+      "homens": 89362,
+      "mulheres": 97953
+    }
+  },
+  "Amaral Ferrador": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6353,
+      "homens": 3281,
+      "mulheres": 3072
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5310,
+      "homens": 2722,
+      "mulheres": 2588
+    }
+  },
+  "Ametista do Sul": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7323,
+      "homens": 3732,
+      "mulheres": 3591
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7650,
+      "homens": 3834,
+      "mulheres": 3816
+    }
+  },
+  "André da Rocha": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 1216,
+      "homens": 620,
+      "mulheres": 596
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 1135,
+      "homens": 593,
+      "mulheres": 542
+    }
+  },
+  "Anta Gorda": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 6073,
+      "homens": 3025,
+      "mulheres": 3048
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 5957,
+      "homens": 2982,
+      "mulheres": 2975
+    }
+  },
+  "Antônio Prado": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 12833,
+      "homens": 6405,
+      "mulheres": 6428
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 13045,
+      "homens": 6434,
+      "mulheres": 6611
+    }
+  },
+  "Arambaré": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 3693,
+      "homens": 1854,
+      "mulheres": 1839
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 4112,
+      "homens": 2028,
+      "mulheres": 2084
+    }
+  },
+  "Araricá": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 4864,
+      "homens": 2456,
+      "mulheres": 2408
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 8525,
+      "homens": 4246,
+      "mulheres": 4279
+    }
+  },
+  "Aratiba": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6565,
+      "homens": 3340,
+      "mulheres": 3225
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6483,
+      "homens": 3257,
+      "mulheres": 3226
+    }
+  },
+  "Arroio Grande": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 18470,
+      "homens": 9174,
+      "mulheres": 9296
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 17558,
+      "homens": 8647,
+      "mulheres": 8911
+    }
+  },
+  "Arroio do Meio": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 18783,
+      "homens": 9353,
+      "mulheres": 9430
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 21958,
+      "homens": 10868,
+      "mulheres": 11090
+    }
+  },
+  "Arroio do Padre": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 2730,
+      "homens": 1414,
+      "mulheres": 1316
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2599,
+      "homens": 1322,
+      "mulheres": 1277
+    }
+  },
+  "Arroio do Sal": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 7740,
+      "homens": 3833,
+      "mulheres": 3907
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 11057,
+      "homens": 5378,
+      "mulheres": 5679
+    }
+  },
+  "Arroio do Tigre": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 12648,
+      "homens": 6384,
+      "mulheres": 6264
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 12058,
+      "homens": 5983,
+      "mulheres": 6075
+    }
+  },
+  "Arroio dos Ratos": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 13606,
+      "homens": 6635,
+      "mulheres": 6971
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 14601,
+      "homens": 7435,
+      "mulheres": 7166
+    }
+  },
+  "Arvorezinha": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 10225,
+      "homens": 5134,
+      "mulheres": 5091
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 10322,
+      "homens": 5156,
+      "mulheres": 5166
+    }
+  },
+  "Augusto Pestana": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 7096,
+      "homens": 3487,
+      "mulheres": 3609
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 7149,
+      "homens": 3511,
+      "mulheres": 3638
+    }
+  },
+  "Bagé": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 116794,
+      "homens": 55804,
+      "mulheres": 60990
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 117938,
+      "homens": 55862,
+      "mulheres": 62076
+    }
+  },
+  "Balneário Pinhal": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 10856,
+      "homens": 5344,
+      "mulheres": 5512
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 14955,
+      "homens": 7182,
+      "mulheres": 7773
+    }
+  },
+  "Barra Funda": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2367,
+      "homens": 1177,
+      "mulheres": 1190
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 2498,
+      "homens": 1217,
+      "mulheres": 1281
+    }
+  },
+  "Barra do Guarita": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3089,
+      "homens": 1550,
+      "mulheres": 1539
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 3161,
+      "homens": 1578,
+      "mulheres": 1583
+    }
+  },
+  "Barra do Quaraí": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 4012,
+      "homens": 2128,
+      "mulheres": 1884
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 4241,
+      "homens": 2183,
+      "mulheres": 2058
+    }
+  },
+  "Barra do Ribeiro": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 12572,
+      "homens": 6253,
+      "mulheres": 6319
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 12225,
+      "homens": 5976,
+      "mulheres": 6249
+    }
+  },
+  "Barra do Rio Azul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2003,
+      "homens": 1049,
+      "mulheres": 954
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1696,
+      "homens": 857,
+      "mulheres": 839
+    }
+  },
+  "Barracão": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 5357,
+      "homens": 2691,
+      "mulheres": 2666
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4831,
+      "homens": 2454,
+      "mulheres": 2377
+    }
+  },
+  "Barros Cassal": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 11133,
+      "homens": 5729,
+      "mulheres": 5404
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 9296,
+      "homens": 4723,
+      "mulheres": 4573
+    }
+  },
+  "Barão": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 5741,
+      "homens": 2912,
+      "mulheres": 2829
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 6461,
+      "homens": 3260,
+      "mulheres": 3201
+    }
+  },
+  "Barão de Cotegipe": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6529,
+      "homens": 3296,
+      "mulheres": 3233
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 7144,
+      "homens": 3606,
+      "mulheres": 3538
+    }
+  },
+  "Barão do Triunfo": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 7018,
+      "homens": 3741,
+      "mulheres": 3277
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 5889,
+      "homens": 3102,
+      "mulheres": 2787
+    }
+  },
+  "Benjamin Constant do Sul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2307,
+      "homens": 1195,
+      "mulheres": 1112
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2082,
+      "homens": 1087,
+      "mulheres": 995
+    }
+  },
+  "Bento Gonçalves": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 107278,
+      "homens": 52645,
+      "mulheres": 54633
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 123151,
+      "homens": 59695,
+      "mulheres": 63456
+    }
+  },
+  "Boa Vista das Missões": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2114,
+      "homens": 1056,
+      "mulheres": 1058
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1933,
+      "homens": 951,
+      "mulheres": 982
+    }
+  },
+  "Boa Vista do Buricá": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6574,
+      "homens": 3295,
+      "mulheres": 3279
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6966,
+      "homens": 3445,
+      "mulheres": 3521
+    }
+  },
+  "Boa Vista do Cadeado": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2441,
+      "homens": 1257,
+      "mulheres": 1184
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2229,
+      "homens": 1143,
+      "mulheres": 1086
+    }
+  },
+  "Boa Vista do Incra": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2425,
+      "homens": 1243,
+      "mulheres": 1182
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2271,
+      "homens": 1146,
+      "mulheres": 1125
+    }
+  },
+  "Boa Vista do Sul": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2776,
+      "homens": 1469,
+      "mulheres": 1307
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2779,
+      "homens": 1432,
+      "mulheres": 1347
+    }
+  },
+  "Bom Jesus": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 11519,
+      "homens": 5703,
+      "mulheres": 5816
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 11202,
+      "homens": 5568,
+      "mulheres": 5634
+    }
+  },
+  "Bom Princípio": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 11789,
+      "homens": 6029,
+      "mulheres": 5760
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 13142,
+      "homens": 6582,
+      "mulheres": 6560
+    }
+  },
+  "Bom Progresso": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2328,
+      "homens": 1167,
+      "mulheres": 1161
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2096,
+      "homens": 1019,
+      "mulheres": 1077
+    }
+  },
+  "Bom Retiro do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 11472,
+      "homens": 5655,
+      "mulheres": 5817
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 12294,
+      "homens": 6058,
+      "mulheres": 6236
+    }
+  },
+  "Boqueirão do Leão": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 7673,
+      "homens": 3937,
+      "mulheres": 3736
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 6247,
+      "homens": 3175,
+      "mulheres": 3072
+    }
+  },
+  "Bossoroca": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 6884,
+      "homens": 3509,
+      "mulheres": 3375
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 5890,
+      "homens": 3011,
+      "mulheres": 2879
+    }
+  },
+  "Bozano": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2200,
+      "homens": 1100,
+      "mulheres": 1100
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2151,
+      "homens": 1058,
+      "mulheres": 1093
+    }
+  },
+  "Braga": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3702,
+      "homens": 1866,
+      "mulheres": 1836
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3268,
+      "homens": 1638,
+      "mulheres": 1630
+    }
+  },
+  "Brochier": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4675,
+      "homens": 2398,
+      "mulheres": 2277
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4966,
+      "homens": 2479,
+      "mulheres": 2487
+    }
+  },
+  "Butiá": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 20406,
+      "homens": 10032,
+      "mulheres": 10374
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 19084,
+      "homens": 9258,
+      "mulheres": 9826
+    }
+  },
+  "Cacequi": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 13676,
+      "homens": 6836,
+      "mulheres": 6840
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 11157,
+      "homens": 5585,
+      "mulheres": 5572
+    }
+  },
+  "Cachoeira do Sul": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 83827,
+      "homens": 40378,
+      "mulheres": 43449
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 80070,
+      "homens": 38404,
+      "mulheres": 41666
+    }
+  },
+  "Cachoeirinha": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 118278,
+      "homens": 57173,
+      "mulheres": 61105
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 136258,
+      "homens": 64937,
+      "mulheres": 71321
+    }
+  },
+  "Cacique Doble": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4868,
+      "homens": 2417,
+      "mulheres": 2451
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4603,
+      "homens": 2285,
+      "mulheres": 2318
+    }
+  },
+  "Caibaté": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 4954,
+      "homens": 2532,
+      "mulheres": 2422
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 4704,
+      "homens": 2369,
+      "mulheres": 2335
+    }
+  },
+  "Caiçara": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 5071,
+      "homens": 2585,
+      "mulheres": 2486
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4836,
+      "homens": 2447,
+      "mulheres": 2389
+    }
+  },
+  "Camaquã": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 62764,
+      "homens": 30900,
+      "mulheres": 31864
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 62200,
+      "homens": 30389,
+      "mulheres": 31811
+    }
+  },
+  "Camargo": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2592,
+      "homens": 1291,
+      "mulheres": 1301
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2981,
+      "homens": 1488,
+      "mulheres": 1493
+    }
+  },
+  "Cambará do Sul": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 6542,
+      "homens": 3350,
+      "mulheres": 3192
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 6361,
+      "homens": 3255,
+      "mulheres": 3106
+    }
+  },
+  "Campestre da Serra": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3247,
+      "homens": 1674,
+      "mulheres": 1573
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3242,
+      "homens": 1667,
+      "mulheres": 1575
+    }
+  },
+  "Campina das Missões": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6117,
+      "homens": 3056,
+      "mulheres": 3061
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 5882,
+      "homens": 2907,
+      "mulheres": 2975
+    }
+  },
+  "Campinas do Sul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5506,
+      "homens": 2650,
+      "mulheres": 2856
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5284,
+      "homens": 2543,
+      "mulheres": 2741
+    }
+  },
+  "Campo Bom": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 60074,
+      "homens": 29471,
+      "mulheres": 30603
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 62886,
+      "homens": 30414,
+      "mulheres": 32472
+    }
+  },
+  "Campo Novo": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 5459,
+      "homens": 2685,
+      "mulheres": 2774
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4975,
+      "homens": 2457,
+      "mulheres": 2518
+    }
+  },
+  "Campos Borges": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3494,
+      "homens": 1754,
+      "mulheres": 1740
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3613,
+      "homens": 1802,
+      "mulheres": 1811
+    }
+  },
+  "Candelária": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 30171,
+      "homens": 14752,
+      "mulheres": 15419
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 28906,
+      "homens": 14162,
+      "mulheres": 14744
+    }
+  },
+  "Candiota": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 8771,
+      "homens": 4481,
+      "mulheres": 4290
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 10710,
+      "homens": 5474,
+      "mulheres": 5236
+    }
+  },
+  "Canela": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 39229,
+      "homens": 19120,
+      "mulheres": 20109
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 48946,
+      "homens": 23549,
+      "mulheres": 25397
+    }
+  },
+  "Canguçu": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 53259,
+      "homens": 26856,
+      "mulheres": 26403
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 49680,
+      "homens": 24976,
+      "mulheres": 24704
+    }
+  },
+  "Canoas": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 323827,
+      "homens": 155936,
+      "mulheres": 167891
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 347657,
+      "homens": 166309,
+      "mulheres": 181348
+    }
+  },
+  "Canudos do Vale": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1807,
+      "homens": 959,
+      "mulheres": 848
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1656,
+      "homens": 857,
+      "mulheres": 799
+    }
+  },
+  "Capela de Santana": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 11612,
+      "homens": 5848,
+      "mulheres": 5764
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 11159,
+      "homens": 5639,
+      "mulheres": 5520
+    }
+  },
+  "Capitão": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2636,
+      "homens": 1353,
+      "mulheres": 1283
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2921,
+      "homens": 1478,
+      "mulheres": 1443
+    }
+  },
+  "Capivari do Sul": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 3890,
+      "homens": 1935,
+      "mulheres": 1955
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3991,
+      "homens": 1984,
+      "mulheres": 2007
+    }
+  },
+  "Capão Bonito do Sul": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1754,
+      "homens": 943,
+      "mulheres": 811
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1733,
+      "homens": 908,
+      "mulheres": 825
+    }
+  },
+  "Capão da Canoa": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 42040,
+      "homens": 20616,
+      "mulheres": 21424
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 63594,
+      "homens": 30465,
+      "mulheres": 33129
+    }
+  },
+  "Capão do Cipó": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 3104,
+      "homens": 1628,
+      "mulheres": 1476
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 3119,
+      "homens": 1641,
+      "mulheres": 1478
+    }
+  },
+  "Capão do Leão": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 24298,
+      "homens": 11962,
+      "mulheres": 12336
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 26487,
+      "homens": 12955,
+      "mulheres": 13532
+    }
+  },
+  "Carazinho": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 59317,
+      "homens": 28280,
+      "mulheres": 31037
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 61804,
+      "homens": 29490,
+      "mulheres": 32314
+    }
+  },
+  "Caraá": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 7312,
+      "homens": 3798,
+      "mulheres": 3514
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 7394,
+      "homens": 3794,
+      "mulheres": 3600
+    }
+  },
+  "Carlos Barbosa": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 25192,
+      "homens": 12662,
+      "mulheres": 12530
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 30420,
+      "homens": 15109,
+      "mulheres": 15311
+    }
+  },
+  "Carlos Gomes": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1607,
+      "homens": 834,
+      "mulheres": 773
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1368,
+      "homens": 710,
+      "mulheres": 658
+    }
+  },
+  "Casca": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 8651,
+      "homens": 4243,
+      "mulheres": 4408
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 9465,
+      "homens": 4622,
+      "mulheres": 4843
+    }
+  },
+  "Caseiros": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 3007,
+      "homens": 1517,
+      "mulheres": 1490
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 3000,
+      "homens": 1524,
+      "mulheres": 1476
+    }
+  },
+  "Catuípe": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 9323,
+      "homens": 4590,
+      "mulheres": 4733
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 8674,
+      "homens": 4167,
+      "mulheres": 4507
+    }
+  },
+  "Caxias do Sul": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 435564,
+      "homens": 213612,
+      "mulheres": 221952
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 463501,
+      "homens": 224298,
+      "mulheres": 239203
+    }
+  },
+  "Caçapava do Sul": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 33690,
+      "homens": 16329,
+      "mulheres": 17361
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 32515,
+      "homens": 15780,
+      "mulheres": 16735
+    }
+  },
+  "Centenário": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2965,
+      "homens": 1541,
+      "mulheres": 1424
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2721,
+      "homens": 1404,
+      "mulheres": 1317
+    }
+  },
+  "Cerrito": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6402,
+      "homens": 3213,
+      "mulheres": 3189
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5808,
+      "homens": 2894,
+      "mulheres": 2914
+    }
+  },
+  "Cerro Branco": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 4454,
+      "homens": 2225,
+      "mulheres": 2229
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 3802,
+      "homens": 1921,
+      "mulheres": 1881
+    }
+  },
+  "Cerro Grande": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2417,
+      "homens": 1209,
+      "mulheres": 1208
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2379,
+      "homens": 1190,
+      "mulheres": 1189
+    }
+  },
+  "Cerro Grande do Sul": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 10268,
+      "homens": 5355,
+      "mulheres": 4913
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 9178,
+      "homens": 4747,
+      "mulheres": 4431
+    }
+  },
+  "Cerro Largo": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 13289,
+      "homens": 6617,
+      "mulheres": 6672
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 13705,
+      "homens": 6745,
+      "mulheres": 6960
+    }
+  },
+  "Chapada": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 9377,
+      "homens": 4593,
+      "mulheres": 4784
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 9540,
+      "homens": 4654,
+      "mulheres": 4886
+    }
+  },
+  "Charqueadas": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 35320,
+      "homens": 19533,
+      "mulheres": 15787
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 35012,
+      "homens": 18774,
+      "mulheres": 16238
+    }
+  },
+  "Charrua": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3471,
+      "homens": 1728,
+      "mulheres": 1743
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2768,
+      "homens": 1398,
+      "mulheres": 1370
+    }
+  },
+  "Chiapetta": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4044,
+      "homens": 1975,
+      "mulheres": 2069
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3913,
+      "homens": 1916,
+      "mulheres": 1997
+    }
+  },
+  "Chuvisca": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 4944,
+      "homens": 2603,
+      "mulheres": 2341
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 4597,
+      "homens": 2359,
+      "mulheres": 2238
+    }
+  },
+  "Chuí": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5917,
+      "homens": 2921,
+      "mulheres": 2996
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6262,
+      "homens": 3043,
+      "mulheres": 3219
+    }
+  },
+  "Cidreira": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 12668,
+      "homens": 6245,
+      "mulheres": 6423
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 17071,
+      "homens": 8176,
+      "mulheres": 8895
+    }
+  },
+  "Ciríaco": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4922,
+      "homens": 2512,
+      "mulheres": 2410
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4149,
+      "homens": 2066,
+      "mulheres": 2083
+    }
+  },
+  "Colinas": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2420,
+      "homens": 1208,
+      "mulheres": 1212
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2423,
+      "homens": 1216,
+      "mulheres": 1207
+    }
+  },
+  "Colorado": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 3550,
+      "homens": 1727,
+      "mulheres": 1823
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 3258,
+      "homens": 1585,
+      "mulheres": 1673
+    }
+  },
+  "Condor": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 6552,
+      "homens": 3219,
+      "mulheres": 3333
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 6406,
+      "homens": 3167,
+      "mulheres": 3239
+    }
+  },
+  "Constantina": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 9752,
+      "homens": 4776,
+      "mulheres": 4976
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 10385,
+      "homens": 5090,
+      "mulheres": 5295
+    }
+  },
+  "Coqueiro Baixo": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1528,
+      "homens": 791,
+      "mulheres": 737
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1290,
+      "homens": 658,
+      "mulheres": 632
+    }
+  },
+  "Coqueiros do Sul": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2457,
+      "homens": 1255,
+      "mulheres": 1202
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2211,
+      "homens": 1097,
+      "mulheres": 1114
+    }
+  },
+  "Coronel Barros": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2459,
+      "homens": 1219,
+      "mulheres": 1240
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2822,
+      "homens": 1395,
+      "mulheres": 1427
+    }
+  },
+  "Coronel Bicaco": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 7748,
+      "homens": 3802,
+      "mulheres": 3946
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 6144,
+      "homens": 3050,
+      "mulheres": 3094
+    }
+  },
+  "Coronel Pilar": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1725,
+      "homens": 894,
+      "mulheres": 831
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1607,
+      "homens": 829,
+      "mulheres": 778
+    }
+  },
+  "Cotiporã": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3917,
+      "homens": 2033,
+      "mulheres": 1884
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3846,
+      "homens": 1964,
+      "mulheres": 1882
+    }
+  },
+  "Coxilha": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2826,
+      "homens": 1388,
+      "mulheres": 1438
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2667,
+      "homens": 1337,
+      "mulheres": 1330
+    }
+  },
+  "Crissiumal": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 14084,
+      "homens": 6913,
+      "mulheres": 7171
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 12886,
+      "homens": 6326,
+      "mulheres": 6560
+    }
+  },
+  "Cristal": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 7280,
+      "homens": 3686,
+      "mulheres": 3594
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 7299,
+      "homens": 3648,
+      "mulheres": 3651
+    }
+  },
+  "Cristal do Sul": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2826,
+      "homens": 1441,
+      "mulheres": 1385
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2692,
+      "homens": 1320,
+      "mulheres": 1372
+    }
+  },
+  "Cruz Alta": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 62821,
+      "homens": 29743,
+      "mulheres": 33078
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 58913,
+      "homens": 27919,
+      "mulheres": 30994
+    }
+  },
+  "Cruzaltense": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2141,
+      "homens": 1101,
+      "mulheres": 1040
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1635,
+      "homens": 831,
+      "mulheres": 804
+    }
+  },
+  "Cruzeiro do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 12320,
+      "homens": 6157,
+      "mulheres": 6163
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 11600,
+      "homens": 5798,
+      "mulheres": 5802
+    }
+  },
+  "Cândido Godói": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6535,
+      "homens": 3318,
+      "mulheres": 3217
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6294,
+      "homens": 3169,
+      "mulheres": 3125
+    }
+  },
+  "David Canabarro": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4683,
+      "homens": 2410,
+      "mulheres": 2273
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4321,
+      "homens": 2171,
+      "mulheres": 2150
+    }
+  },
+  "Derrubadas": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3190,
+      "homens": 1604,
+      "mulheres": 1586
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2751,
+      "homens": 1388,
+      "mulheres": 1363
+    }
+  },
+  "Dezesseis de Novembro": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2866,
+      "homens": 1469,
+      "mulheres": 1397
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2507,
+      "homens": 1288,
+      "mulheres": 1219
+    }
+  },
+  "Dilermando de Aguiar": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3064,
+      "homens": 1579,
+      "mulheres": 1485
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2806,
+      "homens": 1464,
+      "mulheres": 1342
+    }
+  },
+  "Dois Irmãos": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 27572,
+      "homens": 13653,
+      "mulheres": 13919
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 30709,
+      "homens": 14893,
+      "mulheres": 15816
+    }
+  },
+  "Dois Irmãos das Missões": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2157,
+      "homens": 1080,
+      "mulheres": 1077
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2090,
+      "homens": 1047,
+      "mulheres": 1043
+    }
+  },
+  "Dois Lajeados": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3278,
+      "homens": 1653,
+      "mulheres": 1625
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3097,
+      "homens": 1535,
+      "mulheres": 1562
+    }
+  },
+  "Dom Feliciano": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 14380,
+      "homens": 7398,
+      "mulheres": 6982
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 13051,
+      "homens": 6753,
+      "mulheres": 6298
+    }
+  },
+  "Dom Pedrito": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 38898,
+      "homens": 19107,
+      "mulheres": 19791
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 36981,
+      "homens": 18256,
+      "mulheres": 18725
+    }
+  },
+  "Dom Pedro de Alcântara": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2550,
+      "homens": 1341,
+      "mulheres": 1209
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 2562,
+      "homens": 1318,
+      "mulheres": 1244
+    }
+  },
+  "Dona Francisca": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3401,
+      "homens": 1678,
+      "mulheres": 1723
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3079,
+      "homens": 1533,
+      "mulheres": 1546
+    }
+  },
+  "Doutor Maurício Cardoso": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 5313,
+      "homens": 2646,
+      "mulheres": 2667
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 4470,
+      "homens": 2212,
+      "mulheres": 2258
+    }
+  },
+  "Doutor Ricardo": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2030,
+      "homens": 1035,
+      "mulheres": 995
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1888,
+      "homens": 970,
+      "mulheres": 918
+    }
+  },
+  "Eldorado do Sul": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 34343,
+      "homens": 16999,
+      "mulheres": 17344
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 39559,
+      "homens": 19376,
+      "mulheres": 20183
+    }
+  },
+  "Encantado": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 20510,
+      "homens": 9932,
+      "mulheres": 10578
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 22962,
+      "homens": 11103,
+      "mulheres": 11859
+    }
+  },
+  "Encruzilhada do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 24534,
+      "homens": 12322,
+      "mulheres": 12212
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 23819,
+      "homens": 11841,
+      "mulheres": 11978
+    }
+  },
+  "Engenho Velho": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1527,
+      "homens": 742,
+      "mulheres": 785
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1296,
+      "homens": 642,
+      "mulheres": 654
+    }
+  },
+  "Entre Rios do Sul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3080,
+      "homens": 1556,
+      "mulheres": 1524
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2685,
+      "homens": 1307,
+      "mulheres": 1378
+    }
+  },
+  "Entre-Ijuís": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 8938,
+      "homens": 4415,
+      "mulheres": 4523
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 9158,
+      "homens": 4507,
+      "mulheres": 4651
+    }
+  },
+  "Erebango": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2970,
+      "homens": 1490,
+      "mulheres": 1480
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3054,
+      "homens": 1512,
+      "mulheres": 1542
+    }
+  },
+  "Erechim": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 96087,
+      "homens": 46224,
+      "mulheres": 49863
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 105705,
+      "homens": 50669,
+      "mulheres": 55036
+    }
+  },
+  "Ernestina": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3088,
+      "homens": 1562,
+      "mulheres": 1526
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3034,
+      "homens": 1530,
+      "mulheres": 1504
+    }
+  },
+  "Erval Grande": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5163,
+      "homens": 2622,
+      "mulheres": 2541
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4930,
+      "homens": 2515,
+      "mulheres": 2415
+    }
+  },
+  "Erval Seco": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7878,
+      "homens": 3920,
+      "mulheres": 3958
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 6787,
+      "homens": 3435,
+      "mulheres": 3352
+    }
+  },
+  "Esmeralda": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3168,
+      "homens": 1572,
+      "mulheres": 1596
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3195,
+      "homens": 1568,
+      "mulheres": 1627
+    }
+  },
+  "Esperança do Sul": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3272,
+      "homens": 1650,
+      "mulheres": 1622
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3226,
+      "homens": 1608,
+      "mulheres": 1618
+    }
+  },
+  "Espumoso": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 15240,
+      "homens": 7532,
+      "mulheres": 7708
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 15173,
+      "homens": 7471,
+      "mulheres": 7702
+    }
+  },
+  "Estação": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6011,
+      "homens": 2951,
+      "mulheres": 3060
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 5582,
+      "homens": 2705,
+      "mulheres": 2877
+    }
+  },
+  "Esteio": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 80755,
+      "homens": 38973,
+      "mulheres": 41782
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 76137,
+      "homens": 36187,
+      "mulheres": 39950
+    }
+  },
+  "Estrela": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 30619,
+      "homens": 15119,
+      "mulheres": 15500
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 32183,
+      "homens": 15576,
+      "mulheres": 16607
+    }
+  },
+  "Estrela Velha": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3628,
+      "homens": 1846,
+      "mulheres": 1782
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 3070,
+      "homens": 1570,
+      "mulheres": 1500
+    }
+  },
+  "Estância Velha": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 42574,
+      "homens": 21035,
+      "mulheres": 21539
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 47924,
+      "homens": 23446,
+      "mulheres": 24478
+    }
+  },
+  "Eugênio de Castro": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2798,
+      "homens": 1415,
+      "mulheres": 1383
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2633,
+      "homens": 1320,
+      "mulheres": 1313
+    }
+  },
+  "Fagundes Varela": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2579,
+      "homens": 1300,
+      "mulheres": 1279
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2566,
+      "homens": 1301,
+      "mulheres": 1265
+    }
+  },
+  "Farroupilha": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 63635,
+      "homens": 31303,
+      "mulheres": 32332
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 70286,
+      "homens": 34109,
+      "mulheres": 36177
+    }
+  },
+  "Faxinal do Soturno": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 6672,
+      "homens": 3274,
+      "mulheres": 3398
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6702,
+      "homens": 3294,
+      "mulheres": 3408
+    }
+  },
+  "Faxinalzinho": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2567,
+      "homens": 1283,
+      "mulheres": 1284
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2520,
+      "homens": 1293,
+      "mulheres": 1227
+    }
+  },
+  "Fazenda Vilanova": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3697,
+      "homens": 1856,
+      "mulheres": 1841
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4291,
+      "homens": 2119,
+      "mulheres": 2172
+    }
+  },
+  "Feliz": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 12359,
+      "homens": 6161,
+      "mulheres": 6198
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 13764,
+      "homens": 6759,
+      "mulheres": 7005
+    }
+  },
+  "Flores da Cunha": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 27126,
+      "homens": 13552,
+      "mulheres": 13574
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 30892,
+      "homens": 15232,
+      "mulheres": 15660
+    }
+  },
+  "Floriano Peixoto": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2018,
+      "homens": 1081,
+      "mulheres": 937
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1668,
+      "homens": 871,
+      "mulheres": 797
+    }
+  },
+  "Fontoura Xavier": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 10719,
+      "homens": 5461,
+      "mulheres": 5258
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 9550,
+      "homens": 4855,
+      "mulheres": 4695
+    }
+  },
+  "Formigueiro": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 7014,
+      "homens": 3570,
+      "mulheres": 3444
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 6413,
+      "homens": 3211,
+      "mulheres": 3202
+    }
+  },
+  "Forquetinha": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2479,
+      "homens": 1265,
+      "mulheres": 1214
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2393,
+      "homens": 1203,
+      "mulheres": 1190
+    }
+  },
+  "Fortaleza dos Valos": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 4575,
+      "homens": 2241,
+      "mulheres": 2334
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4477,
+      "homens": 2201,
+      "mulheres": 2276
+    }
+  },
+  "Frederico Westphalen": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 28843,
+      "homens": 14128,
+      "mulheres": 14715
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 32627,
+      "homens": 15921,
+      "mulheres": 16706
+    }
+  },
+  "Garibaldi": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 30689,
+      "homens": 15221,
+      "mulheres": 15468
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 34335,
+      "homens": 16849,
+      "mulheres": 17486
+    }
+  },
+  "Garruchos": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 3234,
+      "homens": 1682,
+      "mulheres": 1552
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2688,
+      "homens": 1408,
+      "mulheres": 1280
+    }
+  },
+  "Gaurama": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5862,
+      "homens": 2832,
+      "mulheres": 3030
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 5665,
+      "homens": 2763,
+      "mulheres": 2902
+    }
+  },
+  "General Câmara": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 8447,
+      "homens": 4233,
+      "mulheres": 4214
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 7612,
+      "homens": 3809,
+      "mulheres": 3803
+    }
+  },
+  "Gentil": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1677,
+      "homens": 889,
+      "mulheres": 788
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1744,
+      "homens": 885,
+      "mulheres": 859
+    }
+  },
+  "Getúlio Vargas": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 16154,
+      "homens": 7849,
+      "mulheres": 8305
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 16602,
+      "homens": 8144,
+      "mulheres": 8458
+    }
+  },
+  "Giruá": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 17075,
+      "homens": 8338,
+      "mulheres": 8737
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 16013,
+      "homens": 7835,
+      "mulheres": 8178
+    }
+  },
+  "Glorinha": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 6891,
+      "homens": 3536,
+      "mulheres": 3355
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 7658,
+      "homens": 3859,
+      "mulheres": 3799
+    }
+  },
+  "Gramado": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 32273,
+      "homens": 15673,
+      "mulheres": 16600
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 40134,
+      "homens": 19336,
+      "mulheres": 20798
+    }
+  },
+  "Gramado Xavier": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3970,
+      "homens": 2044,
+      "mulheres": 1926
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 3304,
+      "homens": 1708,
+      "mulheres": 1596
+    }
+  },
+  "Gramado dos Loureiros": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2269,
+      "homens": 1151,
+      "mulheres": 1118
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2014,
+      "homens": 1042,
+      "mulheres": 972
+    }
+  },
+  "Gravataí": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 255660,
+      "homens": 124880,
+      "mulheres": 130780
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 265074,
+      "homens": 128473,
+      "mulheres": 136601
+    }
+  },
+  "Guabiju": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1598,
+      "homens": 806,
+      "mulheres": 792
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 1417,
+      "homens": 731,
+      "mulheres": 686
+    }
+  },
+  "Guaporé": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 22814,
+      "homens": 11124,
+      "mulheres": 11690
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 25268,
+      "homens": 12214,
+      "mulheres": 13054
+    }
+  },
+  "Guarani das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 8115,
+      "homens": 3951,
+      "mulheres": 4164
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 7415,
+      "homens": 3621,
+      "mulheres": 3794
+    }
+  },
+  "Guaíba": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 95204,
+      "homens": 46153,
+      "mulheres": 49051
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 92924,
+      "homens": 44428,
+      "mulheres": 48496
+    }
+  },
+  "Harmonia": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4254,
+      "homens": 2151,
+      "mulheres": 2103
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5378,
+      "homens": 2685,
+      "mulheres": 2693
+    }
+  },
+  "Herval": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6753,
+      "homens": 3483,
+      "mulheres": 3270
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6191,
+      "homens": 3117,
+      "mulheres": 3074
+    }
+  },
+  "Herveiras": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 2954,
+      "homens": 1543,
+      "mulheres": 1411
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 2565,
+      "homens": 1328,
+      "mulheres": 1237
+    }
+  },
+  "Horizontina": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 18348,
+      "homens": 8946,
+      "mulheres": 9402
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 18851,
+      "homens": 9162,
+      "mulheres": 9689
+    }
+  },
+  "Hulha Negra": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 6043,
+      "homens": 3124,
+      "mulheres": 2919
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 5976,
+      "homens": 3052,
+      "mulheres": 2924
+    }
+  },
+  "Humaitá": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4919,
+      "homens": 2387,
+      "mulheres": 2532
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4681,
+      "homens": 2295,
+      "mulheres": 2386
+    }
+  },
+  "Ibarama": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 4371,
+      "homens": 2230,
+      "mulheres": 2141
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3732,
+      "homens": 1906,
+      "mulheres": 1826
+    }
+  },
+  "Ibiaçá": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4710,
+      "homens": 2290,
+      "mulheres": 2420
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4527,
+      "homens": 2235,
+      "mulheres": 2292
+    }
+  },
+  "Ibiraiaras": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 7171,
+      "homens": 3588,
+      "mulheres": 3583
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 6776,
+      "homens": 3401,
+      "mulheres": 3375
+    }
+  },
+  "Ibirapuitã": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 4061,
+      "homens": 2063,
+      "mulheres": 1998
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3723,
+      "homens": 1916,
+      "mulheres": 1807
+    }
+  },
+  "Ibirubá": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 19310,
+      "homens": 9472,
+      "mulheres": 9838
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 21583,
+      "homens": 10616,
+      "mulheres": 10967
+    }
+  },
+  "Igrejinha": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 31660,
+      "homens": 15461,
+      "mulheres": 16199
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 32808,
+      "homens": 15828,
+      "mulheres": 16980
+    }
+  },
+  "Ijuí": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 78915,
+      "homens": 38112,
+      "mulheres": 40803
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 84780,
+      "homens": 40915,
+      "mulheres": 43865
+    }
+  },
+  "Ilópolis": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4102,
+      "homens": 2055,
+      "mulheres": 2047
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4157,
+      "homens": 2105,
+      "mulheres": 2052
+    }
+  },
+  "Imbé": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 17670,
+      "homens": 8663,
+      "mulheres": 9007
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 26824,
+      "homens": 12875,
+      "mulheres": 13949
+    }
+  },
+  "Imigrante": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3023,
+      "homens": 1495,
+      "mulheres": 1528
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3080,
+      "homens": 1515,
+      "mulheres": 1565
+    }
+  },
+  "Independência": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6618,
+      "homens": 3293,
+      "mulheres": 3325
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6427,
+      "homens": 3245,
+      "mulheres": 3182
+    }
+  },
+  "Inhacorá": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2267,
+      "homens": 1148,
+      "mulheres": 1119
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2014,
+      "homens": 1029,
+      "mulheres": 985
+    }
+  },
+  "Ipiranga do Sul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1944,
+      "homens": 972,
+      "mulheres": 972
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1720,
+      "homens": 877,
+      "mulheres": 843
+    }
+  },
+  "Ipê": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 6016,
+      "homens": 3083,
+      "mulheres": 2933
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 5399,
+      "homens": 2738,
+      "mulheres": 2661
+    }
+  },
+  "Iraí": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 8078,
+      "homens": 4075,
+      "mulheres": 4003
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7482,
+      "homens": 3742,
+      "mulheres": 3740
+    }
+  },
+  "Itaara": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 5010,
+      "homens": 2543,
+      "mulheres": 2467
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 5572,
+      "homens": 2794,
+      "mulheres": 2778
+    }
+  },
+  "Itacurubi": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 3441,
+      "homens": 1778,
+      "mulheres": 1663
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 2995,
+      "homens": 1533,
+      "mulheres": 1462
+    }
+  },
+  "Itapuca": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2344,
+      "homens": 1233,
+      "mulheres": 1111
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1937,
+      "homens": 1018,
+      "mulheres": 919
+    }
+  },
+  "Itaqui": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 38159,
+      "homens": 19034,
+      "mulheres": 19125
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 35768,
+      "homens": 17578,
+      "mulheres": 18190
+    }
+  },
+  "Itati": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2584,
+      "homens": 1340,
+      "mulheres": 1244
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2638,
+      "homens": 1355,
+      "mulheres": 1283
+    }
+  },
+  "Itatiba do Sul": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 4171,
+      "homens": 2178,
+      "mulheres": 1993
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3208,
+      "homens": 1650,
+      "mulheres": 1558
+    }
+  },
+  "Ivorá": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2156,
+      "homens": 1097,
+      "mulheres": 1059
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 1929,
+      "homens": 975,
+      "mulheres": 954
+    }
+  },
+  "Ivoti": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 19874,
+      "homens": 9801,
+      "mulheres": 10073
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 22983,
+      "homens": 11213,
+      "mulheres": 11770
+    }
+  },
+  "Jaboticaba": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4098,
+      "homens": 2081,
+      "mulheres": 2017
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 3779,
+      "homens": 1887,
+      "mulheres": 1892
+    }
+  },
+  "Jacuizinho": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2507,
+      "homens": 1283,
+      "mulheres": 1224
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2040,
+      "homens": 1082,
+      "mulheres": 958
+    }
+  },
+  "Jacutinga": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3633,
+      "homens": 1781,
+      "mulheres": 1852
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3338,
+      "homens": 1626,
+      "mulheres": 1712
+    }
+  },
+  "Jaguari": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 11473,
+      "homens": 5738,
+      "mulheres": 5735
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 10579,
+      "homens": 5170,
+      "mulheres": 5409
+    }
+  },
+  "Jaguarão": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 27931,
+      "homens": 13588,
+      "mulheres": 14343
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 26603,
+      "homens": 12800,
+      "mulheres": 13803
+    }
+  },
+  "Jaquirana": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 4177,
+      "homens": 2142,
+      "mulheres": 2035
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 3690,
+      "homens": 1876,
+      "mulheres": 1814
+    }
+  },
+  "Jari": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3575,
+      "homens": 1884,
+      "mulheres": 1691
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3349,
+      "homens": 1736,
+      "mulheres": 1613
+    }
+  },
+  "Jóia": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 8331,
+      "homens": 4306,
+      "mulheres": 4025
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 7184,
+      "homens": 3692,
+      "mulheres": 3492
+    }
+  },
+  "Júlio de Castilhos": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 19579,
+      "homens": 9626,
+      "mulheres": 9953
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 18226,
+      "homens": 8862,
+      "mulheres": 9364
+    }
+  },
+  "Lagoa Bonita do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 2662,
+      "homens": 1403,
+      "mulheres": 1259
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 2251,
+      "homens": 1164,
+      "mulheres": 1087
+    }
+  },
+  "Lagoa Vermelha": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 27525,
+      "homens": 13564,
+      "mulheres": 13961
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 27659,
+      "homens": 13577,
+      "mulheres": 14082
+    }
+  },
+  "Lagoa dos Três Cantos": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 1598,
+      "homens": 776,
+      "mulheres": 822
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1738,
+      "homens": 865,
+      "mulheres": 873
+    }
+  },
+  "Lagoão": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 6185,
+      "homens": 3195,
+      "mulheres": 2990
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 5341,
+      "homens": 2747,
+      "mulheres": 2594
+    }
+  },
+  "Lajeado": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 71445,
+      "homens": 34731,
+      "mulheres": 36714
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 93646,
+      "homens": 45147,
+      "mulheres": 48499
+    }
+  },
+  "Lajeado do Bugre": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2487,
+      "homens": 1253,
+      "mulheres": 1234
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2601,
+      "homens": 1326,
+      "mulheres": 1275
+    }
+  },
+  "Lavras do Sul": {
+    "censo_2010": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 7679,
+      "homens": 3775,
+      "mulheres": 3904
+    },
+    "censo_2022": {
+      "corede": "Campanha",
+      "rf": "RF6",
+      "total": 7157,
+      "homens": 3547,
+      "mulheres": 3610
+    }
+  },
+  "Liberato Salzano": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 5780,
+      "homens": 2949,
+      "mulheres": 2831
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4781,
+      "homens": 2408,
+      "mulheres": 2373
+    }
+  },
+  "Lindolfo Collor": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 5227,
+      "homens": 2679,
+      "mulheres": 2548
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 6248,
+      "homens": 3150,
+      "mulheres": 3098
+    }
+  },
+  "Linha Nova": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 1624,
+      "homens": 808,
+      "mulheres": 816
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 1683,
+      "homens": 845,
+      "mulheres": 838
+    }
+  },
+  "Machadinho": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 5510,
+      "homens": 2757,
+      "mulheres": 2753
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 5735,
+      "homens": 2876,
+      "mulheres": 2859
+    }
+  },
+  "Mampituba": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 3003,
+      "homens": 1551,
+      "mulheres": 1452
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 3131,
+      "homens": 1617,
+      "mulheres": 1514
+    }
+  },
+  "Manoel Viana": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 7072,
+      "homens": 3556,
+      "mulheres": 3516
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 6801,
+      "homens": 3390,
+      "mulheres": 3411
+    }
+  },
+  "Maquiné": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 6905,
+      "homens": 3523,
+      "mulheres": 3382
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 7418,
+      "homens": 3780,
+      "mulheres": 3638
+    }
+  },
+  "Maratá": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2527,
+      "homens": 1272,
+      "mulheres": 1255
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2470,
+      "homens": 1256,
+      "mulheres": 1214
+    }
+  },
+  "Marau": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 36364,
+      "homens": 18030,
+      "mulheres": 18334
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 45124,
+      "homens": 22026,
+      "mulheres": 23098
+    }
+  },
+  "Marcelino Ramos": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5134,
+      "homens": 2555,
+      "mulheres": 2579
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 4320,
+      "homens": 2157,
+      "mulheres": 2163
+    }
+  },
+  "Mariana Pimentel": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 3768,
+      "homens": 1970,
+      "mulheres": 1798
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 3916,
+      "homens": 2010,
+      "mulheres": 1906
+    }
+  },
+  "Mariano Moro": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2210,
+      "homens": 1133,
+      "mulheres": 1077
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1858,
+      "homens": 926,
+      "mulheres": 932
+    }
+  },
+  "Marques de Souza": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4068,
+      "homens": 2039,
+      "mulheres": 2029
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3969,
+      "homens": 1982,
+      "mulheres": 1987
+    }
+  },
+  "Mata": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 5111,
+      "homens": 2575,
+      "mulheres": 2536
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 4698,
+      "homens": 2373,
+      "mulheres": 2325
+    }
+  },
+  "Mato Castelhano": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2470,
+      "homens": 1292,
+      "mulheres": 1178
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2553,
+      "homens": 1269,
+      "mulheres": 1284
+    }
+  },
+  "Mato Leitão": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3865,
+      "homens": 1937,
+      "mulheres": 1928
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 4859,
+      "homens": 2395,
+      "mulheres": 2464
+    }
+  },
+  "Mato Queimado": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 1799,
+      "homens": 902,
+      "mulheres": 897
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 1795,
+      "homens": 911,
+      "mulheres": 884
+    }
+  },
+  "Maximiliano de Almeida": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4911,
+      "homens": 2467,
+      "mulheres": 2444
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4191,
+      "homens": 2073,
+      "mulheres": 2118
+    }
+  },
+  "Maçambará": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 4738,
+      "homens": 2418,
+      "mulheres": 2320
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4425,
+      "homens": 2261,
+      "mulheres": 2164
+    }
+  },
+  "Minas do Leão": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 7631,
+      "homens": 3778,
+      "mulheres": 3853
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 7505,
+      "homens": 3680,
+      "mulheres": 3825
+    }
+  },
+  "Miraguaí": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4855,
+      "homens": 2413,
+      "mulheres": 2442
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 4427,
+      "homens": 2204,
+      "mulheres": 2223
+    }
+  },
+  "Montauri": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1542,
+      "homens": 794,
+      "mulheres": 748
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1499,
+      "homens": 751,
+      "mulheres": 748
+    }
+  },
+  "Monte Alegre dos Campos": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3102,
+      "homens": 1661,
+      "mulheres": 1441
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3180,
+      "homens": 1684,
+      "mulheres": 1496
+    }
+  },
+  "Monte Belo do Sul": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2670,
+      "homens": 1345,
+      "mulheres": 1325
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2557,
+      "homens": 1266,
+      "mulheres": 1291
+    }
+  },
+  "Montenegro": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 59415,
+      "homens": 29245,
+      "mulheres": 30170
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 64322,
+      "homens": 31925,
+      "mulheres": 32397
+    }
+  },
+  "Mormaço": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2749,
+      "homens": 1396,
+      "mulheres": 1353
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2756,
+      "homens": 1359,
+      "mulheres": 1397
+    }
+  },
+  "Morrinhos do Sul": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 3182,
+      "homens": 1617,
+      "mulheres": 1565
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 3071,
+      "homens": 1596,
+      "mulheres": 1475
+    }
+  },
+  "Morro Redondo": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6227,
+      "homens": 3135,
+      "mulheres": 3092
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 6046,
+      "homens": 2967,
+      "mulheres": 3079
+    }
+  },
+  "Morro Reuter": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 5676,
+      "homens": 2849,
+      "mulheres": 2827
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 6029,
+      "homens": 3028,
+      "mulheres": 3001
+    }
+  },
+  "Mostardas": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 12124,
+      "homens": 6187,
+      "mulheres": 5937
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 12090,
+      "homens": 6120,
+      "mulheres": 5970
+    }
+  },
+  "Muitos Capões": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 2988,
+      "homens": 1535,
+      "mulheres": 1453
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 2879,
+      "homens": 1500,
+      "mulheres": 1379
+    }
+  },
+  "Muliterno": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1813,
+      "homens": 923,
+      "mulheres": 890
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1721,
+      "homens": 889,
+      "mulheres": 832
+    }
+  },
+  "Muçum": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4791,
+      "homens": 2300,
+      "mulheres": 2491
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4601,
+      "homens": 2211,
+      "mulheres": 2390
+    }
+  },
+  "Nicolau Vergueiro": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1721,
+      "homens": 862,
+      "mulheres": 859
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1932,
+      "homens": 980,
+      "mulheres": 952
+    }
+  },
+  "Nonoai": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 12074,
+      "homens": 5932,
+      "mulheres": 6142
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 13719,
+      "homens": 6792,
+      "mulheres": 6927
+    }
+  },
+  "Nova Alvorada": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3182,
+      "homens": 1598,
+      "mulheres": 1584
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3163,
+      "homens": 1565,
+      "mulheres": 1598
+    }
+  },
+  "Nova Araçá": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 4001,
+      "homens": 1957,
+      "mulheres": 2044
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 4954,
+      "homens": 2515,
+      "mulheres": 2439
+    }
+  },
+  "Nova Bassano": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 8840,
+      "homens": 4480,
+      "mulheres": 4360
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 9649,
+      "homens": 4825,
+      "mulheres": 4824
+    }
+  },
+  "Nova Boa Vista": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1960,
+      "homens": 981,
+      "mulheres": 979
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2042,
+      "homens": 1038,
+      "mulheres": 1004
+    }
+  },
+  "Nova Bréscia": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3184,
+      "homens": 1629,
+      "mulheres": 1555
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3044,
+      "homens": 1518,
+      "mulheres": 1526
+    }
+  },
+  "Nova Candelária": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2751,
+      "homens": 1405,
+      "mulheres": 1346
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 3061,
+      "homens": 1555,
+      "mulheres": 1506
+    }
+  },
+  "Nova Esperança do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 4671,
+      "homens": 2306,
+      "mulheres": 2365
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 4865,
+      "homens": 2383,
+      "mulheres": 2482
+    }
+  },
+  "Nova Hartz": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 18346,
+      "homens": 9072,
+      "mulheres": 9274
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 20088,
+      "homens": 9900,
+      "mulheres": 10188
+    }
+  },
+  "Nova Palma": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 6342,
+      "homens": 3217,
+      "mulheres": 3125
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 5586,
+      "homens": 2774,
+      "mulheres": 2812
+    }
+  },
+  "Nova Petrópolis": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 19045,
+      "homens": 9370,
+      "mulheres": 9675
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 23300,
+      "homens": 11322,
+      "mulheres": 11978
+    }
+  },
+  "Nova Prata": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 22830,
+      "homens": 11303,
+      "mulheres": 11527
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 25692,
+      "homens": 12544,
+      "mulheres": 13148
+    }
+  },
+  "Nova Pádua": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2450,
+      "homens": 1258,
+      "mulheres": 1192
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2343,
+      "homens": 1189,
+      "mulheres": 1154
+    }
+  },
+  "Nova Ramada": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2437,
+      "homens": 1246,
+      "mulheres": 1191
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 2163,
+      "homens": 1118,
+      "mulheres": 1045
+    }
+  },
+  "Nova Roma do Sul": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3343,
+      "homens": 1708,
+      "mulheres": 1635
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3466,
+      "homens": 1768,
+      "mulheres": 1698
+    }
+  },
+  "Nova Santa Rita": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 22716,
+      "homens": 11441,
+      "mulheres": 11275
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 29024,
+      "homens": 14435,
+      "mulheres": 14589
+    }
+  },
+  "Novo Barreiro": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 3978,
+      "homens": 2032,
+      "mulheres": 1946
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4272,
+      "homens": 2173,
+      "mulheres": 2099
+    }
+  },
+  "Novo Cabrais": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 3855,
+      "homens": 1946,
+      "mulheres": 1909
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 3568,
+      "homens": 1772,
+      "mulheres": 1796
+    }
+  },
+  "Novo Hamburgo": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 238940,
+      "homens": 115766,
+      "mulheres": 123174
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 227646,
+      "homens": 108825,
+      "mulheres": 118821
+    }
+  },
+  "Novo Machado": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 3925,
+      "homens": 1948,
+      "mulheres": 1977
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 3198,
+      "homens": 1590,
+      "mulheres": 1608
+    }
+  },
+  "Novo Tiradentes": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2277,
+      "homens": 1191,
+      "mulheres": 1086
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2146,
+      "homens": 1102,
+      "mulheres": 1044
+    }
+  },
+  "Novo Xingu": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1757,
+      "homens": 861,
+      "mulheres": 896
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 1646,
+      "homens": 822,
+      "mulheres": 824
+    }
+  },
+  "Não-Me-Toque": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 15936,
+      "homens": 7855,
+      "mulheres": 8081
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 17898,
+      "homens": 8683,
+      "mulheres": 9215
+    }
+  },
+  "Osório": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 40906,
+      "homens": 20157,
+      "mulheres": 20749
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 47396,
+      "homens": 23084,
+      "mulheres": 24312
+    }
+  },
+  "Paim Filho": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4243,
+      "homens": 2111,
+      "mulheres": 2132
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 3629,
+      "homens": 1819,
+      "mulheres": 1810
+    }
+  },
+  "Palmares do Sul": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 10969,
+      "homens": 5462,
+      "mulheres": 5507
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 12844,
+      "homens": 6316,
+      "mulheres": 6528
+    }
+  },
+  "Palmeira das Missões": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 34328,
+      "homens": 16641,
+      "mulheres": 17687
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 33216,
+      "homens": 16076,
+      "mulheres": 17140
+    }
+  },
+  "Palmitinho": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 6920,
+      "homens": 3494,
+      "mulheres": 3426
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7839,
+      "homens": 3919,
+      "mulheres": 3920
+    }
+  },
+  "Panambi": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 38058,
+      "homens": 19013,
+      "mulheres": 19045
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 43515,
+      "homens": 21596,
+      "mulheres": 21919
+    }
+  },
+  "Pantano Grande": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 9895,
+      "homens": 4909,
+      "mulheres": 4986
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 10212,
+      "homens": 5056,
+      "mulheres": 5156
+    }
+  },
+  "Paraí": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 6812,
+      "homens": 3451,
+      "mulheres": 3361
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 7194,
+      "homens": 3589,
+      "mulheres": 3605
+    }
+  },
+  "Paraíso do Sul": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 7336,
+      "homens": 3694,
+      "mulheres": 3642
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 6519,
+      "homens": 3247,
+      "mulheres": 3272
+    }
+  },
+  "Pareci Novo": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3511,
+      "homens": 1784,
+      "mulheres": 1727
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4319,
+      "homens": 2161,
+      "mulheres": 2158
+    }
+  },
+  "Parobé": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 51502,
+      "homens": 25449,
+      "mulheres": 26053
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 52058,
+      "homens": 25580,
+      "mulheres": 26478
+    }
+  },
+  "Passa Sete": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 5154,
+      "homens": 2678,
+      "mulheres": 2476
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3983,
+      "homens": 2033,
+      "mulheres": 1950
+    }
+  },
+  "Passo Fundo": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 184826,
+      "homens": 88050,
+      "mulheres": 96776
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 206215,
+      "homens": 97929,
+      "mulheres": 108286
+    }
+  },
+  "Passo do Sobrado": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 6011,
+      "homens": 2996,
+      "mulheres": 3015
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 6025,
+      "homens": 2950,
+      "mulheres": 3075
+    }
+  },
+  "Paulo Bento": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2196,
+      "homens": 1126,
+      "mulheres": 1070
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2144,
+      "homens": 1099,
+      "mulheres": 1045
+    }
+  },
+  "Paverama": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 8044,
+      "homens": 4050,
+      "mulheres": 3994
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 7978,
+      "homens": 4006,
+      "mulheres": 3972
+    }
+  },
+  "Pedras Altas": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 2212,
+      "homens": 1161,
+      "mulheres": 1051
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 2061,
+      "homens": 1081,
+      "mulheres": 980
+    }
+  },
+  "Pedro Osório": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 7811,
+      "homens": 3826,
+      "mulheres": 3985
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 7484,
+      "homens": 3565,
+      "mulheres": 3919
+    }
+  },
+  "Pejuçara": {
+    "censo_2010": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 3973,
+      "homens": 2008,
+      "mulheres": 1965
+    },
+    "censo_2022": {
+      "corede": "Noroeste Colonial",
+      "rf": "RF7",
+      "total": 3745,
+      "homens": 1862,
+      "mulheres": 1883
+    }
+  },
+  "Pelotas": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 328275,
+      "homens": 154198,
+      "mulheres": 174077
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 325685,
+      "homens": 152123,
+      "mulheres": 173562
+    }
+  },
+  "Picada Café": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 5182,
+      "homens": 2594,
+      "mulheres": 2588
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 5351,
+      "homens": 2621,
+      "mulheres": 2730
+    }
+  },
+  "Pinhal": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2513,
+      "homens": 1274,
+      "mulheres": 1239
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2959,
+      "homens": 1499,
+      "mulheres": 1460
+    }
+  },
+  "Pinhal Grande": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 4471,
+      "homens": 2314,
+      "mulheres": 2157
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3805,
+      "homens": 1971,
+      "mulheres": 1834
+    }
+  },
+  "Pinhal da Serra": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 2130,
+      "homens": 1110,
+      "mulheres": 1020
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 2248,
+      "homens": 1155,
+      "mulheres": 1093
+    }
+  },
+  "Pinheirinho do Vale": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4497,
+      "homens": 2277,
+      "mulheres": 2220
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4540,
+      "homens": 2297,
+      "mulheres": 2243
+    }
+  },
+  "Pinheiro Machado": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 12780,
+      "homens": 6381,
+      "mulheres": 6399
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 11214,
+      "homens": 5522,
+      "mulheres": 5692
+    }
+  },
+  "Pinto Bandeira": {
+    "censo_2010": null,
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2723,
+      "homens": 1373,
+      "mulheres": 1350
+    }
+  },
+  "Pirapó": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2757,
+      "homens": 1398,
+      "mulheres": 1359
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2260,
+      "homens": 1156,
+      "mulheres": 1104
+    }
+  },
+  "Piratini": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 19841,
+      "homens": 10108,
+      "mulheres": 9733
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 17504,
+      "homens": 8799,
+      "mulheres": 8705
+    }
+  },
+  "Planalto": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 10524,
+      "homens": 5209,
+      "mulheres": 5315
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 10406,
+      "homens": 5126,
+      "mulheres": 5280
+    }
+  },
+  "Ponte Preta": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1750,
+      "homens": 924,
+      "mulheres": 826
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1575,
+      "homens": 798,
+      "mulheres": 777
+    }
+  },
+  "Pontão": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3857,
+      "homens": 1984,
+      "mulheres": 1873
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 3296,
+      "homens": 1677,
+      "mulheres": 1619
+    }
+  },
+  "Porto Alegre": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 1409351,
+      "homens": 653787,
+      "mulheres": 755564
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 1332845,
+      "homens": 613307,
+      "mulheres": 719538
+    }
+  },
+  "Porto Lucena": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 5413,
+      "homens": 2698,
+      "mulheres": 2715
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 4360,
+      "homens": 2185,
+      "mulheres": 2175
+    }
+  },
+  "Porto Mauá": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2542,
+      "homens": 1264,
+      "mulheres": 1278
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2142,
+      "homens": 1049,
+      "mulheres": 1093
+    }
+  },
+  "Porto Vera Cruz": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 1852,
+      "homens": 936,
+      "mulheres": 916
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 1560,
+      "homens": 771,
+      "mulheres": 789
+    }
+  },
+  "Porto Xavier": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 10558,
+      "homens": 5300,
+      "mulheres": 5258
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 9938,
+      "homens": 4915,
+      "mulheres": 5023
+    }
+  },
+  "Portão": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 30920,
+      "homens": 15515,
+      "mulheres": 15405
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 34071,
+      "homens": 16722,
+      "mulheres": 17349
+    }
+  },
+  "Pouso Novo": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1875,
+      "homens": 953,
+      "mulheres": 922
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1739,
+      "homens": 897,
+      "mulheres": 842
+    }
+  },
+  "Poço das Antas": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2017,
+      "homens": 1023,
+      "mulheres": 994
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2171,
+      "homens": 1107,
+      "mulheres": 1064
+    }
+  },
+  "Presidente Lucena": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 2484,
+      "homens": 1310,
+      "mulheres": 1174
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 3077,
+      "homens": 1589,
+      "mulheres": 1488
+    }
+  },
+  "Progresso": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 6163,
+      "homens": 3183,
+      "mulheres": 2980
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 5340,
+      "homens": 2725,
+      "mulheres": 2615
+    }
+  },
+  "Protásio Alves": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2000,
+      "homens": 1079,
+      "mulheres": 921
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2025,
+      "homens": 1054,
+      "mulheres": 971
+    }
+  },
+  "Putinga": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4141,
+      "homens": 2097,
+      "mulheres": 2044
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3747,
+      "homens": 1877,
+      "mulheres": 1870
+    }
+  },
+  "Quaraí": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 23021,
+      "homens": 11228,
+      "mulheres": 11793
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 23500,
+      "homens": 11503,
+      "mulheres": 11997
+    }
+  },
+  "Quatro Irmãos": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1775,
+      "homens": 890,
+      "mulheres": 885
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 1552,
+      "homens": 779,
+      "mulheres": 773
+    }
+  },
+  "Quevedos": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2710,
+      "homens": 1447,
+      "mulheres": 1263
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2507,
+      "homens": 1318,
+      "mulheres": 1189
+    }
+  },
+  "Quinze de Novembro": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 3653,
+      "homens": 1799,
+      "mulheres": 1854
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 3910,
+      "homens": 1888,
+      "mulheres": 2022
+    }
+  },
+  "Redentora": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 10222,
+      "homens": 5210,
+      "mulheres": 5012
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 9738,
+      "homens": 4937,
+      "mulheres": 4801
+    }
+  },
+  "Relvado": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2155,
+      "homens": 1071,
+      "mulheres": 1084
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1796,
+      "homens": 884,
+      "mulheres": 912
+    }
+  },
+  "Restinga Seca": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 15849,
+      "homens": 7815,
+      "mulheres": 8034
+    },
+    "censo_2022": null
+  },
+  "Restinga Sêca": {
+    "censo_2010": null,
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 14939,
+      "homens": 7360,
+      "mulheres": 7579
+    }
+  },
+  "Rio Grande": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 197228,
+      "homens": 94983,
+      "mulheres": 102245
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 191900,
+      "homens": 91678,
+      "mulheres": 100222
+    }
+  },
+  "Rio Pardo": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 37591,
+      "homens": 18318,
+      "mulheres": 19273
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 34654,
+      "homens": 16841,
+      "mulheres": 17813
+    }
+  },
+  "Rio dos Índios": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 3616,
+      "homens": 1860,
+      "mulheres": 1756
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2835,
+      "homens": 1454,
+      "mulheres": 1381
+    }
+  },
+  "Riozinho": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 4330,
+      "homens": 2203,
+      "mulheres": 2127
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 4473,
+      "homens": 2269,
+      "mulheres": 2204
+    }
+  },
+  "Roca Sales": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 10284,
+      "homens": 5090,
+      "mulheres": 5194
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 10418,
+      "homens": 5080,
+      "mulheres": 5338
+    }
+  },
+  "Rodeio Bonito": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 5743,
+      "homens": 2846,
+      "mulheres": 2897
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 6654,
+      "homens": 3306,
+      "mulheres": 3348
+    }
+  },
+  "Rolador": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2546,
+      "homens": 1318,
+      "mulheres": 1228
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2291,
+      "homens": 1186,
+      "mulheres": 1105
+    }
+  },
+  "Rolante": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 19485,
+      "homens": 9767,
+      "mulheres": 9718
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 21253,
+      "homens": 10546,
+      "mulheres": 10707
+    }
+  },
+  "Ronda Alta": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 10221,
+      "homens": 5009,
+      "mulheres": 5212
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 9777,
+      "homens": 4777,
+      "mulheres": 5000
+    }
+  },
+  "Rondinha": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 5518,
+      "homens": 2718,
+      "mulheres": 2800
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4991,
+      "homens": 2442,
+      "mulheres": 2549
+    }
+  },
+  "Roque Gonzales": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 7203,
+      "homens": 3622,
+      "mulheres": 3581
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 6576,
+      "homens": 3289,
+      "mulheres": 3287
+    }
+  },
+  "Rosário do Sul": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 39707,
+      "homens": 19311,
+      "mulheres": 20396
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 36630,
+      "homens": 17731,
+      "mulheres": 18899
+    }
+  },
+  "Sagrada Família": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2595,
+      "homens": 1339,
+      "mulheres": 1256
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2480,
+      "homens": 1253,
+      "mulheres": 1227
+    }
+  },
+  "Saldanha Marinho": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2869,
+      "homens": 1390,
+      "mulheres": 1479
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 2575,
+      "homens": 1233,
+      "mulheres": 1342
+    }
+  },
+  "Salto do Jacuí": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 11880,
+      "homens": 5878,
+      "mulheres": 6002
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 10203,
+      "homens": 4958,
+      "mulheres": 5245
+    }
+  },
+  "Salvador das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2669,
+      "homens": 1377,
+      "mulheres": 1292
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2877,
+      "homens": 1456,
+      "mulheres": 1421
+    }
+  },
+  "Salvador do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 6747,
+      "homens": 3412,
+      "mulheres": 3335
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 6879,
+      "homens": 3420,
+      "mulheres": 3459
+    }
+  },
+  "Sananduva": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 15373,
+      "homens": 7604,
+      "mulheres": 7769
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 16399,
+      "homens": 8013,
+      "mulheres": 8386
+    }
+  },
+  "Sant'Ana do Livramento": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 82464,
+      "homens": 39376,
+      "mulheres": 43088
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 84421,
+      "homens": 40517,
+      "mulheres": 43904
+    }
+  },
+  "Santa Bárbara do Sul": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 8829,
+      "homens": 4341,
+      "mulheres": 4488
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 8122,
+      "homens": 3984,
+      "mulheres": 4138
+    }
+  },
+  "Santa Cecília do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1655,
+      "homens": 839,
+      "mulheres": 816
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1674,
+      "homens": 850,
+      "mulheres": 824
+    }
+  },
+  "Santa Clara do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 5697,
+      "homens": 2845,
+      "mulheres": 2852
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 6887,
+      "homens": 3420,
+      "mulheres": 3467
+    }
+  },
+  "Santa Cruz do Sul": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 118374,
+      "homens": 56943,
+      "mulheres": 61431
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 133230,
+      "homens": 63453,
+      "mulheres": 69777
+    }
+  },
+  "Santa Margarida do Sul": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2352,
+      "homens": 1272,
+      "mulheres": 1080
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 2596,
+      "homens": 1377,
+      "mulheres": 1219
+    }
+  },
+  "Santa Maria": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 261031,
+      "homens": 123634,
+      "mulheres": 137397
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 271735,
+      "homens": 128889,
+      "mulheres": 142846
+    }
+  },
+  "Santa Maria do Herval": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 6053,
+      "homens": 3101,
+      "mulheres": 2952
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 6340,
+      "homens": 3247,
+      "mulheres": 3093
+    }
+  },
+  "Santa Rosa": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 68587,
+      "homens": 33483,
+      "mulheres": 35104
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 76963,
+      "homens": 37456,
+      "mulheres": 39507
+    }
+  },
+  "Santa Tereza": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 1720,
+      "homens": 889,
+      "mulheres": 831
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 1505,
+      "homens": 766,
+      "mulheres": 739
+    }
+  },
+  "Santa Vitória do Palmar": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 30990,
+      "homens": 15469,
+      "mulheres": 15521
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 30983,
+      "homens": 15314,
+      "mulheres": 15669
+    }
+  },
+  "Santana da Boa Vista": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 8242,
+      "homens": 4169,
+      "mulheres": 4073
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 7024,
+      "homens": 3544,
+      "mulheres": 3480
+    }
+  },
+  "Santiago": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 49071,
+      "homens": 23571,
+      "mulheres": 25500
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 48938,
+      "homens": 23513,
+      "mulheres": 25425
+    }
+  },
+  "Santo Antônio da Patrulha": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 39685,
+      "homens": 19756,
+      "mulheres": 19929
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 42947,
+      "homens": 21231,
+      "mulheres": 21716
+    }
+  },
+  "Santo Antônio das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 11210,
+      "homens": 5579,
+      "mulheres": 5631
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 10300,
+      "homens": 5152,
+      "mulheres": 5148
+    }
+  },
+  "Santo Antônio do Palma": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2139,
+      "homens": 1112,
+      "mulheres": 1027
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 2091,
+      "homens": 1063,
+      "mulheres": 1028
+    }
+  },
+  "Santo Antônio do Planalto": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1987,
+      "homens": 980,
+      "mulheres": 1007
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2089,
+      "homens": 1011,
+      "mulheres": 1078
+    }
+  },
+  "Santo Augusto": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 13968,
+      "homens": 6811,
+      "mulheres": 7157
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 13902,
+      "homens": 6818,
+      "mulheres": 7084
+    }
+  },
+  "Santo Cristo": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 14378,
+      "homens": 7190,
+      "mulheres": 7188
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 15320,
+      "homens": 7609,
+      "mulheres": 7711
+    }
+  },
+  "Santo Expedito do Sul": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 2461,
+      "homens": 1239,
+      "mulheres": 1222
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 2349,
+      "homens": 1170,
+      "mulheres": 1179
+    }
+  },
+  "Santo Ângelo": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 76275,
+      "homens": 36586,
+      "mulheres": 39689
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 76917,
+      "homens": 36873,
+      "mulheres": 40044
+    }
+  },
+  "Sapiranga": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 74985,
+      "homens": 36989,
+      "mulheres": 37996
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 75648,
+      "homens": 36828,
+      "mulheres": 38820
+    }
+  },
+  "Sapucaia do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 130957,
+      "homens": 63747,
+      "mulheres": 67210
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 132107,
+      "homens": 63469,
+      "mulheres": 68638
+    }
+  },
+  "Sarandi": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 21285,
+      "homens": 10269,
+      "mulheres": 11016
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 22851,
+      "homens": 11083,
+      "mulheres": 11768
+    }
+  },
+  "Seberi": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 10897,
+      "homens": 5349,
+      "mulheres": 5548
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 11950,
+      "homens": 5846,
+      "mulheres": 6104
+    }
+  },
+  "Sede Nova": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 3011,
+      "homens": 1531,
+      "mulheres": 1480
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2704,
+      "homens": 1372,
+      "mulheres": 1332
+    }
+  },
+  "Segredo": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 7158,
+      "homens": 3698,
+      "mulheres": 3460
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 6009,
+      "homens": 3098,
+      "mulheres": 2911
+    }
+  },
+  "Selbach": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 4929,
+      "homens": 2403,
+      "mulheres": 2526
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 5107,
+      "homens": 2517,
+      "mulheres": 2590
+    }
+  },
+  "Senador Salgado Filho": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2814,
+      "homens": 1407,
+      "mulheres": 1407
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2673,
+      "homens": 1331,
+      "mulheres": 1342
+    }
+  },
+  "Sentinela do Sul": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 5198,
+      "homens": 2666,
+      "mulheres": 2532
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 5306,
+      "homens": 2762,
+      "mulheres": 2544
+    }
+  },
+  "Serafina Corrêa": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 14253,
+      "homens": 7099,
+      "mulheres": 7154
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 16961,
+      "homens": 8329,
+      "mulheres": 8632
+    }
+  },
+  "Sertão": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 6294,
+      "homens": 3045,
+      "mulheres": 3249
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5541,
+      "homens": 2709,
+      "mulheres": 2832
+    }
+  },
+  "Sertão Santana": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 5850,
+      "homens": 2934,
+      "mulheres": 2916
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 5863,
+      "homens": 2981,
+      "mulheres": 2882
+    }
+  },
+  "Sete de Setembro": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2124,
+      "homens": 1082,
+      "mulheres": 1042
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 1830,
+      "homens": 920,
+      "mulheres": 910
+    }
+  },
+  "Severiano de Almeida": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3842,
+      "homens": 1942,
+      "mulheres": 1900
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3406,
+      "homens": 1727,
+      "mulheres": 1679
+    }
+  },
+  "Silveira Martins": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2449,
+      "homens": 1227,
+      "mulheres": 1222
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2028,
+      "homens": 1022,
+      "mulheres": 1006
+    }
+  },
+  "Sinimbu": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 10068,
+      "homens": 5217,
+      "mulheres": 4851
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 8578,
+      "homens": 4492,
+      "mulheres": 4086
+    }
+  },
+  "Sobradinho": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 14283,
+      "homens": 6992,
+      "mulheres": 7291
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 14226,
+      "homens": 6902,
+      "mulheres": 7324
+    }
+  },
+  "Soledade": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 30044,
+      "homens": 14729,
+      "mulheres": 15315
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 29991,
+      "homens": 14601,
+      "mulheres": 15390
+    }
+  },
+  "São Borja": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 61671,
+      "homens": 30248,
+      "mulheres": 31423
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 59676,
+      "homens": 29209,
+      "mulheres": 30467
+    }
+  },
+  "São Domingos do Sul": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2926,
+      "homens": 1470,
+      "mulheres": 1456
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2754,
+      "homens": 1375,
+      "mulheres": 1379
+    }
+  },
+  "São Francisco de Assis": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 19254,
+      "homens": 9493,
+      "mulheres": 9761
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 17618,
+      "homens": 8706,
+      "mulheres": 8912
+    }
+  },
+  "São Francisco de Paula": {
+    "censo_2010": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 20537,
+      "homens": 10402,
+      "mulheres": 10135
+    },
+    "censo_2022": {
+      "corede": "Hortênsias",
+      "rf": "RF3",
+      "total": 21893,
+      "homens": 11181,
+      "mulheres": 10712
+    }
+  },
+  "São Gabriel": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 60425,
+      "homens": 29429,
+      "mulheres": 30996
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 58487,
+      "homens": 28191,
+      "mulheres": 30296
+    }
+  },
+  "São Jerônimo": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 22134,
+      "homens": 11026,
+      "mulheres": 11108
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 21028,
+      "homens": 10350,
+      "mulheres": 10678
+    }
+  },
+  "São Jorge": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2774,
+      "homens": 1379,
+      "mulheres": 1395
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2912,
+      "homens": 1460,
+      "mulheres": 1452
+    }
+  },
+  "São José das Missões": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2720,
+      "homens": 1377,
+      "mulheres": 1343
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 2362,
+      "homens": 1196,
+      "mulheres": 1166
+    }
+  },
+  "São José do Herval": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2204,
+      "homens": 1136,
+      "mulheres": 1068
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 1902,
+      "homens": 986,
+      "mulheres": 916
+    }
+  },
+  "São José do Hortêncio": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4094,
+      "homens": 2088,
+      "mulheres": 2006
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 4447,
+      "homens": 2254,
+      "mulheres": 2193
+    }
+  },
+  "São José do Inhacorá": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2200,
+      "homens": 1125,
+      "mulheres": 1075
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 2406,
+      "homens": 1206,
+      "mulheres": 1200
+    }
+  },
+  "São José do Norte": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 25503,
+      "homens": 13003,
+      "mulheres": 12500
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 25443,
+      "homens": 12780,
+      "mulheres": 12663
+    }
+  },
+  "São José do Ouro": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 6904,
+      "homens": 3382,
+      "mulheres": 3522
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 6834,
+      "homens": 3322,
+      "mulheres": 3512
+    }
+  },
+  "São José do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2082,
+      "homens": 1052,
+      "mulheres": 1030
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2380,
+      "homens": 1178,
+      "mulheres": 1202
+    }
+  },
+  "São José dos Ausentes": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 3290,
+      "homens": 1693,
+      "mulheres": 1597
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 4172,
+      "homens": 2167,
+      "mulheres": 2005
+    }
+  },
+  "São João da Urtiga": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4726,
+      "homens": 2401,
+      "mulheres": 2325
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 4461,
+      "homens": 2237,
+      "mulheres": 2224
+    }
+  },
+  "São João do Polêsine": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2635,
+      "homens": 1272,
+      "mulheres": 1363
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2649,
+      "homens": 1278,
+      "mulheres": 1371
+    }
+  },
+  "São Leopoldo": {
+    "censo_2010": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 214087,
+      "homens": 104242,
+      "mulheres": 109845
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio dos Sinos",
+      "rf": "RF1",
+      "total": 217409,
+      "homens": 104370,
+      "mulheres": 113039
+    }
+  },
+  "São Lourenço do Sul": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 43111,
+      "homens": 21623,
+      "mulheres": 21488
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 41989,
+      "homens": 20920,
+      "mulheres": 21069
+    }
+  },
+  "São Luiz Gonzaga": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 34556,
+      "homens": 16827,
+      "mulheres": 17729
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 34752,
+      "homens": 16844,
+      "mulheres": 17908
+    }
+  },
+  "São Marcos": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 20103,
+      "homens": 9859,
+      "mulheres": 10244
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 21084,
+      "homens": 10188,
+      "mulheres": 10896
+    }
+  },
+  "São Martinho": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 5773,
+      "homens": 2838,
+      "mulheres": 2935
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 5481,
+      "homens": 2687,
+      "mulheres": 2794
+    }
+  },
+  "São Martinho da Serra": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 3201,
+      "homens": 1647,
+      "mulheres": 1554
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2860,
+      "homens": 1484,
+      "mulheres": 1376
+    }
+  },
+  "São Miguel das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 7421,
+      "homens": 3880,
+      "mulheres": 3541
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 7056,
+      "homens": 3656,
+      "mulheres": 3400
+    }
+  },
+  "São Nicolau": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 5727,
+      "homens": 2906,
+      "mulheres": 2821
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 5118,
+      "homens": 2571,
+      "mulheres": 2547
+    }
+  },
+  "São Paulo das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 6364,
+      "homens": 3228,
+      "mulheres": 3136
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 5846,
+      "homens": 2934,
+      "mulheres": 2912
+    }
+  },
+  "São Pedro da Serra": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3315,
+      "homens": 1683,
+      "mulheres": 1632
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3548,
+      "homens": 1795,
+      "mulheres": 1753
+    }
+  },
+  "São Pedro das Missões": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1886,
+      "homens": 932,
+      "mulheres": 954
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 1757,
+      "homens": 876,
+      "mulheres": 881
+    }
+  },
+  "São Pedro do Butiá": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2873,
+      "homens": 1456,
+      "mulheres": 1417
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 3070,
+      "homens": 1569,
+      "mulheres": 1501
+    }
+  },
+  "São Pedro do Sul": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 16368,
+      "homens": 8050,
+      "mulheres": 8318
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 15577,
+      "homens": 7600,
+      "mulheres": 7977
+    }
+  },
+  "São Sebastião do Caí": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 21932,
+      "homens": 10738,
+      "mulheres": 11194
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 24428,
+      "homens": 11912,
+      "mulheres": 12516
+    }
+  },
+  "São Sepé": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 23798,
+      "homens": 11777,
+      "mulheres": 12021
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 21219,
+      "homens": 10283,
+      "mulheres": 10936
+    }
+  },
+  "São Valentim": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3632,
+      "homens": 1811,
+      "mulheres": 1821
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3264,
+      "homens": 1647,
+      "mulheres": 1617
+    }
+  },
+  "São Valentim do Sul": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2168,
+      "homens": 1112,
+      "mulheres": 1056
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 2207,
+      "homens": 1124,
+      "mulheres": 1083
+    }
+  },
+  "São Valério do Sul": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2647,
+      "homens": 1375,
+      "mulheres": 1272
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2543,
+      "homens": 1319,
+      "mulheres": 1224
+    }
+  },
+  "São Vendelino": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 1944,
+      "homens": 994,
+      "mulheres": 950
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 2251,
+      "homens": 1153,
+      "mulheres": 1098
+    }
+  },
+  "São Vicente do Sul": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 8440,
+      "homens": 4206,
+      "mulheres": 4234
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 8097,
+      "homens": 4010,
+      "mulheres": 4087
+    }
+  },
+  "Sério": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2281,
+      "homens": 1190,
+      "mulheres": 1091
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1941,
+      "homens": 1000,
+      "mulheres": 941
+    }
+  },
+  "Tabaí": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4131,
+      "homens": 2102,
+      "mulheres": 2029
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 4461,
+      "homens": 2217,
+      "mulheres": 2244
+    }
+  },
+  "Tapejara": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 19250,
+      "homens": 9392,
+      "mulheres": 9858
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 24557,
+      "homens": 11863,
+      "mulheres": 12694
+    }
+  },
+  "Tapera": {
+    "censo_2010": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 10448,
+      "homens": 5093,
+      "mulheres": 5355
+    },
+    "censo_2022": {
+      "corede": "Alto Jacuí",
+      "rf": "RF8",
+      "total": 10592,
+      "homens": 5186,
+      "mulheres": 5406
+    }
+  },
+  "Tapes": {
+    "censo_2010": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 16629,
+      "homens": 8167,
+      "mulheres": 8462
+    },
+    "censo_2022": {
+      "corede": "Centro-Sul",
+      "rf": "RF1",
+      "total": 14695,
+      "homens": 7098,
+      "mulheres": 7597
+    }
+  },
+  "Taquara": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 54643,
+      "homens": 26866,
+      "mulheres": 27777
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 53242,
+      "homens": 25833,
+      "mulheres": 27409
+    }
+  },
+  "Taquari": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 26092,
+      "homens": 12689,
+      "mulheres": 13403
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 25198,
+      "homens": 12209,
+      "mulheres": 12989
+    }
+  },
+  "Taquaruçu do Sul": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2966,
+      "homens": 1517,
+      "mulheres": 1449
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 3119,
+      "homens": 1572,
+      "mulheres": 1547
+    }
+  },
+  "Tavares": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5351,
+      "homens": 2777,
+      "mulheres": 2574
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 5212,
+      "homens": 2630,
+      "mulheres": 2582
+    }
+  },
+  "Tenente Portela": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 13719,
+      "homens": 6713,
+      "mulheres": 7006
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 14497,
+      "homens": 7026,
+      "mulheres": 7471
+    }
+  },
+  "Terra de Areia": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 9878,
+      "homens": 4959,
+      "mulheres": 4919
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 10334,
+      "homens": 5081,
+      "mulheres": 5253
+    }
+  },
+  "Teutônia": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 27272,
+      "homens": 13523,
+      "mulheres": 13749
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 32797,
+      "homens": 16018,
+      "mulheres": 16779
+    }
+  },
+  "Tio Hugo": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2724,
+      "homens": 1372,
+      "mulheres": 1352
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3267,
+      "homens": 1622,
+      "mulheres": 1645
+    }
+  },
+  "Tiradentes do Sul": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 6461,
+      "homens": 3268,
+      "mulheres": 3193
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 5129,
+      "homens": 2602,
+      "mulheres": 2527
+    }
+  },
+  "Toropi": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2952,
+      "homens": 1561,
+      "mulheres": 1391
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 2554,
+      "homens": 1291,
+      "mulheres": 1263
+    }
+  },
+  "Torres": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 34656,
+      "homens": 16835,
+      "mulheres": 17821
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 41751,
+      "homens": 20027,
+      "mulheres": 21724
+    }
+  },
+  "Tramandaí": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 41585,
+      "homens": 20095,
+      "mulheres": 21490
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 54387,
+      "homens": 26042,
+      "mulheres": 28345
+    }
+  },
+  "Travesseiro": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2314,
+      "homens": 1171,
+      "mulheres": 1143
+    },
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2152,
+      "homens": 1083,
+      "mulheres": 1069
+    }
+  },
+  "Trindade do Sul": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 5787,
+      "homens": 2884,
+      "mulheres": 2903
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 7556,
+      "homens": 3862,
+      "mulheres": 3694
+    }
+  },
+  "Triunfo": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 25793,
+      "homens": 12933,
+      "mulheres": 12860
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 27498,
+      "homens": 13733,
+      "mulheres": 13765
+    }
+  },
+  "Três Arroios": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2855,
+      "homens": 1428,
+      "mulheres": 1427
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 2591,
+      "homens": 1295,
+      "mulheres": 1296
+    }
+  },
+  "Três Cachoeiras": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 10217,
+      "homens": 5156,
+      "mulheres": 5061
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 10962,
+      "homens": 5517,
+      "mulheres": 5445
+    }
+  },
+  "Três Coroas": {
+    "censo_2010": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 23848,
+      "homens": 11837,
+      "mulheres": 12011
+    },
+    "censo_2022": {
+      "corede": "Paranhana Encosta da Serra",
+      "rf": "RF1",
+      "total": 24425,
+      "homens": 12014,
+      "mulheres": 12411
+    }
+  },
+  "Três Forquilhas": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2914,
+      "homens": 1512,
+      "mulheres": 1402
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 2760,
+      "homens": 1427,
+      "mulheres": 1333
+    }
+  },
+  "Três Palmeiras": {
+    "censo_2010": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4381,
+      "homens": 2210,
+      "mulheres": 2171
+    },
+    "censo_2022": {
+      "corede": "Rio da Várzea",
+      "rf": "RF9",
+      "total": 4716,
+      "homens": 2357,
+      "mulheres": 2359
+    }
+  },
+  "Três Passos": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 23965,
+      "homens": 11751,
+      "mulheres": 12214
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 25436,
+      "homens": 12438,
+      "mulheres": 12998
+    }
+  },
+  "Três de Maio": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 23726,
+      "homens": 11484,
+      "mulheres": 12242
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 24916,
+      "homens": 12042,
+      "mulheres": 12874
+    }
+  },
+  "Tucunduva": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 5898,
+      "homens": 2817,
+      "mulheres": 3081
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 5542,
+      "homens": 2657,
+      "mulheres": 2885
+    }
+  },
+  "Tunas": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 4395,
+      "homens": 2278,
+      "mulheres": 2117
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3681,
+      "homens": 1905,
+      "mulheres": 1776
+    }
+  },
+  "Tupanci do Sul": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1573,
+      "homens": 816,
+      "mulheres": 757
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 1374,
+      "homens": 702,
+      "mulheres": 672
+    }
+  },
+  "Tupanciretã": {
+    "censo_2010": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 22281,
+      "homens": 10864,
+      "mulheres": 11417
+    },
+    "censo_2022": {
+      "corede": "Central",
+      "rf": "RF8",
+      "total": 20005,
+      "homens": 9748,
+      "mulheres": 10257
+    }
+  },
+  "Tupandi": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 3924,
+      "homens": 2068,
+      "mulheres": 1856
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 5029,
+      "homens": 2554,
+      "mulheres": 2475
+    }
+  },
+  "Tuparendi": {
+    "censo_2010": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 8557,
+      "homens": 4146,
+      "mulheres": 4411
+    },
+    "censo_2022": {
+      "corede": "Fronteira Noroeste",
+      "rf": "RF7",
+      "total": 8363,
+      "homens": 4047,
+      "mulheres": 4316
+    }
+  },
+  "Turuçu": {
+    "censo_2010": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 3522,
+      "homens": 1778,
+      "mulheres": 1744
+    },
+    "censo_2022": {
+      "corede": "Sul",
+      "rf": "RF5",
+      "total": 3419,
+      "homens": 1732,
+      "mulheres": 1687
+    }
+  },
+  "Ubiretama": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 2296,
+      "homens": 1183,
+      "mulheres": 1113
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 1994,
+      "homens": 1030,
+      "mulheres": 964
+    }
+  },
+  "Unistalda": {
+    "censo_2010": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 2450,
+      "homens": 1245,
+      "mulheres": 1205
+    },
+    "censo_2022": {
+      "corede": "Vale do Jaguari",
+      "rf": "RF8",
+      "total": 1995,
+      "homens": 1023,
+      "mulheres": 972
+    }
+  },
+  "União da Serra": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1487,
+      "homens": 797,
+      "mulheres": 690
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1170,
+      "homens": 623,
+      "mulheres": 547
+    }
+  },
+  "Uruguaiana": {
+    "censo_2010": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 125435,
+      "homens": 61009,
+      "mulheres": 64426
+    },
+    "censo_2022": {
+      "corede": "Fronteira Oeste",
+      "rf": "RF6",
+      "total": 117210,
+      "homens": 56449,
+      "mulheres": 60761
+    }
+  },
+  "Vacaria": {
+    "censo_2010": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 61342,
+      "homens": 30083,
+      "mulheres": 31259
+    },
+    "censo_2022": {
+      "corede": "Campos de Cima da Serra",
+      "rf": "RF3",
+      "total": 64197,
+      "homens": 31452,
+      "mulheres": 32745
+    }
+  },
+  "Vale Real": {
+    "censo_2010": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 5118,
+      "homens": 2570,
+      "mulheres": 2548
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 6058,
+      "homens": 3053,
+      "mulheres": 3005
+    }
+  },
+  "Vale Verde": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3253,
+      "homens": 1652,
+      "mulheres": 1601
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 3150,
+      "homens": 1605,
+      "mulheres": 1545
+    }
+  },
+  "Vale do Sol": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 11077,
+      "homens": 5597,
+      "mulheres": 5480
+    },
+    "censo_2022": {
+      "corede": "Vale do Caí",
+      "rf": "RF1",
+      "total": 9897,
+      "homens": 4981,
+      "mulheres": 4916
+    }
+  },
+  "Vanini": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 1984,
+      "homens": 993,
+      "mulheres": 991
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 2004,
+      "homens": 1000,
+      "mulheres": 1004
+    }
+  },
+  "Venâncio Aires": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 65946,
+      "homens": 32643,
+      "mulheres": 33303
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 68763,
+      "homens": 33795,
+      "mulheres": 34968
+    }
+  },
+  "Vera Cruz": {
+    "censo_2010": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 23983,
+      "homens": 11749,
+      "mulheres": 12234
+    },
+    "censo_2022": {
+      "corede": "Vale do Rio Pardo",
+      "rf": "RF2",
+      "total": 26710,
+      "homens": 13010,
+      "mulheres": 13700
+    }
+  },
+  "Veranópolis": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 22810,
+      "homens": 11102,
+      "mulheres": 11708
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 24021,
+      "homens": 11684,
+      "mulheres": 12337
+    }
+  },
+  "Vespasiano Correa": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1974,
+      "homens": 1024,
+      "mulheres": 950
+    },
+    "censo_2022": null
+  },
+  "Vespasiano Corrêa": {
+    "censo_2010": null,
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 1818,
+      "homens": 938,
+      "mulheres": 880
+    }
+  },
+  "Viadutos": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 5311,
+      "homens": 2620,
+      "mulheres": 2691
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 4769,
+      "homens": 2373,
+      "mulheres": 2396
+    }
+  },
+  "Viamão": {
+    "censo_2010": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 239384,
+      "homens": 116483,
+      "mulheres": 122901
+    },
+    "censo_2022": {
+      "corede": "Metropolitano Delta do Jacuí",
+      "rf": "RF1",
+      "total": 224112,
+      "homens": 107257,
+      "mulheres": 116855
+    }
+  },
+  "Vicente Dutra": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 5285,
+      "homens": 2701,
+      "mulheres": 2584
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 4665,
+      "homens": 2378,
+      "mulheres": 2287
+    }
+  },
+  "Victor Graeff": {
+    "censo_2010": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 3036,
+      "homens": 1512,
+      "mulheres": 1524
+    },
+    "censo_2022": {
+      "corede": "Alto da Serra do Botucaraí",
+      "rf": "RF9",
+      "total": 2780,
+      "homens": 1389,
+      "mulheres": 1391
+    }
+  },
+  "Vila Flores": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3207,
+      "homens": 1617,
+      "mulheres": 1590
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 3646,
+      "homens": 1803,
+      "mulheres": 1843
+    }
+  },
+  "Vila Lângaro": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 2152,
+      "homens": 1123,
+      "mulheres": 1029
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 2079,
+      "homens": 1063,
+      "mulheres": 1016
+    }
+  },
+  "Vila Maria": {
+    "censo_2010": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4221,
+      "homens": 2116,
+      "mulheres": 2105
+    },
+    "censo_2022": {
+      "corede": "Produção",
+      "rf": "RF9",
+      "total": 4413,
+      "homens": 2226,
+      "mulheres": 2187
+    }
+  },
+  "Vila Nova do Sul": {
+    "censo_2010": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 4221,
+      "homens": 2102,
+      "mulheres": 2119
+    },
+    "censo_2022": {
+      "corede": "Jacuí Centro",
+      "rf": "RF8",
+      "total": 3863,
+      "homens": 1902,
+      "mulheres": 1961
+    }
+  },
+  "Vista Alegre": {
+    "censo_2010": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2832,
+      "homens": 1400,
+      "mulheres": 1432
+    },
+    "censo_2022": {
+      "corede": "Médio Alto Uruguai",
+      "rf": "RF9",
+      "total": 2660,
+      "homens": 1322,
+      "mulheres": 1338
+    }
+  },
+  "Vista Alegre do Prata": {
+    "censo_2010": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1569,
+      "homens": 819,
+      "mulheres": 750
+    },
+    "censo_2022": {
+      "corede": "Serra",
+      "rf": "RF3",
+      "total": 1590,
+      "homens": 827,
+      "mulheres": 763
+    }
+  },
+  "Vista Gaúcha": {
+    "censo_2010": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2759,
+      "homens": 1395,
+      "mulheres": 1364
+    },
+    "censo_2022": {
+      "corede": "Celeiro",
+      "rf": "RF7",
+      "total": 2783,
+      "homens": 1395,
+      "mulheres": 1388
+    }
+  },
+  "Vitória das Missões": {
+    "censo_2010": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 3485,
+      "homens": 1794,
+      "mulheres": 1691
+    },
+    "censo_2022": {
+      "corede": "Missões",
+      "rf": "RF7",
+      "total": 3260,
+      "homens": 1644,
+      "mulheres": 1616
+    }
+  },
+  "Westfalia": {
+    "censo_2010": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 2793,
+      "homens": 1406,
+      "mulheres": 1387
+    },
+    "censo_2022": null
+  },
+  "Westfália": {
+    "censo_2010": null,
+    "censo_2022": {
+      "corede": "Vale do Taquari",
+      "rf": "RF2",
+      "total": 3098,
+      "homens": 1560,
+      "mulheres": 1538
+    }
+  },
+  "Xangri-lá": {
+    "censo_2010": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 12434,
+      "homens": 6199,
+      "mulheres": 6235
+    },
+    "censo_2022": {
+      "corede": "Litoral",
+      "rf": "RF4",
+      "total": 16463,
+      "homens": 8088,
+      "mulheres": 8375
+    }
+  },
+  "Água Santa": {
+    "censo_2010": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 3722,
+      "homens": 1879,
+      "mulheres": 1843
+    },
+    "censo_2022": {
+      "corede": "Nordeste",
+      "rf": "RF9",
+      "total": 3912,
+      "homens": 1929,
+      "mulheres": 1983
+    }
+  },
+  "Áurea": {
+    "censo_2010": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3665,
+      "homens": 1807,
+      "mulheres": 1858
+    },
+    "censo_2022": {
+      "corede": "Norte",
+      "rf": "RF9",
+      "total": 3396,
+      "homens": 1694,
+      "mulheres": 1702
+    }
+  }
+}

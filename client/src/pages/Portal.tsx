@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { trpc } from '@/lib/trpc';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -25,6 +25,23 @@ export default function Portal() {
   const [showComparacao, setShowComparacao] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
+  const [dadosPopulacionais, setDadosPopulacionais] = useState<any>(null);
+  const [loadingPopulacionais, setLoadingPopulacionais] = useState(false);
+
+  // Load population data when component mounts
+  useEffect(() => {
+    setLoadingPopulacionais(true);
+    fetch('/dados-populacionais.json')
+      .then(res => res.json())
+      .then(data => {
+        setDadosPopulacionais(data);
+        setLoadingPopulacionais(false);
+      })
+      .catch(err => {
+        console.error('Erro ao carregar dados populacionais:', err);
+        setLoadingPopulacionais(false);
+      });
+  }, []);
 
   // ============ QUERIES - FILTROS EM CASCATA ============
   const regioesFuncionais = trpc.portal.regioesFuncionais.useQuery();
@@ -258,6 +275,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="ips" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 IPS
+              </TabsTrigger>
+              <TabsTrigger value="dados-populacionais" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Dados Populacionais
               </TabsTrigger>
 
             </TabsList>
@@ -585,6 +605,187 @@ export default function Portal() {
             {/* ============ ABA IPS ============ */}
             <TabsContent value="ips" className="space-y-6">
               <IPS codigoIBGE={codigoIBGE ? String(codigoIBGE) : undefined} nomeMunicipio={nomeMunicipio} />
+            </TabsContent>
+
+            {/* ============ ABA DADOS POPULACIONAIS ============ */}
+            <TabsContent value="dados-populacionais" className="space-y-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Dados Populacionais - Censo IBGE 2010 e 2022</CardTitle>
+                  <CardDescription>
+                    Comparativo de população, distribuição por gênero e variação entre 2010 e 2022
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="mb-4 flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Fonte: IBGE — Censo Demográfico 2010 e 2022</span>
+                    <a href="https://cidades.ibge.gov.br" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 IBGE Cidades
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {loadingPopulacionais && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados populacionais...</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {!loadingPopulacionais && dadosPopulacionais && nomeMunicipio && (
+                <>
+                  {(() => {
+                    const dados = dadosPopulacionais[nomeMunicipio];
+                    if (!dados) {
+                      return (
+                        <Card className="border-dashed">
+                          <CardContent className="pt-6">
+                            <p className="text-center text-gray-500">Dados não disponíveis para este município</p>
+                          </CardContent>
+                        </Card>
+                      );
+                    }
+
+                    const censo2010 = dados.censo_2010;
+                    const censo2022 = dados.censo_2022;
+
+                    // Calculate variation
+                    let variacao = null;
+                    if (censo2010 && censo2022) {
+                      variacao = ((censo2022.total - censo2010.total) / censo2010.total) * 100;
+                    }
+
+                    return (
+                      <>
+                        {/* Cards de Comparação */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <Card className="border-t-4 border-t-blue-500">
+                            <CardHeader>
+                              <CardTitle className="text-lg">Censo 2010</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2">
+                              {censo2010 ? (
+                                <>
+                                  <div>
+                                    <p className="text-sm text-gray-600">População Total</p>
+                                    <p className="text-3xl font-bold text-blue-600">{censo2010.total.toLocaleString('pt-BR')}</p>
+                                  </div>
+                                  <div className="grid grid-cols-2 gap-2 pt-2">
+                                    <div>
+                                      <p className="text-sm text-gray-600">Homens</p>
+                                      <p className="text-lg font-semibold">{censo2010.homens.toLocaleString('pt-BR')}</p>
+                                    </div>
+                                    <div>
+                                      <p className="text-sm text-gray-600">Mulheres</p>
+                                      <p className="text-lg font-semibold">{censo2010.mulheres.toLocaleString('pt-BR')}</p>
+                                    </div>
+                                  </div>
+                                </>
+                              ) : (
+                                <p className="text-gray-500">— Não disponível</p>
+                              )}
+                            </CardContent>
+                          </Card>
+
+                          <Card className="border-t-4 border-t-green-500">
+                            <CardHeader>
+                              <CardTitle className="text-lg">Censo 2022</CardTitle>
+                            </CardHeader>
+                            <CardContent className="space-y-2">
+                              {censo2022 ? (
+                                <>
+                                  <div>
+                                    <p className="text-sm text-gray-600">População Total</p>
+                                    <p className="text-3xl font-bold text-green-600">{censo2022.total.toLocaleString('pt-BR')}</p>
+                                  </div>
+                                  <div className="grid grid-cols-2 gap-2 pt-2">
+                                    <div>
+                                      <p className="text-sm text-gray-600">Homens</p>
+                                      <p className="text-lg font-semibold">{censo2022.homens.toLocaleString('pt-BR')}</p>
+                                    </div>
+                                    <div>
+                                      <p className="text-sm text-gray-600">Mulheres</p>
+                                      <p className="text-lg font-semibold">{censo2022.mulheres.toLocaleString('pt-BR')}</p>
+                                    </div>
+                                  </div>
+                                </>
+                              ) : (
+                                <p className="text-gray-500">— Não disponível</p>
+                              )}
+                            </CardContent>
+                          </Card>
+                        </div>
+
+                        {/* Variação */}
+                        {variacao !== null && (
+                          <Card className={`border-t-4 ${variacao >= 0 ? 'border-t-red-500' : 'border-t-green-500'}`}>
+                            <CardHeader>
+                              <CardTitle className="text-lg">Variação 2010-2022</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className={`text-4xl font-bold ${variacao >= 0 ? 'text-red-600' : 'text-green-600'}`}>
+                                {variacao >= 0 ? '+' : ''}{variacao.toFixed(2)}%
+                              </p>
+                              <p className="text-sm text-gray-600 mt-2">
+                                {variacao >= 0 ? 'Redução' : 'Crescimento'} de {Math.abs(Math.round((censo2022.total - (censo2010?.total || 0))))?.toLocaleString('pt-BR')} habitantes
+                              </p>
+                            </CardContent>
+                          </Card>
+                        )}
+
+                        {/* Gráfico de Evolução */}
+                        {censo2010 && censo2022 && (
+                          <Card>
+                            <CardHeader>
+                              <CardTitle>Evolução Populacional (2010-2022)</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <ResponsiveContainer width="100%" height={300}>
+                                <BarChart data={[
+                                  {
+                                    ano: '2010',
+                                    total: censo2010.total,
+                                    homens: censo2010.homens,
+                                    mulheres: censo2010.mulheres,
+                                  },
+                                  {
+                                    ano: '2022',
+                                    total: censo2022.total,
+                                    homens: censo2022.homens,
+                                    mulheres: censo2022.mulheres,
+                                  },
+                                ]}>
+                                  <CartesianGrid strokeDasharray="3 3" />
+                                  <XAxis dataKey="ano" />
+                                  <YAxis />
+                                  <Tooltip />
+                                  <Legend />
+                                  <Bar dataKey="homens" fill="#3b82f6" name="Homens" />
+                                  <Bar dataKey="mulheres" fill="#ec4899" name="Mulheres" />
+                                </BarChart>
+                              </ResponsiveContainer>
+                            </CardContent>
+                          </Card>
+                        )}
+
+                        {/* Nota especial para Pinto Bandeira */}
+                        {nomeMunicipio === 'Pinto Bandeira' && !censo2010 && (
+                          <Card className="bg-yellow-50 border-yellow-200">
+                            <CardContent className="pt-6">
+                              <p className="text-sm text-yellow-800">
+                                <strong>ℹ️ Nota:</strong> Pinto Bandeira (RS) foi emancipado de Bento Gonçalves em 2013 e não consta no Censo 2010.
+                              </p>
+                            </CardContent>
+                          </Card>
+                        )}
+                      </>
+                    );
+                  })()}
+                </>
+              )}
             </TabsContent>
 
           </Tabs>
