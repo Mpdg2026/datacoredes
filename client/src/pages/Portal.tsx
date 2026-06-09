@@ -624,14 +624,6 @@ export default function Portal() {
                 </Card>
               )}
 
-              {!false && true && (
-                <Card>
-                  <CardContent className="pt-6">
-                    <p className="text-center text-red-500">Erro ao carregar dados populacionais</p>
-                  </CardContent>
-                </Card>
-              )}
-
               {!nomeMunicipio && (
                 <Card className="border-dashed">
                   <CardContent className="pt-6">
