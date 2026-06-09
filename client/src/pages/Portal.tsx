@@ -635,6 +635,22 @@ export default function Portal() {
                 </Card>
               )}
 
+              {!loadingPopulacionais && !dadosPopulacionais && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-500">Erro ao carregar dados populacionais</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {!loadingPopulacionais && dadosPopulacionais && !nomeMunicipio && (
+                <Card className="border-dashed">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Selecione um município para visualizar dados populacionais</p>
+                  </CardContent>
+                </Card>
+              )}
+
               {!loadingPopulacionais && dadosPopulacionais && nomeMunicipio && (
                 <>
                   {(() => {
