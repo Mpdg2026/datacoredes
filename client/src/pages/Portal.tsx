@@ -13,6 +13,7 @@ import { Economia } from './Economia';
 import { Violencia } from './Violencia';
 import { ViolenciaMulher } from './ViolenciaMulher';
 import { IPS } from './IPS';
+import { DADOS_POPULACIONAIS } from '@/data/dados-populacionais';
 import { X } from 'lucide-react';
 
 export default function Portal() {
@@ -25,23 +26,11 @@ export default function Portal() {
   const [showComparacao, setShowComparacao] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
-  const [dadosPopulacionais, setDadosPopulacionais] = useState<any>(null);
-  const [loadingPopulacionais, setLoadingPopulacionais] = useState(false);
-
-  // Load population data when component mounts
-  useEffect(() => {
-    setLoadingPopulacionais(true);
-    fetch('/dados-populacionais.json')
-      .then(res => res.json())
-      .then(data => {
-        setDadosPopulacionais(data);
-        setLoadingPopulacionais(false);
-      })
-      .catch(err => {
-        console.error('Erro ao carregar dados populacionais:', err);
-        setLoadingPopulacionais(false);
-      });
-  }, []);
+  // Embedded population data - no external file needed
+  const dadosPopulacionaisMap = DADOS_POPULACIONAIS.reduce((acc: any, item: any) => {
+    acc[item.municipio] = item;
+    return acc;
+  }, {});
 
   // ============ QUERIES - FILTROS EM CASCATA ============
   const regioesFuncionais = trpc.portal.regioesFuncionais.useQuery();
@@ -627,7 +616,7 @@ export default function Portal() {
                 </CardContent>
               </Card>
 
-              {loadingPopulacionais && (
+              {false && (
                 <Card>
                   <CardContent className="pt-6">
                     <p className="text-center text-gray-500">Carregando dados populacionais...</p>
@@ -635,7 +624,7 @@ export default function Portal() {
                 </Card>
               )}
 
-              {!loadingPopulacionais && !dadosPopulacionais && (
+              {!false && true && (
                 <Card>
                   <CardContent className="pt-6">
                     <p className="text-center text-red-500">Erro ao carregar dados populacionais</p>
@@ -643,7 +632,7 @@ export default function Portal() {
                 </Card>
               )}
 
-              {!loadingPopulacionais && dadosPopulacionais && !nomeMunicipio && (
+              {!nomeMunicipio && (
                 <Card className="border-dashed">
                   <CardContent className="pt-6">
                     <p className="text-center text-gray-500">Selecione um município para visualizar dados populacionais</p>
@@ -651,10 +640,10 @@ export default function Portal() {
                 </Card>
               )}
 
-              {!loadingPopulacionais && dadosPopulacionais && nomeMunicipio && (
+              {nomeMunicipio && (
                 <>
                   {(() => {
-                    const dados = dadosPopulacionais[nomeMunicipio];
+                    const dados = dadosPopulacionaisMap[nomeMunicipio];
                     if (!dados) {
                       return (
                         <Card className="border-dashed">
@@ -665,13 +654,17 @@ export default function Portal() {
                       );
                     }
 
-                    const censo2010 = dados.censo_2010;
-                    const censo2022 = dados.censo_2022;
+                    const total2010 = dados.total2010;
+                    const total2022 = dados.total2022;
+                    const homens2010 = dados.homens2010;
+                    const mulheres2010 = dados.mulheres2010;
+                    const homens2022 = dados.homens2022;
+                    const mulheres2022 = dados.mulheres2022;
 
-                    // Calculate variation
-                    let variacao = null;
-                    if (censo2010 && censo2022) {
-                      variacao = ((censo2022.total - censo2010.total) / censo2010.total) * 100;
+                    // Use embedded variation or calculate
+                    let variacao = dados.variacaoPercent;
+                    if (!variacao && total2010 && total2022) {
+                      variacao = ((total2022 - total2010) / total2010) * 100;
                     }
 
                     return (
@@ -683,20 +676,20 @@ export default function Portal() {
                               <CardTitle className="text-lg">Censo 2010</CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-2">
-                              {censo2010 ? (
+                              {total2010 ? (
                                 <>
                                   <div>
                                     <p className="text-sm text-gray-600">População Total</p>
-                                    <p className="text-3xl font-bold text-blue-600">{censo2010.total.toLocaleString('pt-BR')}</p>
+                                    <p className="text-3xl font-bold text-blue-600">{total2010.toLocaleString('pt-BR')}</p>
                                   </div>
                                   <div className="grid grid-cols-2 gap-2 pt-2">
                                     <div>
                                       <p className="text-sm text-gray-600">Homens</p>
-                                      <p className="text-lg font-semibold">{censo2010.homens.toLocaleString('pt-BR')}</p>
+                                      <p className="text-lg font-semibold">{homens2010?.toLocaleString('pt-BR') || '—'}</p>
                                     </div>
                                     <div>
                                       <p className="text-sm text-gray-600">Mulheres</p>
-                                      <p className="text-lg font-semibold">{censo2010.mulheres.toLocaleString('pt-BR')}</p>
+                                      <p className="text-lg font-semibold">{mulheres2010?.toLocaleString('pt-BR') || '—'}</p>
                                     </div>
                                   </div>
                                 </>
@@ -711,20 +704,20 @@ export default function Portal() {
                               <CardTitle className="text-lg">Censo 2022</CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-2">
-                              {censo2022 ? (
+                              {total2022 ? (
                                 <>
                                   <div>
                                     <p className="text-sm text-gray-600">População Total</p>
-                                    <p className="text-3xl font-bold text-green-600">{censo2022.total.toLocaleString('pt-BR')}</p>
+                                    <p className="text-3xl font-bold text-green-600">{total2022.toLocaleString('pt-BR')}</p>
                                   </div>
                                   <div className="grid grid-cols-2 gap-2 pt-2">
                                     <div>
                                       <p className="text-sm text-gray-600">Homens</p>
-                                      <p className="text-lg font-semibold">{censo2022.homens.toLocaleString('pt-BR')}</p>
+                                      <p className="text-lg font-semibold">{homens2022?.toLocaleString('pt-BR') || '—'}</p>
                                     </div>
                                     <div>
                                       <p className="text-sm text-gray-600">Mulheres</p>
-                                      <p className="text-lg font-semibold">{censo2022.mulheres.toLocaleString('pt-BR')}</p>
+                                      <p className="text-lg font-semibold">{mulheres2022?.toLocaleString('pt-BR') || '—'}</p>
                                     </div>
                                   </div>
                                 </>
@@ -746,14 +739,14 @@ export default function Portal() {
                                 {variacao >= 0 ? '+' : ''}{variacao.toFixed(2)}%
                               </p>
                               <p className="text-sm text-gray-600 mt-2">
-                                {variacao >= 0 ? 'Redução' : 'Crescimento'} de {Math.abs(Math.round((censo2022.total - (censo2010?.total || 0))))?.toLocaleString('pt-BR')} habitantes
+                                {variacao >= 0 ? 'Redução' : 'Crescimento'} de {Math.abs(Math.round((total2022 - (total2010 || 0))))?.toLocaleString('pt-BR')} habitantes
                               </p>
                             </CardContent>
                           </Card>
                         )}
 
                         {/* Gráfico de Evolução */}
-                        {censo2010 && censo2022 && (
+                        {total2010 && total2022 && (
                           <Card>
                             <CardHeader>
                               <CardTitle>Evolução Populacional (2010-2022)</CardTitle>
@@ -763,15 +756,15 @@ export default function Portal() {
                                 <BarChart data={[
                                   {
                                     ano: '2010',
-                                    total: censo2010.total,
-                                    homens: censo2010.homens,
-                                    mulheres: censo2010.mulheres,
+                                    total: total2010,
+                                    homens: homens2010 || 0,
+                                    mulheres: mulheres2010 || 0,
                                   },
                                   {
                                     ano: '2022',
-                                    total: censo2022.total,
-                                    homens: censo2022.homens,
-                                    mulheres: censo2022.mulheres,
+                                    total: total2022,
+                                    homens: homens2022 || 0,
+                                    mulheres: mulheres2022 || 0,
                                   },
                                 ]}>
                                   <CartesianGrid strokeDasharray="3 3" />
@@ -788,7 +781,7 @@ export default function Portal() {
                         )}
 
                         {/* Nota especial para Pinto Bandeira */}
-                        {nomeMunicipio === 'Pinto Bandeira' && !censo2010 && (
+                        {nomeMunicipio === 'Pinto Bandeira' && !total2010 && (
                           <Card className="bg-yellow-50 border-yellow-200">
                             <CardContent className="pt-6">
                               <p className="text-sm text-yellow-800">
