@@ -26,6 +26,7 @@ export default function Portal() {
   const [showComparacao, setShowComparacao] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
+  const [filterODS, setFilterODS] = useState<'todos' | 'queda' | 'crescimento' | 'estavel'>('todos');
   // Embedded population data - no external file needed
   const dadosPopulacionaisMap = DADOS_POPULACIONAIS.reduce((acc: any, item: any) => {
     acc[item.municipio] = item;
@@ -404,8 +405,29 @@ export default function Portal() {
 
                   {/* Gráfico de Evolução dos ODS */}
                   {(() => {
+                    // Proteção: verificar se dados existem
+                    if (!ods.data || !nomeMunicipio) {
+                      return (
+                        <Card>
+                          <CardContent className="pt-6">
+                            <p className="text-center text-gray-500">Dados ODS não disponíveis para o município selecionado.</p>
+                          </CardContent>
+                        </Card>
+                      );
+                    }
+
                     const anos = (ods.data as any)?.anos || {};
-                    const [filterODS, setFilterODS] = useState<'todos' | 'queda' | 'crescimento' | 'estavel'>('todos');
+
+                    // Verificar se há dados de anos
+                    if (!anos['2023'] || !anos['2024'] || !anos['2025']) {
+                      return (
+                        <Card>
+                          <CardContent className="pt-6">
+                            <p className="text-center text-gray-500">Dados ODS incompletos para este município.</p>
+                          </CardContent>
+                        </Card>
+                      );
+                    }
 
                     // Preparar dados para o gráfico
                     const chartData = [

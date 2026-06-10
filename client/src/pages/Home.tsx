@@ -246,6 +246,28 @@ export default function Home() {
                 <h4 className="text-xl font-bold text-[#001f5c] mb-2">MDIR</h4>
                 <p className="text-gray-600 text-sm">Ministério do Desenvolvimento e Integração Regional</p>
               </a>
+
+              {/* ENCE/IBGE */}
+              <a
+                href="https://ence.ibge.gov.br/index.php/trilhas/ceplam"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">ENCE/IBGE</h4>
+                <p className="text-gray-600 text-sm">Escola Nacional de Ciências Estatísticas - Trilhas CEPLAM</p>
+              </a>
+
+              {/* CIAP */}
+              <a
+                href="https://ciap.org.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
+              >
+                <h4 className="text-xl font-bold text-[#001f5c] mb-2">CIAP</h4>
+                <p className="text-gray-600 text-sm">Centro de Integração de Análise e Planejamento</p>
+              </a>
             </div>
           </div>
         </section>
