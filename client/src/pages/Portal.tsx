@@ -284,7 +284,7 @@ export default function Portal() {
         {/* Abas Temáticas */}
         {selectedMunicipio || activeTab === 'violencia' || activeTab === 'violencia-mulher' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="flex w-full mb-8 bg-[#001f5c] overflow-x-auto">
+            <TabsList className="hidden">
               <TabsTrigger value="dados-populacionais" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Dados Populacionais
               </TabsTrigger>
