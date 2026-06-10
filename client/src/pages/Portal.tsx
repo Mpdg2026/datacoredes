@@ -254,17 +254,29 @@ export default function Portal() {
         {selectedMunicipio || activeTab === 'violencia' || activeTab === 'violencia-mulher' ? (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="flex w-full mb-8 bg-[#001f5c] overflow-x-auto">
+              <TabsTrigger value="dados-populacionais" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Dados Populacionais
+              </TabsTrigger>
+              <TabsTrigger value="idhm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Desenvolvimento Humano
+              </TabsTrigger>
               <TabsTrigger value="igm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Governança (IGM)
               </TabsTrigger>
-              <TabsTrigger value="ods" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Sustentabilidade (ODS)
+              <TabsTrigger value="economia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Economia
+              </TabsTrigger>
+              <TabsTrigger value="educacao" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Educação (TCE-RS)
+              </TabsTrigger>
+              <TabsTrigger value="saude" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Saúde (TCE-RS)
               </TabsTrigger>
               <TabsTrigger value="saneamento" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Saneamento
               </TabsTrigger>
-              <TabsTrigger value="economia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Economia
+              <TabsTrigger value="ods" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Sustentabilidade (ODS)
               </TabsTrigger>
               <TabsTrigger value="violencia" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência
@@ -272,20 +284,8 @@ export default function Portal() {
               <TabsTrigger value="violencia-mulher" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Violência Contra a Mulher
               </TabsTrigger>
-              <TabsTrigger value="idhm" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Desenvolvimento Humano
-              </TabsTrigger>
               <TabsTrigger value="ips" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 IPS
-              </TabsTrigger>
-              <TabsTrigger value="dados-populacionais" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Dados Populacionais
-              </TabsTrigger>
-              <TabsTrigger value="educacao" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Educação (TCE-RS)
-              </TabsTrigger>
-              <TabsTrigger value="saude" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
-                Saúde (TCE-RS)
               </TabsTrigger>
 
             </TabsList>
