@@ -14,7 +14,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-[#001f5c] to-[#003d99] text-white py-20">
           <div className="container text-center">
-            <p className="text-xl text-gray-300 mb-8">Explore dados de desenvolvimento humano, governança, sustentabilidade e segurança pública dos municípios e Coredes do Rio Grande do Sul</p>
+            <p className="text-xl text-gray-300 mb-8">Acesse indicadores de desenvolvimento, governança, saúde, educação e sustentabilidade dos 497 municípios gaúchos — organizados por Região Funcional e COREDE.</p>
             <a href="/portal" className="inline-block px-8 py-3 bg-[#f4b41a] text-[#001f5c] rounded-lg font-bold text-lg hover:bg-opacity-90 transition">
               Acessar Portal
             </a>
