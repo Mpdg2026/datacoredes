@@ -2,7 +2,7 @@ import { useAuth } from "@/_core/hooks/useAuth";
 import { getLoginUrl } from "@/const";
 
 /**
- * Portal Coredes em Números - Landing Page
+ * DataCoredes - Landing Page
  */
 export default function Home() {
   let { user, loading, error, isAuthenticated, logout } = useAuth();
@@ -150,10 +150,10 @@ export default function Home() {
         {/* Info Section */}
         <section className="bg-gray-50 py-16">
           <div className="container">
-            <h3 className="text-3xl font-bold text-[#001f5c] mb-8 text-center">Sobre o Portal</h3>
+            <h3 className="text-3xl font-bold text-[#001f5c] mb-8 text-center">Sobre o DataCoredes</h3>
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-700 mb-4">
-                O Portal Coredes em Números é uma plataforma interativa desenvolvida pela Faccat (Faculdades Integradas de Taquara) para disponibilizar indicadores socioeconômicos dos municípios e Coredes do Rio Grande do Sul.
+                DataCoredes é uma plataforma interativa desenvolvida pela Faccat (Faculdades Integradas de Taquara) para disponibilizar indicadores socioeconômicos dos municípios e Coredes do Rio Grande do Sul.
               </p>
               <p className="text-gray-700 mb-4">
                 O portal integra dados de múltiplas fontes oficiais: IDESE — Índice de Desenvolvimento Socioeconômico; IGM — Índice de Gestão Municipal; IDSC — Índice de Desenvolvimento Sustentável das Cidades; IPS Brasil — Índice de Progresso Social; e estatísticas de segurança pública da SSP/RS — Secretaria da Segurança Pública do Rio Grande do Sul.
@@ -275,7 +275,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-[#001f5c] text-white py-8 mt-12">
           <div className="container text-center">
-            <p className="font-semibold">Portal Coredes em Números | Faculdades Integradas de Taquara (Faccat)</p>
+            <p className="font-semibold">DataCoredes | Faculdades Integradas de Taquara (FACCAT) — Mestrado em Desenvolvimento Regional</p>
             <p className="text-gray-300 text-sm mt-2">Responsável pela compilação dos dados: Prof. Marcos Paulo Dhein Griebeler — marcosdhein@faccat.br</p>
             <p className="text-gray-400 text-xs mt-2">Dados atualizados até: Junho/2026</p>
           </div>

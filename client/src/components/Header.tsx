@@ -37,7 +37,7 @@ export default function Header({ onHomeClick }: HeaderProps) {
 
           {/* Título Central */}
           <div className="flex-1 text-center">
-            <h1 className="text-2xl font-bold text-white">Portal Coredes em Números</h1>
+            <h1 className="text-2xl font-bold text-white"><span className="font-bold">Data</span><span className="font-normal">Coredes</span></h1>
             <p className="text-sm text-blue-100 mt-1">Indicadores Socioeconômicos do RS</p>
           </div>
 
