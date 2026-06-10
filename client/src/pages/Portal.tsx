@@ -14,7 +14,8 @@ import { Violencia } from './Violencia';
 import { ViolenciaMulher } from './ViolenciaMulher';
 import { IPS } from './IPS';
 import { DADOS_POPULACIONAIS } from '@/data/dados-populacionais';
-import { X } from 'lucide-react';
+import { X, Menu } from 'lucide-react';
+import Sidebar from '@/components/Sidebar';
 
 export default function Portal() {
   // ============ ESTADO ============
@@ -27,6 +28,7 @@ export default function Portal() {
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const [filterODS, setFilterODS] = useState<'todos' | 'queda' | 'crescimento' | 'estavel'>('todos');
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   // Embedded population data - no external file needed
   const dadosPopulacionaisMap = DADOS_POPULACIONAIS.reduce((acc: any, item: any) => {
     acc[item.municipio] = item;
@@ -167,8 +169,31 @@ export default function Portal() {
 
   // ============ RENDERIZAÇÃO - FILTROS ============
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-6">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
+      {/* Header com botão de menu mobile */}
+      <div className="bg-white border-b border-gray-200 p-4 flex items-center justify-between md:hidden sticky top-0 z-40">
+        <h1 className="text-xl font-bold text-[#001f5c]">DataCoredes</h1>
+        <button
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+          className="p-2 hover:bg-gray-100 rounded-lg"
+        >
+          <Menu size={24} className="text-[#001f5c]" />
+        </button>
+      </div>
+
+      {/* Layout principal com Sidebar */}
+      <div className="flex flex-1">
+        {/* Sidebar */}
+        <Sidebar
+          activeTab={activeTab}
+          onTabChange={setActiveTab}
+          isOpen={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
+        />
+
+        {/* Conteúdo Principal */}
+        <div className="flex-1 p-6 overflow-y-auto" style={{ marginLeft: window.innerWidth >= 768 ? '256px' : '0' }}>
+          <div className="max-w-6xl mx-auto">
         {/* Cabeçalho */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-[#001f5c] mb-2"><span className="font-bold">Data</span><span className="font-normal">Coredes</span></h1>
@@ -1527,8 +1552,8 @@ export default function Portal() {
             </CardContent>
           </Card>
         )}
-
-
+          </div>
+        </div>
       </div>
     </div>
   );
