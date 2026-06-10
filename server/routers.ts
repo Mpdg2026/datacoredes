@@ -687,6 +687,58 @@ export const portalRouter = router({
     }),
 
   /**
+   * Buscar dados de Educação (TCE-RS) - Índice de Aplicação em Educação 2021-2025
+   * Fonte: Tribunal de Contas do Estado do Rio Grande do Sul
+   */
+  educacaoTCERS: publicProcedure
+    .input(
+      z.object({
+        codigoIBGE: z.string().optional(),
+      })
+    )
+    .query(async ({ input }) => {
+      try {
+        const fs = await import('fs');
+        const path = await import('path');
+        
+        if (!input.codigoIBGE) {
+          return null;
+        }
+        
+        const educacaoPath = path.join(process.cwd(), 'public', 'educacao-tce-rs.json');
+        if (!fs.existsSync(educacaoPath)) {
+          return null;
+        }
+        const educacaoData = JSON.parse(fs.readFileSync(educacaoPath, 'utf-8'));
+        
+        let municipioNome = null;
+        for (const rf of Object.values(hierarchyData) as any[]) {
+          for (const corede of Object.values(rf) as any[]) {
+            if (Array.isArray(corede)) {
+              for (const [codigo, nome] of corede) {
+                if (String(codigo) === input.codigoIBGE) {
+                  municipioNome = nome;
+                  break;
+                }
+              }
+              if (municipioNome) break;
+            }
+          }
+          if (municipioNome) break;
+        }
+        
+        if (!municipioNome) {
+          return null;
+        }
+        
+        return educacaoData[municipioNome] || null;
+      } catch (error) {
+        console.error('Erro ao carregar dados de Educação (TCE-RS):', error);
+        return null;
+      }
+    }),
+
+  /**
    * Buscar dados IDHM (Indice de Desenvolvimento Humano Municipal) de um municipio
    */
   idhm: publicProcedure
