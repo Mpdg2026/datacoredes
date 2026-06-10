@@ -653,10 +653,15 @@ export default function Portal() {
                     const homens2022 = dados.homens2022;
                     const mulheres2022 = dados.mulheres2022;
 
-                    // Use embedded variation or calculate
-                    let variacao = dados.variacaoPercent;
-                    if (!variacao && total2010 && total2022) {
-                      variacao = ((total2022 - total2010) / total2010) * 100;
+                    // Calculate variation
+                    let variacao = null;
+                    let variacaoAbsoluta = 0;
+                    if (total2010 && total2022) {
+                      variacaoAbsoluta = total2022 - total2010;
+                      variacao = (variacaoAbsoluta / total2010) * 100;
+                    } else if (dados.variacaoPercent !== undefined) {
+                      variacao = dados.variacaoPercent;
+                      variacaoAbsoluta = dados.variacaoAbsoluta || 0;
                     }
 
                     return (
@@ -722,16 +727,22 @@ export default function Portal() {
 
                         {/* Variação */}
                         {variacao !== null && (
-                          <Card className={`border-t-4 ${variacao >= 0 ? 'border-t-red-500' : 'border-t-green-500'}`}>
+                          <Card className={`border-t-4 ${
+                            variacaoAbsoluta > 0 ? 'border-t-green-500' : variacaoAbsoluta < 0 ? 'border-t-red-500' : 'border-t-gray-500'
+                          }`}>
                             <CardHeader>
                               <CardTitle className="text-lg">Variação 2010-2022</CardTitle>
                             </CardHeader>
                             <CardContent>
-                              <p className={`text-4xl font-bold ${variacao >= 0 ? 'text-red-600' : 'text-green-600'}`}>
-                                {variacao >= 0 ? '+' : ''}{variacao.toFixed(2)}%
+                              <p className={`text-4xl font-bold ${
+                                variacaoAbsoluta > 0 ? 'text-green-600' : variacaoAbsoluta < 0 ? 'text-red-600' : 'text-gray-600'
+                              }`}>
+                                {variacaoAbsoluta > 0 ? '+' : ''}{variacao.toFixed(2)}%
                               </p>
-                              <p className="text-sm text-gray-600 mt-2">
-                                {variacao >= 0 ? 'Redução' : 'Crescimento'} de {Math.abs(Math.round((total2022 - (total2010 || 0))))?.toLocaleString('pt-BR')} habitantes
+                              <p className={`text-sm mt-2 ${
+                                variacaoAbsoluta > 0 ? 'text-green-600' : variacaoAbsoluta < 0 ? 'text-red-600' : 'text-gray-600'
+                              }`}>
+                                {variacaoAbsoluta > 0 ? 'Crescimento' : variacaoAbsoluta < 0 ? 'Redução' : 'População estável'} de {Math.abs(Math.round(variacaoAbsoluta))?.toLocaleString('pt-BR')} habitantes
                               </p>
                             </CardContent>
                           </Card>
