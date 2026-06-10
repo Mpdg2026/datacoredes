@@ -369,37 +369,142 @@ export default function Portal() {
               )}
 
               {ods.data && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Objetivos de Desenvolvimento Sustentável (ODS)</CardTitle>
-                    <CardDescription>Série histórica 2023-2025</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      {Array.from({ length: 17 }, (_, i) => {
-                        const goalKey = `goal${i + 1}`;
-                        const anos = (ods.data as any)?.anos || {};
-                        const goal2023 = anos['2023']?.goals?.[goalKey] || 0;
-                        const goal2024 = anos['2024']?.goals?.[goalKey] || 0;
-                        const goal2025 = anos['2025']?.goals?.[goalKey] || 0;
+                <>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Objetivos de Desenvolvimento Sustentável (ODS)</CardTitle>
+                      <CardDescription>Série histórica 2023-2025</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {Array.from({ length: 17 }, (_, i) => {
+                          const goalKey = `goal${i + 1}`;
+                          const anos = (ods.data as any)?.anos || {};
+                          const goal2023 = anos['2023']?.goals?.[goalKey] || 0;
+                          const goal2024 = anos['2024']?.goals?.[goalKey] || 0;
+                          const goal2025 = anos['2025']?.goals?.[goalKey] || 0;
 
-                        return (
-                          <Card key={i + 1} className="border-l-4 border-l-[#f4b41a]">
-                            <CardHeader>
-                              <CardTitle className="text-sm">ODS {i + 1}</CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                              <p className="text-2xl font-bold text-[#001f5c]">{goal2025?.toFixed(1) || 'S/D'}</p>
-                              <p className="text-xs text-gray-500 mt-1">
-                                2023: {goal2023?.toFixed(1)} | 2024: {goal2024?.toFixed(1)} | 2025: {goal2025?.toFixed(1)}
-                              </p>
-                            </CardContent>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </CardContent>
-                </Card>
+                          return (
+                            <Card key={i + 1} className="border-l-4 border-l-[#f4b41a]">
+                              <CardHeader>
+                                <CardTitle className="text-sm">ODS {i + 1}</CardTitle>
+                              </CardHeader>
+                              <CardContent>
+                                <p className="text-2xl font-bold text-[#001f5c]">{goal2025?.toFixed(1) || 'S/D'}</p>
+                                <p className="text-xs text-gray-500 mt-1">
+                                  2023: {goal2023?.toFixed(1)} | 2024: {goal2024?.toFixed(1)} | 2025: {goal2025?.toFixed(1)}
+                                </p>
+                              </CardContent>
+                            </Card>
+                          );
+                        })}
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  {/* Gráfico de Evolução dos ODS */}
+                  {(() => {
+                    const anos = (ods.data as any)?.anos || {};
+                    const [filterODS, setFilterODS] = useState<'todos' | 'queda' | 'crescimento' | 'estavel'>('todos');
+
+                    // Preparar dados para o gráfico
+                    const chartData = [
+                      { ano: '2023', ...Object.fromEntries(Array.from({ length: 17 }, (_, i) => [`ODS ${i + 1}`, anos['2023']?.goals?.[`goal${i + 1}`] || 0])) },
+                      { ano: '2024', ...Object.fromEntries(Array.from({ length: 17 }, (_, i) => [`ODS ${i + 1}`, anos['2024']?.goals?.[`goal${i + 1}`] || 0])) },
+                      { ano: '2025', ...Object.fromEntries(Array.from({ length: 17 }, (_, i) => [`ODS ${i + 1}`, anos['2025']?.goals?.[`goal${i + 1}`] || 0])) },
+                    ];
+
+                    // Calcular status de cada ODS
+                    const odsStatus = Array.from({ length: 17 }, (_, i) => {
+                      const val2023 = anos['2023']?.goals?.[`goal${i + 1}`] || 0;
+                      const val2025 = anos['2025']?.goals?.[`goal${i + 1}`] || 0;
+                      if (val2025 > val2023) return 'crescimento';
+                      if (val2025 < val2023) return 'queda';
+                      return 'estavel';
+                    });
+
+                    // Cores para cada ODS
+                    const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#e67e22', '#34495e', '#16a085', '#c0392b', '#8e44ad', '#27ae60', '#2980b9', '#d35400', '#c0392b', '#f1c40f', '#95a5a6'];
+
+                    // Filtrar ODS a exibir
+                    const odsToShow = Array.from({ length: 17 }, (_, i) => {
+                      const status = odsStatus[i];
+                      if (filterODS === 'todos') return true;
+                      if (filterODS === 'queda') return status === 'queda';
+                      if (filterODS === 'crescimento') return status === 'crescimento';
+                      if (filterODS === 'estavel') return status === 'estavel';
+                      return false;
+                    });
+
+                    return (
+                      <Card>
+                        <CardHeader>
+                          <CardTitle>Evolução dos ODS — 2023 a 2025</CardTitle>
+                          <CardDescription>{nomeMunicipio || 'Município não selecionado'}</CardDescription>
+                        </CardHeader>
+                        <CardContent className="space-y-4">
+                          {/* Botões de Filtro */}
+                          <div className="flex flex-wrap gap-2">
+                            <Button
+                              size="sm"
+                              variant={filterODS === 'todos' ? 'default' : 'outline'}
+                              onClick={() => setFilterODS('todos')}
+                            >
+                              Todos os ODS
+                            </Button>
+                            <Button
+                              size="sm"
+                              variant={filterODS === 'crescimento' ? 'default' : 'outline'}
+                              onClick={() => setFilterODS('crescimento')}
+                              className={filterODS === 'crescimento' ? 'bg-green-600 hover:bg-green-700' : ''}
+                            >
+                              ODS em crescimento
+                            </Button>
+                            <Button
+                              size="sm"
+                              variant={filterODS === 'queda' ? 'default' : 'outline'}
+                              onClick={() => setFilterODS('queda')}
+                              className={filterODS === 'queda' ? 'bg-red-600 hover:bg-red-700' : ''}
+                            >
+                              ODS em queda
+                            </Button>
+                            <Button
+                              size="sm"
+                              variant={filterODS === 'estavel' ? 'default' : 'outline'}
+                              onClick={() => setFilterODS('estavel')}
+                              className={filterODS === 'estavel' ? 'bg-gray-600 hover:bg-gray-700' : ''}
+                            >
+                              ODS estáveis
+                            </Button>
+                          </div>
+
+                          {/* Gráfico de Linhas */}
+                          <ResponsiveContainer width="100%" height={400}>
+                            <LineChart data={chartData}>
+                              <CartesianGrid strokeDasharray="3 3" />
+                              <XAxis dataKey="ano" />
+                              <YAxis domain={[0, 100]} />
+                              <Tooltip formatter={(value: any) => typeof value === 'number' ? value.toFixed(1) : value} />
+                              <Legend />
+                              {Array.from({ length: 17 }, (_, i) => (
+                                odsToShow[i] && (
+                                  <Line
+                                    key={`ODS ${i + 1}`}
+                                    type="monotone"
+                                    dataKey={`ODS ${i + 1}`}
+                                    stroke={colors[i]}
+                                    dot={false}
+                                    isAnimationActive={false}
+                                  />
+                                )
+                              ))}
+                            </LineChart>
+                          </ResponsiveContainer>
+                        </CardContent>
+                      </Card>
+                    );
+                  })()}
+                </>
               )}
             </TabsContent>
 
