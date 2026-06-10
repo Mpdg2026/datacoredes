@@ -90,6 +90,12 @@ export default function Portal() {
     { enabled: !!codigoIBGE }
   );
 
+  // Saúde (TCE-RS) - Índice de Aplicação em ASPS 2021-2025
+  const saudeTCERS = trpc.portal.saudeTCERS.useQuery(
+    { codigoIBGE: codigoIBGE?.toString() || '' },
+    { enabled: !!codigoIBGE }
+  );
+
   // Educação (TCE-RS) - Índice de Aplicação em Educação 2021-2025
   const educacaoTCERS = trpc.portal.educacaoTCERS.useQuery(
     { codigoIBGE: codigoIBGE?.toString() || '' },
@@ -277,6 +283,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="educacao" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Educação (TCE-RS)
+              </TabsTrigger>
+              <TabsTrigger value="saude" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Saúde (TCE-RS)
               </TabsTrigger>
 
             </TabsList>
@@ -997,6 +1006,169 @@ export default function Portal() {
                       </>
                     );
                   })()}
+                </>
+              )}
+            </TabsContent>
+
+            {/* ============ ABA SAÚDE (TCE-RS) ============ */}
+            <TabsContent value="saude" className="space-y-6">
+              {saudeTCERS.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados de Saúde...</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {saudeTCERS.error && (
+                <Card className="bg-red-50 border-red-200">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-600">Erro ao carregar dados de Saúde</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {!selectedMunicipio && (
+                <Card className="border-dashed">
+                  <CardContent className="pt-12 pb-12 text-center">
+                    <p className="text-lg text-gray-500">Selecione um município para visualizar dados de Saúde</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {saudeTCERS.data && (
+                <>
+                  {/* Cards de Índices por Ano */}
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    {[2021, 2022, 2023, 2024, 2025].map((ano) => {
+                      const indice = saudeTCERS.data?.indices?.[ano.toString()];
+                      const atingeMinimo = indice !== null && indice !== undefined && indice >= 15;
+                      return (
+                        <Card key={ano} className={`border-t-4 ${
+                          atingeMinimo ? 'border-t-green-500' : 'border-t-red-500'
+                        }`}>
+                          <CardHeader>
+                            <CardTitle className="text-sm">{ano}</CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <p className={`text-3xl font-bold ${
+                              atingeMinimo ? 'text-green-600' : 'text-red-600'
+                            }`}>
+                              {indice !== null && indice !== undefined ? indice.toFixed(2) : '—'}%
+                            </p>
+                            <p className="text-xs text-gray-600 mt-2">
+                              {atingeMinimo ? '✅ Acima' : '⚠️ Abaixo'} de 15%
+                            </p>
+                          </CardContent>
+                        </Card>
+                      );
+                    })}
+                  </div>
+
+                  {/* Card de Variação */}
+                  {saudeTCERS.data?.indices?.['2021'] !== null && saudeTCERS.data?.indices?.['2025'] !== null && (
+                    <Card className={`border-t-4 ${
+                      (saudeTCERS.data.indices['2025'] - saudeTCERS.data.indices['2021']) > 0 ? 'border-t-green-500' : 'border-t-red-500'
+                    }`}>
+                      <CardHeader>
+                        <CardTitle>Variação 2021-2025</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className={`text-4xl font-bold ${
+                          (saudeTCERS.data.indices['2025'] - saudeTCERS.data.indices['2021']) > 0 ? 'text-green-600' : 'text-red-600'
+                        }`}>
+                          {(saudeTCERS.data.indices['2025'] - saudeTCERS.data.indices['2021']) > 0 ? '+' : ''}
+                          {(saudeTCERS.data.indices['2025'] - saudeTCERS.data.indices['2021']).toFixed(2)} pp
+                        </p>
+                        <p className="text-sm text-gray-600 mt-2">Pontos percentuais</p>
+                      </CardContent>
+                    </Card>
+                  )}
+
+                  {/* Gráfico de Evolução */}
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Evolução do Índice de Aplicação em ASPS (2021-2025)</CardTitle>
+                      <CardDescription>
+                        Linha de referência: 15% (mínimo constitucional - EC 29/2000)
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <ResponsiveContainer width="100%" height={300}>
+                        <LineChart data={[
+                          {
+                            ano: '2021',
+                            indice: saudeTCERS.data?.indices?.['2021'] || null,
+                            minimo: 15,
+                          },
+                          {
+                            ano: '2022',
+                            indice: saudeTCERS.data?.indices?.['2022'] || null,
+                            minimo: 15,
+                          },
+                          {
+                            ano: '2023',
+                            indice: saudeTCERS.data?.indices?.['2023'] || null,
+                            minimo: 15,
+                          },
+                          {
+                            ano: '2024',
+                            indice: saudeTCERS.data?.indices?.['2024'] || null,
+                            minimo: 15,
+                          },
+                          {
+                            ano: '2025',
+                            indice: saudeTCERS.data?.indices?.['2025'] || null,
+                            minimo: 15,
+                          },
+                        ]}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="ano" />
+                          <YAxis domain={[0, 100]} />
+                          <Tooltip />
+                          <Legend />
+                          <Line
+                            type="monotone"
+                            dataKey="indice"
+                            stroke="#3b82f6"
+                            name="Índice de Aplicação em ASPS"
+                            connectNulls
+                            strokeWidth={2}
+                          />
+                          <Line
+                            type="monotone"
+                            dataKey="minimo"
+                            stroke="#ef4444"
+                            name="Mínimo Constitucional (15%)"
+                            strokeDasharray="5 5"
+                            connectNulls
+                          />
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </CardContent>
+                  </Card>
+
+                  {/* Fonte */}
+                  <Card className="bg-gray-50">
+                    <CardContent className="pt-6">
+                      <p className="text-sm text-gray-700">
+                        <strong>📊 Fonte:</strong> Tribunal de Contas do Estado do Rio Grande do Sul (TCE-RS) — Índice de Aplicação em ASPS (Ações e Serviços Públicos de Saúde)
+                      </p>
+                      <p className="text-sm text-gray-600 mt-2">
+                        <strong>Referência Legal:</strong> Emenda Constitucional nº 29/2000 - Mínimo de 15% da receita líquida de impostos e transferências
+                      </p>
+                      <p className="text-sm text-gray-600 mt-2">
+                        <a 
+                          href="https://www.tce.rs.gov.br" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          🔗 www.tce.rs.gov.br
+                        </a>
+                      </p>
+                    </CardContent>
+                  </Card>
                 </>
               )}
             </TabsContent>
