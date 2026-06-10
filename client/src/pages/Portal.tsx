@@ -357,6 +357,19 @@ export default function Portal() {
                   </CardContent>
                 </Card>
               )}
+
+              {/* Fonte */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Índice de Governança Municipal (IGM) 2025 — Conselho Federal de Administração (CFA)</span>
+                    <a href="https://igm.cfa.org.br" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 IGM CFA
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* ============ ABA ODS ============ */}
@@ -528,6 +541,19 @@ export default function Portal() {
                   })()}
                 </>
               )}
+
+              {/* Fonte */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Fonte: Índice de Desenvolvimento Sustentável das Cidades (IDSC) — Cidades Sustentáveis</span>
+                    <a href="https://idsc.cidadessustentaveis.org.br/" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 IDSC
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* ============ ABA SANEAMENTO ============ */}
@@ -605,11 +631,37 @@ export default function Portal() {
                   </Card>
                 </>
               )}
+
+              {/* Fonte */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Fonte: Sistema Nacional de Informações sobre Saneamento (SNIS) / Água e Saneamento</span>
+                    <a href="https://www.aguaesaneamento.org.br/municipios-e-saneamento/" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 SNIS
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* ============ ABA ECONOMIA ============ */}
             <TabsContent value="economia" className="space-y-6">
               <Economia data={economiaCompleta.data || null} isLoading={economiaCompleta.isLoading} />
+
+              {/* Fonte */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE)</span>
+                    <a href="https://cidades.ibge.gov.br" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 IBGE Cidades
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* ============ ABA VIOLÊNCIA ============ */}
@@ -716,6 +768,19 @@ export default function Portal() {
                   </CardContent>
                 </Card>
               )}
+
+              {/* Fonte */}
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-600">
+                    <span>📊</span>
+                    <span>Fonte: Atlas do Desenvolvimento Humano no Brasil — Pnud Brasil, Ipea e FJP, 2022</span>
+                    <a href="https://atlasbrasil.org.br" target="_blank" rel="noopener noreferrer" className="ml-4 text-blue-600 hover:underline">
+                      🔗 Atlas Brasil
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* ============ ABA IPS ============ */}
