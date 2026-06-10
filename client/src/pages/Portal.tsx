@@ -90,6 +90,12 @@ export default function Portal() {
     { enabled: !!codigoIBGE }
   );
 
+  // Legislativo (TCE-RS) - Gestão Fiscal das Câmaras Municipais 2021-2025
+  const legislativoTCERS = trpc.portal.legislativoTCERS.useQuery(
+    { codigoIBGE: codigoIBGE?.toString() || '' },
+    { enabled: !!codigoIBGE }
+  );
+
   // Saúde (TCE-RS) - Índice de Aplicação em ASPS 2021-2025
   const saudeTCERS = trpc.portal.saudeTCERS.useQuery(
     { codigoIBGE: codigoIBGE?.toString() || '' },
@@ -271,6 +277,9 @@ export default function Portal() {
               </TabsTrigger>
               <TabsTrigger value="saude" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Saúde (TCE-RS)
+              </TabsTrigger>
+              <TabsTrigger value="legislativo" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
+                Legislativo (TCE-RS)
               </TabsTrigger>
               <TabsTrigger value="saneamento" className="text-white data-[state=active]:bg-[#f4b41a] data-[state=active]:text-[#001f5c]">
                 Saneamento
@@ -1156,6 +1165,183 @@ export default function Portal() {
                       </p>
                       <p className="text-sm text-gray-600 mt-2">
                         <strong>Referência Legal:</strong> Emenda Constitucional nº 29/2000 - Mínimo de 15% da receita líquida de impostos e transferências
+                      </p>
+                      <p className="text-sm text-gray-600 mt-2">
+                        <a 
+                          href="https://www.tce.rs.gov.br" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          🔗 www.tce.rs.gov.br
+                        </a>
+                      </p>
+                    </CardContent>
+                  </Card>
+                </>
+              )}
+            </TabsContent>
+
+            {/* ============ ABA LEGISLATIVO (TCE-RS) ============ */}
+            <TabsContent value="legislativo" className="space-y-6">
+              {legislativoTCERS.isLoading && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <p className="text-center text-gray-500">Carregando dados de Legislativo...</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {legislativoTCERS.error && (
+                <Card className="bg-red-50 border-red-200">
+                  <CardContent className="pt-6">
+                    <p className="text-center text-red-600">Erro ao carregar dados de Legislativo</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {!selectedMunicipio && (
+                <Card className="border-dashed">
+                  <CardContent className="pt-12 pb-12 text-center">
+                    <p className="text-lg text-gray-500">Selecione um município para visualizar dados de Legislativo</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {legislativoTCERS.data && (
+                <>
+                  {/* Cards de Índices por Ano */}
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    {[2021, 2022, 2023, 2024, 2025].map((ano) => {
+                      const dados = legislativoTCERS.data?.dados?.[ano.toString()];
+                      const pctGastos = dados?.pct_gastos;
+                      const atingeLimite = pctGastos !== null && pctGastos !== undefined && pctGastos <= 6;
+                      return (
+                        <Card key={ano} className={`border-t-4 ${
+                          atingeLimite ? 'border-t-green-500' : 'border-t-red-500'
+                        }`}>
+                          <CardHeader>
+                            <CardTitle className="text-sm">{ano}</CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <p className={`text-3xl font-bold ${
+                              atingeLimite ? 'text-green-600' : 'text-red-600'
+                            }`}>
+                              {pctGastos !== null && pctGastos !== undefined ? pctGastos.toFixed(2) : '—'}%
+                            </p>
+                            <p className="text-xs text-gray-600 mt-2">
+                              {atingeLimite ? '✅ Dentro' : '⚠️ Acima'} de 6%
+                            </p>
+                          </CardContent>
+                        </Card>
+                      );
+                    })}
+                  </div>
+
+                  {/* Card de Variação */}
+                  {legislativoTCERS.data?.dados?.['2021'] !== null && legislativoTCERS.data?.dados?.['2025'] !== null && (
+                    <Card className={`border-t-4 ${
+                      (legislativoTCERS.data.dados['2025'].pct_gastos - legislativoTCERS.data.dados['2021'].pct_gastos) < 0 ? 'border-t-green-500' : 'border-t-red-500'
+                    }`}>
+                      <CardHeader>
+                        <CardTitle>Variação 2021-2025</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p className={`text-4xl font-bold ${
+                          (legislativoTCERS.data.dados['2025'].pct_gastos - legislativoTCERS.data.dados['2021'].pct_gastos) < 0 ? 'text-green-600' : 'text-red-600'
+                        }`}>
+                          {(legislativoTCERS.data.dados['2025'].pct_gastos - legislativoTCERS.data.dados['2021'].pct_gastos) < 0 ? '' : '+'}
+                          {(legislativoTCERS.data.dados['2025'].pct_gastos - legislativoTCERS.data.dados['2021'].pct_gastos).toFixed(2)} pp
+                        </p>
+                        <p className="text-sm text-gray-600 mt-2">Pontos percentuais (redução é favorável)</p>
+                      </CardContent>
+                    </Card>
+                  )}
+
+                  {/* Card de Análise LRF */}
+                  <Card className="bg-blue-50">
+                    <CardHeader>
+                      <CardTitle>Análise LRF</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-lg font-semibold text-blue-700">
+                        {legislativoTCERS.data?.dados?.['2025']?.analise_lrf === 'S' ? '✅ Concluída' : '⚠️ Não Concluída'}
+                      </p>
+                      <p className="text-sm text-gray-600 mt-2">Status da Análise de Conformidade com a Lei de Responsabilidade Fiscal</p>
+                    </CardContent>
+                  </Card>
+
+                  {/* Gráfico de Evolução */}
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Evolução do Índice de Gastos Totais / RCL (2021-2025)</CardTitle>
+                      <CardDescription>
+                        Linha de referência: 6% (limite constitucional - art. 29-A da CF)
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <ResponsiveContainer width="100%" height={300}>
+                        <LineChart data={[
+                          {
+                            ano: '2021',
+                            pctGastos: legislativoTCERS.data?.dados?.['2021']?.pct_gastos || null,
+                            limite: 6,
+                          },
+                          {
+                            ano: '2022',
+                            pctGastos: legislativoTCERS.data?.dados?.['2022']?.pct_gastos || null,
+                            limite: 6,
+                          },
+                          {
+                            ano: '2023',
+                            pctGastos: legislativoTCERS.data?.dados?.['2023']?.pct_gastos || null,
+                            limite: 6,
+                          },
+                          {
+                            ano: '2024',
+                            pctGastos: legislativoTCERS.data?.dados?.['2024']?.pct_gastos || null,
+                            limite: 6,
+                          },
+                          {
+                            ano: '2025',
+                            pctGastos: legislativoTCERS.data?.dados?.['2025']?.pct_gastos || null,
+                            limite: 6,
+                          },
+                        ]}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="ano" />
+                          <YAxis domain={[0, 100]} />
+                          <Tooltip />
+                          <Legend />
+                          <Line
+                            type="monotone"
+                            dataKey="pctGastos"
+                            stroke="#3b82f6"
+                            name="% Gastos Totais / RCL"
+                            connectNulls
+                            strokeWidth={2}
+                          />
+                          <Line
+                            type="monotone"
+                            dataKey="limite"
+                            stroke="#ef4444"
+                            name="Limite Constitucional (6%)"
+                            strokeDasharray="5 5"
+                            connectNulls
+                          />
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </CardContent>
+                  </Card>
+
+                  {/* Fonte */}
+                  <Card className="bg-gray-50">
+                    <CardContent className="pt-6">
+                      <p className="text-sm text-gray-700">
+                        <strong>📊 Fonte:</strong> Tribunal de Contas do Estado do Rio Grande do Sul (TCE-RS) — Gestão Fiscal do Poder Legislativo Municipal
+                      </p>
+                      <p className="text-sm text-gray-600 mt-2">
+                        <strong>Referência Legal:</strong> Art. 29-A da Constituição Federal — Limite de 6% da RCL para gastos totais da Câmara Municipal
                       </p>
                       <p className="text-sm text-gray-600 mt-2">
                         <a 
