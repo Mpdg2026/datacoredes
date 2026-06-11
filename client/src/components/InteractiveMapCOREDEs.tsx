@@ -86,8 +86,11 @@ export default function InteractiveMapCOREDEs() {
     navigate(`/portal?rf=${rfId}`);
   };
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>, rf: RegionalFunctional) => {
-    const rect = e.currentTarget.getBoundingClientRect();
+  const handleMouseMove = (e: React.MouseEvent<SVGRectElement>, rf: RegionalFunctional) => {
+    const svg = e.currentTarget.closest("svg");
+    if (!svg) return;
+    
+    const rect = svg.getBoundingClientRect();
     setTooltipPos({
       x: e.clientX - rect.left,
       y: e.clientY - rect.top,
@@ -96,65 +99,80 @@ export default function InteractiveMapCOREDEs() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-6 my-12">
-      <div className="relative w-full max-w-2xl">
-        {/* Mapa base */}
-        <div className="relative inline-block w-full">
-          <img
-            src="/assets/mapa-coredes-rs.png"
-            alt="Mapa de COREDEs e Regiões Funcionais do RS"
-            className="w-full h-auto rounded-lg shadow-lg border-2 border-gray-200"
-          />
+    <div className="flex flex-col items-center gap-6 my-12 bg-white rounded-lg p-8">
+      {/* Container do mapa com overlay */}
+      <div className="relative w-full max-w-2xl mx-auto">
+        {/* Imagem do mapa - VISÍVEL */}
+        <img
+          src="/manus-storage/mapa-coredes-rs_0592a642.png"
+          alt="Mapa de COREDEs e Regiões Funcionais do RS"
+          className="w-full h-auto rounded-lg shadow-lg border-2 border-gray-300 block"
+          style={{
+            display: "block",
+            width: "100%",
+            maxWidth: "600px",
+            margin: "0 auto",
+          }}
+        />
 
-          {/* Áreas clicáveis sobrepostas */}
-          <svg
-            className="absolute inset-0 w-full h-full rounded-lg cursor-pointer"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-          >
-            {REGIOES_FUNCIONAIS.map((rf) => (
-              <g key={rf.id}>
-                <rect
-                  x={rf.coords.x}
-                  y={rf.coords.y}
-                  width={rf.coords.width}
-                  height={rf.coords.height}
-                  fill="transparent"
-                  stroke={hoveredRF === rf.id ? "#f4b41a" : "transparent"}
-                  strokeWidth="0.5"
-                  className="transition-all duration-200 hover:fill-yellow-300 hover:fill-opacity-10"
-                  onClick={() => handleRFClick(rf.id)}
-                  onMouseEnter={() => setHoveredRF(rf.id)}
-                  onMouseLeave={() => setHoveredRF(null)}
-                />
-              </g>
-            ))}
-          </svg>
-        </div>
-
-        {/* Tooltip */}
-        {hoveredRF && (
-          <div
-            className="absolute bg-[#001f5c] text-white px-3 py-2 rounded shadow-lg text-xs z-50 pointer-events-none max-w-xs"
-            style={{
-              left: `${tooltipPos.x}px`,
-              top: `${tooltipPos.y - 60}px`,
-              transform: "translateX(-50%)",
-            }}
-          >
-            <div className="font-bold text-yellow-400 mb-1">
-              {REGIOES_FUNCIONAIS.find((rf) => rf.id === hoveredRF)?.name}
-            </div>
-            <div className="text-gray-200 text-xs">
-              {REGIOES_FUNCIONAIS.find((rf) => rf.id === hoveredRF)?.coredes.join(" • ")}
-            </div>
-            <div className="text-gray-400 text-xs mt-1">Clique para filtrar</div>
-          </div>
-        )}
+        {/* SVG overlay com áreas clicáveis - POSICIONADO ABSOLUTAMENTE */}
+        <svg
+          className="absolute inset-0 w-full h-full rounded-lg cursor-pointer"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            maxWidth: "600px",
+            margin: "0 auto",
+          }}
+        >
+          {REGIOES_FUNCIONAIS.map((rf) => (
+            <rect
+              key={rf.id}
+              x={rf.coords.x}
+              y={rf.coords.y}
+              width={rf.coords.width}
+              height={rf.coords.height}
+              fill="transparent"
+              stroke={hoveredRF === rf.id ? "#f4b41a" : "transparent"}
+              strokeWidth="0.5"
+              className="transition-all duration-200 hover:fill-yellow-300 hover:fill-opacity-10"
+              onClick={() => handleRFClick(rf.id)}
+              onMouseEnter={() => setHoveredRF(rf.id)}
+              onMouseLeave={() => setHoveredRF(null)}
+              onMouseMove={(e) => handleMouseMove(e as any, rf)}
+              style={{ cursor: "pointer" }}
+            />
+          ))}
+        </svg>
       </div>
 
+      {/* Tooltip */}
+      {hoveredRF && (
+        <div
+          className="fixed bg-[#001f5c] text-white px-3 py-2 rounded shadow-lg text-xs z-50 pointer-events-none max-w-xs"
+          style={{
+            left: `${tooltipPos.x}px`,
+            top: `${tooltipPos.y - 60}px`,
+            transform: "translateX(-50%)",
+          }}
+        >
+          <div className="font-bold text-yellow-400 mb-1">
+            {REGIOES_FUNCIONAIS.find((rf) => rf.id === hoveredRF)?.name}
+          </div>
+          <div className="text-gray-200 text-xs">
+            {REGIOES_FUNCIONAIS.find((rf) => rf.id === hoveredRF)?.coredes.join(" • ")}
+          </div>
+          <div className="text-gray-400 text-xs mt-1">Clique para filtrar</div>
+        </div>
+      )}
+
       {/* Legenda */}
-      <div className="text-center text-sm text-gray-600">
+      <div className="text-center text-sm text-gray-600 mt-4">
         <p className="font-medium">Fonte: SEPLAG/DEPLAN — Regiões Funcionais de Planejamento do RS (2011)</p>
         <p className="text-xs text-gray-500 mt-1">Clique em uma região para filtrar indicadores</p>
       </div>
