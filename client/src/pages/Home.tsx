@@ -272,14 +272,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-[#001f5c] text-white py-8 mt-12">
-          <div className="container text-center">
-            <p className="font-semibold">DataCoredes | Faculdades Integradas de Taquara (FACCAT) — Mestrado em Desenvolvimento Regional</p>
-            <p className="text-gray-300 text-sm mt-2">Responsável pela compilação dos dados: Prof. Marcos Paulo Dhein Griebeler — marcosdhein@faccat.br</p>
-            <p className="text-gray-400 text-xs mt-2">Dados atualizados até: Junho/2026</p>
-          </div>
-        </footer>
+        {/* Footer is now global in App.tsx */}
       </main>
     </div>
   );
