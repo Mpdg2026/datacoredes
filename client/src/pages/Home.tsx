@@ -177,7 +177,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Coredes RS */}
               <a
-                href="https://conselhosregionais.rs.gov.br"
+                href="https://planejamento.rs.gov.br/coredes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#f4b41a] hover:shadow-lg transition-shadow"
