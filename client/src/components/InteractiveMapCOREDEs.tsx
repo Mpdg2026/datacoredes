@@ -61,7 +61,7 @@ export default function InteractiveMapCOREDEs() {
     <div className="relative w-full max-w-2xl mx-auto">
       {/* Imagem do mapa - LIMPA E CENTRALIZADA, SEM NENHUM ELEMENTO EXTRA */}
       <img
-        src="/manus-storage/mapa-coredes-rs_0592a642.png"
+        src="/manus-storage/pasted_file_CZkmI9_image_c5b60359.png"
         alt="Mapa de COREDEs e Regiões Funcionais do RS"
         className="w-full h-auto block"
         style={{
