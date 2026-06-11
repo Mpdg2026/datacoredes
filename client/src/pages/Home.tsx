@@ -18,9 +18,7 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">Acesse indicadores de desenvolvimento, governança, saúde, educação e sustentabilidade dos 497 municípios gaúchos — organizados por Região Funcional e COREDE.</p>
             
             {/* Mapa Interativo */}
-            <div className="my-12 bg-white rounded-lg p-8 shadow-md">
-              <InteractiveMapCOREDEs />
-            </div>
+            <InteractiveMapCOREDEs />
             
             <a href="/portal" className="inline-block px-8 py-3 bg-[#f4b41a] text-[#001f5c] rounded-lg font-bold text-lg hover:bg-opacity-90 transition">
               Acessar Portal
