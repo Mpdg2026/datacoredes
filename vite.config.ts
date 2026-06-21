@@ -1,22 +1,12 @@
-import { jsxLocPlugin } from "@builder.io/vite-plugin-jsx-loc";
-import tailwindcss from "@tailwindcss/vite";
-import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
-import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
-
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/',
-  plugins,
-  resolve: {
-    alias: {
-      "@": "/src",
-    },
-  },
-  root: "client",
+  plugins: [react(), tailwindcss()],
+  root: 'client',
   build: {
-    outDir: "../dist/public",
+    outDir: '../dist/public',
     emptyOutDir: true,
   },
 });
